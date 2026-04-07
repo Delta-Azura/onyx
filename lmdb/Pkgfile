@@ -1,0 +1,16 @@
+description="The lmdb package is a fast, compact, key-value embedded data store."
+name=lmdb
+version=0.9.35
+release=1
+packager=alexis
+source=("https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.35/LMDB_0.9.35.tar.bz2")
+
+build() {
+ls
+#cd LMDB_0.9.35
+cd openldap-LMDB_0.9.35-69087ced3cb6082f7dcfb4fc2dcaa3b68a7e2e8c
+cd libraries/liblmdb &&
+make                 &&
+sed -i 's| liblmdb.a||' Makefile
+make DESTDIR=$PKG prefix=/usr install
+}

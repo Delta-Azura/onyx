@@ -1,0 +1,185 @@
+drwxr-xr-x	alexis/alexis	run/
+drwxr-xr-x	alexis/alexis	run/krb5kdc/
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/gss-client
+-rwxr-xr-x	alexis/alexis	usr/bin/k5srvutil
+-rwxr-xr-x	alexis/alexis	usr/bin/kadmin
+-rwxr-xr-x	alexis/alexis	usr/bin/kdestroy
+-rwxr-xr-x	alexis/alexis	usr/bin/kinit
+-rwxr-xr-x	alexis/alexis	usr/bin/klist
+-rwxr-xr-x	alexis/alexis	usr/bin/kpasswd
+-rwxr-xr-x	alexis/alexis	usr/bin/krb5-config
+-rw-------	alexis/alexis	usr/bin/ksu
+-rwxr-xr-x	alexis/alexis	usr/bin/kswitch
+-rwxr-xr-x	alexis/alexis	usr/bin/ktutil
+-rwxr-xr-x	alexis/alexis	usr/bin/kvno
+-rwxr-xr-x	alexis/alexis	usr/bin/sclient
+-rwxr-xr-x	alexis/alexis	usr/bin/sim_client
+-rwxr-xr-x	alexis/alexis	usr/bin/uuclient
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/gssapi/
+-rw-r--r--	alexis/alexis	usr/include/gssapi/gssapi_alloc.h
+-rw-r--r--	alexis/alexis	usr/include/gssapi/gssapi_ext.h
+-rw-r--r--	alexis/alexis	usr/include/gssapi/gssapi_generic.h
+-rw-r--r--	alexis/alexis	usr/include/gssapi/gssapi.h
+-rw-r--r--	alexis/alexis	usr/include/gssapi/gssapi_krb5.h
+-rw-r--r--	alexis/alexis	usr/include/gssapi.h
+-rw-r--r--	alexis/alexis	usr/include/gssapi/mechglue.h
+drwxr-xr-x	alexis/alexis	usr/include/gssrpc/
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/auth_gssapi.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/auth_gss.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/auth.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/auth_unix.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/clnt.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/netdb.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/pmap_clnt.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/pmap_prot.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/pmap_rmt.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/rename.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/rpc.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/rpc_msg.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/svc_auth.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/svc.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/types.h
+-rw-r--r--	alexis/alexis	usr/include/gssrpc/xdr.h
+drwxr-xr-x	alexis/alexis	usr/include/kadm5/
+-rw-r--r--	alexis/alexis	usr/include/kadm5/admin.h
+-rw-r--r--	alexis/alexis	usr/include/kadm5/chpass_util_strings.h
+-rw-r--r--	alexis/alexis	usr/include/kadm5/kadm_err.h
+-rw-r--r--	alexis/alexis	usr/include/kdb.h
+-rw-r--r--	alexis/alexis	usr/include/krad.h
+drwxr-xr-x	alexis/alexis	usr/include/krb5/
+-rw-r--r--	alexis/alexis	usr/include/krb5/ccselect_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/certauth_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/clpreauth_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/hostrealm_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/kadm5_auth_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/kadm5_hook_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/kdcpolicy_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/kdcpreauth_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/krb5.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/localauth_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/locate_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/preauth_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/krb5/pwqual_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/profile.h
+-rw-r--r--	alexis/alexis	usr/include/verto.h
+-rw-r--r--	alexis/alexis	usr/include/verto-module.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/krb5/
+drwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/
+drwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/authdata/
+drwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/kdb/
+-rwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/kdb/db2.so
+drwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/libkrb5/
+drwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/preauth/
+-rwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/preauth/otp.so
+-rwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/preauth/pkinit.so
+-rwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/preauth/spake.so
+-rwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/preauth/test.so
+drwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/tls/
+-rwxr-xr-x	alexis/alexis	usr/lib/krb5/plugins/tls/k5tls.so
+-rwxr-xr-x	alexis/alexis	usr/lib/libgssapi_krb5.so.2.2
+lrwxrwxrwx	alexis/alexis	usr/lib/libgssapi_krb5.so.2 -> libgssapi_krb5.so.2.2
+lrwxrwxrwx	alexis/alexis	usr/lib/libgssapi_krb5.so -> libgssapi_krb5.so.2.2
+-rwxr-xr-x	alexis/alexis	usr/lib/libgssrpc.so.4.2
+lrwxrwxrwx	alexis/alexis	usr/lib/libgssrpc.so.4 -> libgssrpc.so.4.2
+lrwxrwxrwx	alexis/alexis	usr/lib/libgssrpc.so -> libgssrpc.so.4.2
+-rwxr-xr-x	alexis/alexis	usr/lib/libk5crypto.so.3.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libk5crypto.so.3 -> libk5crypto.so.3.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libk5crypto.so -> libk5crypto.so.3.1
+-rwxr-xr-x	alexis/alexis	usr/lib/libkadm5clnt_mit.so.12.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libkadm5clnt_mit.so.12 -> libkadm5clnt_mit.so.12.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libkadm5clnt_mit.so -> libkadm5clnt_mit.so.12.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libkadm5clnt.so -> libkadm5clnt_mit.so
+-rwxr-xr-x	alexis/alexis	usr/lib/libkadm5srv_mit.so.12.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libkadm5srv_mit.so.12 -> libkadm5srv_mit.so.12.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libkadm5srv_mit.so -> libkadm5srv_mit.so.12.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libkadm5srv.so -> libkadm5srv_mit.so
+-rwxr-xr-x	alexis/alexis	usr/lib/libkdb5.so.10.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libkdb5.so.10 -> libkdb5.so.10.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libkdb5.so -> libkdb5.so.10.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libkrad.so.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libkrad.so.0 -> libkrad.so.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libkrad.so -> libkrad.so.0.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libkrb5.so.3.3
+lrwxrwxrwx	alexis/alexis	usr/lib/libkrb5.so.3 -> libkrb5.so.3.3
+lrwxrwxrwx	alexis/alexis	usr/lib/libkrb5.so -> libkrb5.so.3.3
+-rwxr-xr-x	alexis/alexis	usr/lib/libkrb5support.so.0.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libkrb5support.so.0 -> libkrb5support.so.0.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libkrb5support.so -> libkrb5support.so.0.1
+-rwxr-xr-x	alexis/alexis	usr/lib/libverto.so.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libverto.so.0 -> libverto.so.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libverto.so -> libverto.so.0.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/gssrpc.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/kadm-client.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/kadm-server.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/kdb.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/krb5-gssapi.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/krb5.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/mit-krb5-gssapi.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/mit-krb5.pc
+drwxr-xr-x	alexis/alexis	usr/sbin/
+-rwxr-xr-x	alexis/alexis	usr/sbin/gss-server
+-rwxr-xr-x	alexis/alexis	usr/sbin/kadmind
+-rwxr-xr-x	alexis/alexis	usr/sbin/kadmin.local
+-rwxr-xr-x	alexis/alexis	usr/sbin/kdb5_util
+-rwxr-xr-x	alexis/alexis	usr/sbin/kprop
+-rwxr-xr-x	alexis/alexis	usr/sbin/kpropd
+-rwxr-xr-x	alexis/alexis	usr/sbin/kproplog
+-rwxr-xr-x	alexis/alexis	usr/sbin/krb5kdc
+-rwxr-xr-x	alexis/alexis	usr/sbin/krb5-send-pr
+-rwxr-xr-x	alexis/alexis	usr/sbin/sim_server
+-rwxr-xr-x	alexis/alexis	usr/sbin/sserver
+-rwxr-xr-x	alexis/alexis	usr/sbin/uuserver
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/examples/
+drwxr-xr-x	alexis/alexis	usr/share/examples/krb5/
+-rw-r--r--	alexis/alexis	usr/share/examples/krb5/kdc.conf
+-rw-r--r--	alexis/alexis	usr/share/examples/krb5/krb5.conf
+-rw-r--r--	alexis/alexis	usr/share/examples/krb5/services.append
+drwxr-xr-x	alexis/alexis	usr/share/man/
+drwxr-xr-x	alexis/alexis	usr/share/man/cat1/
+drwxr-xr-x	alexis/alexis	usr/share/man/cat5/
+drwxr-xr-x	alexis/alexis	usr/share/man/cat7/
+drwxr-xr-x	alexis/alexis	usr/share/man/cat8/
+drwxr-xr-x	alexis/alexis	usr/share/man/man1/
+-rw-r--r--	alexis/alexis	usr/share/man/man1/k5srvutil.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/kadmin.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/kdestroy.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/kinit.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/klist.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/kpasswd.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/krb5-config.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/ksu.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/kswitch.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/ktutil.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/kvno.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/sclient.1.gz
+drwxr-xr-x	alexis/alexis	usr/share/man/man5/
+-rw-r--r--	alexis/alexis	usr/share/man/man5/k5identity.5.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man5/.k5identity.5.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man5/k5login.5.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man5/.k5login.5.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man5/kadm5.acl.5.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man5/kdc.conf.5.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man5/krb5.conf.5.gz
+drwxr-xr-x	alexis/alexis	usr/share/man/man7/
+-rw-r--r--	alexis/alexis	usr/share/man/man7/kerberos.7.gz
+drwxr-xr-x	alexis/alexis	usr/share/man/man8/
+-rw-r--r--	alexis/alexis	usr/share/man/man8/kadmind.8.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man8/kadmin.local.8.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man8/kdb5_ldap_util.8.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man8/kdb5_util.8.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man8/kprop.8.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man8/kpropd.8.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man8/kproplog.8.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man8/krb5kdc.8.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man8/sserver.8.gz
+drwxr-xr-x	alexis/alexis	var/
+drwxr-xr-x	alexis/alexis	var/lib/
+drwxr-xr-x	alexis/alexis	var/lib/krb5kdc/

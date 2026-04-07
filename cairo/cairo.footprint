@@ -1,0 +1,49 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/cairo-trace
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/cairo/
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-deprecated.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-features.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-ft.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-gobject.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-pdf.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-ps.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-script.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-script-interpreter.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-svg.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-tee.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-version.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-xcb.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-xlib.h
+-rw-r--r--	alexis/alexis	usr/include/cairo/cairo-xlib-xrender.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/cairo/
+-rwxr-xr-x	alexis/alexis	usr/lib/cairo/libcairo-fdr.so
+-rwxr-xr-x	alexis/alexis	usr/lib/cairo/libcairo-trace.so
+-rwxr-xr-x	alexis/alexis	usr/lib/libcairo-gobject.so.2.11804.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libcairo-gobject.so.2 -> libcairo-gobject.so.2.11804.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libcairo-gobject.so -> libcairo-gobject.so.2
+-rwxr-xr-x	alexis/alexis	usr/lib/libcairo-script-interpreter.so.2.11804.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libcairo-script-interpreter.so.2 -> libcairo-script-interpreter.so.2.11804.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libcairo-script-interpreter.so -> libcairo-script-interpreter.so.2
+-rwxr-xr-x	alexis/alexis	usr/lib/libcairo.so.2.11804.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libcairo.so.2 -> libcairo.so.2.11804.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libcairo.so -> libcairo.so.2
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-fc.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-ft.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-gobject.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-pdf.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-png.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-ps.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-script-interpreter.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-script.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-svg.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-tee.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-xcb.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-xcb-shm.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-xlib.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/cairo-xlib-xrender.pc

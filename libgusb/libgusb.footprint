@@ -1,0 +1,37 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/gusbcmd
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/gusb-1/
+drwxr-xr-x	alexis/alexis	usr/include/gusb-1/gusb/
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-bos-descriptor.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-bos-descriptor-private.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-context.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-context-private.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-device-event.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-device.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-device-list.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-device-private.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-endpoint.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-endpoint-private.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-interface.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-interface-private.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-source.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-util.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb/gusb-version.h
+-rw-r--r--	alexis/alexis	usr/include/gusb-1/gusb.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/girepository-1.0/
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/GUsb-1.0.typelib
+-rwxr-xr-x	alexis/alexis	usr/lib/libgusb.so.2.0.10
+lrwxrwxrwx	alexis/alexis	usr/lib/libgusb.so.2 -> libgusb.so.2.0.10
+lrwxrwxrwx	alexis/alexis	usr/lib/libgusb.so -> libgusb.so.2
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/gusb.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/gir-1.0/
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/GUsb-1.0.gir
+drwxr-xr-x	alexis/alexis	usr/share/vala/
+drwxr-xr-x	alexis/alexis	usr/share/vala/vapi/
+-rw-r--r--	alexis/alexis	usr/share/vala/vapi/gusb.deps
+-rw-r--r--	alexis/alexis	usr/share/vala/vapi/gusb.vapi

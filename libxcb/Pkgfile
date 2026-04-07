@@ -1,0 +1,16 @@
+description="The libxcb package provides an interface to the X Window System protocol, which replaces the current Xlib interface."
+name=libxcb
+version=1.17.0
+release=1
+packager=alexis
+source=("https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.17.0.tar.xz")
+
+build() {
+cd $name-$version
+./configure $XORG_CONFIG      \
+            --without-doxygen \
+            --docdir='${datadir}'/doc/libxcb-1.17.0 &&
+LC_ALL=en_US.UTF-8 make
+make DESTDIR=$PKG install
+#chown -Rv root:root $PKG/$XORG_PREFIX/share/doc/libxcb-1.17.0
+}

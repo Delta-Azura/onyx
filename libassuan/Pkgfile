@@ -1,0 +1,27 @@
+description="The libassuan package contains an inter process communication library used by some of the other GnuPG related packages."
+name=libassuan
+version=3.0.2
+release=1
+packager=alexis
+source=("https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-3.0.2.tar.bz2")
+
+build() {
+cd $name-$version
+
+./configure --prefix=/usr &&
+make                      &&
+
+make -C doc html                                                       &&
+makeinfo --html --no-split -o doc/assuan_nochunks.html doc/assuan.texi &&
+makeinfo --plaintext       -o doc/assuan.txt           doc/assuan.texi
+#make -C doc pdf ps
+make install &&
+
+install -v -dm755   $PKG/usr/share/doc/libassuan-3.0.2/html &&
+install -v -m644 doc/assuan.html/* \
+                    $PKG/usr/share/doc/libassuan-3.0.2/html &&
+install -v -m644 doc/assuan_nochunks.html \
+                    $PKG/usr/share/doc/libassuan-3.0.2      &&
+install -v -m644 doc/assuan.{txt,texi} \
+                    $PKG/usr/share/doc/libassuan-3.0.2
+}

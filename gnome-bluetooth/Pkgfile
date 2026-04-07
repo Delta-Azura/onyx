@@ -1,0 +1,18 @@
+description=" The GNOME Bluetooth package contains tools for managing and manipulating Bluetooth devices using the GNOME Desktop. "
+name=gnome-bluetooth
+version=47.1
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gnome-bluetooth/47/gnome-bluetooth-47.1.tar.xz"
+"https://www.linuxfromscratch.org/patches/blfs/13.0/gnome-bluetooth-47.1-build_fix-1.patch")
+
+build() {
+cd $name-$version
+patch -Np1 -i ../gnome-bluetooth-47.1-build_fix-1.patch
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

@@ -1,0 +1,23 @@
+description=" The libheif package is an HEIF and AVIF file format decoder and encoder. "
+name=libheif
+version=1.21.2
+release=1
+packager=alexis
+source=("https://github.com/strukturag/libheif/releases/download/v1.21.2/libheif-1.21.2.tar.gz"
+"https://www.linuxfromscratch.org/patches/blfs/13.0/libheif-1.21.2-svt_av1_build_fix-1.patch")
+
+
+build() {
+cd $name-$version
+patch -Np1 -i ../libheif-1.21.2-svt_av1_build_fix-1.patch
+mkdir build &&
+cd    build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr \
+      -D CMAKE_BUILD_TYPE=Release  \
+      -D WITH_GDK_PIXBUF=OFF       \
+      -D WITH_OpenH264_DECODER=OFF \
+      -G Ninja ..                  &&
+ninja
+DESTDIR=$PKG ninja install
+}

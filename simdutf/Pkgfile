@@ -1,0 +1,19 @@
+description="The simdutf package contains a library used for processing Unicode characters with SIMD optimizations."
+name=simdutf
+version=8.0.0
+release=1
+packager=alexis
+source=("https://github.com/simdutf/simdutf/archive/v8.0.0/simdutf-8.0.0.tar.gz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr  \
+      -D CMAKE_BUILD_TYPE=Release   \
+      -D BUILD_SHARED_LIBS=ON       \
+      -G Ninja ..                   &&
+ninja
+DESTDIR=$PKG ninja install
+}

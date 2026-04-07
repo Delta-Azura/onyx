@@ -1,0 +1,24 @@
+description=" Tinysparql is a low-footprint RDF triple store with a SPARQL 1.1 interface. "
+name=tinysparql
+version=3.10.1
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/tinysparql/3.10/tinysparql-3.10.1.tar.xz")
+
+build() {
+cd $name-$version
+sed -e "s/'generate'/&, '--no-namespace-dir'/"         \
+    -e "/--output-dir/s/@OUTPUT@/&\/tinysparql-3.10.1/" \
+    -i docs/reference/meson.build
+
+
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D man=false        \
+            ..                  &&
+ninja
+DESTDIR=$PKG ninja install
+}

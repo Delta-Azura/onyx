@@ -1,0 +1,15 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/lua.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/doc/
+drwxr-xr-x	alexis/alexis	usr/share/doc/lua-5.4.8/
+-rw-r--r--	alexis/alexis	usr/share/doc/lua-5.4.8/contents.html
+-rw-r--r--	alexis/alexis	usr/share/doc/lua-5.4.8/index.css
+-rw-r--r--	alexis/alexis	usr/share/doc/lua-5.4.8/logo.gif
+-rw-r--r--	alexis/alexis	usr/share/doc/lua-5.4.8/lua.css
+-rw-r--r--	alexis/alexis	usr/share/doc/lua-5.4.8/manual.css
+-rw-r--r--	alexis/alexis	usr/share/doc/lua-5.4.8/manual.html
+-rw-r--r--	alexis/alexis	usr/share/doc/lua-5.4.8/OSIApproved_100X125.png
+-rw-r--r--	alexis/alexis	usr/share/doc/lua-5.4.8/readme.html

@@ -1,0 +1,19 @@
+description="The GStreamer Base Plug-ins is a well-groomed and well-maintained collection of GStreamer plug-ins and elements"
+name=gst-plugins-base
+version=1.28.1
+release=1
+packager=alexis
+source=("https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.28.1.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup ..               \
+      --prefix=/usr          \
+      --buildtype=release    \
+      --wrap-mode=nodownload &&
+ninja
+DESTDIR=$PKG ninja install
+}

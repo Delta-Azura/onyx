@@ -1,0 +1,19 @@
+description="The GStreamer Bad Plug-ins package contains a set of plug-ins that aren't up to par compared to the rest."
+name=gst-plugins-bad
+version=1.28.1
+release=1
+packager=alexis
+source=("https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.28.1.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup ..            \
+      --prefix=/usr       \
+      --buildtype=release \
+      -D gpl=enabled      &&
+ninja
+DESTDIR=$PKG ninja install
+}

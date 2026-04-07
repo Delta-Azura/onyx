@@ -1,0 +1,13 @@
+description="The libaio package is an asynchronous I/O facility that has a richer API and capability set than the simple POSIX async I/O facility."
+name=libaio
+version=0.3.113
+release=1
+packager=alexis
+source=("https://pagure.io/libaio/archive/libaio-0.3.113/libaio-0.3.113.tar.gz")
+
+build() { 
+cd $name-$version
+sed -i '/install.*libaio.a/s/^/#/' src/Makefile
+make 
+make DESTDIR=$PKG install
+}

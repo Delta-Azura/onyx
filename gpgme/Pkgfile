@@ -1,0 +1,16 @@
+description=" The gpgme package is a C library that allows cryptography support to be added to a program. "
+name=gpgme
+version=2.0.1
+release=1
+packager=alexis
+source=("https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-2.0.1.tar.bz2")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+../configure --prefix=/usr --disable-static &&
+make
+make DESTDIR=$PKG install
+}

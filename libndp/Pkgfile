@@ -1,0 +1,17 @@
+description="The libndp package provides a wrapper for IPv6 Neighbor Discovery Protocol."
+name=libndp
+version=1.9
+release=1
+packager=alexis
+source=("http://libndp.org/files/libndp-1.9.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr        \
+            --sysconfdir=/etc    \
+            --localstatedir=/var \
+            --disable-static     &&
+make
+
+make DESTDIR=$PKG install
+}

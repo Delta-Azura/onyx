@@ -1,0 +1,12 @@
+description=" The xcb-proto package provides the XML-XCB protocol descriptions that libxcb uses to generate the majority of its code and API."
+name=xcb-proto
+version=1.17.0
+release=1
+packager=alexis
+source=("https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.17.0.tar.xz")
+
+build() {
+cd $name-$version
+PYTHON=python3 ./configure $XORG_CONFIG
+make DESTDIR=$PKG install
+}

@@ -1,0 +1,19 @@
+description="The Sudo package allows a system administrator to give certain users (or groups of users) the ability to run some (or all) commands as root or another user while logging the commands and arguments."
+name=sudo
+version=1.9.17p2
+release=1
+packager=alexis
+source=("https://www.sudo.ws/dist/sudo-1.9.17p2.tar.gz")
+
+build() {
+cd $name-$version
+
+./configure --prefix=/usr         \
+            --libexecdir=/usr/lib \
+            --with-secure-path    \
+            --with-env-editor     \
+            --docdir=/usr/share/doc/sudo-1.9.17p2 \
+            --with-passprompt="[sudo] password for %p: "
+make
+make DESTDIR=$PKG install
+}

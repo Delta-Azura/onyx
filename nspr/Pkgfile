@@ -1,0 +1,21 @@
+description=" Netscape Portable Runtime (NSPR) provides a platform-neutral API for system level and libc like functions. "
+name=nspr
+version=4.38.2
+release=1
+packager=alexis
+source=("https://archive.mozilla.org/pub/nspr/releases/v4.38.2/src/nspr-4.38.2.tar.gz")
+
+build() {
+cd $name-$version
+cd nspr &&
+
+sed -i '/^RELEASE/s|^|#|' pr/src/misc/Makefile.in &&
+sed -i 's|$(LIBRARY) ||'  config/rules.mk         &&
+
+./configure --prefix=/usr   \
+            --with-mozilla  \
+            --with-pthreads \
+            $([ $(uname -m) = x86_64 ] && echo --enable-64bit) &&
+make
+make DESTDIR=$PKG install
+}

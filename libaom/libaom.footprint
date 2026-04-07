@@ -1,0 +1,28 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/aomdec
+-rwxr-xr-x	alexis/alexis	usr/bin/aomenc
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/aom/
+-rw-r--r--	alexis/alexis	usr/include/aom/aom_codec.h
+-rw-r--r--	alexis/alexis	usr/include/aom/aomcx.h
+-rw-r--r--	alexis/alexis	usr/include/aom/aom_decoder.h
+-rw-r--r--	alexis/alexis	usr/include/aom/aomdx.h
+-rw-r--r--	alexis/alexis	usr/include/aom/aom_encoder.h
+-rw-r--r--	alexis/alexis	usr/include/aom/aom_external_partition.h
+-rw-r--r--	alexis/alexis	usr/include/aom/aom_frame_buffer.h
+-rw-r--r--	alexis/alexis	usr/include/aom/aom.h
+-rw-r--r--	alexis/alexis	usr/include/aom/aom_image.h
+-rw-r--r--	alexis/alexis	usr/include/aom/aom_integer.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/AOM/
+-rw-r--r--	alexis/alexis	usr/lib/cmake/AOM/AOMConfig.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/AOM/AOMConfigVersion.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/AOM/AOMTargets.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/AOM/AOMTargets-release.cmake
+-rwxr-xr-x	alexis/alexis	usr/lib/libaom.so.3.13.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libaom.so.3 -> libaom.so.3.13.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libaom.so -> libaom.so.3
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/aom.pc

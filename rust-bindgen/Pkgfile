@@ -1,0 +1,16 @@
+description=" The rust-bindgen package contains a utility that generates Rust bindings from C/C++ headers. "
+name=rust-bindgen
+version=0.72.1
+release=1
+packager=alexis
+source=("https://github.com/rust-lang/rust-bindgen/archive/refs/tags/v0.72.1/rust-bindgen-0.72.1.tar.gz")
+
+
+build() {
+cd $name-$version
+cargo build --release
+mkdir -p $PKG/usr/bin
+install -v -m755 target/release/bindgen $PKG/usr/bin
+#bindgen --generate-shell-completions bash \
+#    > $PKG/usr/share/bash-completion/completions/bindgen
+}

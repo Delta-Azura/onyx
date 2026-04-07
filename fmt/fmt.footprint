@@ -1,0 +1,29 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/fmt/
+-rw-r--r--	alexis/alexis	usr/include/fmt/args.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/base.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/chrono.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/color.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/compile.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/core.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/format.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/format-inl.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/os.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/ostream.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/printf.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/ranges.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/std.h
+-rw-r--r--	alexis/alexis	usr/include/fmt/xchar.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/fmt/
+-rw-r--r--	alexis/alexis	usr/lib/cmake/fmt/fmt-config.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/fmt/fmt-config-version.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/fmt/fmt-targets.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/fmt/fmt-targets-release.cmake
+-rwxr-xr-x	alexis/alexis	usr/lib/libfmt.so.12.1.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libfmt.so.12 -> libfmt.so.12.1.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libfmt.so -> libfmt.so.12
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/fmt.pc

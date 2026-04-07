@@ -1,0 +1,17 @@
+description=" The libxslt package contains XSLT libraries used for extending libxml2 libraries to support XSLT files. "
+name=libxslt
+version=1.1.45
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.45.tar.xz")
+depends=("libxml2")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr    \
+            --disable-static \
+            --without-python \
+            --docdir=/usr/share/doc/libxslt-1.1.45 &&
+make
+make DESTDIR=$PKG install
+}

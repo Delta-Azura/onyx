@@ -1,0 +1,21 @@
+description=" The GTK 4 package contains libraries used for creating graphical user interfaces for applications. "
+name=gtk4
+version=4.20.3
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gtk/4.20/gtk-4.20.3.tar.xz")
+
+build() {
+cd gtk-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr            \
+            --buildtype=release      \
+            -D broadway-backend=true \
+            -D introspection=enabled \
+            -D vulkan=enabled        \
+            .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

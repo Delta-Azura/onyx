@@ -1,0 +1,13 @@
+description="The Xorg Synaptics Driver package contains the X.Org Input Driver, support programs and SDK for Synaptics touchpads. "
+name=xf86-input-synaptics
+version=1.10.0
+release=1
+packager=alexis
+source=("https://www.x.org/pub/individual/driver/xf86-input-synaptics-1.10.0.tar.xz")
+
+build() {
+cd $name-$version
+./configure $XORG_CONFIG &&
+make
+make DESTDIR=$PKG install
+}

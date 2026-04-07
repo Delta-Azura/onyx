@@ -1,0 +1,23 @@
+description=" The Simple DirectMedia Layer Version 3 (SDL3 for short) is a cross-platform library designed to make it easy to write multimedia software, such as games and emulators. "
+
+name=sdl3
+version=3.4.0
+release=1
+packager=alexis
+source=("https://www.libsdl.org/release/SDL3-3.4.0.tar.gz")
+
+build() {
+cd SDL3-$version
+mkdir build &&
+cd    build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr \
+      -D CMAKE_BUILD_TYPE=Release  \
+      -D SDL_TEST_LIBRARY=OFF      \
+      -D SDL_STATIC=OFF            \
+      -D SDL_RPATH=OFF             \
+      -W no-dev -G Ninja ..        &&
+
+ninja
+DESTDIR=$PKG ninja install
+}

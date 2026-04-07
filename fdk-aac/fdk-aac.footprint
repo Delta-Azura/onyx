@@ -1,0 +1,15 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/fdk-aac/
+-rw-r--r--	alexis/alexis	usr/include/fdk-aac/aacdecoder_lib.h
+-rw-r--r--	alexis/alexis	usr/include/fdk-aac/aacenc_lib.h
+-rw-r--r--	alexis/alexis	usr/include/fdk-aac/FDK_audio.h
+-rw-r--r--	alexis/alexis	usr/include/fdk-aac/genericStds.h
+-rw-r--r--	alexis/alexis	usr/include/fdk-aac/machine_type.h
+-rw-r--r--	alexis/alexis	usr/include/fdk-aac/syslib_channelMapDescr.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libfdk-aac.so.2.0.3
+lrwxrwxrwx	alexis/alexis	usr/lib/libfdk-aac.so.2 -> libfdk-aac.so.2.0.3
+lrwxrwxrwx	alexis/alexis	usr/lib/libfdk-aac.so -> libfdk-aac.so.2.0.3
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/fdk-aac.pc

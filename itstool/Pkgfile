@@ -1,0 +1,16 @@
+description="Itstool extracts messages from XML files and outputs PO template files, then merges translations from MO files to create translated XML files."
+name=itstool
+version=2.0.7
+release=1
+packager=alexis
+source=("https://github.com/itstool/itstool/archive/2.0.7/itstool-2.0.7.tar.gz"
+"https://www.linuxfromscratch.org/patches/blfs/13.0/itstool-2.0.7-lxml-1.patch")
+
+
+build() {
+cd $name-$version
+patch -Np1 -i ../itstool-2.0.7-lxml-1.patch
+PYTHON=/usr/bin/python3 ./autogen.sh --prefix=/usr &&
+make
+make DESTDIR=$PKG install
+}

@@ -1,0 +1,20 @@
+description=" The Cython package provides a compiler for writing C extensions for the Python language. "
+name=cython
+version=3.2.4
+release=1
+packager=alexis
+source=("https://github.com/cython/cython/releases/download/3.2.4/cython-3.2.4.tar.gz")
+
+
+build() {
+cd $name-$version
+pip3 wheel -w dist \
+    --no-build-isolation \
+    --no-deps --no-cache-dir $PWD
+  pip3 install --no-index \
+    --find-links dist \
+    --no-cache-dir    \
+    --no-user         \
+    --root=$PKG       \
+    Cython
+}

@@ -1,0 +1,14 @@
+description=" The xcb-util package provides additional extensions to the XCB library, many that were previously found in Xlib, but are not part of core X protocol. "
+name=xcb-util
+version=0.4.1
+release=1
+packager=alexis
+source=("https://xcb.freedesktop.org/dist/xcb-util-0.4.1.tar.xz")
+
+
+build() {
+cd $name-$version
+./configure $XORG_CONFIG &&
+make
+make DESTDIR=$PKG install
+}

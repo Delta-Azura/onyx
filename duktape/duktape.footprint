@@ -1,0 +1,13 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/duk_config.h
+-rw-r--r--	alexis/alexis	usr/include/duktape.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libduktaped.so.207.20700
+lrwxrwxrwx	alexis/alexis	usr/lib/libduktaped.so.207 -> libduktaped.so.207.20700
+lrwxrwxrwx	alexis/alexis	usr/lib/libduktaped.so -> libduktaped.so.207.20700
+-rwxr-xr-x	alexis/alexis	usr/lib/libduktape.so.207.20700
+lrwxrwxrwx	alexis/alexis	usr/lib/libduktape.so.207 -> libduktape.so.207.20700
+lrwxrwxrwx	alexis/alexis	usr/lib/libduktape.so -> libduktape.so.207.20700
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/duktape.pc

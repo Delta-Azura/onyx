@@ -1,0 +1,65 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/canberra-boot
+-rwxr-xr-x	alexis/alexis	usr/bin/canberra-gtk-play
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/canberra-gtk.h
+-rw-r--r--	alexis/alexis	usr/include/canberra.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/gnome-settings-daemon-3.0/
+drwxr-xr-x	alexis/alexis	usr/lib/gnome-settings-daemon-3.0/gtk-modules/
+-rw-r--r--	alexis/alexis	usr/lib/gnome-settings-daemon-3.0/gtk-modules/canberra-gtk-module.desktop
+drwxr-xr-x	alexis/alexis	usr/lib/gtk-3.0/
+drwxr-xr-x	alexis/alexis	usr/lib/gtk-3.0/modules/
+-rwxr-xr-x	alexis/alexis	usr/lib/gtk-3.0/modules/libcanberra-gtk3-module.so
+lrwxrwxrwx	alexis/alexis	usr/lib/gtk-3.0/modules/libcanberra-gtk-module.so -> libcanberra-gtk3-module.so
+drwxr-xr-x	alexis/alexis	usr/lib/libcanberra-0.30/
+-rwxr-xr-x	alexis/alexis	usr/lib/libcanberra-0.30/libcanberra-alsa.so
+-rwxr-xr-x	alexis/alexis	usr/lib/libcanberra-0.30/libcanberra-gstreamer.so
+-rwxr-xr-x	alexis/alexis	usr/lib/libcanberra-0.30/libcanberra-multi.so
+-rwxr-xr-x	alexis/alexis	usr/lib/libcanberra-0.30/libcanberra-null.so
+-rwxr-xr-x	alexis/alexis	usr/lib/libcanberra-gtk3.so.0.1.9
+lrwxrwxrwx	alexis/alexis	usr/lib/libcanberra-gtk3.so.0 -> libcanberra-gtk3.so.0.1.9
+lrwxrwxrwx	alexis/alexis	usr/lib/libcanberra-gtk3.so -> libcanberra-gtk3.so.0.1.9
+-rwxr-xr-x	alexis/alexis	usr/lib/libcanberra.so.0.2.5
+lrwxrwxrwx	alexis/alexis	usr/lib/libcanberra.so.0 -> libcanberra.so.0.2.5
+lrwxrwxrwx	alexis/alexis	usr/lib/libcanberra.so -> libcanberra.so.0.2.5
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libcanberra-gtk3.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libcanberra.pc
+drwxr-xr-x	alexis/alexis	usr/lib/systemd/
+drwxr-xr-x	alexis/alexis	usr/lib/systemd/system/
+-rw-r--r--	alexis/alexis	usr/lib/systemd/system/canberra-system-bootup.service
+-rw-r--r--	alexis/alexis	usr/lib/systemd/system/canberra-system-shutdown-reboot.service
+-rw-r--r--	alexis/alexis	usr/lib/systemd/system/canberra-system-shutdown.service
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/doc/
+drwxr-xr-x	alexis/alexis	usr/share/doc/libcanberra-0.30/
+-rw-r--r--	alexis/alexis	usr/share/doc/libcanberra-0.30/README
+drwxr-xr-x	alexis/alexis	usr/share/gdm/
+drwxr-xr-x	alexis/alexis	usr/share/gdm/autostart/
+drwxr-xr-x	alexis/alexis	usr/share/gdm/autostart/LoginWindow/
+-rw-r--r--	alexis/alexis	usr/share/gdm/autostart/LoginWindow/libcanberra-ready-sound.desktop
+drwxr-xr-x	alexis/alexis	usr/share/gnome/
+drwxr-xr-x	alexis/alexis	usr/share/gnome/autostart/
+-rw-r--r--	alexis/alexis	usr/share/gnome/autostart/libcanberra-login-sound.desktop
+drwxr-xr-x	alexis/alexis	usr/share/gnome/shutdown/
+-rwxr-xr-x	alexis/alexis	usr/share/gnome/shutdown/libcanberra-logout-sound.sh
+drwxr-xr-x	alexis/alexis	usr/share/gtk-doc/
+drwxr-xr-x	alexis/alexis	usr/share/gtk-doc/html/
+drwxr-xr-x	alexis/alexis	usr/share/gtk-doc/html/libcanberra/
+-rw-r--r--	alexis/alexis	usr/share/gtk-doc/html/libcanberra/ch01.html
+-rw-r--r--	alexis/alexis	usr/share/gtk-doc/html/libcanberra/home.png
+-rw-r--r--	alexis/alexis	usr/share/gtk-doc/html/libcanberra/index.html
+-rw-r--r--	alexis/alexis	usr/share/gtk-doc/html/libcanberra/index.sgml
+-rw-r--r--	alexis/alexis	usr/share/gtk-doc/html/libcanberra/left.png
+-rw-r--r--	alexis/alexis	usr/share/gtk-doc/html/libcanberra/libcanberra-canberra-gtk.html
+-rw-r--r--	alexis/alexis	usr/share/gtk-doc/html/libcanberra/libcanberra-canberra.html
+-rw-r--r--	alexis/alexis	usr/share/gtk-doc/html/libcanberra/libcanberra.devhelp2
+-rw-r--r--	alexis/alexis	usr/share/gtk-doc/html/libcanberra/right.png
+-rw-r--r--	alexis/alexis	usr/share/gtk-doc/html/libcanberra/style.css
+-rw-r--r--	alexis/alexis	usr/share/gtk-doc/html/libcanberra/up.png
+drwxr-xr-x	alexis/alexis	usr/share/vala/
+drwxr-xr-x	alexis/alexis	usr/share/vala/vapi/
+-rw-r--r--	alexis/alexis	usr/share/vala/vapi/libcanberra-gtk.vapi
+-rw-r--r--	alexis/alexis	usr/share/vala/vapi/libcanberra.vapi

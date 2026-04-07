@@ -1,0 +1,15 @@
+description="The libva package contains a library which provides access to hardware accelerated video processing, using hardware to accelerate video processing in order to offload the central processing unit (CPU) to decode and encode compressed digital video."
+name=libva
+version=2.23.0
+release=1
+packager=alexis
+source=("https://github.com/intel/libva/archive/2.23.0/libva-2.23.0.tar.gz")
+
+build() {
+cd $name-$version
+cd build &&
+
+meson setup --prefix=$XORG_PREFIX --buildtype=release &&
+ninja
+DESTDIR=$PKG ninja install
+}

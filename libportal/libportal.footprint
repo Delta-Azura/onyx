@@ -1,0 +1,58 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/libportal/
+-rw-r--r--	alexis/alexis	usr/include/libportal/account.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/background.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/camera.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/dynamic-launcher.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/email.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/filechooser.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/glib-backports.h
+drwxr-xr-x	alexis/alexis	usr/include/libportal-gtk3/
+-rw-r--r--	alexis/alexis	usr/include/libportal-gtk3/portal-gtk3.h
+drwxr-xr-x	alexis/alexis	usr/include/libportal-gtk4/
+-rw-r--r--	alexis/alexis	usr/include/libportal-gtk4/portal-gtk4.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/inhibit.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/inputcapture.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/inputcapture-pointerbarrier.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/inputcapture-zone.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/location.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/notification.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/openuri.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/parent.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/portal-enums.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/portal.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/portal-helpers.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/print.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/remote.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/screenshot.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/session.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/settings.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/spawn.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/trash.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/types.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/updates.h
+-rw-r--r--	alexis/alexis	usr/include/libportal/wallpaper.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/girepository-1.0/
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/Xdp-1.0.typelib
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/XdpGtk3-1.0.typelib
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/XdpGtk4-1.0.typelib
+-rwxr-xr-x	alexis/alexis	usr/lib/libportal-gtk3.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libportal-gtk3.so.1 -> libportal-gtk3.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libportal-gtk3.so -> libportal-gtk3.so.1
+-rwxr-xr-x	alexis/alexis	usr/lib/libportal-gtk4.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libportal-gtk4.so.1 -> libportal-gtk4.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libportal-gtk4.so -> libportal-gtk4.so.1
+-rwxr-xr-x	alexis/alexis	usr/lib/libportal.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libportal.so.1 -> libportal.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libportal.so -> libportal.so.1
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libportal-gtk3.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libportal-gtk4.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libportal.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/gir-1.0/
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/Xdp-1.0.gir
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/XdpGtk3-1.0.gir
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/XdpGtk4-1.0.gir

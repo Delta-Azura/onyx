@@ -1,0 +1,13 @@
+description=" libidn2 is a package designed for internationalized string handling based on standards from the Internet Engineering Task Force (IETF)'s IDN working group, designed for internationalized domain names. "
+name=libidn2
+version=2.3.8
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/libidn/libidn2-2.3.8.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr --disable-static &&
+make
+make DESTDIR=$PKG install
+}

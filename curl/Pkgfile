@@ -1,0 +1,25 @@
+description="The cURL package contains a utility and a library used for transferring files with URL syntax to any of the following protocols"
+name=curl
+version=8.18.0
+release=2
+packager=alexis
+source=("curl-8.18.0.tar.xz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr    \
+            --disable-static \
+            --with-openssl   \
+            --with-ca-path=/etc/ssl/certs &&
+make
+make DESTDIR=$PKG install
+
+rm -rf docs/examples/.deps &&
+
+find docs \( -name Makefile\* -o  \
+             -name \*.1       -o  \
+             -name \*.3       -o  \
+             -name CMakeLists.txt \) -delete &&
+mkdir -pv $PKG/usr/share/doc/curl-$version
+cp -v -R docs -T $PKG/usr/share/doc/curl-8.18.0
+}

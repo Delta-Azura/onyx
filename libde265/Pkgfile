@@ -1,0 +1,17 @@
+description=" The libde265 package contains an open source H.265 video codec implementation. "
+name=libde265
+version=1.0.16
+release=1
+packager=alexis
+source=("https://github.com/strukturag/libde265/releases/download/v1.0.16/libde265-1.0.16.tar.gz")
+
+build() {
+cd $name-$version
+sed '/tools/d' -i Makefile.am &&
+./autogen.sh
+./configure --prefix=/usr         \
+            --disable-sherlock265 \
+            --disable-static      &&
+make
+make DESTDIR=$PKG install
+}

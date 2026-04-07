@@ -1,0 +1,16 @@
+description=" The gsound package contains a small library for playing system sounds. "
+name=gsound
+version=1.0.3
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gsound/1.0/gsound-1.0.3.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

@@ -1,0 +1,17 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+lrwxrwxrwx	alexis/alexis	usr/bin/protoc-c -> protoc-gen-c
+-rwxr-xr-x	alexis/alexis	usr/bin/protoc-gen-c
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/google/
+drwxr-xr-x	alexis/alexis	usr/include/google/protobuf-c/
+lrwxrwxrwx	alexis/alexis	usr/include/google/protobuf-c/protobuf-c.h -> ../../protobuf-c/protobuf-c.h
+drwxr-xr-x	alexis/alexis	usr/include/protobuf-c/
+-rw-r--r--	alexis/alexis	usr/include/protobuf-c/protobuf-c.h
+-rw-r--r--	alexis/alexis	usr/include/protobuf-c/protobuf-c.proto
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libprotobuf-c.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libprotobuf-c.so.1 -> libprotobuf-c.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libprotobuf-c.so -> libprotobuf-c.so.1.0.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libprotobuf-c.pc

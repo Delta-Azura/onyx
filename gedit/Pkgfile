@@ -1,0 +1,53 @@
+description="The Gedit package contains a lightweight UTF-8 text editor for the GNOME Desktop."
+name=gedit
+version=48.1
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gedit/48/gedit-48.1.tar.xz")
+
+build() {
+mkdir build 
+
+wget https://gitlab.gnome.org/World/gedit/libgedit-amtk/-/archive/5.9.2/libgedit-amtk-5.9.2.tar.bz2
+wget https://gitlab.gnome.org/World/gedit/libgedit-gtksourceview/-/archive/299.5.0/libgedit-gtksourceview-299.5.0.tar.bz2
+wget https://gitlab.gnome.org/World/gedit/libgedit-gfls/-/archive/0.3.1/libgedit-gfls-0.3.1.tar.bz2
+wget https://gitlab.gnome.org/World/gedit/libgedit-tepl/-/archive/6.13.0/libgedit-tepl-6.13.0.tar.bz2
+cd build
+for package in \
+   libgedit-amtk-5.9.2.tar.bz2            \
+   libgedit-gtksourceview-299.5.0.tar.bz2 \
+   libgedit-gfls-0.3.1.tar.bz2            \
+   libgedit-tepl-6.13.0.tar.bz2
+do
+  packagedir=${package%.tar*}
+
+  echo "Building $packagedir"
+  tar -xf ../$package
+  pushd $packagedir
+    cd build
+
+    meson setup ..            \
+          --prefix=/usr       \
+          --buildtype=release \
+          -D gtk_doc=false
+    ninja
+
+    #ninja test 2>&1 | tee ../../$packagedir-test.log
+
+    ninja install && DESTDIR=$PKG ninja install
+  popd
+
+  rm -rf $packagedir
+done
+cd ..
+cd $name-$version
+#mkdir build 
+cd build
+meson setup ..            \
+      --prefix=/usr       \
+      --buildtype=release \
+      -D gtk_doc=false    &&
+ninja
+
+DESTDIR=$PKG ninja install
+}

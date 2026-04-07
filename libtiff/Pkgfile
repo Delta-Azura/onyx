@@ -1,0 +1,19 @@
+description="The libtiff package contains the TIFF libraries and associated utilities. "
+name=libtiff
+version=4.7.1
+release=1
+packager=alexis
+source=("https://download.osgeo.org/libtiff/tiff-4.7.1.tar.gz")
+
+build() {
+cd tiff-$version
+mkdir -p libtiff-build &&
+cd       libtiff-build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr \
+      -D CMAKE_BUILD_TYPE=Release  \
+      -W no-dev -G Ninja ..
+ninja
+DESTDIR=$PKG ninja install &&
+mv -v $PKG/usr/share/doc/{tiff,libtiff-4.7.1}
+}

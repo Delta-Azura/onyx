@@ -1,0 +1,17 @@
+description="The Shared Mime Info package contains a MIME database."
+name=shared-mime-info
+version=2.4
+release=1
+packager=alexis
+source=("https://gitlab.freedesktop.org/xdg/shared-mime-info/-/archive/2.4/shared-mime-info-2.4.tar.gz")
+
+build() {
+cd $name-$version
+
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release -D update-mimedb=true .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

@@ -1,0 +1,22 @@
+description="PulseAudio is a sound system for POSIX OSes, meaning that it is a proxy for sound applications."
+name=pulseaudio
+version=17.0
+release=1
+packager=alexis
+source=("https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-17.0.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D database=gdbm    \
+            -D doxygen=false    \
+            -D bluez5=enabled  \
+            -D tests=false      \
+            ..                  &&
+ninja
+DESTDIR=$PKG ninja install
+}

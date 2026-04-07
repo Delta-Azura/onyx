@@ -1,0 +1,17 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/dav1d
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/dav1d/
+-rw-r--r--	alexis/alexis	usr/include/dav1d/common.h
+-rw-r--r--	alexis/alexis	usr/include/dav1d/data.h
+-rw-r--r--	alexis/alexis	usr/include/dav1d/dav1d.h
+-rw-r--r--	alexis/alexis	usr/include/dav1d/headers.h
+-rw-r--r--	alexis/alexis	usr/include/dav1d/picture.h
+-rw-r--r--	alexis/alexis	usr/include/dav1d/version.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libdav1d.so.7.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libdav1d.so.7 -> libdav1d.so.7.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libdav1d.so -> libdav1d.so.7
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/dav1d.pc

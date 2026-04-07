@@ -1,0 +1,32 @@
+description=" The Aspell package contains an interactive spell checking program and the Aspell libraries"
+name=aspell
+version=0.60.8.2
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/aspell/aspell-0.60.8.2.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr &&
+make
+make DESTDIR=$PKG install
+ln -svfn aspell-0.60 $PKG/usr/lib/aspell &&
+
+install -v -m755 -d $PKG/usr/share/doc/aspell-0.60.8.2/aspell{,-dev}.html &&
+
+install -v -m644 manual/aspell.html/* \
+    $PKG/usr/share/doc/aspell-0.60.8.2/aspell.html &&
+
+install -v -m644 manual/aspell-dev.html/* \
+    $PKG/usr/share/doc/aspell-0.60.8.2/aspell-dev.html
+install -v -m 755 scripts/ispell $PKG/usr/bin/
+install -v -m 755 scripts/spell $PKG/usr/bin/
+
+wget https://ftpmirror.gnu.org/aspell/dict/en/aspell6-en-2020.12.07-0.tar.bz2
+tar xf aspell6-en-2020.12.07-0.tar.bz2
+ls
+cd aspell6-en-2020.12.07-0 
+./configure 
+make 
+make DESTDIR=$PKG install
+}

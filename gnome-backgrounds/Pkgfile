@@ -1,0 +1,15 @@
+description="The GNOME Backgrounds package contains a collection of graphics files which can be used as backgrounds in the GNOME Desktop environment."
+name=gnome-backgrounds
+version=49.0
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gnome-backgrounds/49/gnome-backgrounds-49.0.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr ..
+DESTDIR=$PKG ninja install
+}

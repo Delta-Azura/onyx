@@ -1,0 +1,20 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/startup-notification-1.0/
+drwxr-xr-x	alexis/alexis	usr/include/startup-notification-1.0/libsn/
+-rw-r--r--	alexis/alexis	usr/include/startup-notification-1.0/libsn/sn-common.h
+-rw-r--r--	alexis/alexis	usr/include/startup-notification-1.0/libsn/sn.h
+-rw-r--r--	alexis/alexis	usr/include/startup-notification-1.0/libsn/sn-launchee.h
+-rw-r--r--	alexis/alexis	usr/include/startup-notification-1.0/libsn/sn-launcher.h
+-rw-r--r--	alexis/alexis	usr/include/startup-notification-1.0/libsn/sn-monitor.h
+-rw-r--r--	alexis/alexis	usr/include/startup-notification-1.0/libsn/sn-util.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libstartup-notification-1.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libstartup-notification-1.so.0 -> libstartup-notification-1.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libstartup-notification-1.so -> libstartup-notification-1.so.0.0.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libstartup-notification-1.0.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/doc/
+drwxr-xr-x	alexis/alexis	usr/share/doc/startup-notification-0.12/
+-rw-r--r--	alexis/alexis	usr/share/doc/startup-notification-0.12/startup-notification.txt

@@ -1,0 +1,13 @@
+description=" The Protobuf-c package contains an implementation of the Google Protocol Buffers data serialization format in C. "
+name=protobuf-c
+version=1.5.2
+release=1
+packager=alexis
+source=("https://github.com/protobuf-c/protobuf-c/releases/download/v1.5.2/protobuf-c-1.5.2.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr --disable-static &&
+make -j1
+make DESTDIR=$PKG install
+}

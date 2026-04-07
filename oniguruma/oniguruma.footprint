@@ -1,0 +1,18 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/onig-config
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/oniggnu.h
+-rw-r--r--	alexis/alexis	usr/include/onigposix.h
+-rw-r--r--	alexis/alexis	usr/include/oniguruma.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rw-r--r--	alexis/alexis	usr/lib/libonig.a
+-rwxr-xr-x	alexis/alexis	usr/lib/libonig.so.5.5.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libonig.so.5 -> libonig.so.5.5.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libonig.so -> libonig.so.5.5.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/oniguruma.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/licenses/
+drwxr-xr-x	alexis/alexis	usr/share/licenses/oniguruma/
+-rw-r--r--	alexis/alexis	usr/share/licenses/oniguruma/COPYING

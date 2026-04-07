@@ -1,0 +1,40 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/glslang
+lrwxrwxrwx	alexis/alexis	usr/bin/glslangValidator -> glslang
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/glslang/
+-rw-r--r--	alexis/alexis	usr/include/glslang/build_info.h
+drwxr-xr-x	alexis/alexis	usr/include/glslang/Include/
+-rw-r--r--	alexis/alexis	usr/include/glslang/Include/glslang_c_interface.h
+-rw-r--r--	alexis/alexis	usr/include/glslang/Include/glslang_c_shader_types.h
+-rw-r--r--	alexis/alexis	usr/include/glslang/Include/ResourceLimits.h
+-rw-r--r--	alexis/alexis	usr/include/glslang/Include/visibility.h
+drwxr-xr-x	alexis/alexis	usr/include/glslang/MachineIndependent/
+-rw-r--r--	alexis/alexis	usr/include/glslang/MachineIndependent/Versions.h
+drwxr-xr-x	alexis/alexis	usr/include/glslang/Public/
+-rw-r--r--	alexis/alexis	usr/include/glslang/Public/resource_limits_c.h
+-rw-r--r--	alexis/alexis	usr/include/glslang/Public/ResourceLimits.h
+-rw-r--r--	alexis/alexis	usr/include/glslang/Public/ShaderLang.h
+drwxr-xr-x	alexis/alexis	usr/include/glslang/SPIRV/
+-rw-r--r--	alexis/alexis	usr/include/glslang/SPIRV/disassemble.h
+-rw-r--r--	alexis/alexis	usr/include/glslang/SPIRV/GlslangToSpv.h
+-rw-r--r--	alexis/alexis	usr/include/glslang/SPIRV/Logger.h
+-rw-r--r--	alexis/alexis	usr/include/glslang/SPIRV/spirv.hpp11
+-rw-r--r--	alexis/alexis	usr/include/glslang/SPIRV/SpvTools.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/glslang/
+-rw-r--r--	alexis/alexis	usr/lib/cmake/glslang/glslang-config.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/glslang/glslang-config-version.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/glslang/glslang-targets.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/glslang/glslang-targets-release.cmake
+-rwxr-xr-x	alexis/alexis	usr/lib/libglslang-default-resource-limits.so.16.2.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libglslang-default-resource-limits.so.16 -> libglslang-default-resource-limits.so.16.2.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libglslang-default-resource-limits.so -> libglslang-default-resource-limits.so.16
+-rwxr-xr-x	alexis/alexis	usr/lib/libglslang.so.16.2.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libglslang.so.16 -> libglslang.so.16.2.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libglslang.so -> libglslang.so.16
+-rwxr-xr-x	alexis/alexis	usr/lib/libSPIRV.so.16.2.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libSPIRV.so.16 -> libSPIRV.so.16.2.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libSPIRV.so -> libSPIRV.so.16

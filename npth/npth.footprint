@@ -1,0 +1,12 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/npth.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libnpth.so.0.3.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libnpth.so.0 -> libnpth.so.0.3.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libnpth.so -> libnpth.so.0.3.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/npth.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/aclocal/
+-rw-r--r--	alexis/alexis	usr/share/aclocal/npth.m4

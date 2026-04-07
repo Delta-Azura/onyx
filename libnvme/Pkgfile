@@ -1,0 +1,16 @@
+description="The libnvme package is a library which provides type definitions for NVMe"
+name=libnvme
+version=1.16.1
+release=1
+packager=alexis
+source=("https://github.com/linux-nvme/libnvme/archive/v1.16.1/libnvme-1.16.1.tar.gz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release -D libdbus=auto .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

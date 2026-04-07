@@ -1,0 +1,17 @@
+description="The startup-notification package contains startup-notification libraries."
+name=startup-notification
+version=0.12
+release=1
+packager=alexis
+source=("https://www.freedesktop.org/software/startup-notification/releases/startup-notification-0.12.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr --disable-static &&
+make
+
+
+make DESTDIR=$PKG install &&
+install -v -m644 -D doc/startup-notification.txt \
+    $PKG/usr/share/doc/startup-notification-0.12/startup-notification.txt
+}

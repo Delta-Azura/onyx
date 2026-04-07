@@ -1,0 +1,13 @@
+description=" The unifdef package contains a utility that is useful for removing preprocessor conditionals from code. "
+name=unifdef
+version=2.12
+release=1
+packager=alexis
+source=("https://dotat.at/prog/unifdef/unifdef-2.12.tar.gz")
+
+build() {
+cd $name-$version
+sed -i 's/constexpr/unifdef_&/g' unifdef.c
+make 
+make DESTDIR=$PKG prefix=/usr install
+}

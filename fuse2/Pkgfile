@@ -1,0 +1,24 @@
+description="FUSE, or Filesystem in Userspace, allows userspace programs to create virtual filesystems"
+name=fuse2
+version=2.9.9
+release=1
+packager=alexis
+source=("https://github.com/libfuse/libfuse/releases/download/fuse-2.9.9/fuse-2.9.9.tar.gz"
+"https://gitlab.archlinux.org/archlinux/packaging/packages/fuse2/-/raw/main/conditionally-define-closefrom.patch")
+
+build() {
+cd fuse-$version
+
+patch -Np1 -i ../conditionally-define-closefrom.patch &&
+autoreconf -i -I/usr/share/gettext/m4
+./configure --prefix=/usr --disable-static \
+         INIT_D_PATH=/tmp/init.d &&
+
+make
+make DESTDIR=$PKG install &&
+
+rm -rf  $PKG/tmp/init.d &&
+
+install -vDm644 doc/{how-fuse-works,kernel.txt} \
+        -t $PKG/usr/share/doc/fuse-2.9.9/
+}

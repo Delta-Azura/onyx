@@ -1,0 +1,23 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/trove-classifiers
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers-2026.1.14.14.dist-info/
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers-2026.1.14.14.dist-info/entry_points.txt
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers-2026.1.14.14.dist-info/INSTALLER
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers-2026.1.14.14.dist-info/licenses/
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers-2026.1.14.14.dist-info/licenses/LICENSE
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers-2026.1.14.14.dist-info/METADATA
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers-2026.1.14.14.dist-info/RECORD
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers-2026.1.14.14.dist-info/REQUESTED (EMPTY)
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers-2026.1.14.14.dist-info/top_level.txt
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers-2026.1.14.14.dist-info/WHEEL
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers/__init__.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers/__main__.py
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers/__pycache__/
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers/__pycache__/__init__.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers/__pycache__/__main__.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/trove_classifiers/py.typed (EMPTY)

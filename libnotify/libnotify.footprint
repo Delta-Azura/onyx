@@ -1,0 +1,21 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/notify-send
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/libnotify/
+-rw-r--r--	alexis/alexis	usr/include/libnotify/notification.h
+-rw-r--r--	alexis/alexis	usr/include/libnotify/notification-hints.h
+-rw-r--r--	alexis/alexis	usr/include/libnotify/notify-enum-types.h
+-rw-r--r--	alexis/alexis	usr/include/libnotify/notify-features.h
+-rw-r--r--	alexis/alexis	usr/include/libnotify/notify.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/girepository-1.0/
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/Notify-0.7.typelib
+-rwxr-xr-x	alexis/alexis	usr/lib/libnotify.so.4.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libnotify.so.4 -> libnotify.so.4.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libnotify.so -> libnotify.so.4
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libnotify.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/gir-1.0/
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/Notify-0.7.gir

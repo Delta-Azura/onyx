@@ -1,0 +1,19 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/gr2fonttest
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/graphite2/
+-rw-r--r--	alexis/alexis	usr/include/graphite2/Font.h
+-rw-r--r--	alexis/alexis	usr/include/graphite2/Log.h
+-rw-r--r--	alexis/alexis	usr/include/graphite2/Segment.h
+-rw-r--r--	alexis/alexis	usr/include/graphite2/Types.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libgraphite2.so.3.2.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libgraphite2.so.3 -> libgraphite2.so.3.2.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libgraphite2.so -> libgraphite2.so.3
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/graphite2.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/graphite2/
+-rw-r--r--	alexis/alexis	usr/share/graphite2/graphite2.cmake
+-rw-r--r--	alexis/alexis	usr/share/graphite2/graphite2-release.cmake

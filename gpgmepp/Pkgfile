@@ -1,0 +1,16 @@
+description=" The gpgmepp package provides a C++ wrapper to gpgme-2.0.1. "
+name=gpgmepp
+version=2.0.0
+release=1
+packager=alexis
+source=("https://www.gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-2.0.0.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr .. &&
+make
+make DESTDIR=$PKG install
+}

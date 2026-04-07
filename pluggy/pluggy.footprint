@@ -1,0 +1,32 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/pluggy-1.6.0.dist-info/
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy-1.6.0.dist-info/INSTALLER
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/pluggy-1.6.0.dist-info/licenses/
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy-1.6.0.dist-info/licenses/LICENSE
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy-1.6.0.dist-info/METADATA
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy-1.6.0.dist-info/RECORD
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy-1.6.0.dist-info/REQUESTED (EMPTY)
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy-1.6.0.dist-info/top_level.txt
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy-1.6.0.dist-info/WHEEL
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/_callers.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/_hooks.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/__init__.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/_manager.py
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/__pycache__/
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/__pycache__/_callers.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/__pycache__/_hooks.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/__pycache__/__init__.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/__pycache__/_manager.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/__pycache__/_result.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/__pycache__/_tracing.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/__pycache__/_version.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/__pycache__/_warnings.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/py.typed (EMPTY)
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/_result.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/_tracing.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/_version.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/pluggy/_warnings.py

@@ -1,0 +1,24 @@
+description="Speex is an audio compression format designed specifically for speech."
+name=speex
+version=1.2.1
+release=1
+packager=alexis
+source=("https://downloads.xiph.org/releases/speex/speex-1.2.1.tar.gz"
+"https://downloads.xiph.org/releases/speex/speexdsp-1.2.1.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/speex-1.2.1 &&
+make
+make DESTDIR=$PKG install
+cd ..
+cd speexdsp-$version
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/speexdsp-1.2.1 &&
+make
+make DESTDIR=$PKG install
+} 
+

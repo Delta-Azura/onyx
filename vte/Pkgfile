@@ -1,0 +1,17 @@
+description=" The VTE package contains a virtual terminal widget for GTK applications. "
+name=vte
+version=0.82.3
+release=1
+packager=alexis
+source=("https://gitlab.gnome.org/GNOME/vte/-/archive/0.82.3/vte-0.82.3.tar.gz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release .. &&
+ninja
+DESTDIR=$PKG ninja install &&
+rm -v $PKG/etc/profile.d/vte.*
+}

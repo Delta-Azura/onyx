@@ -1,0 +1,16 @@
+description=" The Graphene package provides a thin layer of types for graphics libraries. "
+name=graphene
+version=1.10.8
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/graphene/1.10/graphene-1.10.8.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

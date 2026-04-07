@@ -1,0 +1,24 @@
+description=" The GNOME Online Accounts package contains a framework used to access the user's online accounts. "
+name=gnome-online-accounts
+version=3.56.4
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gnome-online-accounts/3.56/gnome-online-accounts-3.56.4.tar.xz")
+
+build() {
+ls
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup                                            \
+      --prefix=/usr                                    \
+      --buildtype=release                              \
+      -D documentation=false                           \
+      -D kerberos=false                                \
+      -D google_client_secret=5ntt6GbbkjnTVXx-MSxbmx5e \
+      -D google_client_id=595013732528-llk8trb03f0ldpqq6nprjp1s79596646.apps.googleusercontent.com \
+      -D man=false .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

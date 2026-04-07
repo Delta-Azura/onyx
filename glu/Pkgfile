@@ -1,0 +1,21 @@
+description=" This package provides the Mesa OpenGL Utility library. "
+name=glu
+version=9.0.3
+release=1
+packager=alexis
+source=("https://archive.mesa3d.org/glu/glu-9.0.3.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup ..              \
+      --prefix=$XORG_PREFIX \
+      --buildtype=release   \
+      -D gl_provider=gl     \
+      -D default_library=shared &&
+ninja
+
+DESTDIR=$PKG ninja install
+}

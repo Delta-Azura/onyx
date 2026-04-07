@@ -1,0 +1,29 @@
+description=" The Evolution Data Server package provides a unified backend for programs that work with contacts, tasks, and calendar information."
+name=evolution-data-server
+version=3.58.3
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/evolution-data-server/3.58/evolution-data-server-3.58.3.tar.xz"
+"https://www.linuxfromscratch.org/patches/blfs/13.0/evolution-data-server-3.58.3-security_fixes-1.patch")
+
+
+build() {
+cd $name-$version
+patch -Np1 -i ../evolution-data-server-3.58.3-security_fixes-1.patch
+mkdir build &&
+cd    build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr \
+      -D SYSCONF_INSTALL_DIR=/etc  \
+      -D ENABLE_VALA_BINDINGS=ON   \
+      -D ENABLE_INSTALLED_TESTS=ON \
+      -D WITH_OPENLDAP=OFF         \
+      -D WITH_KRB5=OFF             \
+      -D ENABLE_INTROSPECTION=ON   \
+      -D ENABLE_GTK_DOC=OFF        \
+      -D WITH_LIBDB=OFF -DENABLE_OAUTH2_WEBKITGTK4=OFF            \
+      -W no-dev -G Ninja \
+	..        &&
+ninja
+DESTDIR=$PKG ninja install
+}

@@ -1,0 +1,13 @@
+description="The presence or absence of the which program in the main LFS book is probably one of the most contentious issues on the mailing lists."
+name=which
+version=2.23
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/which/which-2.23.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr &&
+make
+make DESTDIR=$PKG install
+}

@@ -1,0 +1,19 @@
+description=" The Setuptools_scm package is used to extract Python package versions from git or hg metadata instead of declaring them. "
+name=setuptools_scm
+version=9.2.2
+release=1
+packager=alexis
+source=("https://files.pythonhosted.org/packages/source/s/setuptools_scm/setuptools_scm-9.2.2.tar.gz")
+
+build() {
+cd $name-$version
+pip3 wheel -w dist \
+    --no-build-isolation \
+    --no-deps $PWD
+  pip3 install --no-index \
+    --find-links dist \
+    --no-cache-dir    \
+    --no-user         \
+    --root=$PKG       \
+    setuptools_scm
+}

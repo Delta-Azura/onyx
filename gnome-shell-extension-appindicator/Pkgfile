@@ -1,0 +1,17 @@
+description="appindicator pour gnome"
+name=gnome-shell-extension-appindicator
+version=64
+release=1
+packager=alexis
+
+source=("https://github.com/ubuntu/gnome-shell-extension-appindicator/archive/refs/tags/v64.tar.gz")
+
+build() {
+ls
+#meson gnome-shell-extension-appindicator /tmp/g-s-appindicators-build
+cd gnome-shell-extension-appindicator-64
+mkdir build
+cd build
+meson setup ..
+DESTDIR=$PKG ninja install
+}

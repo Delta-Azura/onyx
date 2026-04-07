@@ -1,0 +1,12 @@
+description=" libtasn1 is a highly portable C library that encodes and decodes DER/BER data following an ASN.1 schema. "
+name=libtasn
+version=4.21.0
+release=1
+source=("https://ftpmirror.gnu.org/libtasn1/libtasn1-4.21.0.tar.gz")
+
+build() {
+cd libtasn1-$version
+./configure --prefix=/usr --disable-static &&
+make
+make DESTDIR=$PKG install
+}

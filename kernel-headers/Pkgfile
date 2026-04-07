@@ -1,0 +1,15 @@
+description="Linux Headers"
+name=kernel-headers
+version=6.19.11
+release=1
+packager=alexis
+source=("https://www.kernel.org/pub/linux/kernel/v6.x/linux-${version}.tar.xz")
+
+build() {
+cd linux-$version
+make mrproper
+make headers
+find usr/include -type f ! -name '*.h' -delete
+mkdir -pv $PKG/usr/include
+cp -rv usr/include $PKG/usr/
+}

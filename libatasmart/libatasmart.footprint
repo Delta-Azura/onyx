@@ -1,0 +1,19 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/atasmart.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libatasmart.so.4.0.5
+lrwxrwxrwx	alexis/alexis	usr/lib/libatasmart.so.4 -> libatasmart.so.4.0.5
+lrwxrwxrwx	alexis/alexis	usr/lib/libatasmart.so -> libatasmart.so.4.0.5
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libatasmart.pc
+drwxr-xr-x	alexis/alexis	usr/sbin/
+-rwxr-xr-x	alexis/alexis	usr/sbin/skdump
+-rwxr-xr-x	alexis/alexis	usr/sbin/sktest
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/doc/
+drwxr-xr-x	alexis/alexis	usr/share/doc/libatasmart-0.19/
+-rw-r--r--	alexis/alexis	usr/share/doc/libatasmart-0.19/README
+drwxr-xr-x	alexis/alexis	usr/share/vala/
+drwxr-xr-x	alexis/alexis	usr/share/vala/vapi/
+-rw-r--r--	alexis/alexis	usr/share/vala/vapi/atasmart.vapi

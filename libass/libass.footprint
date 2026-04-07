@@ -1,0 +1,11 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/ass/
+-rw-r--r--	alexis/alexis	usr/include/ass/ass.h
+-rw-r--r--	alexis/alexis	usr/include/ass/ass_types.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libass.so.9.4.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libass.so.9 -> libass.so.9.4.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libass.so -> libass.so.9.4.1
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libass.pc

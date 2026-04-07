@@ -1,0 +1,36 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/hatch-fancy-pypi-readme
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme-25.1.0.dist-info/
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme-25.1.0.dist-info/entry_points.txt
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme-25.1.0.dist-info/INSTALLER
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme-25.1.0.dist-info/licenses/
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme-25.1.0.dist-info/licenses/LICENSE.txt
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme-25.1.0.dist-info/METADATA
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme-25.1.0.dist-info/RECORD
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme-25.1.0.dist-info/REQUESTED (EMPTY)
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme-25.1.0.dist-info/WHEEL
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/_builder.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/_cli.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/_config.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/exceptions.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/_fragments.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/hooks.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__init__.py
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__main__.py
+drwxr-xr-x	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__pycache__/
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__pycache__/_builder.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__pycache__/_cli.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__pycache__/_config.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__pycache__/exceptions.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__pycache__/_fragments.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__pycache__/hooks.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__pycache__/__init__.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__pycache__/__main__.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/__pycache__/_substitutions.cpython-314.pyc
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/py.typed (EMPTY)
+-rw-r--r--	alexis/alexis	usr/lib/python3.14/site-packages/hatch_fancy_pypi_readme/_substitutions.py

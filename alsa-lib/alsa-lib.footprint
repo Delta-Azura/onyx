@@ -1,0 +1,1271 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/aserver
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/alsa/
+-rw-r--r--	alexis/alexis	usr/include/alsa/asoundef.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/asoundlib.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/conf.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/control_external.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/control.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/control_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/error.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/global.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/hwdep.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/input.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/mixer_abst.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/mixer.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/output.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/pcm_external.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/pcm_extplug.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/pcm.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/pcm_ioplug.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/pcm_old.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/pcm_plugin.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/pcm_rate.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/rawmidi.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/seq_event.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/seq.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/seqmid.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/seq_midi_event.h
+drwxr-xr-x	alexis/alexis	usr/include/alsa/sound/
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/asoc.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/asound_fm.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/emu10k1.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/hdsp.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/hdspm.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/sb16_csp.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/sscape_ioctl.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/tlv.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/type_compat.h
+drwxr-xr-x	alexis/alexis	usr/include/alsa/sound/uapi/
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/uapi/asoc.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/uapi/asound_fm.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/uapi/emu10k1.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/uapi/hdsp.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/uapi/hdspm.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/uapi/sb16_csp.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/uapi/sscape_ioctl.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/sound/uapi/tlv.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/timer.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/topology.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/ump.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/ump_msg.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/use-case.h
+-rw-r--r--	alexis/alexis	usr/include/alsa/version.h
+-rw-r--r--	alexis/alexis	usr/include/asoundlib.h
+drwxr-xr-x	alexis/alexis	usr/include/sys/
+-rw-r--r--	alexis/alexis	usr/include/sys/asoundlib.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libasound.so.2.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libasound.so.2 -> libasound.so.2.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libasound.so -> libasound.so.2.0.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libatopology.so.2.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libatopology.so.2 -> libatopology.so.2.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libatopology.so -> libatopology.so.2.0.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/alsa.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/alsa-topology.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/aclocal/
+-rw-r--r--	alexis/alexis	usr/share/aclocal/alsa.m4
+drwxr-xr-x	alexis/alexis	usr/share/alsa/
+-rw-r--r--	alexis/alexis	usr/share/alsa/alsa.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/cards/
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/AACI.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/aliases.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/ATIIXP.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/ATIIXP-MODEM.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/ATIIXP-SPDMA.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/AU8810.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/AU8820.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/AU8830.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/Audigy2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/Audigy.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/Aureon51.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/Aureon71.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/CA0106.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/CMI8338.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/CMI8338-SWIEC.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/CMI8738-MC6.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/CMI8738-MC8.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/CMI8788.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/CS46xx.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/Echo_Echo3G.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/EMU10K1.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/EMU10K1X.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/ENS1370.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/ENS1371.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/ES1968.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/FireWave.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/FM801.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/FWSpeakers.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/GUS.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/HDA-Intel.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/HdmiLpeAudio.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/ICE1712.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/ICE1724.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/ICH4.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/ICH.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/ICH-MODEM.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/Loopback.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/Maestro3.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/NFORCE.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/PC-Speaker.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/pistachio-card.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/PMac.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/PMacToonie.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/PS3.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/RME9636.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/RME9652.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/SB-XFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/SI7018.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/TRID4DWAVENX.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/USB-Audio.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/vc4-hdmi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/VIA686A.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/VIA8233A.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/VIA8233.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/VIA8237.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/VX222.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/VXPocket440.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/VXPocket.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/cards/YMF744.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ctl/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ctl/default.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/LICENSE
+drwxr-xr-x	alexis/alexis	usr/share/alsa/pcm/
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/center_lfe.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/default.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/dmix.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/dpl.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/dsnoop.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/front.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/hdmi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/iec958.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/modem.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/rear.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/side.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/surround21.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/surround40.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/surround41.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/surround50.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/surround51.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/pcm/surround71.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/README.md
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Allwinner/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Allwinner/A64/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Allwinner/A64/PinePhone/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Allwinner/A64/PinePhone/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Allwinner/A64/PinePhone/PinePhone.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Allwinner/A64/PinePhone/VoiceCall.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Allwinner/sun4i-h616/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Allwinner/sun4i-h616/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/AMD/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/AMD/acp3x-alc5682-alc1015/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/AMD/acp3x-alc5682-alc1015/acp3x-alc5682-alc1015.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/AMD/acp3x-alc5682-alc1015/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/AMD/acp3x-alc5682-max98357/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/AMD/acp3x-alc5682-max98357/acp3x-alc5682-max98357.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/AMD/acp3x-alc5682-max98357/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/AMD/acp3x-es83xx/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/AMD/acp3x-es83xx/acp3x-es83xx.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/AMD/acp3x-es83xx/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/AMD/acp5x/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/AMD/acp5x/acp5x.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/AMD/acp5x/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/AMD/acp-da7219-rt5682-max98357/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/AMD/acp-da7219-rt5682-max98357/acp-da7219-rt5682-max98357.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/AMD/acp-da7219-rt5682-max98357/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Amlogic/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Amlogic/p241/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Amlogic/p241/p241.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Amlogic/p241/p241-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc3/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc3/eq_fir/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc3/eq_fir/pass.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc3/eq_fir/README.md
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc3/eq_iir/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc3/eq_iir/highpass_100hz_0db_48khz.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc3/eq_iir/highpass_20hz_0db_48khz.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc3/eq_iir/highpass_50hz_0db_48khz.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc3/eq_iir/pass.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc3/eq_iir/README.md
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/drc/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/drc/passthrough.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/drc/README.md
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/drc/speaker_default.bin
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/eq_fir/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/eq_fir/pass.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/eq_fir/README.md
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/eq_iir/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/eq_iir/highpass_100hz_0db_48khz.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/eq_iir/highpass_20hz_0db_48khz.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/eq_iir/highpass_50hz_0db_48khz.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/eq_iir/pass.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/eq_iir/README.md
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/tdfb/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/tdfb/line2_50mm_pm5_15_30_90deg_48khz.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/tdfb/line2_68mm_pm5_15_30_90deg_48khz.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/tdfb/line2_74mm_pm5_15_30_90deg_48khz.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/tdfb/line2_generic_pm10deg_48khz.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/tdfb/line2_pass.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/tdfb/line4_pass.bin
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/ipc4/tdfb/README.md
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/product_configs/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/product_configs/AAEON/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/blobs/sof/product_configs/AAEON/UPX-TGL01.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/cs35l56/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/cs35l56-bridge/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cs35l56-bridge/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cs35l56/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/cs42l43/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/cs42l43-dmic/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cs42l43-dmic/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cs42l43/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/cs42l45/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/cs42l45-dmic/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cs42l45-dmic/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cs42l45/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/cx2072x/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cx2072x/DisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cx2072x/EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cx2072x/HeadPhones.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cx2072x/HeadsetMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cx2072x/InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/cx2072x/Speaker.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/da7213/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/da7213/HeadphoneDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/da7213/HeadphoneEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/da7213/HeadphoneMic2DisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/da7213/HeadphoneMic2EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/da7213/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/da7219/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/da7219/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/es8316/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/es8316/EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/es8316/HeadPhones.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/es8316/IN1-HeadsetMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/es8316/IN1-InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/es8316/IN2-HeadsetMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/es8316/IN2-InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/es8316/MonoSpeaker.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/es8316/Speaker.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/hda/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/hda/hdmi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/max98090/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/max98090/EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/max98090/Headphones.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/max98090/HeadsetMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/max98090/InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/max98090/Speaker.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/nau8824/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/nau8824/DMIC1_2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/nau8824/EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/nau8824/HeadPhones.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/nau8824/HeadsetMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/nau8824/InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/nau8824/MonoSpeaker.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/nau8824/Speaker.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/pm4125/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/pm4125/HeadphoneDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/pm4125/HeadphoneEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/pm4125/HeadphoneMicDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/pm4125/HeadphoneMicEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/pm4125/LineoutDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/pm4125/LineoutEnableSeq.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/HeadphoneDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/HeadphoneEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/HeadphoneLDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/HeadphoneLEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/rx-macro/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/DMIC0DisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/DMIC0EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/HeadphoneMicDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/HeadphoneMicEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/SoundwireMic0EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/SoundwireMic1EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/tx-macro/SoundwireMicDisableSeq.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC0DisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC0EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC1DisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/va-macro/DMIC1EnableSeq.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/four-speakers/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/four-speakers/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/SpeakerDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/SpeakerEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa1SpeakerDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa1SpeakerEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa2SpeakerDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/qcom-lpass/wsa-macro/Wsa2SpeakerEnableSeq.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt1318/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt1318/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/DigitalMics.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/HeadPhones2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/HeadPhones.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/HeadsetMic2-IN1.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/HeadsetMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/IN1-InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/IN3-InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/MonoSpeaker.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5640/Speaker.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5645/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5645/AnalogMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5645/DigitalMicDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5645/DigitalMicEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5645/DisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5645/EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5645/HeadphonesEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5645/HSMicDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5645/HSMicEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5645/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5645/SpeakerEnableSeq.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/DigitalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/HeadPhones.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/HeadPhones-swapped.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/IN12-InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/IN1-InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/IN2-HeadsetMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/IN2-InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/IN3-HeadsetMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/MonoSpeaker.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5651/Speaker.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5672/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5672/DMIC1.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5672/DMIC2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5672/EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5672/HeadPhones.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5672/HeadsetMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5672/MonoSpeaker.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5672/Speaker.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5682/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt5682/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt700/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt700/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt711/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt711/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt711-sdca/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt711-sdca/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt712/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt712-dmic/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt712-dmic/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt712/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt713/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt713-dmic/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt713-dmic/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt713/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt715/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt715/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt715-sdca/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt715-sdca/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt721/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt721/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/rt722/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/rt722/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd934x/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd934x/DefaultDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd934x/DefaultEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneMicDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd934x/HeadphoneMicEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd934x/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd934x/SpeakerDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd934x/SpeakerEnableSeq.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd937x/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd937x/HeadphoneDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd937x/HeadphoneEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd937x/HeadphoneMicDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd937x/HeadphoneMicEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd937x/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd938x/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd938x/AnalogMic1DisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd938x/AnalogMic1EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd938x/AnalogMic5DisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd938x/AnalogMic5EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneMicDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd938x/HeadphoneMicEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd938x/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic1EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic3EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic4EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/AnalogMic5EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/AnalogMicDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/DefaultEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneMicDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/HeadphoneMicEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wcd939x/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/wm5102/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wm5102/EnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wm5102/HeadPhones.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wm5102/HPOut2-Speaker.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wm5102/IN1-HeadsetMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wm5102/IN1-InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wm5102/IN2-HeadsetMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wm5102/IN3-InternalMic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wm5102/Speaker.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa881x/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa881x/DefaultEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa881x/SpeakerDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa881x/SpeakerEnableSeq.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa883x/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa883x/DefaultEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa883x/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa883x/SpeakerDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa883x/SpeakerEnableSeq.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa884x/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa884x/four-speakers/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa884x/four-speakers/DefaultEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa884x/four-speakers/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa884x/four-speakers/SpeakerSeq.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa884x/two-speakers/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa884x/two-speakers/DefaultEnableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa884x/two-speakers/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/codecs/wsa884x/two-speakers/SpeakerSeq.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/common/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/common/ctl/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/common/ctl/led.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/common/ctl/remap.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/common/directm.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/common/linked-card.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/common/linked.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/common/pcm/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/common/pcm/hdmi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/common/pcm/split.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp3xalc5682101/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp3xalc5682101/acp3xalc5682101.conf -> ../../AMD/acp3x-alc5682-alc1015/acp3x-alc5682-alc1015.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp3xalc5682m98/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp3xalc5682m98/acp3xalc5682m98.conf -> ../../AMD/acp3x-alc5682-max98357/acp3x-alc5682-max98357.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp3x-es83xx/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp3x-es83xx/acp3x-es83xx.conf -> ../../AMD/acp3x-es83xx/acp3x-es83xx.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp5x/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp5x/Valve-Jupiter-1.conf -> ../../AMD/acp5x/acp5x.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp62/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp62/acp62.conf -> ../../common/linked-card.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp63/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp63/acp63.conf -> ../../common/linked-card.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp6x/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp6x/acp6x.conf -> ../../common/linked-card.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp/acp.conf -> ../../common/linked-card.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/acpd7219m98357/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/acpd7219m98357/acpd7219m98357.conf -> ../../AMD/acp-da7219-rt5682-max98357/acp-da7219-rt5682-max98357.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp-pdm-mach/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/acp-pdm-mach/acp-pdm-mach.conf -> ../../common/linked-card.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/amd-soundwire/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/amd-soundwire/amd-soundwire.conf -> ../../sof-soundwire/sof-soundwire.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/apq8096/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/apq8096/DB820c.conf -> ../../Qualcomm/apq8096/apq8096.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_da7219/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_da7219/Google-Atlas-1.0.conf -> ../../Intel/avs/avs_da7219/avs_da7219.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_da7219/Google-Coral-rev2.conf -> ../../Intel/avs/avs_da7219/avs_da7219.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_dmic/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_dmic/Acer-Lars-1.0.conf -> ../../Intel/avs/avs_dmic/DMIC-2ch.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_dmic/Google-Atlas-1.0.conf -> ../../Intel/avs/avs_dmic/DMIC-4ch.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_dmic/Google-Cave-1.0.conf -> ../../Intel/avs/avs_dmic/DMIC-2ch.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_dmic/Google-Coral-rev2.conf -> ../../Intel/avs/avs_dmic/DMIC-4ch.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_dmic/Hewlett_Packard-Chell-1.0.conf -> ../../Intel/avs/avs_dmic/DMIC-2ch.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_dmic/HP-Soraka-1.0.conf -> ../../Intel/avs/avs_dmic/DMIC-2ch.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_max98357a/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_max98357a/Acer-Lars-1.0.conf -> ../../Intel/avs/avs_max98357a/avs_max98357a.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_max98357a/Google-Cave-1.0.conf -> ../../Intel/avs/avs_max98357a/avs_max98357a.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_max98357a/Google-Coral-rev2.conf -> ../../Intel/avs/avs_max98357a/avs_max98357a.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_max98373/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_max98373/Google-Atlas-1.0.conf -> ../../Intel/avs/avs_max98373/Google-Atlas-1.0.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_max98927/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_max98927/Google-Eve-1.0.conf -> ../../Intel/avs/avs_max98927/Google-Eve-1.0.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_max98927/HP-Soraka-1.0.conf -> ../../Intel/avs/avs_max98927/HP-Soraka-1.0.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_nau8825/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_nau8825/Acer-Lars-1.0.conf -> ../../Intel/avs/avs_nau8825/Acer-Lars-1.0.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_nau8825/Google-Cave-1.0.conf -> ../../Intel/avs/avs_nau8825/Google-Cave-1.0.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_nau8825/Hewlett_Packard-Chell-1.0.conf -> ../../Intel/avs/avs_nau8825/Hewlett_Packard-Chell-1.0.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_rt5514/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_rt5514/Google-Eve-1.0.conf -> ../../Intel/avs/avs_rt5514/Google-Eve-1.0.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_rt5663/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_rt5663/Google-Eve-1.0.conf -> ../../Intel/avs/avs_rt5663/Google-Eve-1.0.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_rt5663/HP-Soraka-1.0.conf -> ../../Intel/avs/avs_rt5663/HP-Soraka-1.0.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_ssm4567/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/avs_ssm4567/Hewlett_Packard-Chell-1.0.conf -> ../../Intel/avs/avs_ssm4567/Hewlett_Packard-Chell-1.0.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/bdw-rt5677/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/bdw-rt5677/bdw-rt5677.conf -> ../../Intel/bdw-rt5677/bdw-rt5677.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/broadwell-rt286/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/broadwell-rt286/broadwell-rt286.conf -> ../../Intel/broadwell-rt286/broadwell-rt286.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/broxton-rt298/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/broxton-rt298/broxton-rt298.conf -> ../../Intel/broxton-rt298/broxton-rt298.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/bytcht-cx2072x/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/bytcht-cx2072x/bytcht-cx2072x.conf -> ../../Intel/bytcht-cx2072x/bytcht-cx2072x.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/bytcht-es8316/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/bytcht-es8316/bytcht-es8316.conf -> ../../Intel/bytcht-es8316/bytcht-es8316.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/bytcr-rt5640/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/bytcr-rt5640/bytcr-rt5640.conf -> ../../Intel/bytcr-rt5640/bytcr-rt5640.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/bytcr-rt5651/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/bytcr-rt5651/bytcr-rt5651.conf -> ../../Intel/bytcr-rt5651/bytcr-rt5651.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/bytcr-wm5102/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/bytcr-wm5102/bytcr-wm5102.conf -> ../../Intel/bytcr-wm5102/bytcr-wm5102.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/cht-bsw-rt5672/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/cht-bsw-rt5672/cht-bsw-rt5672.conf -> ../../Intel/cht-bsw-rt5672/cht-bsw-rt5672.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/chtmax98090/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/chtmax98090/chtmax98090.conf -> ../../Intel/chtmax98090/chtmax98090.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/chtnau8824/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/chtnau8824/chtnau8824.conf -> ../../Intel/chtnau8824/chtnau8824.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/chtrt5645/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/chtrt5645/chtrt5645.conf -> ../../Intel/chtrt5645/chtrt5645.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/chtrt5650/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/chtrt5650/chtrt5650.conf -> ../../Intel/chtrt5650/chtrt5650.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/DB410c/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/DB410c/DB410c.conf -> ../../Qualcomm/apq8016-sbc/apq8016-sbc.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/DB820c/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/DB820c/DB820c.conf -> ../../Qualcomm/apq8096/apq8096.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/fsl-asoc-card/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/fsl-asoc-card/apalis-imx6.conf -> ../../NXP/iMX6/Toradex/apalis-imx6/apalis-imx6.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/fsl-asoc-card/colibri-imx6.conf -> ../../NXP/iMX6/Toradex/colibri-imx6/colibri-imx6.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/gx-sound-card/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/gx-sound-card/GXL-P241.conf -> ../../Amlogic/p241/p241.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/gx-sound-card/LIBRETECH-CC.conf -> ../../Amlogic/p241/p241.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/hda-dsp/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/hda-dsp/hda-dsp.conf -> ../../Intel/hda-dsp/hda-dsp.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/HDA-Intel/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/HDA-Intel/HDA-Intel.conf -> ../../HDA/HDA.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/hdaudioB0D2/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/hdaudioB0D2/hdaudioB0D2.conf -> ../../Intel/avs/hdaudioB0D2/hdaudioB0D2.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/kaanapali/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/conf.d/kaanapali/Kaanapali-MTP.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/kblrt5660/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/kblrt5660/kblrt5660.conf -> ../../Intel/kblrt5660/kblrt5660.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8183_da7219_r/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8183_da7219_r/mt8183_da7219_r.conf -> ../../MediaTek/mt8183/mt8183_da7219_rt1015p/mt8183_da7219_rt1015p.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8183_mt6358_t/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8183_mt6358_t/mt8183_mt6358_t.conf -> ../../MediaTek/mt8183/mt8183_mt6358_ts3a227_max98357/mt8183_mt6358_ts3a227_max98357.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8192_mt6359/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8192_mt6359/mt8192_mt6359_rt1015p_rt5682.conf -> ../../MediaTek/mt8192/mt6359-rt1015p-rt5682/mt8192_mt6359_rt1015p_rt5682.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8195_demo/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8195_demo/mt8195_demo.conf -> ../../MediaTek/mt8195_demo/mt8195_demo.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8365-evk/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8365-evk/mt8365-evk.conf -> ../../MediaTek/mt8365-evk/mt8365-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8370-evk/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8370-evk/mt8370-evk.conf -> ../../MediaTek/mt8370-evk/mt8370-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8390-evk/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8390-evk/mt8390-evk.conf -> ../../MediaTek/mt8390-evk/mt8390-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8391-evk/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8391-evk/mt8391-evk.conf -> ../../MediaTek/mt8391-evk/mt8391-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8395-evk/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/mt8395-evk/mt8395-evk.conf -> ../../MediaTek/mt8395-evk/mt8395-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/mtk-rt5650/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/mtk-rt5650/mtk-rt5650.conf -> ../../MediaTek/mtk-rt5650/mtk-rt5650.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/qcm6490/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/conf.d/qcm6490/qcm6490-idp-snd-card.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/qcs615/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/qcs615/TALOS-EVK.conf -> ../../Qualcomm/qcs615/TALOS-EVK.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/qcs6490/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/qcs6490/QCS6490-Radxa-Dragon-Q6A.conf -> ../../Qualcomm/qcs6490/QCS6490-Radxa-Dragon-Q6A/QCS6490-Radxa-Dragon-Q6A.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/conf.d/qcs6490/QCS6490-RB3Gen2.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/qcs8300/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/qcs8300/MONACO-EVK.conf -> ../../Qualcomm/qcs8300/monaco-evk/MONACO-EVK.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/rk3399-gru-soun/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/rk3399-gru-soun/rk3399-gru-soun.conf -> ../../Rockchip/rk3399-gru-sound/rk3399-gru-sound.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/rk3588-es8316/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/rk3588-es8316/rk3588-es8316.conf -> ../../Rockchip/rk3588-es8316/rk3588-es8316.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/rockchip_es8316/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/rockchip_es8316/rockchip_es8316.conf -> ../../Rockchip/es8316/es8316.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sa8775p/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sa8775p/LEMANS-EVK.conf -> ../../Qualcomm/sa8775p/lemans-evk/LEMANS-EVK.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/SC7180/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/SC7180/sc7180-adau7002-max98357a.conf -> ../../Qualcomm/sc7180/adau7002-max98357a/sc7180-adau7002-max98357a.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/SC7180/sc7180-rt5682-max98357a-1mic.conf -> ../../Qualcomm/sc7180/rt5682-max98357a/sc7180-rt5682-max98357a-1mic.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sc8280xp/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sc8280xp/sc8280xp.conf -> ../../Qualcomm/sc8280xp/sc8280xp.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sdm845/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sdm845/DB845c.conf -> ../../Qualcomm/sdm845/sdm845.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sdm845/LENOVO-81JL-LenovoYOGAC630_13Q50-LNVNB161216.conf -> ../../Qualcomm/sdm845/Lenovo-YOGA-C630-13Q50.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/apalis-imx8.conf -> ../../NXP/iMX8/Toradex/apalis-imx8/apalis-imx8.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/apalis-nau8822.conf -> ../../IO-Boards/Toradex/apalis/eval.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/aquila-wm8904.conf -> ../../IO-Boards/Toradex/aquila/dev.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/colibri-imx7.conf -> ../../NXP/iMX7/Toradex/colibri-imx7/colibri-imx7.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/colibri-imx8x.conf -> ../../NXP/iMX8X/Toradex/colibri-imx8x/colibri-imx8x.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/Librem 5.conf -> ../../NXP/iMX8/Librem_5/Librem 5.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/Librem 5 Devkit.conf -> ../../NXP/iMX8/Librem_5_Devkit/Librem 5 Devkit.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/PinePhone.conf -> ../../Allwinner/A64/PinePhone/PinePhone.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/rk817_ext.conf -> ../../Rockchip/rk817-sound/rk817-sound.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/rk817_int.conf -> ../../Rockchip/rk817-sound/rk817-sound.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/rockchip,es8316-codec.conf -> ../../Rockchip/es8316/es8316.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/tdx-smarc-wm8904.conf -> ../../IO-Boards/Toradex/smarc/dev.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/verdin-nau8822.conf -> ../../IO-Boards/Toradex/verdin/dev.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/simple-card/verdin-wm8904.conf -> ../../IO-Boards/Toradex/verdin/dahlia.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/skylake-rt286/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/skylake-rt286/skylake-rt286.conf -> ../../Intel/skylake-rt286/skylake-rt286.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sm8250/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sm8250/Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf -> ../../Qualcomm/sm8250/Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sm8550/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sm8550/SM8550-HDK.conf -> ../../Qualcomm/sm8550/HDK/SM8550-HDK.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sm8650/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sm8650/SM8650-MTP.conf -> ../../Qualcomm/sm8650/MTP/SM8650-MTP.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sm8650/SM8650-QRD.conf -> ../../Qualcomm/sm8650/QRD/SM8650-QRD.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sm8750/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sm8750/SM8750-MTP.conf -> ../../Qualcomm/sm8750/MTP/SM8750-MTP.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/SOF/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-ehl-rt5660/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-ehl-rt5660/sof-ehl-rt5660.conf -> ../../Intel/sof-ehl-rt5660/sof-ehl-rt5660.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-essx8336/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-essx8336/sof-essx8336.conf -> ../../Intel/sof-essx8336/sof-essx8336.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-glkda7219ma/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-glkda7219ma/sof-glkda7219ma.conf -> ../../Intel/sof-glkda7219max/sof-glkda7219max.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-hda-dsp/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-hda-dsp/sof-hda-dsp.conf -> ../../Intel/sof-hda-dsp/sof-hda-dsp.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-hda-dsp/sof-skl_hda_card.conf -> ../../Intel/sof-hda-dsp/sof-hda-dsp.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-m8195_r1019/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-m8195_r1019/sof-m8195_r1019_5682s.conf -> ../../MediaTek/mt8195-sof/mt6359-rt1019-rt5682/sof-mt8195-mt6359-rt1019-rt5682.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-mt8195_r101/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-mt8195_r101/sof-mt8195_r1019_5682.conf -> ../../MediaTek/mt8195-sof/mt6359-rt1019-rt5682/sof-mt8195-mt6359-rt1019-rt5682.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-mt8196-nau8/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-mt8196-nau8/sof-mt8196-nau8825.conf -> ../../MediaTek/mt8196-sof/nau8825-nau8318/sof-mt8196-nau8825-nau8318.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-mt8365-evk/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-mt8365-evk/sof-mt8365-evk.conf -> ../../MediaTek/mt8365-evk/sof/sof-mt8365-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-mt8390-evk/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-mt8390-evk/sof-mt8390-evk.conf -> ../../MediaTek/mt8390-evk/sof/sof-mt8390-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-mt8395-evk/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-mt8395-evk/sof-mt8395-evk.conf -> ../../MediaTek/sof-mt8395-evk/sof-mt8395-evk.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-skl_hda_card -> sof-hda-dsp
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/SOF/SOF.conf -> ../../Intel/SOF/SOF.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-soundwire/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/sof-soundwire/sof-soundwire.conf -> ../../sof-soundwire/sof-soundwire.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/sun4i-codec/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/conf.d/sun4i-codec/h616-audio-codec.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/Acer Iconia Tab A500 WM8903.conf -> ../../Tegra/wm8903/Acer-A500.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/Asus EeePad Slider WM8903.conf -> ../../Tegra/wm8903/Asus-Transformer.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/Asus EeePad Transformer WM8903.conf -> ../../Tegra/wm8903/Asus-Transformer.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/ASUS Google Nexus 7 ALC5642.conf -> ../../Tegra/rt5640/Google-Nexus-7.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Infinity TF700T RT5631.conf -> ../../Tegra/rt5631/Asus-Transformer.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Pad TF300TG RT5631.conf -> ../../Tegra/rt5631/Asus-Transformer.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Pad TF300TL RT5631.conf -> ../../Tegra/rt5631/Asus-Transformer.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Pad TF300T WM8903.conf -> ../../Tegra/wm8903/Asus-Transformer.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/Asus Transformer Prime TF201 RT5631.conf -> ../../Tegra/rt5631/Asus-Transformer.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/Compal PAZ00.conf -> ../../Tegra/alc5632/alc5632.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/GoogleNyanBig.conf -> ../../Tegra/max98090/max98090.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/GoogleNyanBlaze.conf -> ../../Tegra/max98090/max98090.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra-hda/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra-hda/tegra-hda.conf -> ../../Tegra/tegra-hda/tegra-hda.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/LG Optimus 4X HD MAX98089.conf -> ../../Tegra/max98089/lge-x3.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/tegra/LG Optimus Vu MAX98089.conf -> ../../Tegra/max98089/lge-x3.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/USB-Audio/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/USB-Audio/USB-Audio.conf -> ../../USB-Audio/USB-Audio.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/VEYRON-I2S/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/VEYRON-I2S/VEYRON-I2S.conf -> ../../Rockchip/max98090/max98090.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.d/x1e80100/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/x1e80100/TUXEDO-TUXEDOElite14Gen1-2.0-TXEM14QX4NM.conf -> ../../Qualcomm/x1e80100/TUXEDO-Elite-14.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/x1e80100/X1E001DE-DEVKIT.conf -> ../../Qualcomm/x1e80100/X1E001DE-DEVKIT.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/x1e80100/x1e80100.conf -> ../../Qualcomm/x1e80100/x1e80100.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/x1e80100/X1E80100-CRD.conf -> ../../Qualcomm/x1e80100/X1E80100-CRD.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/conf.d/x1e80100/X1E80100-EVK.conf -> ../../Qualcomm/x1e80100/X1E80100-EVK.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/conf.virt.d/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/conf.virt.d/.gitignore (EMPTY)
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/DEBUG.md
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/HDA/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/HDA/DualCodecs/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/HDA/DualCodecs/DualCodecs.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/HDA/DualCodecs/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/HDA/HDA.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/HDA/Hdmi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/HDA/HiFi-acp.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/HDA/HiFi-analog.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/HDA/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/HDA/HiFi-mic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/HDA/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_da7219/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_da7219/avs_da7219.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_da7219/avs_da7219-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_dmic/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_dmic/DMIC-2ch.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_dmic/DMIC-2ch-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_dmic/DMIC-4ch.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_dmic/DMIC-4ch-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_max98357a/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_max98357a/avs_max98357a.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_max98357a/avs_max98357a-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_max98373/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_max98373/Google-Atlas-1.0.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_max98373/Google-Atlas-1.0-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_max98927/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_max98927/Google-Eve-1.0.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_max98927/Google-Eve-1.0-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_max98927/HP-Soraka-1.0.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_max98927/HP-Soraka-1.0-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_nau8825/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_nau8825/Acer-Lars-1.0.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_nau8825/avs_nau8825-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_nau8825/Google-Cave-1.0.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_nau8825/Hewlett_Packard-Chell-1.0.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_nau8825/Hewlett_Packard-Chell-1.0-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_rt5514/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_rt5514/Google-Eve-1.0.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_rt5514/Google-Eve-1.0-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_rt5663/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_rt5663/Google-Eve-1.0.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_rt5663/Google-Eve-1.0-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_rt5663/HP-Soraka-1.0.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_rt5663/HP-Soraka-1.0-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_ssm4567/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_ssm4567/Hewlett_Packard-Chell-1.0.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/avs_ssm4567/Hewlett_Packard-Chell-1.0-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/hdaudioB0D2/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/hdaudioB0D2/hdaudioB0D2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/avs/hdaudioB0D2/hdaudioB0D2-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/bdw-rt5677/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bdw-rt5677/bdw-rt5677.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bdw-rt5677/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/broadwell-rt286/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/broadwell-rt286/broadwell-rt286.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/broadwell-rt286/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/broxton-rt298/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/broxton-rt298/broxton-rt298.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/broxton-rt298/Hdmi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/broxton-rt298/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcht-cx2072x/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcht-cx2072x/bytcht-cx2072x.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcht-cx2072x/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcht-es8316/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcht-es8316/bytcht-es8316.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcht-es8316/HiFi-Components.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcht-es8316/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcht-es8316/HiFi-LongName.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-rt5640/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-rt5640/bytcr-rt5640.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-rt5640/HiFi-Components.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-rt5640/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-rt5640/HiFi-LongName.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-rt5651/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-rt5651/bytcr-rt5651.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-rt5651/HiFi-Components.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-rt5651/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-rt5651/HiFi-LongName.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-wm5102/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-wm5102/bytcr-wm5102.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/bytcr-wm5102/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/cht-bsw-rt5672/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/cht-bsw-rt5672/cht-bsw-rt5672.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/cht-bsw-rt5672/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/chtmax98090/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/chtmax98090/chtmax98090.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/chtmax98090/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/chtnau8824/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/chtnau8824/chtnau8824.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/chtnau8824/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/chtrt5645/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/chtrt5645/chtrt5645.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/chtrt5645/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/chtrt5650/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/chtrt5650/chtrt5650.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/chtrt5650/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/hda-dsp/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/hda-dsp/hda-dsp.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/hda-dsp/Hdmi1.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/hda-dsp/Hdmi2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/hda-dsp/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/kblrt5660/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/kblrt5660/Hdmi1.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/kblrt5660/Hdmi2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/kblrt5660/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/kblrt5660/kblrt5660.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/skylake-rt286/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/skylake-rt286/Hdmi1.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/skylake-rt286/Hdmi2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/skylake-rt286/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/skylake-rt286/skylake-rt286.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/SOF/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/Hdmi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-ehl-rt5660/sof-ehl-rt5660.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-essx8336/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-essx8336/Hdmi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-essx8336/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-essx8336/sof-essx8336.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-glkda7219max/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-glkda7219max/Hdmi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-glkda7219max/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-glkda7219max/sof-glkda7219max.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-hda-dsp/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-hda-dsp/dsp.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-hda-dsp/Hdmi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-hda-dsp/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-hda-dsp/HiFi-sof.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/sof-hda-dsp/sof-hda-dsp.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/SOF/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Intel/SOF/SOF.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/apalis/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/apalis/eval.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/apalis/eval-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/aquila/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/aquila/dev.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/aquila/dev-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/smarc/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/smarc/dev.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/smarc/dev-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/verdin/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/verdin/dahlia.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/verdin/dahlia-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/verdin/dev.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/IO-Boards/Toradex/verdin/dev-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/lib/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/lib/card-init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/lib/ctl-remap.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/lib/generic.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8183/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8183/mt8183_da7219_rt1015p/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8183/mt8183_da7219_rt1015p/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8183/mt8183_da7219_rt1015p/mt8183_da7219_rt1015p.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8183/mt8183_mt6358_ts3a227_max98357/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8183/mt8183_mt6358_ts3a227_max98357/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8183/mt8183_mt6358_ts3a227_max98357/mt8183_mt6358_ts3a227_max98357.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8192/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8192/mt6359-rt1015p-rt5682/mt8192_mt6359_rt1015p_rt5682.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8195_demo/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8195_demo/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8195_demo/mt8195_demo.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8195-sof/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8195-sof/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8195-sof/mt6359-rt1019-rt5682/sof-mt8195-mt6359-rt1019-rt5682.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8196-sof/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8196-sof/init.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8196-sof/nau8825-nau8318/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8196-sof/nau8825-nau8318/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8196-sof/nau8825-nau8318/sof-mt8196-nau8825-nau8318.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8365-evk/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8365-evk/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8365-evk/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8365-evk/mt8365-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8365-evk/sof/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8365-evk/sof/SOF.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8365-evk/sof/sof-mt8365-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8370-evk/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8370-evk/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8370-evk/mt8370-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8390-evk/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8390-evk/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8390-evk/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8390-evk/mt8390-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8390-evk/sof/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8390-evk/sof/sof-mt8390-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8391-evk/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8391-evk/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8391-evk/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8391-evk/mt8391-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8395-evk/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8395-evk/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mt8395-evk/mt8395-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mtk-rt5650/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mtk-rt5650/HDMI.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mtk-rt5650/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mtk-rt5650/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/mtk-rt5650/mtk-rt5650.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/MediaTek/sof-mt8395-evk/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/sof-mt8395-evk/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/MediaTek/sof-mt8395-evk/sof-mt8395-evk.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/module/
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/module/snd_soc_apq8016_sbc.conf -> ../Qualcomm/apq8016-sbc/apq8016-sbc.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/module/snd_soc_apq8096.conf -> ../Qualcomm/apq8096/apq8096.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/module/snd_soc_omap_abe_twl6040.conf -> ../OMAP/abe-twl6040/abe-twl6040.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/module/snd_soc_rk3399_gru_sound.conf -> ../Rockchip/rk3399-gru-sound/rk3399-gru-sound.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/module/snd_soc_rockchip_max98090.conf -> ../Rockchip/max98090/max98090.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/module/snd_soc_sdm845.conf -> ../Qualcomm/sdm845/sdm845.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/module/snd_soc_snow.conf -> ../Samsung/snow/snow.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/module/snd_soc_tegra_alc5632.conf -> ../Tegra/alc5632/alc5632.conf
+lrwxrwxrwx	alexis/alexis	usr/share/alsa/ucm2/module/snd_soc_tegra_max98090.conf -> ../Tegra/max98090/max98090.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX6/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX6/Toradex/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX6/Toradex/apalis-imx6/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX6/Toradex/apalis-imx6/apalis-imx6.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX6/Toradex/apalis-imx6/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX6/Toradex/colibri-imx6/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX6/Toradex/colibri-imx6/colibri-imx6.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX6/Toradex/colibri-imx6/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX7/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX7/Toradex/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX7/Toradex/colibri-imx7/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX7/Toradex/colibri-imx7/colibri-imx7.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX7/Toradex/colibri-imx7/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8/Librem_5/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8/Librem_5_Devkit/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8/Librem_5_Devkit/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8/Librem_5_Devkit/Librem 5 Devkit.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8/Librem_5/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8/Librem_5/Librem 5.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8/Toradex/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8/Toradex/apalis-imx8/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8/Toradex/apalis-imx8/apalis-imx8.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8/Toradex/apalis-imx8/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8X/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8X/Toradex/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8X/Toradex/colibri-imx8x/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8X/Toradex/colibri-imx8x/colibri-imx8x.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/NXP/iMX8X/Toradex/colibri-imx8x/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/OMAP/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/abe-twl6040.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/FMAnalog.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/HiFiLP.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/Pandaboard.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/Record.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/VoiceCall.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/Pandaboard/Voice.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/FMAnalog.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/HiFiLP.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/Record.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/SDP4430.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/VoiceCall.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/OMAP/abe-twl6040/SDP4430/Voice.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/platforms/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/platforms/bytcr/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/platforms/bytcr/PlatformDisableSeq.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/platforms/bytcr/PlatformEnableSeq.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/apq8016-sbc/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/apq8016-sbc/apq8016-sbc.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/apq8016-sbc/HDMI.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/apq8016-sbc/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/apq8096/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/apq8096/apq8096.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/apq8096/HDMI.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/apq8096/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/kaanapali/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/kaanapali/MTP/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/kaanapali/MTP/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/kaanapali/MTP/Kaanapali-MTP.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcm6490/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcm6490/QCM6490-IDP/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcm6490/QCM6490-IDP/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcm6490/QCM6490-IDP/qcm6490-idp-snd-card.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs615/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs615/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs615/TALOS-EVK.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs6490/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs6490/QCS6490-Radxa-Dragon-Q6A/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs6490/QCS6490-Radxa-Dragon-Q6A/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs6490/QCS6490-Radxa-Dragon-Q6A/QCS6490-Radxa-Dragon-Q6A.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs6490/QCS6490-RB3Gen2/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs6490/QCS6490-RB3Gen2/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs6490/QCS6490-RB3Gen2/QCS6490-RB3Gen2.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs8300/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs8300/monaco-evk/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs8300/monaco-evk/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/qcs8300/monaco-evk/MONACO-EVK.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sa8775p/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sa8775p/lemans-evk/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sa8775p/lemans-evk/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sa8775p/lemans-evk/LEMANS-EVK.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc7180/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc7180/adau7002-max98357a/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc7180/adau7002-max98357a/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc7180/adau7002-max98357a/sc7180-adau7002-max98357a.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/init.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc7180/rt5682-max98357a/sc7180-rt5682-max98357a-1mic.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc8280xp/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc8280xp/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc8280xp/LENOVO-X13s.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sc8280xp/sc8280xp.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sdm845/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sdm845/HDMI.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sdm845/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sdm845/HiFi-MM1.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sdm845/Lenovo-YOGA-C630-13Q50.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sdm845/sdm845.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8250/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8250/HDMI.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8250/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8250/Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8550/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8550/HDK/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8550/HDK/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8550/HDK/SM8550-HDK.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8650/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8650/MTP/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8650/MTP/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8650/MTP/SM8650-MTP.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8650/QRD/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8650/QRD/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8650/QRD/SM8650-QRD.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8750/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8750/MTP/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8750/MTP/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/sm8750/MTP/SM8750-MTP.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/Dell-Latitude-7455.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/DEVKIT-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/Elite-14-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/Latitude7455-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/LENOVO-Slim-7x.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/LENOVO-T14s.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/MICROSOFT-Surface-Pro-12in.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/Slim7x-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/Surface12in-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/T14s-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/TUXEDO-Elite-14.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/X1E001DE-DEVKIT.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/x1e80100.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/X1E80100-CRD.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Qualcomm/x1e80100/X1E80100-EVK.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/README.md
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Rockchip/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Rockchip/es8316/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Rockchip/es8316/es8316.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Rockchip/es8316/HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Rockchip/max98090/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Rockchip/max98090/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Rockchip/max98090/max98090.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Rockchip/rk3399-gru-sound/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Rockchip/rk3399-gru-sound/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Rockchip/rk3399-gru-sound/rk3399-gru-sound.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Rockchip/rk3588-es8316/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Rockchip/rk3588-es8316/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Rockchip/rk3588-es8316/rk3588-es8316.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Rockchip/rk817-sound/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Rockchip/rk817-sound/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Rockchip/rk817-sound/rk817-sound.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Samsung/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Samsung/snow/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Samsung/snow/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Samsung/snow/snow.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/cs35l56-bridge.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/cs35l56.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/cs42l43.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/cs42l43-dmic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/cs42l43-spk.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/cs42l45.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/cs42l45-dmic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/dmic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/Hdmi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt1308.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt1316.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt1318.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt1320.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt5682.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt700.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt711.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt711-sdca.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt712.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt712-dmic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt712+rt1320.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt713.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt713-dmic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt715.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt715-sdca.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt721.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/rt722.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/sof-soundwire/sof-soundwire.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Tegra/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Tegra/alc5632/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/alc5632/alc5632.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/alc5632/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/alc5632/Record.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Tegra/max98089/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/max98089/lge-x3.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/max98089/lge-x3-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/max98089/lge-x3-VoiceCall.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Tegra/max98090/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/max98090/HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/max98090/max98090.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Tegra/rt5631/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/rt5631/Asus-Transformer.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/rt5631/Asus-Transformer-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Tegra/rt5640/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/rt5640/Google-Nexus-7.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/rt5640/Google-Nexus-7-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Tegra/tegra-hda/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/tegra-hda/tegra-hda.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/tegra-hda/tegra-hda-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/Tegra/wm8903/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/wm8903/Acer-A500.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/wm8903/Acer-A500-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/wm8903/Asus-Transformer.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/Tegra/wm8903/Asus-Transformer-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/ucm.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/AllenAndHeath/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/AllenAndHeath/Zedi10.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/AllenAndHeath/Zedi10-Hifi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Arturia/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-12.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-12-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-4.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Arturia/Minifuse-4-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Audient/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD14-0008.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD14-HiFi-0008.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-0003.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-0009.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-HiFi-0003.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Audient/Audient-iD4-HiFi-0009.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Beacn/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Beacn/Beacn-Mic.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Beacn/Beacn-Mic-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Beacn/Beacn-Studio.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Beacn/Beacn-Studio-USB1-Channels.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Beacn/Beacn-Studio-USB1-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Beacn/Beacn-Studio-USB1-Link-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Beacn/Beacn-Studio-USB2-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Behringer/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Recording.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Recording-Hifi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Streaming.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Behringer/Flow8-Streaming-Hifi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Behringer/UMC202HD.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Behringer/UMC202HD-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Behringer/UMC204HD.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Behringer/UMC204HD-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Behringer/UMC404HD.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Behringer/UMC404HD-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/BOSS/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/BOSS/Katana.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/BOSS/Katana-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Common/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Common/HeadphonesOnly.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Common/HeadphonesOnly-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Dell/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Front.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Front-Speaker-Headset.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Rear.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Dell/Desktop-Rear-Line.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Dell/WD15-Dock.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Dell/WD15-Dock-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Digidesign/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Digidesign/Digidesign-Mbox-3.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Digidesign/Digidesign-Mbox-3-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Focusrite/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Focusrite/Scarlett-18i20.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Focusrite/Scarlett-18i20-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Focusrite/Scarlett-2i.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Focusrite/Scarlett-2i-gen4-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Focusrite/Scarlett-2i-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Gigabyte/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Gigabyte/Aorus-Master-Main-Audio.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Gigabyte/Aorus-Master-Main-Audio-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/GoXLR/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/GoXLR/GoXLR.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/GoXLR/GoXLR-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/HP/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/HP/Thunderbolt-Dock-Audio-Headset.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/HP/Thunderbolt-Dock-Audio-Headset-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/HyperX/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/HyperX/SoloCast.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/HyperX/SoloCast-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Lenovo/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Main.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Main-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Rear.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Lenovo/ThinkStation-P620-Rear-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/MOTU/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/MOTU/D828.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/MOTU/D828-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/MOTU/M2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/MOTU/M2-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/MOTU/M4.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/MOTU/M4-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/MOTU/M6.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/MOTU/M6-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/MOTU/UltraLite-mk5.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/MOTU/UltraLite-mk5-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/NativeInstruments/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/NativeInstruments/Traktor-Kontrol-Z1.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/NativeInstruments/Traktor-Kontrol-Z1-Mixer.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Presonus/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Presonus/Revelator-IO-44.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Presonus/Revelator-IO-44-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Rane/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Rane/SL-1.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Rane/SL-1-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Realtek/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Realtek/ALC1220-VB-Desktop.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Realtek/ALC1220-VB-Desktop-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Realtek/ALC4080.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Realtek/ALC4080-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/RME/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/RME/Fireface-UCX.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/RME/Fireface-UCX-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/RME/Fireface-UCX-II.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/RME/Fireface-UCX-II-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Roland/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Roland/BridgeCast.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Roland/BridgeCast-Hifi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Roland/BridgeCastV2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Roland/BridgeCastV2-Hifi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Roland/BridgeCastXV2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Roland/BridgeCastXV2-Hifi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Roland/Quad-Capture.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Roland/Quad-Capture-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/SolidStateLabs/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/SolidStateLabs/SSL2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/SolidStateLabs/SSL2-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/SolidStateLabs/SSL2Plus.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/SolidStateLabs/SSL2Plus-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Sony/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Sony/DualSense-PS5.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Sony/DualSense-PS5-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Sony/Inzone-H9-H7.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Sony/Inzone-H9-H7-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Steinberg/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Steinberg/UR22C.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Steinberg/UR22C-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Steinberg/UR22mkII.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Steinberg/UR22mkII-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Steinberg/UR24C.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Steinberg/UR24C-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Steinberg/UR44.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Steinberg/UR44-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/TASCAM/
+-rwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/TASCAM/Model12.conf
+-rwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/TASCAM/Model12-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Teufel/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Teufel/CAGE-PRO.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/Teufel/CAGE-PRO-HiFi.conf
+drwxr-xr-x	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/UniversalAudio/
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/UniversalAudio/Volt2.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/UniversalAudio/Volt2-HiFi.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm2/USB-Audio/USB-Audio.conf
+-rw-r--r--	alexis/alexis	usr/share/alsa/ucm/README.md

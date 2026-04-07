@@ -1,0 +1,20 @@
+description=" Pathspec is a utility library for pattern matching of file paths. "
+name=pathspec
+version=1.0.4
+release=1
+packager=alexis
+source=("https://files.pythonhosted.org/packages/source/p/pathspec/pathspec-1.0.4.tar.gz")
+
+build() {
+cd $name-$version
+
+pip3 wheel -w dist \
+    --no-build-isolation \
+    --no-deps $PWD
+  pip3 install --no-index \
+    --find-links dist \
+    --no-cache-dir    \
+    --no-user         \
+    --root=$PKG       \
+    pathspec
+}

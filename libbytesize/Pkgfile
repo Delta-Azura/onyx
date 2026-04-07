@@ -1,0 +1,13 @@
+description=" The libbytesize package is a library which facilitates the common operations with sizes in bytes. "
+name=libbytesize
+version=2.12
+release=1
+packager=alexis
+source=("https://github.com/storaged-project/libbytesize/releases/download/2.12/libbytesize-2.12.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr &&
+make
+make DESTDIR=$PKG install
+}

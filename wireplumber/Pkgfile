@@ -1,0 +1,22 @@
+description=" The Wireplumber package contains a session and policy manager for Pipewire. "
+name=wireplumber
+version=0.5.13
+release=1
+packager=alexis
+source=("https://gitlab.freedesktop.org/pipewire/wireplumber/-/archive/0.5.13/wireplumber-0.5.13.tar.bz2")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release -D system-lua=false .. &&
+ninja
+
+
+DESTDIR=$PKG ninja install
+mv -v $PKG/usr/share/doc/wireplumber{,-0.5.13}
+systemctl enable --global pipewire.socket
+systemctl enable --global pipewire-pulse.socket
+systemctl enable --global wireplumber
+}

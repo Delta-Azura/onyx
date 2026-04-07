@@ -1,0 +1,17 @@
+description=" The dav1d package contains an AV1 decoder. "
+name=dav1d
+version=1.5.3
+release=1
+packager=alexis
+source=("https://code.videolan.org/videolan/dav1d/-/archive/1.5.3/dav1d-1.5.3.tar.gz")
+
+build() {
+cd $name-$version
+
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

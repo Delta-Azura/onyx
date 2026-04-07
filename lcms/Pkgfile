@@ -1,0 +1,14 @@
+description="The Little Color Management System is a small-footprint color management engine, with special focus on accuracy and performance."
+name=lcms
+version=2.18
+release=1
+packager=alexis
+source=("https://github.com/mm2/Little-CMS/releases/download/lcms2.18/lcms2-2.18.tar.gz")
+
+build() {
+cd lcms2-2.18
+
+./configure --prefix=/usr --disable-static &&
+make
+make DESTDIR=$PKG install
+}

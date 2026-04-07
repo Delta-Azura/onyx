@@ -1,0 +1,20 @@
+description=" The GLib Networking package contains Network related gio modules for GLib. "
+name=glib-networking
+version=2.80.1
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/glib-networking/2.80/glib-networking-2.80.1.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup             \
+   --prefix=/usr        \
+   --buildtype=release  \
+   -D libproxy=disabled \
+   .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

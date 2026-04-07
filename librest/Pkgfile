@@ -1,0 +1,20 @@
+description="The librest package contains a library that is designed to make it easier to access web services that claim to be "RESTful"."
+name=librest
+version=0.10.2
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/librest/0.10/librest-0.10.2.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D examples=false   \
+            -D gtk_doc=false    \
+            ..                  &&
+ninja
+DESTDIR=$PKG ninja install
+}

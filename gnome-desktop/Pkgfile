@@ -1,0 +1,19 @@
+description=" The GNOME Desktop package contains a library that provides an API shared by several applications on the GNOME Desktop. "
+name=gnome-desktop
+version=44.5
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gnome-desktop/44/gnome-desktop-44.5.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr         \
+            --buildtype=release   \
+            -D desktop_docs=false \
+            ..                    &&
+ninja
+DESTDIR=$PKG ninja install
+}

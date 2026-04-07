@@ -1,0 +1,37 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/xcb/
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_bitops.h
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_cursor.h
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_ewmh.h
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_icccm.h
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_image.h
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_keysyms.h
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_pixel.h
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_renderutil.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libxcb-cursor.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-cursor.so.0 -> libxcb-cursor.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-cursor.so -> libxcb-cursor.so.0.0.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libxcb-ewmh.so.2.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-ewmh.so.2 -> libxcb-ewmh.so.2.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-ewmh.so -> libxcb-ewmh.so.2.0.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libxcb-icccm.so.4.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-icccm.so.4 -> libxcb-icccm.so.4.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-icccm.so -> libxcb-icccm.so.4.0.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libxcb-image.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-image.so.0 -> libxcb-image.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-image.so -> libxcb-image.so.0.0.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libxcb-keysyms.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-keysyms.so.1 -> libxcb-keysyms.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-keysyms.so -> libxcb-keysyms.so.1.0.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libxcb-render-util.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-render-util.so.0 -> libxcb-render-util.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-render-util.so -> libxcb-render-util.so.0.0.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/xcb-cursor.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/xcb-ewmh.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/xcb-icccm.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/xcb-image.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/xcb-keysyms.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/xcb-renderutil.pc

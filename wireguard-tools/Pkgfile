@@ -1,0 +1,18 @@
+description="wireguard tools"
+name=wireguard-tools
+version=1.0.20260223
+release=1
+packager=alexis
+source=("https://git.zx2c4.com/wireguard-tools/snapshot/wireguard-tools-1.0.20260223.zip")
+
+build() {
+cd $name-$version
+make -C src/ \
+		DESTDIR="${pkgdir}/" \
+		WITH_BASHCOMPLETION=yes \
+                WITH_WGQUICK=yes \
+                WITH_SYSTEMDUNITS=yes \
+                install
+install -d -m0755 $PKG/usr/share/$name/
+cp -r contrib/ "$PKG/usr/share/$name/examples/"
+}

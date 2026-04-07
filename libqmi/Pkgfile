@@ -1,0 +1,22 @@
+description=" The libqmi package contains a GLib-based library for talking to WWAN modems and devices which speak the Qualcomm MSM Interface (QMI) protocol. "
+name=libqmi
+version=1.38.0
+release=1
+packager=alexis
+source=("https://gitlab.freedesktop.org/mobile-broadband/libqmi/-/archive/1.38.0/libqmi-1.38.0.tar.gz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup ..                 \
+      --prefix=/usr            \
+      --buildtype=release      \
+      -D bash_completion=false \
+      -D qrtr=false            \
+      -D man=false             &&
+
+ninja
+DESTDIR=$PKG ninja install
+}

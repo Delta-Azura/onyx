@@ -1,0 +1,21 @@
+description="kernel"
+name=kernel
+version=6.19.11
+release=1
+packager=alexis
+source=("https://www.kernel.org/pub/linux/kernel/v6.x/linux-$version.tar.xz"
+"config")
+
+build() {
+cd linux-$version
+make mrproper
+cp ../config .config
+make olddefconfig 
+make -j16
+#mkdir -p $PKG/lib/modules/${version}
+make INSTALL_MOD_PATH=$PKG modules_install
+mkdir -p $PKG/boot/
+cp -iv arch/x86/boot/bzImage $PKG/boot/vmlinuz-${version}-lfs-13.0-systemd
+cp -iv System.map $PKG/boot/System.map-$version
+cp -iv .config $PKG/boot/config-$version
+}

@@ -1,0 +1,17 @@
+description=" libunistring is a library that provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard. "
+name=libunistring
+version=1.4.1
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/libunistring/libunistring-1.4.1.tar.xz")
+
+build() {
+cd $name-$version
+sed -r '/_GL_EXTERN_C/s/w?memchr|bsearch/(&)/' \
+    -i $(find -name \*.in.h)
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/libunistring-1.4.1 &&
+make
+make DESTDIR=$PKG install
+}

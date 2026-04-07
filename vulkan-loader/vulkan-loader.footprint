@@ -1,0 +1,12 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/VulkanLoader/
+-rw-r--r--	alexis/alexis	usr/lib/cmake/VulkanLoader/VulkanLoaderConfig.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/VulkanLoader/VulkanLoaderConfig-release.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/VulkanLoader/VulkanLoaderConfigVersion.cmake
+-rwxr-xr-x	alexis/alexis	usr/lib/libvulkan.so.1.4.341
+lrwxrwxrwx	alexis/alexis	usr/lib/libvulkan.so.1 -> libvulkan.so.1.4.341
+lrwxrwxrwx	alexis/alexis	usr/lib/libvulkan.so -> libvulkan.so.1
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/vulkan.pc

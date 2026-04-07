@@ -1,0 +1,16 @@
+description=" The libxmlb package contains a library and a tool which help create and query binary XML blobs. "
+name=libxmlb
+version=0.3.25
+release=1
+packager=alexis
+source=("https://github.com/hughsie/libxmlb/releases/download/0.3.25/libxmlb-0.3.25.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release -D gtkdoc=false .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

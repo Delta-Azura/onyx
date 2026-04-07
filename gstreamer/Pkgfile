@@ -1,0 +1,19 @@
+description="gstreamer is a streaming media framework that enables applications to share a common set of plugins for tasks"
+name=gstreamer
+version=1.28.1
+release=1
+packager=alexis
+source=("https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.28.1.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup ..            \
+      --prefix=/usr       \
+      --buildtype=release \
+      -D gst_debug=false  &&
+ninja
+DESTDIR=$PKG ninja install
+}

@@ -1,0 +1,13 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/dec265
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/libde265/
+-rw-r--r--	alexis/alexis	usr/include/libde265/de265.h
+-rw-r--r--	alexis/alexis	usr/include/libde265/de265-version.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libde265.so.0.1.9
+lrwxrwxrwx	alexis/alexis	usr/lib/libde265.so.0 -> libde265.so.0.1.9
+lrwxrwxrwx	alexis/alexis	usr/lib/libde265.so -> libde265.so.0.1.9
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libde265.pc

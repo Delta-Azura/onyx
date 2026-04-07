@@ -1,0 +1,28 @@
+description=" Mesa contains several libraries and drivers for multiple APIs like OpenGL and Vulkan. "
+name=mesa
+version=25.3.5
+release=1
+packager=alexis
+source=("https://mesa.freedesktop.org/archive/mesa-25.3.5.tar.xz"
+"https://www.linuxfromscratch.org/patches/blfs/13.0/mesa-add_xdemos-4.patch")
+
+
+build() {
+cd $name-$version
+patch -Np1 -i ../mesa-add_xdemos-4.patch
+mkdir build &&
+cd    build &&
+
+meson setup ..                 \
+      --prefix=$XORG_PREFIX    \
+      --buildtype=release      \
+      -D platforms=x11,wayland \
+      -D vulkan-drivers=amd   \
+      -D valgrind=disabled     \
+      -D video-codecs=all      \
+      -D libunwind=disabled   \
+	-D gallium-drivers=radeonsi,llvmpipe,virgl &&
+
+ninja -j16
+DESTDIR=$PKG ninja install
+}

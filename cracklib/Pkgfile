@@ -1,0 +1,26 @@
+description=" The CrackLib package contains a library used to enforce strong passwords by comparing user selected passwords to words in chosen word lists. "
+name=cracklib
+version=2.10.3
+release=1
+packager=alexis
+source=("https://github.com/cracklib/cracklib/releases/download/v2.10.3/cracklib-2.10.3.tar.xz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr               \
+            --disable-static            \
+            --with-default-dict=/usr/lib/cracklib/pw_dict &&
+make
+make DESTDIR=$PKG install
+wget https://github.com/cracklib/cracklib/releases/download/v2.10.3/cracklib-words-2.10.3.xz
+
+mkdir -pv $PKG/usr/share/dict/
+xzcat cracklib-words-2.10.3.xz \
+                       > $PKG/usr/share/dict/cracklib-words       &&
+ln -v -sf cracklib-words $PKG/usr/share/dict/words                &&
+echo $(hostname) >>      $PKG/usr/share/dict/cracklib-extra-words &&
+install -v -m755 -d      $PKG/usr/lib/cracklib                    &&
+
+sudo create-cracklib-dict     $PKG/usr/share/dict/cracklib-words \
+                         $PKG/usr/share/dict/cracklib-extra-words
+}

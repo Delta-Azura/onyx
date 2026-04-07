@@ -1,0 +1,12 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/ini.h
+-rw-r--r--	alexis/alexis	usr/include/INIReader.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libinih.so.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libinih.so -> libinih.so.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libINIReader.so.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libINIReader.so -> libINIReader.so.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/inih.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/INIReader.pc

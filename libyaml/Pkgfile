@@ -1,0 +1,13 @@
+description=" The yaml package contains a C library for parsing and emitting YAML (YAML Ain't Markup Language) code. "
+name=libyaml
+version=0.2.5
+release=1
+packager=alexis
+source=("https://github.com/yaml/libyaml/releases/download/0.2.5/yaml-0.2.5.tar.gz")
+
+build() {
+cd yaml-0.2.5
+./configure --prefix=/usr --disable-static
+make
+make DESTDIR=$PKG install
+}

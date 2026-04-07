@@ -1,0 +1,15 @@
+description=" The util-macros package contains the m4 macros used by all of the Xorg packages. "
+name=util-macros
+version=1.20.2
+release=1
+packager=alexis
+#source=(" The util-macros package contains the m4 macros used by all of the Xorg packages. ")
+source=("https://www.x.org/pub/individual/util/util-macros-1.20.2.tar.xz")
+
+
+build() {
+cd $name-$version
+
+./configure $XORG_CONFIG
+make DESTDIR=$PKG install
+}

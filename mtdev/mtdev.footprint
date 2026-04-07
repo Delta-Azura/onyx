@@ -1,0 +1,13 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/mtdev-test
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/mtdev.h
+-rw-r--r--	alexis/alexis	usr/include/mtdev-mapping.h
+-rw-r--r--	alexis/alexis	usr/include/mtdev-plumbing.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libmtdev.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libmtdev.so.1 -> libmtdev.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libmtdev.so -> libmtdev.so.1.0.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/mtdev.pc

@@ -1,0 +1,19 @@
+description=" Gjs is a set of Javascript bindings for GNOME. "
+name=gjs
+version=1.86.0
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gjs/1.86/gjs-1.86.0.tar.xz")
+
+build() {
+cd $name-$version
+mkdir gjs-build &&
+cd    gjs-build &&
+
+meson setup --prefix=/usr          \
+            --buildtype=release    \
+            --wrap-mode=nofallback \
+            ..                     &&
+ninja
+DESTDIR=$PKG ninja install
+}

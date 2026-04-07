@@ -1,0 +1,22 @@
+description=" x265 package provides a library for encoding video streams into the H.265/HEVC format. "
+name=x265
+version=4.1
+release=1
+packager=alexis
+source=("https://bitbucket.org/multicoreware/x265_git/downloads/x265_4.1.tar.gz")
+
+build() {
+cd ${name}_$version
+sed -r '/cmake_policy.*(0025|0054)/d' -i source/CMakeLists.txt
+mkdir bld &&
+cd    bld &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr        \
+      -D GIT_ARCHETYPE=1                  \
+      -D CMAKE_POLICY_VERSION_MINIMUM=3.5 \
+      -W no-dev                           \
+      ../source                           &&
+make
+make DESTDIR=$PKG install
+rm -vf $PKG/usr/lib/libx265.a
+}

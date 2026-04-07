@@ -1,0 +1,6 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/cargo-capi
+-rwxr-xr-x	alexis/alexis	usr/bin/cargo-cbuild
+-rwxr-xr-x	alexis/alexis	usr/bin/cargo-cinstall
+-rwxr-xr-x	alexis/alexis	usr/bin/cargo-ctest

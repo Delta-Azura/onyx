@@ -1,0 +1,18 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/sassc
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/sass/
+-rw-r--r--	root/root	usr/include/sass2scss.h
+-rw-r--r--	root/root	usr/include/sass/base.h
+-rw-r--r--	root/root	usr/include/sass/context.h
+-rw-r--r--	root/root	usr/include/sass/functions.h
+-rw-r--r--	root/root	usr/include/sass.h
+-rw-r--r--	root/root	usr/include/sass/values.h
+-rw-r--r--	root/root	usr/include/sass/version.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libsass.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsass.so.1 -> libsass.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsass.so -> libsass.so.1.0.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libsass.pc

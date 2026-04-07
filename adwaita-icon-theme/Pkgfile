@@ -1,0 +1,16 @@
+description=" The Adwaita Icon Theme package contains an icon theme for GTK+ 3 and GTK 4 applications. "
+name=adwaita-icon-theme
+version=49.0
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/adwaita-icon-theme/49/adwaita-icon-theme-49.0.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

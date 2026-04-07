@@ -1,0 +1,17 @@
+description=" The ISO Codes package contains a list of country, language and currency names and it is used as a central database for accessing this data. "
+name=iso-codes
+version=4.20.1
+release=1
+packager=alexis
+source=("https://salsa.debian.org/iso-codes-team/iso-codes/-/archive/v4.20.1/iso-codes-v4.20.1.tar.gz")
+
+build() {
+ls
+cd iso-codes-v4.20.1
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

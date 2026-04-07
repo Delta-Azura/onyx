@@ -1,0 +1,16 @@
+description=" This package is a simple .INI file parser written in C. "
+name=inih
+version=62
+release=1
+packager=alexis
+source=("https://github.com/benhoyt/inih/archive/r62/inih-r62.tar.gz")
+
+build() {
+cd ${name}-r$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

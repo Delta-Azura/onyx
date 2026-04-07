@@ -1,0 +1,23 @@
+description="The libaom package contains a reference version of the Alliance for Open Media video codec."
+name=libaom
+version=3.13.1
+release=1
+packager=alexis
+source=("https://storage.googleapis.com/aom-releases/libaom-3.13.1.tar.gz"
+"https://www.linuxfromscratch.org/patches/blfs/13.0/libaom-3.13.1-nasm3-1.patch")
+
+build() {
+cd $name-$version
+patch -Np1 -i ../libaom-3.13.1-nasm3-1.patch
+sed -i 's/aom aom_static/aom/' build/cmake/aom_install.cmake
+mkdir aom-build &&
+cd    aom-build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr \
+      -D CMAKE_BUILD_TYPE=Release  \
+      -D BUILD_SHARED_LIBS=1       \
+      -D ENABLE_DOCS=no            \
+      -G Ninja .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

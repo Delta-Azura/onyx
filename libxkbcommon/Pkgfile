@@ -1,0 +1,19 @@
+description=" libxkbcommon is a keymap compiler and support library which processes a reduced subset of keymaps as defined by the XKB specification. "
+name=libxkbcommon
+version=1.13.1
+release=1
+packager=alexis
+source=("https://github.com/lfs-book/libxkbcommon/archive/v1.13.1/libxkbcommon-1.13.1.tar.gz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup ..             \
+      --prefix=/usr        \
+      --buildtype=release  \
+      -D enable-docs=false &&
+ninja
+DESTDIR=$PKG ninja install
+}

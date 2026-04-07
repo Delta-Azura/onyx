@@ -1,0 +1,43 @@
+description="The GLib package contains low-level libraries useful for providing data structure handling for C, portability wrappers and interfaces for runtime functionality such as an event loop, threads, dynamic loading and an object system. "
+name=glib
+version=2.86.4
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/glib/2.86/glib-2.86.4.tar.xz"
+"https://download.gnome.org/sources/gobject-introspection/1.86/gobject-introspection-1.86.0.tar.xz"
+"https://www.linuxfromscratch.org/patches/blfs/13.0/glib-skip_warnings-1.patch"
+"https://www.linuxfromscratch.org/patches/blfs/13.0/glib-2.86.4-upstream_fixes-1.patch")
+
+build() {
+cd $name-$version
+
+patch -Np1 -i ../glib-skip_warnings-1.patch
+patch -Np1 -i ../glib-2.86.4-upstream_fixes-1.patch
+mkdir build &&
+cd    build &&
+
+meson setup ..                  \
+      --prefix=/usr             \
+      --buildtype=release       \
+      -D introspection=disabled \
+      -D glib_debug=disabled    \
+      -D man-pages=enabled      \
+      -D sysprof=disabled       &&
+ninja
+DESTDIR=$PKG ninja install
+#cd .. 
+#cd ..
+#cd gobject-introspection-1.86.0
+ls
+#mkdir build
+wget https://download.gnome.org/sources/gobject-introspection/1.86/gobject-introspection-1.86.0.tar.xz
+tar -xf gobject-introspection-1.86.0.tar.xz
+meson setup gobject-introspection-1.86.0 gi-build \
+            --prefix=/usr --buildtype=release
+ninja -C gi-build
+ninja -C gi-build install && DESTDIR=$PKG ninja -C gi-build install
+meson configure -D introspection=enabled
+ninja 
+#DESTDIR=$PKG ninja-C gi-build  install
+DESTDIR=$PKG ninja install
+}

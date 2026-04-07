@@ -1,0 +1,34 @@
+description="The XCB utilities provide extensions that developers can use when making X Window software."
+
+name=xcb-utilities
+version=none
+release=1
+packager=alexis
+
+build() {
+mkdir xcb-utilities-none
+cd $name-$version
+cat > xcb-utils.md5 << "EOF"
+a67bfac2eff696170259ef1f5ce1b611  xcb-util-image-0.4.1.tar.xz
+fbdc05f86f72f287ed71b162f1a9725a  xcb-util-keysyms-0.4.1.tar.xz
+193b890e2a89a53c31e2ece3afcbd55f  xcb-util-renderutil-0.3.10.tar.xz
+581b3a092e3c0c1b4de6416d90b969c3  xcb-util-wm-0.4.2.tar.xz
+e85bccd1993992be07232f8b80a814c8  xcb-util-cursor-0.1.6.tar.xz
+EOF
+
+mkdir xcb-utils &&
+cd    xcb-utils &&
+grep -v '^#' ../xcb-utils.md5 | awk '{print $2}' | wget -i- -c \
+     -B https://xorg.freedesktop.org/archive/individual/lib/
+for package in $(grep -v '^#' ../xcb-utils.md5 | awk '{print $2}')
+do
+  packagedir=${package%.tar.?z*}
+  tar -xf $package
+  pushd $packagedir
+     ./configure $XORG_CONFIG
+     make
+     make install && make DESTDIR=$PKG install
+  popd
+  rm -rf $packagedir
+done
+}

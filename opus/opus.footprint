@@ -1,0 +1,14 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/opus/
+-rw-r--r--	alexis/alexis	usr/include/opus/opus_defines.h
+-rw-r--r--	alexis/alexis	usr/include/opus/opus.h
+-rw-r--r--	alexis/alexis	usr/include/opus/opus_multistream.h
+-rw-r--r--	alexis/alexis	usr/include/opus/opus_projection.h
+-rw-r--r--	alexis/alexis	usr/include/opus/opus_types.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libopus.so.0.11.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libopus.so.0 -> libopus.so.0.11.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libopus.so -> libopus.so.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/opus.pc

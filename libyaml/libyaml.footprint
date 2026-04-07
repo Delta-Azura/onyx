@@ -1,0 +1,9 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/yaml.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libyaml-0.so.2.0.9
+lrwxrwxrwx	alexis/alexis	usr/lib/libyaml-0.so.2 -> libyaml-0.so.2.0.9
+lrwxrwxrwx	alexis/alexis	usr/lib/libyaml.so -> libyaml-0.so.2.0.9
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/yaml-0.1.pc

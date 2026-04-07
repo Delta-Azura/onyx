@@ -1,0 +1,20 @@
+description=" The gnome-autoar package provides a framework for automatic archive extraction, compression, and management. "
+name=gnome-autoar
+version=0.4.5
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gnome-autoar/0.4/gnome-autoar-0.4.5.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D vapi=true        \
+            -D tests=true       \
+            ..                  &&
+ninja
+DESTDIR=$PKG ninja install
+}

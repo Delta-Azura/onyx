@@ -1,0 +1,16 @@
+description="xdg-desktop-portal is a D-Bus service that allows applications to interact with the desktop in a safe way."
+name=xdg-desktop-portal
+version=1.20.3
+release=1
+packager=alexis
+source=("https://github.com/flatpak/xdg-desktop-portal/releases/download/1.20.3/xdg-desktop-portal-1.20.3.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release -D tests=disabled .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

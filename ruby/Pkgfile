@@ -1,0 +1,21 @@
+description="The Ruby package contains the Ruby development environment."
+name=ruby
+version=4.0.1
+release=1
+packager=alexis
+source=("https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.1.tar.xz")
+
+
+build() {
+cd $name-$version
+./configure --prefix=/usr         \
+            --disable-rpath       \
+            --enable-shared       \
+            --without-valgrind    \
+            --without-baseruby    \
+            ac_cv_func_qsort_r=no \
+            --docdir=/usr/share/doc/ruby-4.0.1 &&
+make
+make capi
+make DESTDIR=$PKG install
+}

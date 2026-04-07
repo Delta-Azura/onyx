@@ -1,0 +1,16 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/epoxy/
+-rw-r--r--	alexis/alexis	usr/include/epoxy/common.h
+-rw-r--r--	alexis/alexis	usr/include/epoxy/egl_generated.h
+-rw-r--r--	alexis/alexis	usr/include/epoxy/egl.h
+-rw-r--r--	alexis/alexis	usr/include/epoxy/gl_generated.h
+-rw-r--r--	alexis/alexis	usr/include/epoxy/gl.h
+-rw-r--r--	alexis/alexis	usr/include/epoxy/glx_generated.h
+-rw-r--r--	alexis/alexis	usr/include/epoxy/glx.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libepoxy.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libepoxy.so.0 -> libepoxy.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libepoxy.so -> libepoxy.so.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/epoxy.pc

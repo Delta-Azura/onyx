@@ -1,0 +1,36 @@
+drwxr-xr-x	alexis/alexis	etc/
+drwxr-xr-x	alexis/alexis	etc/xdg/
+drwxr-xr-x	alexis/alexis	etc/xdg/menus/
+-rw-r--r--	alexis/alexis	etc/xdg/menus/gnome-applications.menu
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/gnome-menus-3.0/
+-rw-r--r--	alexis/alexis	usr/include/gnome-menus-3.0/gmenu-tree.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/girepository-1.0/
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/GMenu-3.0.typelib
+-rwxr-xr-x	alexis/alexis	usr/lib/libgnome-menu-3.so.0.0.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libgnome-menu-3.so.0 -> libgnome-menu-3.so.0.0.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libgnome-menu-3.so -> libgnome-menu-3.so.0.0.1
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libgnome-menu-3.0.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/desktop-directories/
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/AudioVideo.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/Development.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/Education.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/Game.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/Graphics.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/Network.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/Office.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/System-Tools.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/Utility-Accessibility.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/Utility.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/X-GNOME-Menu-Applications.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/X-GNOME-Other.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/X-GNOME-Sundry.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/X-GNOME-SystemSettings.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/X-GNOME-Utilities.directory
+-rw-r--r--	alexis/alexis	usr/share/desktop-directories/X-GNOME-WebApplications.directory
+drwxr-xr-x	alexis/alexis	usr/share/gir-1.0/
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/GMenu-3.0.gir

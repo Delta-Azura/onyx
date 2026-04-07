@@ -1,0 +1,23 @@
+description="Flatpak allows you to download apps and run them in a sandbox. It downloads all of the dependencies of a given package in a sandbox and allows you to run the package as if it was not in a sandbox."
+name=flatpak
+version=1.16.3
+release=1
+packager=alexis
+source=("https://github.com/flatpak/flatpak/releases/download/1.16.3/flatpak-1.16.3.tar.xz")
+
+build() {
+cd $name-$version
+sed -i '92,97d' tests/make-test-runtime.sh
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr                       \
+            --buildtype=release                 \
+            -D system_bubblewrap=bwrap          \
+            -D system_dbus_proxy=xdg-dbus-proxy \
+            -D tests=false -Ddocbook_docs=disabled -Dgtkdoc=disabled -Dman=disabled                     \
+            .. &&
+
+ninja
+DESTDIR=$PKG ninja install
+}

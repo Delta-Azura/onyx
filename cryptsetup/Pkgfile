@@ -1,0 +1,15 @@
+description=" cryptsetup is used to set up transparent encryption of block devices using the kernel crypto API. "
+name=cryptsetup
+version=2.8.4
+release=1
+packager=alexis
+source=("https://www.kernel.org/pub/linux/utils/cryptsetup/v2.8/cryptsetup-2.8.4.tar.xz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr       \
+            --disable-ssh-token \
+            --disable-asciidoc  &&
+make
+make DESTDIR=$PKG install
+}

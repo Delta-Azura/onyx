@@ -1,0 +1,13 @@
+description="The luit package is a filter that can be run between an arbitrary application and a UTF-8 terminal emulator."
+name=luit
+version=20250912
+release=1
+packager=alexis
+source=("https://invisible-mirror.net/archives/luit/luit-20250912.tgz")
+
+build() {
+cd $name-$version
+./configure $XORG_CONFIG &&
+make
+make DESTDIR=$PKG install
+}

@@ -1,0 +1,14 @@
+description=" Parse::Yapp is a Perl extension for generating and using LALR parsers. "
+name=parse-yapp
+version=1.21
+release=1
+packager=alexis
+source=("https://www.cpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz")
+
+build() {
+cd Parse-Yapp-$version
+perl Makefile.PL &&
+make             &&
+make test
+make DESTDIR=$PKG install
+}

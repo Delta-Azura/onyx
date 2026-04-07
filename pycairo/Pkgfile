@@ -1,0 +1,16 @@
+description=" PyCairo provides Python bindings to Cairo. "
+name=pycairo
+version=1.29.0
+release=1
+packager=alexis
+source=("https://github.com/pygobject/pycairo/releases/download/v1.29.0/pycairo-1.29.0.tar.gz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr --buildtype=release .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

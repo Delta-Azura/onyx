@@ -1,0 +1,24 @@
+description=" Polkit is a toolkit for defining and handling authorizations. It is used for allowing unprivileged processes to communicate with privileged processes. "
+name=polkit
+version=127
+release=1
+packager=alexis
+source=("https://github.com/polkit-org/polkit/archive/127/polkit-127.tar.gz")
+
+build() {
+cd $name-$version
+groupadd -fg 27 polkitd &&
+useradd -c "PolicyKit Daemon Owner" -d /etc/polkit-1 -u 27 \
+        -g polkitd -s /bin/false polkitd
+mkdir build &&
+cd    build &&
+
+meson setup ..                   \
+      --prefix=/usr              \
+      --buildtype=release        \
+      -D man=false               \
+      -D session_tracking=logind \
+      -D tests=true
+ninja 
+DESTDIR=$PKG ninja install
+}

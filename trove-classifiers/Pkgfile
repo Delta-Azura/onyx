@@ -1,0 +1,22 @@
+description=" Trove-Classifiers is a Ppython library to encompass all valid PyPI classifiers used to categorize projects and releases per PEP 301, for example Topic :: System :: Filesystems and Development Status :: 6 - Mature. "
+name=trove-classifiers
+version=2026.1.14.14
+release=1
+packager=alexis
+source=("https://files.pythonhosted.org/packages/source/t/trove_classifiers/trove_classifiers-2026.1.14.14.tar.gz")
+
+
+build() {
+ls
+cd trove_classifiers-2026.1.14.14
+sed -i '/calver/s/^/#/;$iversion="2026.1.14.14"' setup.py
+pip3 wheel -w dist \
+    --no-build-isolation \
+    --no-deps $PWD
+  pip3 install --no-index \
+    --find-links dist \
+    --no-cache-dir    \
+    --no-user         \
+    --root=$PKG       \
+    trove-classifiers
+}

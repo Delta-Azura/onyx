@@ -1,0 +1,23 @@
+description=" The libportal package provides a library that contains GIO-style async APIs for most Flatpak portals. "
+
+name=libportal
+version=0.9.1
+release=1
+packager=alexis
+source=("https://github.com/flatpak/libportal/releases/download/0.9.1/libportal-0.9.1.tar.xz"
+"https://www.linuxfromscratch.org/patches/blfs/13.0/libportal-0.9.1-qt6.9_fixes-1.patch")
+
+build() {
+cd $name-$version
+patch -Np1 -i ../libportal-0.9.1-qt6.9_fixes-1.patch
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr       \
+            --buildtype=release \
+            -D vapi=false       \
+            -D docs=false       \
+            .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

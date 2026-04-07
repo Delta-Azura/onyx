@@ -1,0 +1,15 @@
+description=" Libsndfile is a library of C routines for reading and writing files containing sampled audio data. "
+name=libsndfile
+version=1.2.2
+release=1
+packager=alexis
+source=("https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz")
+
+build() {
+cd $name-$version
+sed -i '/typedef enum/,/bool ;/d' src/ALAC/alac_{en,de}coder.c
+./configure --prefix=/usr    \
+            --docdir=/usr/share/doc/libsndfile-1.2.2 &&
+make
+make DESTDIR=$PKG install
+}

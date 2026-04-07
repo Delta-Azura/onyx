@@ -1,0 +1,41 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/rest-1.0/
+drwxr-xr-x	alexis/alexis	usr/include/rest-1.0/rest/
+drwxr-xr-x	alexis/alexis	usr/include/rest-1.0/rest-extras/
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest-extras/flickr-proxy-call.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest-extras/flickr-proxy.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest-extras/lastfm-proxy-call.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest-extras/lastfm-proxy.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest-extras/rest-extras.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest-extras/youtube-proxy.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-enum-types.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-oauth2-proxy-call.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-oauth2-proxy.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-param.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-params.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-pkce-code-challenge.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-proxy-auth.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-proxy-call.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-proxy.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-utils.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-xml-node.h
+-rw-r--r--	alexis/alexis	usr/include/rest-1.0/rest/rest-xml-parser.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/girepository-1.0/
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/Rest-1.0.typelib
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/RestExtras-1.0.typelib
+-rwxr-xr-x	alexis/alexis	usr/lib/librest-1.0.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/librest-1.0.so.0 -> librest-1.0.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/librest-1.0.so -> librest-1.0.so.0
+-rwxr-xr-x	alexis/alexis	usr/lib/librest-extras-1.0.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/librest-extras-1.0.so.0 -> librest-extras-1.0.so.0.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/librest-extras-1.0.so -> librest-extras-1.0.so.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/rest-1.0.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/rest-extras-1.0.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/gir-1.0/
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/Rest-1.0.gir
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/RestExtras-1.0.gir

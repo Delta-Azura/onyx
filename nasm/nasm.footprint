@@ -1,0 +1,9 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/nasm
+-rwxr-xr-x	alexis/alexis	usr/bin/ndisasm
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/man/
+drwxr-xr-x	alexis/alexis	usr/share/man/man1/
+-rw-r--r--	alexis/alexis	usr/share/man/man1/nasm.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/ndisasm.1.gz

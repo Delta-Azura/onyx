@@ -1,0 +1,21 @@
+description=" The Abseil-cpp package contains a series of libraries designed to augment the C++ standard library. "
+name=abseil-cpp
+version="20260107.1"
+release=1
+packager=alexis
+source=("https://github.com/abseil/abseil-cpp/releases/download/20260107.1/abseil-cpp-20260107.1.tar.gz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr   \
+      -D CMAKE_BUILD_TYPE=Release    \
+      -D CMAKE_SKIP_INSTALL_RPATH=ON \
+      -D ABSL_PROPAGATE_CXX_STD=ON   \
+      -D BUILD_SHARED_LIBS=ON        \
+      -G Ninja ..                    &&
+ninja
+DESTDIR=$PKG ninja install
+}

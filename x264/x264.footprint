@@ -1,0 +1,9 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/x264_config.h
+-rw-r--r--	alexis/alexis	usr/include/x264.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libx264.so.165
+lrwxrwxrwx	alexis/alexis	usr/lib/libx264.so -> libx264.so.165
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/x264.pc

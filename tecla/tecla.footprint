@@ -1,0 +1,16 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/tecla
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/applications/
+-rw-r--r--	alexis/alexis	usr/share/applications/org.gnome.Tecla.desktop
+drwxr-xr-x	alexis/alexis	usr/share/icons/
+drwxr-xr-x	alexis/alexis	usr/share/icons/hicolor/
+drwxr-xr-x	alexis/alexis	usr/share/icons/hicolor/scalable/
+drwxr-xr-x	alexis/alexis	usr/share/icons/hicolor/scalable/apps/
+-rw-r--r--	alexis/alexis	usr/share/icons/hicolor/scalable/apps/org.gnome.Tecla.svg
+drwxr-xr-x	alexis/alexis	usr/share/icons/hicolor/symbolic/
+drwxr-xr-x	alexis/alexis	usr/share/icons/hicolor/symbolic/apps/
+-rw-r--r--	alexis/alexis	usr/share/icons/hicolor/symbolic/apps/org.gnome.Tecla-symbolic.svg
+drwxr-xr-x	alexis/alexis	usr/share/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/share/pkgconfig/tecla.pc

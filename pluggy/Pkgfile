@@ -1,0 +1,20 @@
+description="The Pluggy package gives users the ability to extend or modify the behaviour of a host program by installing a plugin for that program. "
+name=pluggy
+version=1.6.0
+release=1
+packager=alexis
+source=("https://files.pythonhosted.org/packages/source/p/pluggy/pluggy-1.6.0.tar.gz")
+
+build() {
+cd $name-$version
+
+pip3 wheel -w dist \
+    --no-build-isolation \
+    --no-deps $PWD
+  pip3 install --no-index \
+    --find-links dist \
+    --no-cache-dir    \
+    --no-user         \
+    --root=$PKG       \
+    pluggy
+}

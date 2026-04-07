@@ -1,0 +1,275 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/acyclic
+-rwxr-xr-x	alexis/alexis	usr/bin/bcomps
+-rwxr-xr-x	alexis/alexis	usr/bin/ccomps
+lrwxrwxrwx	alexis/alexis	usr/bin/circo -> dot
+-rwxr-xr-x	alexis/alexis	usr/bin/cluster
+-rwxr-xr-x	alexis/alexis	usr/bin/dijkstra
+-rwxr-xr-x	alexis/alexis	usr/bin/dot
+lrwxrwxrwx	alexis/alexis	usr/bin/dot2gxl -> gxl2gv
+-rwxr-xr-x	alexis/alexis	usr/bin/dot_builtins
+-rwxr-xr-x	alexis/alexis	usr/bin/dot_sandbox
+-rwxr-xr-x	alexis/alexis	usr/bin/edgepaint
+lrwxrwxrwx	alexis/alexis	usr/bin/fdp -> dot
+-rwxr-xr-x	alexis/alexis	usr/bin/gc
+-rwxr-xr-x	alexis/alexis	usr/bin/gml2gv
+-rwxr-xr-x	alexis/alexis	usr/bin/graphml2gv
+-rwxr-xr-x	alexis/alexis	usr/bin/gv2gml
+lrwxrwxrwx	alexis/alexis	usr/bin/gv2gxl -> gxl2gv
+-rwxr-xr-x	alexis/alexis	usr/bin/gvcolor
+-rwxr-xr-x	alexis/alexis	usr/bin/gvgen
+-rwxr-xr-x	alexis/alexis	usr/bin/gvmap
+-rwxr-xr-x	alexis/alexis	usr/bin/gvmap.sh
+-rwxr-xr-x	alexis/alexis	usr/bin/gvpack
+-rwxr-xr-x	alexis/alexis	usr/bin/gvpr
+lrwxrwxrwx	alexis/alexis	usr/bin/gxl2dot -> gxl2gv
+-rwxr-xr-x	alexis/alexis	usr/bin/gxl2gv
+-rwxr-xr-x	alexis/alexis	usr/bin/mm2gv
+lrwxrwxrwx	alexis/alexis	usr/bin/neato -> dot
+-rwxr-xr-x	alexis/alexis	usr/bin/nop
+lrwxrwxrwx	alexis/alexis	usr/bin/osage -> dot
+lrwxrwxrwx	alexis/alexis	usr/bin/patchwork -> dot
+-rwxr-xr-x	alexis/alexis	usr/bin/prune
+-rwxr-xr-x	alexis/alexis	usr/bin/sccmap
+lrwxrwxrwx	alexis/alexis	usr/bin/sfdp -> dot
+-rwxr-xr-x	alexis/alexis	usr/bin/tred
+lrwxrwxrwx	alexis/alexis	usr/bin/twopi -> dot
+-rwxr-xr-x	alexis/alexis	usr/bin/unflatten
+-rwxr-xr-x	alexis/alexis	usr/bin/vimdot
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/graphviz/
+-rw-r--r--	alexis/alexis	usr/include/graphviz/arith.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/cdt.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/cgraph.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/color.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/geom.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/graphviz_version.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvcext.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvc.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvcjob.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvcommon.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvconfig.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvplugin_device.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvplugin.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvplugin_layout.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvplugin_loadimage.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvplugin_render.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvplugin_textlayout.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/gvpr.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/pack.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/pathgeom.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/pathplan.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/textspan.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/types.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/usershape.h
+-rw-r--r--	alexis/alexis	usr/include/graphviz/xdot.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/graphviz/
+-rw-r--r--	alexis/alexis	usr/lib/cmake/graphviz/graphvizConfig.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/graphviz/graphvizTargets.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/graphviz/graphvizTargets-release.cmake
+drwxr-xr-x	alexis/alexis	usr/lib/graphviz/
+-rw-r--r--	alexis/alexis	usr/lib/graphviz/config8
+-rwxr-xr-x	alexis/alexis	usr/lib/graphviz/libgvplugin_core.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_core.so.8 -> libgvplugin_core.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_core.so -> libgvplugin_core.so.8
+-rwxr-xr-x	alexis/alexis	usr/lib/graphviz/libgvplugin_dot_layout.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_dot_layout.so.8 -> libgvplugin_dot_layout.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_dot_layout.so -> libgvplugin_dot_layout.so.8
+-rwxr-xr-x	alexis/alexis	usr/lib/graphviz/libgvplugin_kitty.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_kitty.so.8 -> libgvplugin_kitty.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_kitty.so -> libgvplugin_kitty.so.8
+-rwxr-xr-x	alexis/alexis	usr/lib/graphviz/libgvplugin_neato_layout.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_neato_layout.so.8 -> libgvplugin_neato_layout.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_neato_layout.so -> libgvplugin_neato_layout.so.8
+-rwxr-xr-x	alexis/alexis	usr/lib/graphviz/libgvplugin_pango.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_pango.so.8 -> libgvplugin_pango.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_pango.so -> libgvplugin_pango.so.8
+-rwxr-xr-x	alexis/alexis	usr/lib/graphviz/libgvplugin_vt.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_vt.so.8 -> libgvplugin_vt.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_vt.so -> libgvplugin_vt.so.8
+-rwxr-xr-x	alexis/alexis	usr/lib/graphviz/libgvplugin_xlib.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_xlib.so.8 -> libgvplugin_xlib.so.8.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/graphviz/libgvplugin_xlib.so -> libgvplugin_xlib.so.8
+drwxr-xr-x	alexis/alexis	usr/lib/graphviz/tcl/
+-rwxr-xr-x	alexis/alexis	usr/lib/graphviz/tcl/libtcldot_builtin.so
+-rwxr-xr-x	alexis/alexis	usr/lib/graphviz/tcl/libtcldot.so
+-rwxr-xr-x	alexis/alexis	usr/lib/graphviz/tcl/libtclplan.so
+-rw-r--r--	alexis/alexis	usr/lib/graphviz/tcl/pkgIndex.tcl
+-rwxr-xr-x	alexis/alexis	usr/lib/libcdt.so.6.0.2
+lrwxrwxrwx	alexis/alexis	usr/lib/libcdt.so.6 -> libcdt.so.6.0.2
+lrwxrwxrwx	alexis/alexis	usr/lib/libcdt.so -> libcdt.so.6
+-rwxr-xr-x	alexis/alexis	usr/lib/libcgraph.so.8.0.5
+lrwxrwxrwx	alexis/alexis	usr/lib/libcgraph.so.8 -> libcgraph.so.8.0.5
+lrwxrwxrwx	alexis/alexis	usr/lib/libcgraph.so -> libcgraph.so.8
+-rwxr-xr-x	alexis/alexis	usr/lib/libgvc.so.7.0.6
+lrwxrwxrwx	alexis/alexis	usr/lib/libgvc.so.7 -> libgvc.so.7.0.6
+lrwxrwxrwx	alexis/alexis	usr/lib/libgvc.so -> libgvc.so.7
+-rwxr-xr-x	alexis/alexis	usr/lib/libgvpr.so.2.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/libgvpr.so.2 -> libgvpr.so.2.0.7
+lrwxrwxrwx	alexis/alexis	usr/lib/libgvpr.so -> libgvpr.so.2
+-rwxr-xr-x	alexis/alexis	usr/lib/libpathplan.so.4.0.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libpathplan.so.4 -> libpathplan.so.4.0.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libpathplan.so -> libpathplan.so.4
+-rwxr-xr-x	alexis/alexis	usr/lib/libxdot.so.4.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxdot.so.4 -> libxdot.so.4.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxdot.so -> libxdot.so.4
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libcdt.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libcgraph.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libgvc.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libgvpr.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libpathplan.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libxdot.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/graphviz/
+drwxr-xr-x	alexis/alexis	usr/share/graphviz/graphs/
+drwxr-xr-x	alexis/alexis	usr/share/graphviz/graphs/directed/
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/abstract.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/alf.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/arrows.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/awilliams.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/biological.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/clust1.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/clust2.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/clust3.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/clust4.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/clust5.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/clust.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/crazy.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/ctext.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/dfa.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/fig6.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/fsm.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/grammar.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/hashtable.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/honda-tokoro.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/japanese.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/jcctree.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/jsort.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/KW91.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/Latin1.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/ldbxtried.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/longflat.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/mike.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/NaN.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/nhg.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/oldarrows.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/pgram.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/pm2way.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/pmpipe.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/polypoly.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/proc3d.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/psfonttest.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/record2.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/records.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/rowe.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/russian.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/sdh.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/shells.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/states.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/structs.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/switch.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/table.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/train11.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/trapeziumlr.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/tree.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/triedds.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/try.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/unix2.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/unix.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/viewfile.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/directed/world.gv
+drwxr-xr-x	alexis/alexis	usr/share/graphviz/graphs/undirected/
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/undirected/ER.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/undirected/Heawood.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/undirected/ngk10_4.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/undirected/Petersen.gv
+-rw-r--r--	alexis/alexis	usr/share/graphviz/graphs/undirected/process.gv
+drwxr-xr-x	alexis/alexis	usr/share/graphviz/gvpr/
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/addedges
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/addranks
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/addrings
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/anon
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/attr
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/bb
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/bbox
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/binduce
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/bipart
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/chkclusters
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/chkedges
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/cliptree
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/col
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/collapse
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/color
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/cycle
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/dechain
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/deghist
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/deledges
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/delmulti
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/delnodes
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/depath
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/dijkstra
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/flatten
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/get-layers-list
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/group
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/histogram
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/indent
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/knbhd
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/maxdeg
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/path
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/rotate
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/scale
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/scalexy
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/span
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/topon
+-rw-r--r--	alexis/alexis	usr/share/graphviz/gvpr/treetoclust
+drwxr-xr-x	alexis/alexis	usr/share/man/
+drwxr-xr-x	alexis/alexis	usr/share/man/man1/
+-rw-r--r--	alexis/alexis	usr/share/man/man1/acyclic.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/bcomps.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/ccomps.1.gz
+lrwxrwxrwx	alexis/alexis	usr/share/man/man1/circo.1.gz -> dot.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/cluster.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/dijkstra.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/dot.1.gz
+lrwxrwxrwx	alexis/alexis	usr/share/man/man1/dot2gxl.1.gz -> gxl2gv.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/dot_sandbox.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/edgepaint.1.gz
+lrwxrwxrwx	alexis/alexis	usr/share/man/man1/fdp.1.gz -> dot.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/gc.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/gml2gv.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/graphml2gv.1.gz
+lrwxrwxrwx	alexis/alexis	usr/share/man/man1/gv2gml.1.gz -> gml2gv.1.gz
+lrwxrwxrwx	alexis/alexis	usr/share/man/man1/gv2gxl.1.gz -> gxl2gv.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/gvcolor.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/gvgen.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/gvmap.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/gvmap.sh.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/gvpack.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/gvpr.1.gz
+lrwxrwxrwx	alexis/alexis	usr/share/man/man1/gxl2dot.1.gz -> gxl2gv.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/gxl2gv.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/mm2gv.1.gz
+lrwxrwxrwx	alexis/alexis	usr/share/man/man1/neato.1.gz -> dot.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/nop.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/osage.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/patchwork.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/prune.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/sccmap.1.gz
+lrwxrwxrwx	alexis/alexis	usr/share/man/man1/sfdp.1.gz -> dot.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/tred.1.gz
+lrwxrwxrwx	alexis/alexis	usr/share/man/man1/twopi.1.gz -> dot.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/unflatten.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/vimdot.1.gz
+drwxr-xr-x	alexis/alexis	usr/share/man/man3/
+-rw-r--r--	alexis/alexis	usr/share/man/man3/cdt.3.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man3/cgraph.3.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man3/gvc.3.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man3/gvpr.3.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man3/pack.3.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man3/pathplan.3.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man3/tcldot.3tcl.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man3/xdot.3.gz

@@ -1,0 +1,29 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/xpstojpeg
+-rwxr-xr-x	alexis/alexis	usr/bin/xpstopdf
+-rwxr-xr-x	alexis/alexis	usr/bin/xpstopng
+-rwxr-xr-x	alexis/alexis	usr/bin/xpstops
+-rwxr-xr-x	alexis/alexis	usr/bin/xpstosvg
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/libgxps/
+-rw-r--r--	alexis/alexis	usr/include/libgxps/gxps-core-properties.h
+-rw-r--r--	alexis/alexis	usr/include/libgxps/gxps-document.h
+-rw-r--r--	alexis/alexis	usr/include/libgxps/gxps-document-structure.h
+-rw-r--r--	alexis/alexis	usr/include/libgxps/gxps-error.h
+-rw-r--r--	alexis/alexis	usr/include/libgxps/gxps-file.h
+-rw-r--r--	alexis/alexis	usr/include/libgxps/gxps.h
+-rw-r--r--	alexis/alexis	usr/include/libgxps/gxps-links.h
+-rw-r--r--	alexis/alexis	usr/include/libgxps/gxps-page.h
+-rw-r--r--	alexis/alexis	usr/include/libgxps/gxps-version.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/girepository-1.0/
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/GXPS-0.1.typelib
+-rwxr-xr-x	alexis/alexis	usr/lib/libgxps.so.2.2.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libgxps.so.2 -> libgxps.so.2.2.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libgxps.so -> libgxps.so.2
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libgxps.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/gir-1.0/
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/GXPS-0.1.gir

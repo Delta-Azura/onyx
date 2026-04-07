@@ -1,0 +1,74 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/gnome-desktop-3.0/
+drwxr-xr-x	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-crossfade.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-bg-slide-show.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-desktop-thumbnail.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-desktop-version.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-idle-monitor.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-languages.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-pnp-ids.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-rr-config.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-rr.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-systemd.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-wall-clock.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-xkb-info.h
+drwxr-xr-x	alexis/alexis	usr/include/gnome-desktop-4.0/
+drwxr-xr-x	alexis/alexis	usr/include/gnome-desktop-4.0/gnome-bg/
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/gnome-bg/gnome-bg.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/gnome-bg/gnome-bg-slide-show.h
+drwxr-xr-x	alexis/alexis	usr/include/gnome-desktop-4.0/gnome-rr/
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-config.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-output-info.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-screen.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/gnome-rr/gnome-rr-types.h
+drwxr-xr-x	alexis/alexis	usr/include/gnome-desktop-4.0/libgnome-desktop/
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-desktop-thumbnail.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-desktop-version.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-idle-monitor.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-languages.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-pnp-ids.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-systemd.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-wall-clock.h
+-rw-r--r--	alexis/alexis	usr/include/gnome-desktop-4.0/libgnome-desktop/gnome-xkb-info.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/libexec/
+drwxr-xr-x	alexis/alexis	usr/libexec/gnome-desktop-debug/
+-rwxr-xr-x	alexis/alexis	usr/libexec/gnome-desktop-debug/gnome-rr-debug
+-rwxr-xr-x	alexis/alexis	usr/libexec/gnome-desktop-debug/test-desktop-thumbnail
+-rwxr-xr-x	alexis/alexis	usr/libexec/gnome-desktop-debug/test-idle-monitor
+-rwxr-xr-x	alexis/alexis	usr/libexec/gnome-desktop-debug/test-languages
+-rwxr-xr-x	alexis/alexis	usr/libexec/gnome-desktop-debug/test-pnp-ids
+-rwxr-xr-x	alexis/alexis	usr/libexec/gnome-desktop-debug/test-wall-clock
+-rwxr-xr-x	alexis/alexis	usr/libexec/gnome-desktop-debug/test-xkb-info
+drwxr-xr-x	alexis/alexis	usr/lib/girepository-1.0/
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/GnomeBG-4.0.typelib
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/GnomeDesktop-3.0.typelib
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/GnomeDesktop-4.0.typelib
+-rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/GnomeRR-4.0.typelib
+-rwxr-xr-x	alexis/alexis	usr/lib/libgnome-bg-4.so.2.1.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libgnome-bg-4.so.2 -> libgnome-bg-4.so.2.1.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libgnome-bg-4.so -> libgnome-bg-4.so.2
+-rwxr-xr-x	alexis/alexis	usr/lib/libgnome-desktop-3.so.20.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libgnome-desktop-3.so.20 -> libgnome-desktop-3.so.20.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libgnome-desktop-3.so -> libgnome-desktop-3.so.20
+-rwxr-xr-x	alexis/alexis	usr/lib/libgnome-desktop-4.so.2.1.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libgnome-desktop-4.so.2 -> libgnome-desktop-4.so.2.1.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libgnome-desktop-4.so -> libgnome-desktop-4.so.2
+-rwxr-xr-x	alexis/alexis	usr/lib/libgnome-rr-4.so.2.1.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libgnome-rr-4.so.2 -> libgnome-rr-4.so.2.1.4
+lrwxrwxrwx	alexis/alexis	usr/lib/libgnome-rr-4.so -> libgnome-rr-4.so.2
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/gnome-bg-4.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/gnome-desktop-3.0.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/gnome-desktop-4.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/gnome-rr-4.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/gir-1.0/
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/GnomeBG-4.0.gir
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/GnomeDesktop-3.0.gir
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/GnomeDesktop-4.0.gir
+-rw-r--r--	alexis/alexis	usr/share/gir-1.0/GnomeRR-4.0.gir

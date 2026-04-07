@@ -1,0 +1,20 @@
+description=" The GTK3 package contains libraries used for creating graphical user interfaces for applications. "
+name=gtk3
+version=3.24.51
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gtk/3.24/gtk-3.24.51.tar.xz")
+
+build() {
+cd gtk-$version
+mkdir build &&
+cd    build &&
+
+meson setup ..            \
+      --prefix=/usr       \
+      --buildtype=release \
+      -D man=false         \
+      -D broadway_backend=true &&
+ninja
+DESTDIR=$PKG ninja install
+}

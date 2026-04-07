@@ -1,0 +1,21 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/cddb_query
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/cddb/
+-rw-r--r--	alexis/alexis	usr/include/cddb/cddb_cmd.h
+-rw-r--r--	alexis/alexis	usr/include/cddb/cddb_config.h
+-rw-r--r--	alexis/alexis	usr/include/cddb/cddb_conn.h
+-rw-r--r--	alexis/alexis	usr/include/cddb/cddb_disc.h
+-rw-r--r--	alexis/alexis	usr/include/cddb/cddb_error.h
+-rw-r--r--	alexis/alexis	usr/include/cddb/cddb.h
+-rw-r--r--	alexis/alexis	usr/include/cddb/cddb_log.h
+-rw-r--r--	alexis/alexis	usr/include/cddb/cddb_site.h
+-rw-r--r--	alexis/alexis	usr/include/cddb/cddb_track.h
+-rw-r--r--	alexis/alexis	usr/include/cddb/version.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libcddb.so.2.2.3
+lrwxrwxrwx	alexis/alexis	usr/lib/libcddb.so.2 -> libcddb.so.2.2.3
+lrwxrwxrwx	alexis/alexis	usr/lib/libcddb.so -> libcddb.so.2.2.3
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libcddb.pc

@@ -1,0 +1,20 @@
+description=" ModemManager provides a unified high level API for communicating with mobile broadband modems, regardless of the protocol used to communicate with the actual device. "
+name=modemmanager
+version=1.24.2
+release=1
+packager=alexis
+source=("https://gitlab.freedesktop.org/mobile-broadband/ModemManager/-/archive/1.24.2/ModemManager-1.24.2.tar.gz")
+
+build() {
+cd ModemManager-1.24.2
+mkdir build &&
+cd    build &&
+
+meson setup ..                 \
+      --prefix=/usr            \
+      --buildtype=release      \
+      -D bash_completion=false \
+      -D qrtr=false            &&
+ninja
+DESTDIR=$PKG ninja install
+}

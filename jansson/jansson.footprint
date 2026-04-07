@@ -1,0 +1,10 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/jansson_config.h
+-rw-r--r--	alexis/alexis	usr/include/jansson.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libjansson.so.4.15.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libjansson.so.4 -> libjansson.so.4.15.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libjansson.so -> libjansson.so.4.15.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/jansson.pc

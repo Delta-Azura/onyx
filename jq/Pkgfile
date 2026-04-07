@@ -1,0 +1,13 @@
+description="command line json"
+name=jq
+version=1.8.1
+release=1
+packager=alexis
+source=("https://github.com/stedolan/jq/releases/download/${name}-${version}/${name}-${version}.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr
+make
+make DESTDIR=$PKG prefix=/usr install
+}

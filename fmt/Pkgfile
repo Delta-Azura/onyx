@@ -1,0 +1,20 @@
+description=" The fmt package is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams. "
+name=fmt
+version=12.1.0
+release=1
+packager=alexis
+source=("https://github.com/fmtlib/fmt/archive/12.1.0/fmt-12.1.0.tar.gz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr     \
+      -D CMAKE_INSTALL_LIBDIR=/usr/lib \
+      -D BUILD_SHARED_LIBS=ON          \
+      -D FMT_TEST=OFF                  \
+      -G Ninja ..                      &&
+ninja
+DESTDIR=$PKG ninja install
+}

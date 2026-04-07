@@ -1,0 +1,16 @@
+description=" The libnl suite is a collection of libraries providing APIs to netlink protocol based Linux kernel interfaces. "
+name=libnl
+version=3.12.0
+release=1
+packager=alexis
+source=("https://github.com/thom311/libnl/releases/download/libnl3_12_0/libnl-3.12.0.tar.gz"
+"https://github.com/thom311/libnl/releases/download/libnl3_12_0/libnl-doc-3.12.0.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr     \
+            --sysconfdir=/etc \
+            --disable-static  &&
+make
+make DESTDIR=$PKG install
+}

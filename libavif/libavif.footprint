@@ -1,0 +1,16 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/avif/
+-rw-r--r--	alexis/alexis	usr/include/avif/avif_cxx.h
+-rw-r--r--	alexis/alexis	usr/include/avif/avif.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/libavif/
+-rw-r--r--	alexis/alexis	usr/lib/cmake/libavif/libavif-config.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/libavif/libavif-config-release.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/libavif/libavif-config-version.cmake
+-rwxr-xr-x	alexis/alexis	usr/lib/libavif.so.16.3.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libavif.so.16 -> libavif.so.16.3.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libavif.so -> libavif.so.16
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libavif.pc

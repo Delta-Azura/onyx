@@ -1,0 +1,13 @@
+description="The libXau package contains a library implementing the X11 Authorization Protocol."
+name=libxau
+version=1.0.12
+release=1
+packager=alexis
+source=("https://www.x.org/pub/individual/lib/libXau-1.0.12.tar.xz")
+
+build() {
+cd libXau-$version
+./configure $XORG_CONFIG &&
+make
+make DESTDIR=$PKG install
+}

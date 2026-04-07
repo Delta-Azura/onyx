@@ -1,0 +1,8 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/aclocal/
+-rw-r--r--	alexis/alexis	usr/share/aclocal/xorg-macros.m4
+drwxr-xr-x	alexis/alexis	usr/share/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/share/pkgconfig/xorg-macros.pc
+drwxr-xr-x	alexis/alexis	usr/share/util-macros/
+-rw-r--r--	alexis/alexis	usr/share/util-macros/INSTALL

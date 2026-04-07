@@ -1,0 +1,14 @@
+# Paquets compilés Cards
+*.xz
+*.zst
+
+# Metadata Cards générée
+.FILES
+.FILES.zst
+.REPO
+
+# Sources
+*.tar.*
+*.zip
+*.gz
+*.bz2

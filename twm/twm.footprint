@@ -1,0 +1,11 @@
+drwxr-xr-x	alexis/alexis	etc/
+drwxr-xr-x	alexis/alexis	etc/X11/
+drwxr-xr-x	alexis/alexis	etc/X11/app-defaults/
+-rw-r--r--	alexis/alexis	etc/X11/app-defaults/system.twmrc
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/twm
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/man/
+drwxr-xr-x	alexis/alexis	usr/share/man/man1/
+-rw-r--r--	alexis/alexis	usr/share/man/man1/twm.1.gz

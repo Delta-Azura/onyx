@@ -1,0 +1,14 @@
+description="The libfyaml package contains a YAML 1.3 parser and writer."
+name=libfyaml
+version=0.9.4
+release=1
+packager=alexis
+source=("https://github.com/pantoniou/libfyaml/releases/download/v0.9.4/libfyaml-0.9.4.tar.gz")
+
+
+build() {
+cd $name-$version
+./configure --prefix=/usr --disable-static &&
+make
+make DESTDIR=$PKG install
+}

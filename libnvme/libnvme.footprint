@@ -1,0 +1,26 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/libnvme.h
+-rw-r--r--	alexis/alexis	usr/include/libnvme-mi.h
+drwxr-xr-x	alexis/alexis	usr/include/nvme/
+-rw-r--r--	alexis/alexis	usr/include/nvme/api-types.h
+-rw-r--r--	alexis/alexis	usr/include/nvme/fabrics.h
+-rw-r--r--	alexis/alexis	usr/include/nvme/filters.h
+-rw-r--r--	alexis/alexis	usr/include/nvme/ioctl.h
+-rw-r--r--	alexis/alexis	usr/include/nvme/linux.h
+-rw-r--r--	alexis/alexis	usr/include/nvme/log.h
+-rw-r--r--	alexis/alexis	usr/include/nvme/mi.h
+-rw-r--r--	alexis/alexis	usr/include/nvme/nbft.h
+-rw-r--r--	alexis/alexis	usr/include/nvme/tree.h
+-rw-r--r--	alexis/alexis	usr/include/nvme/types.h
+-rw-r--r--	alexis/alexis	usr/include/nvme/util.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libnvme-mi.so.1.16.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libnvme-mi.so.1 -> libnvme-mi.so.1.16.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libnvme-mi.so -> libnvme-mi.so.1
+-rwxr-xr-x	alexis/alexis	usr/lib/libnvme.so.1.16.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libnvme.so.1 -> libnvme.so.1.16.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libnvme.so -> libnvme.so.1
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libnvme-mi.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libnvme.pc

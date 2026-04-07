@@ -1,0 +1,20 @@
+description="The UPower package provides an interface for enumerating power devices, listening to device events, and querying history and statistics."
+name=upower
+version=1.91.1
+release=1
+packager=alexis
+source=("https://gitlab.freedesktop.org/upower/upower/-/archive/v1.91.1/upower-v1.91.1.tar.bz2")
+
+build() {
+cd $name-v$version
+mkdir build               &&
+cd    build               &&
+
+meson setup ..            \
+      --prefix=/usr       \
+      --buildtype=release \
+      -D gtk-doc=false    \
+      -D man=false        &&
+ninja
+DESTDIR=$PKG ninja install
+}

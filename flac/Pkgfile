@@ -1,0 +1,15 @@
+description=" FLAC is an audio CODEC similar to MP3, but lossless, meaning that audio is compressed without losing any information. "
+name=flac
+version=1.5.0
+release=1
+packager=alexis
+source=("https://github.com/xiph/flac/releases/download/1.5.0/flac-1.5.0.tar.xz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr            \
+            --disable-thorough-tests \
+            --docdir=/usr/share/doc/flac-1.5.0 &&
+make
+make DESTDIR=$PKG install
+}

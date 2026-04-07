@@ -1,0 +1,21 @@
+description=" The GNOME Session package contains the GNOME session manager. "
+name=gnome-session
+version=49.2
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gnome-session/49/gnome-session-49.2.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr              \
+            --buildtype=release        \
+            -D man=false               \
+            -D docbook=false           \
+            ..                         &&
+ninja
+DESTDIR=$PKG ninja install
+rm -v $PKG/usr/share/wayland-sessions/gnome.desktop
+}

@@ -1,0 +1,44 @@
+drwxr-xr-x	alexis/alexis	dev/
+drwxr-xr-x	alexis/alexis	etc/
+drwxr-xr-x	alexis/alexis	etc/udev/
+drwxr-xr-x	alexis/alexis	etc/udev/rules.d/
+-rw-r--r--	alexis/alexis	etc/udev/rules.d/99-fuse.rules
+drwxr-xr-x	alexis/alexis	sbin/
+-rwxr-xr-x	alexis/alexis	sbin/mount.fuse
+drwxr-xr-x	alexis/alexis	tmp/
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwsr-xr-x	alexis/alexis	usr/bin/fusermount
+-rwxr-xr-x	alexis/alexis	usr/bin/ulockmgr_server
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/fuse/
+-rw-r--r--	alexis/alexis	usr/include/fuse/cuse_lowlevel.h
+-rw-r--r--	alexis/alexis	usr/include/fuse/fuse_common_compat.h
+-rw-r--r--	alexis/alexis	usr/include/fuse/fuse_common.h
+-rw-r--r--	alexis/alexis	usr/include/fuse/fuse_compat.h
+-rw-r--r--	alexis/alexis	usr/include/fuse/fuse.h
+-rw-r--r--	alexis/alexis	usr/include/fuse/fuse_lowlevel_compat.h
+-rw-r--r--	alexis/alexis	usr/include/fuse/fuse_lowlevel.h
+-rw-r--r--	alexis/alexis	usr/include/fuse/fuse_opt.h
+-rw-r--r--	alexis/alexis	usr/include/fuse.h
+-rw-r--r--	alexis/alexis	usr/include/ulockmgr.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libfuse.so.2.9.9
+lrwxrwxrwx	alexis/alexis	usr/lib/libfuse.so.2 -> libfuse.so.2.9.9
+lrwxrwxrwx	alexis/alexis	usr/lib/libfuse.so -> libfuse.so.2.9.9
+-rwxr-xr-x	alexis/alexis	usr/lib/libulockmgr.so.1.0.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libulockmgr.so.1 -> libulockmgr.so.1.0.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libulockmgr.so -> libulockmgr.so.1.0.1
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/fuse.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/doc/
+drwxr-xr-x	alexis/alexis	usr/share/doc/fuse-2.9.9/
+-rw-r--r--	alexis/alexis	usr/share/doc/fuse-2.9.9/how-fuse-works
+-rw-r--r--	alexis/alexis	usr/share/doc/fuse-2.9.9/kernel.txt
+drwxr-xr-x	alexis/alexis	usr/share/man/
+drwxr-xr-x	alexis/alexis	usr/share/man/man1/
+-rw-r--r--	alexis/alexis	usr/share/man/man1/fusermount.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/ulockmgr_server.1.gz
+drwxr-xr-x	alexis/alexis	usr/share/man/man8/
+-rw-r--r--	alexis/alexis	usr/share/man/man8/mount.fuse.8.gz

@@ -1,0 +1,17 @@
+description="The OSTree package is for container deployment and the like."
+name=ostree
+version=2025.7
+release=1
+packager=alexis
+source=("https://github.com/ostreedev/ostree/releases/download/v2025.7/libostree-2025.7.tar.xz")
+
+build() {
+cd libostree-$version
+./configure --prefix=/usr     \
+            --sysconfdir=/etc \
+            --disable-static  \
+            --with-curl       \
+            --with-soup=no --disable-man  &&
+make
+make DESTDIR=$PKG install
+}

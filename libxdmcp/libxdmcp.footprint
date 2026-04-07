@@ -1,0 +1,14 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/X11/
+-rw-r--r--	alexis/alexis	usr/include/X11/Xdmcp.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libXdmcp.so.6.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libXdmcp.so.6 -> libXdmcp.so.6.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libXdmcp.so -> libXdmcp.so.6.0.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/xdmcp.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/doc/
+drwxr-xr-x	alexis/alexis	usr/share/doc/libXdmcp-1.1.5/
+-rw-r--r--	alexis/alexis	usr/share/doc/libXdmcp-1.1.5/xdmcp.xml

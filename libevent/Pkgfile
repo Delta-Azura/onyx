@@ -1,0 +1,15 @@
+description="libevent is an asynchronous event notification software library."
+name=libevent
+version=2.1.12
+release=1
+packager=alexis
+source=("https://github.com/libevent/libevent/releases/download/release-2.1.12-stable/libevent-2.1.12-stable.tar.gz")
+
+build() {
+ls
+cd $name-$version-stable
+sed -i 's/python/&3/' event_rpcgen.py
+./configure --prefix=/usr --disable-static &&
+make
+make DESTDIR=$PKG install
+}

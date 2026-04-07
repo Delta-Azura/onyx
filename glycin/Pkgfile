@@ -1,0 +1,23 @@
+description=" The glycin package contains a sandboxed and extendable image loading framework. "
+name=glycin
+version=2.0.8
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/glycin/2.0/glycin-2.0.8.tar.xz"
+"https://www.linuxfromscratch.org/patches/blfs/13.0/glycin-2.0.8-xbm_xpm-1.patch")
+
+
+build() {
+cd $name-$version
+#patch -Np1 -i ../glycin-2.0.8-xbm_xpm-1.patch
+#cargo vendor
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr           \
+            --buildtype=release     \
+            -D libglycin-gtk4=true \
+            -D tests=false ..       &&
+ninja
+DESTDIR=$PKG ninja install
+}

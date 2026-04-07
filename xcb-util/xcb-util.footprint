@@ -1,0 +1,16 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/xcb/
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_atom.h
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_aux.h
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_event.h
+-rw-r--r--	alexis/alexis	usr/include/xcb/xcb_util.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libxcb-util.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-util.so.1 -> libxcb-util.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libxcb-util.so -> libxcb-util.so.1.0.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/xcb-atom.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/xcb-aux.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/xcb-event.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/xcb-util.pc

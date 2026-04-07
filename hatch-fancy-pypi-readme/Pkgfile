@@ -1,0 +1,20 @@
+description=" Hatch-Fancy-Pypi-Readme is a hatch plugin filling the readme field into the metadata of a Python module from markup language documentation files of the module. "
+name=hatch-fancy-pypi-readme
+version=25.1.0
+release=1
+packager=alexis
+source=("https://files.pythonhosted.org/packages/source/h/hatch-fancy-pypi-readme/hatch_fancy_pypi_readme-25.1.0.tar.gz")
+
+build() {
+cd hatch_fancy_pypi_readme-25.1.0
+
+pip3 wheel -w dist \
+    --no-build-isolation \
+    --no-deps $PWD
+  pip3 install --no-index \
+    --find-links dist \
+    --no-cache-dir    \
+    --no-user         \
+    --root=$PKG       \
+    hatch-fancy-pypi-readme
+}

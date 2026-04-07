@@ -1,0 +1,13 @@
+description="NASM (Netwide Assembler) is an 80x86 assembler designed for portability and modularity."
+name=nasm
+version=3.01
+release=1
+packager=alexis
+source=("https://www.nasm.us/pub/nasm/releasebuilds/3.01/nasm-3.01.tar.xz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr &&
+make
+make DESTDIR=$PKG install
+}

@@ -1,0 +1,14 @@
+description=" duktape is an embeddable Javascript engine, with a focus on portability and compact footprint. "
+name=duktape
+version=2.7.0
+release=1
+packager=alexis
+source=("https://duktape.org/duktape-2.7.0.tar.xz")
+
+build() {
+cd $name-$version
+sed -i 's/-Os/-O2/' Makefile.sharedlibrary
+make -f Makefile.sharedlibrary INSTALL_PREFIX=/usr
+#make 
+make -f Makefile.sharedlibrary DESTDIR=$PKG INSTALL_PREFIX=/usr install
+}

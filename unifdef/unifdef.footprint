@@ -1,0 +1,9 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/unifdef
+-rwxr-xr-x	alexis/alexis	usr/bin/unifdefall
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/man/
+drwxr-xr-x	alexis/alexis	usr/share/man/man1/
+-rw-r--r--	alexis/alexis	usr/share/man/man1/unifdef.1.gz
+lrwxrwxrwx	alexis/alexis	usr/share/man/man1/unifdefall.1.gz -> unifdef.1.gz

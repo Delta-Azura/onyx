@@ -1,0 +1,21 @@
+description=" The AppStream package contains a library and tool that is useful for retrieving software metadata and making it easily accessible to programs which need it. "
+name=appstream
+version=1.1.2
+release=1
+packager=alexis
+source=("https://www.freedesktop.org/software/appstream/releases/AppStream-1.1.2.tar.xz")
+
+build() {
+cd AppStream-$version
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=/usr            \
+            --buildtype=release      \
+            -D apidocs=false         \
+            -D bash-completion=false \
+            -D stemming=false -D man=false  .. &&
+ninja
+DESTDIR=$PKG ninja install
+mv -v $PKG/usr/share/doc/appstream{,-1.1.2}
+}

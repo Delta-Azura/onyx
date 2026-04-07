@@ -1,0 +1,21 @@
+description=" The Xorg Server is the core of the X Window system. "
+name=xorg-server
+version=21.1.21
+release=1
+packager=alexis
+source=("https://www.x.org/pub/individual/xserver/xorg-server-21.1.21.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup ..              \
+      --prefix=$XORG_PREFIX \
+      --localstatedir=/var  \
+      -D glamor=true        \
+      -D xkb_output_dir=/var/lib/xkb &&
+ninja
+DESTDIR=$PKG ninja install
+mkdir -pv $PKG/etc/X11/xorg.conf.d
+}

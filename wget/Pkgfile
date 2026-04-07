@@ -1,0 +1,16 @@
+description="download content"
+name=wget 
+version=1.25.0
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/wget/wget-1.25.0.tar.gz")
+depends=("libpsl")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr      \
+            --sysconfdir=/etc  \
+            --with-ssl=openssl &&
+make
+make DESTDIR=$PKG install
+}

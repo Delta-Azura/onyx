@@ -1,0 +1,20 @@
+description="The pipewire package contains a server and userspace API to handle multimedia pipelines."
+name=pipewire
+version=1.6.0
+release=1
+packager=alexis
+source=("https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/1.6.0/pipewire-1.6.0.tar.bz2")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+meson setup ..                 \
+      --prefix=/usr            \
+      --buildtype=release      \
+      -D session-managers="[]" -D bluez5=enabled  -D bluez5-backend-hsp-native=enabled \
+      -D bluez5-backend-hfp-native=enabled &&
+ninja
+DESTDIR=$PKG ninja install
+}

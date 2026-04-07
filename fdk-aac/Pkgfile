@@ -1,0 +1,13 @@
+description=" The fdk-aac package provides the Fraunhofer FDK AAC library, which is purported to be a high quality Advanced Audio Coding implementation. "
+name=fdk-aac
+version=2.0.3
+release=1
+packager=alexis
+source=("https://downloads.sourceforge.net/opencore-amr/fdk-aac-2.0.3.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr --disable-static &&
+make
+make DESTDIR=$PKG install
+}
