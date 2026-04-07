@@ -7,3 +7,5 @@ The Pkgfiles should compile correctly if executed by cards 3.2.3 and built on a 
 
 The Pkgfiles may not provide the expected results because some configuration or post-installation manipulations are recquired, please refer to the LFS/BLFS/SLFS documentation.
 
+Some packages may need a systemd service, if they are not provided, please refer again to the BLFS documentation and download the tarball called blfs-systemd-units, then refer to the documentation as usual.
+
