@@ -5,3 +5,5 @@ The recipes are all inspired from the LFS/BLFS/SLFS documentation, thanks to the
 
 The Pkgfiles should compile correctly if executed by cards 3.2.3 and built on a 13.0 LFS systemd platform. 
 
+The Pkgfiles may not provide the expected results because some configuration or post-installation manipulations are recquired, please refer to the LFS/BLFS/SLFS documentation.
+
