@@ -9,3 +9,7 @@ The Pkgfiles may not provide the expected results because some configuration or 
 
 Some packages may need a systemd service, if they are not provided, please refer again to the BLFS documentation and download the tarball called blfs-systemd-units, then refer to the documentation as usual.
 
+
+# Thanks
+Thank you to the guys from NuTyX for cards, the great-os team for their support and the writers of LFS/BLFS/SLFS
+
