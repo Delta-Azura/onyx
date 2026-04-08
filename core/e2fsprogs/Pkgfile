@@ -1,0 +1,24 @@
+description="The E2fsprogs package contains the utilities for handling the ext2 file system."
+name=e2fsprogs
+version=1.47.3
+release=1
+packager=alexis
+source=("https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.47.3/e2fsprogs-1.47.3.tar.gz")
+
+build() {
+cd $name-$version
+mkdir -v build
+cd       build
+../configure --prefix=/usr       \
+             --sysconfdir=/etc   \
+             --enable-elf-shlibs \
+             --disable-libblkid  \
+             --disable-libuuid   \
+             --disable-uuidd     \
+             --disable-fsck
+make 
+make DESTDIR=$PKG install
+rm -fv $PKG/usr/lib/{libcom_err,libe2p,libext2fs,libss}.a
+gunzip -v $PKG/usr/share/info/libext2fs.info.gz
+install-info --dir-file=$PKG/usr/share/info/dir $PKG/usr/share/info/libext2fs.info
+}
