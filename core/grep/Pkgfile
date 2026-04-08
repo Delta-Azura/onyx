@@ -1,0 +1,15 @@
+description=" The Grep package contains programs for searching through the contents of files. "
+name=grep
+version=3.12	
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/grep/grep-3.12.tar.xz")
+
+
+build() {
+cd $name-$version
+sed -i "s/echo/#echo/" src/egrep.sh
+./configure --prefix=/usr
+make 
+make DESTDIR=$PKG install
+}

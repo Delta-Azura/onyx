@@ -1,0 +1,14 @@
+description=" The Diffutils package contains programs that show the differences between files or directories. "
+name=diffutils
+version=3.12
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/diffutils/diffutils-3.12.tar.xz")
+
+build() {
+cd $name-$version
+
+./configure --prefix=/usr
+make 
+make DESTDIR=$PKG install
+}

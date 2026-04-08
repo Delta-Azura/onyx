@@ -1,0 +1,21 @@
+description=" Jinja2 is a Python module that implements a simple pythonic template language. "
+name=jinja2
+release=1
+packager=alexis
+source=("https://pypi.org/packages/source/J/Jinja2/jinja2-3.1.6.tar.gz")
+version=3.1.6
+
+build() {
+cd $name-$version 
+
+#cd markupsafe-3.0.3
+pip3 wheel -w dist \
+    --no-build-isolation \
+    --no-deps $PWD
+  pip3 install  \
+    --find-links dist \
+    --no-cache-dir    \
+    --no-user --ignore-installed         \
+    --root=$PKG       \
+    Jinja2
+}

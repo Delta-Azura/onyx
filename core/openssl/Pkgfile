@@ -1,0 +1,21 @@
+description="The OpenSSL package contains management tools and libraries relating to cryptography."
+name=openssl
+version=3.6.1
+release=1
+packager=alexis
+source=("https://github.com/openssl/openssl/releases/download/openssl-3.6.1/openssl-3.6.1.tar.gz")
+
+build() {
+cd $name-$version
+./config --prefix=/usr         \
+         --openssldir=/etc/ssl \
+         --libdir=lib          \
+         shared                \
+         zlib-dynamic
+make 
+sed -i '/INSTALL_LIBS/s/libcrypto.a libssl.a//' Makefile
+make DESTDIR=$PKG MANSUFFIX=ssl install
+#mkdir -p $PKG/usr/share/doc/openssl-3.6.1
+mv -v $PKG/usr/share/doc/openssl $PKG/usr/share/doc/openssl-3.6.1
+cp -vfr doc/* $PKG/usr/share/doc/openssl-3.6.1
+}

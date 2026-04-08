@@ -1,0 +1,26 @@
+description=" The Libxcrypt package contains a modern library for one-way hashing of passwords. "
+name=libxcrypt
+version=4.5.2
+release=1
+packager=alexis
+source=("https://github.com/besser82/libxcrypt/releases/download/v4.5.2/libxcrypt-4.5.2.tar.xz")
+
+build() {
+cd $name-$version
+sed -i '/strchr/s/const//' lib/crypt-{sm3,gost}-yescrypt.c
+./configure --prefix=/usr                \
+            --enable-hashes=strong,glibc \
+            --enable-obsolete-api=no     \
+            --disable-static             \
+            --disable-failure-tokens
+make 
+make DESTDIR=$PKG install
+#make distclean
+#./configure --prefix=/usr                \
+#            --enable-hashes=strong,glibc \
+#            --enable-obsolete-api=glibc  \
+#            --disable-static             \
+#            --disable-failure-tokens
+#make
+#cp -av --remove-destination .libs/libcrypt.so.1* $PKG/usr/lib
+}

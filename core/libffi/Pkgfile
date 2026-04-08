@@ -1,0 +1,15 @@
+description=" The Libffi library provides a portable, high level programming interface to various calling conventions."
+name=libffi
+version=3.5.2
+release=1
+packager=alexis
+source=("https://github.com/libffi/libffi/releases/download/v3.5.2/libffi-3.5.2.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr    \
+            --disable-static \
+            --with-gcc-arch=native
+make 
+make DESTDIR=$PKG install
+}

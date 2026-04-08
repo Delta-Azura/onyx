@@ -1,0 +1,19 @@
+description="The Python 3 package contains the Python development environment"
+name=python
+version=3.14.3
+release=1
+packager=alexis
+source=("https://www.python.org/ftp/python/3.14.3/Python-3.14.3.tar.xz")
+
+
+build() {
+cd Python-$version
+./configure --prefix=/usr          \
+            --enable-shared        \
+            --with-system-expat    \
+            --enable-optimizations \
+            --without-static-libpython
+
+make 
+make DESTDIR=$PKG install
+}

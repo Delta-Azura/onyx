@@ -1,0 +1,13 @@
+description=" The Libpipeline package contains a library for manipulating pipelines of subprocesses in a flexible and convenient way. "
+name=libpipeline
+version=1.5.8
+release=1
+packager=alexis
+source=("https://download.savannah.gnu.org/releases/libpipeline/libpipeline-1.5.8.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr
+make 
+make DESTDIR=$PKG install
+}

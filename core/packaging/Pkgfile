@@ -1,0 +1,22 @@
+description=" The packaging module is a Python library that provides utilities that implement the interoperability specifications which have clearly one correct behaviour (PEP440) or benefit greatly from having a single shared implementation (PEP425)."
+name=packaging
+version=26.0
+release=1
+packager=alexis
+source=("https://files.pythonhosted.org/packages/source/p/packaging/packaging-26.0.tar.gz")
+
+build() {
+cd $name-$version 
+
+#build() {
+#cd $name-$version
+pip3 wheel -w dist \
+    --no-build-isolation \
+    --no-deps $PWD
+  pip3 install --no-index \
+    --find-links dist \
+    --no-cache-dir    \
+    --no-user --ignore-installed         \
+    --root=$PKG       \
+    packaging
+}

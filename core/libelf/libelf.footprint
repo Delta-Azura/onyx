@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/elfutils/
+-rw-r--r--	root/root	usr/include/elfutils/elf-knowledge.h
+-rw-r--r--	root/root	usr/include/gelf.h
+-rw-r--r--	root/root	usr/include/libelf.h
+-rw-r--r--	root/root	usr/include/nlist.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libelf-0.194.so
+lrwxrwxrwx	root/root	usr/lib/libelf.so.1 -> libelf-0.194.so
+lrwxrwxrwx	root/root	usr/lib/libelf.so -> libelf.so.1
+-rw-r--r--	root/root	usr/lib/pkgconfig

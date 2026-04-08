@@ -1,0 +1,15 @@
+description=" The Texinfo package contains programs for reading, writing, and converting info pages. "
+name=texinfo
+version=7.2
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/texinfo/texinfo-7.2.tar.xz")
+
+build() {
+cd $name-$version 
+sed 's/! $output_file eq/$output_file ne/' -i tp/Texinfo/Convert/*.pm
+./configure --prefix=/usr
+make 
+make DESTDIR=$PKG install
+make DESTDIR=$PKG TEXMF=/usr/share/texmf install-tex
+}

@@ -1,0 +1,30 @@
+description=" The Ncurses package contains libraries for terminal-independent handling of character screens. "
+name=ncurses
+version=6.6
+release=1
+packager=alexis
+source=("https://invisible-mirror.net/archives/ncurses/ncurses-6.6.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr           \
+            --mandir=/usr/share/man \
+            --with-shared           \
+            --without-debug         \
+            --without-normal        \
+            --with-cxx-shared       \
+            --enable-pc-files       \
+            --with-pkg-config-libdir=/usr/lib/pkgconfig
+make 
+mkdir $PKG/dest
+make DESTDIR=$PKG/dest install
+sed -e 's/^#if.*XOPEN.*$/#if 1/' \
+    -i $PKG/dest/usr/include/curses.h
+mv $PKG/dest/* $PKG/
+rm -r $PKG/dest
+for lib in ncurses form panel menu ; do
+    ln -sfv lib${lib}w.so $PKG/usr/lib/lib${lib}.so
+    ln -sfv ${lib}w.pc    $PKG/usr/lib/pkgconfig/${lib}.pc
+done
+ln -sfv libncursesw.so $PKG/usr/lib/libcurses.so
+}

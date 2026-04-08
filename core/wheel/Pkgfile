@@ -1,0 +1,26 @@
+description=" Wheel is a Python library that is the reference implementation of the Python wheel packaging standard. "
+name=wheel
+version=0.46.3
+release=1
+packager=alexis
+source=("https://pypi.org/packages/source/w/wheel/wheel-0.46.3.tar.gz")
+
+build() {
+cd $name-$version
+#pip3 wheel -w dist \
+#    --no-build-isolation --no-cache-dir \
+#    --no-deps $PWD
+#  pip3 install --no-index --find-links \
+#    --ignore-installed         \
+#    --root=$PKG       \
+#    wheel
+pip3 wheel -w dist \
+    --no-build-isolation \
+    --no-deps $PWD
+  pip3 install  \
+    --find-links dist \
+    --no-cache-dir    \
+    --no-user --ignore-installed        \
+    --root=$PKG       \
+    wheel
+}

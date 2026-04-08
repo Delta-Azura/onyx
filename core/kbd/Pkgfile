@@ -1,0 +1,17 @@
+description=" The Kbd package contains key-table files, console fonts, and keyboard utilities. "
+name=kbd
+version=2.9.0
+release=1
+packager=alexis
+source=("https://www.kernel.org/pub/linux/utils/kbd/kbd-2.9.0.tar.xz"
+"https://www.linuxfromscratch.org/patches/lfs/13.0/kbd-2.9.0-backspace-1.patch")
+
+build() {
+cd $name-$version
+patch -Np1 -i ../kbd-2.9.0-backspace-1.patch
+sed -i '/RESIZECONS_PROGS=/s/yes/no/' configure
+sed -i 's/resizecons.8 //' docs/man/man8/Makefile.in
+./configure --prefix=/usr --disable-vlock
+make
+make DESTDIR=$PKG install
+}

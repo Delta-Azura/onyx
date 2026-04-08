@@ -1,0 +1,13 @@
+description=" Gperf generates a perfect hash function from a key set. "
+name=gperf
+version=3.3
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/gperf/gperf-3.3.tar.gz")
+
+build() {
+cd $name-$version 
+./configure --prefix=/usr --docdir=/usr/share/doc/gperf-3.3
+make 
+make DESTDIR=$PKG install
+}

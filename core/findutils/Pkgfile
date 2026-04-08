@@ -1,0 +1,13 @@
+description="The Findutils package contains programs to find files."
+name=findutils
+version=4.10.0
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/findutils/findutils-4.10.0.tar.xz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr --localstatedir=/var/lib/locate
+make 
+make DESTDIR=$PKG install
+}

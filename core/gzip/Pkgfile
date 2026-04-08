@@ -1,0 +1,13 @@
+description=" The Gzip package contains programs for compressing and decompressing files. "
+name=gzip 
+version=1.14
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/gzip/gzip-1.14.tar.xz")
+
+build() {
+cd $name-$version 
+./configure --prefix=/usr
+make 
+make DESTDIR=$PKG install
+}

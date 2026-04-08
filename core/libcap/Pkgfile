@@ -1,0 +1,13 @@
+description="The Libcap package implements the userspace interface to the POSIX 1003."
+name=libcap
+version=2.77
+release=1
+packager=alexis
+source=("https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.77.tar.xz")
+
+build() {
+cd $name-$version
+sed -i '/install -m.*STA/d' libcap/Makefile
+make prefix=/usr lib=lib
+make DESTDIR=$PKG prefix=/usr lib=lib install
+}

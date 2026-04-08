@@ -1,0 +1,18 @@
+description=" The Kmod package contains libraries and utilities for loading kernel modules "
+name=kmod
+version=34.2
+release=1
+packager=alexis
+source=("https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-34.2.tar.xz")
+
+build() {
+cd $name-$version
+mkdir -p build
+cd       build
+
+meson setup --prefix=/usr ..    \
+            --buildtype=release \
+            -D manpages=false
+ninja 
+DESTDIR=$PKG ninja install
+}

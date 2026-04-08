@@ -1,0 +1,15 @@
+description="The Acl package contains utilities to administer Access Control Lists, which are used to define fine-grained discretionary access rights for files and directories."
+name=acl
+version=2.3.2
+release=1
+packager=alexis
+source=("https://download.savannah.gnu.org/releases/acl/acl-2.3.2.tar.xz")
+
+build() {
+cd $name-$version 
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/acl-2.3.2
+make 
+make DESTDIR=$PKG install
+}

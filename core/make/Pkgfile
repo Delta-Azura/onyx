@@ -1,0 +1,13 @@
+description=" The Make package contains a program for controlling the generation of executables and other non-source files of a package from source files. "
+name=make
+version=4.4.1
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/make/make-4.4.1.tar.gz")
+
+build() {
+cd $name-$version 
+./configure --prefix=/usr
+make
+make DESTDIR=$PKG install
+}

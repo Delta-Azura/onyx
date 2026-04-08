@@ -1,0 +1,15 @@
+description=" The IPRoute2 package contains programs for basic and advanced IPV4-based networking. "
+name=iproute2
+version=6.18.0
+release=1
+packager=alexis
+source=("https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-6.18.0.tar.xz")
+
+
+build() {
+cd $name-$version 
+sed -i /ARPD/d Makefile
+rm -fv man/man8/arpd.8
+make NETNS_RUN_DIR=/run/netns
+make DESTDIR=$PKG SBINDIR=/usr/sbin install
+}

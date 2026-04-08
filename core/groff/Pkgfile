@@ -1,0 +1,13 @@
+description=" The Groff package contains programs for processing and formatting text and images. "
+name=groff
+version=1.23.0
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/groff/groff-1.23.0.tar.gz")
+
+build() {
+cd $name-$version
+PAGE=A4 ./configure --prefix=/usr
+make 
+make DESTDIR=$PKG install
+}

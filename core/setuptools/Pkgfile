@@ -1,0 +1,21 @@
+description=" Setuptools is a tool used to download, build, install, upgrade, and uninstall Python packages. "
+name=setuptools
+version=82.0.0
+release=1
+packager=alexis
+source=("https://pypi.org/packages/source/s/setuptools/setuptools-82.0.0.tar.gz")
+
+
+build() {
+cd $name-$version
+pip3 wheel -w dist \
+    --no-build-isolation \
+    --no-deps $PWD
+  pip3 install --no-index \
+    --find-links dist \
+    --no-cache-dir    \
+    --no-user --ignore-installed         \
+    --root=$PKG       \
+    setuptools
+}
+

@@ -1,0 +1,13 @@
+description=" The Automake package contains programs for generating Makefiles for use with Autoconf. "
+name=automake
+version=1.18.1
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/automake/automake-1.18.1.tar.xz")
+
+build() {
+cd $name-$version 
+./configure --prefix=/usr --docdir=/usr/share/doc/automake-1.18.1
+make 
+make DESTDIR=$PKG install
+}

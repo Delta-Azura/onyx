@@ -1,0 +1,17 @@
+description="The GDBM package contains the GNU Database Manager."
+name=gdbm
+version=1.26
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/gdbm/gdbm-1.26.tar.gz")
+
+
+build() {
+cd $name-$version
+./configure --prefix=/usr    \
+            --disable-static \
+            --enable-libgdbm-compat
+
+make 
+make DESTDIR=$PKG install
+}

@@ -1,0 +1,13 @@
+description="./configure --prefix=/usr --sysconfdir=/etc"
+name=less
+version=692
+release=1
+packager=alexis
+source=("https://www.greenwoodsoftware.com/less/less-692.tar.gz")
+
+build() {
+cd $name-$version
+./configure --prefix=/usr --sysconfdir=/etc
+make 
+make DESTDIR=$PKG install
+}

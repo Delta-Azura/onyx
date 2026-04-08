@@ -1,0 +1,23 @@
+description=" The Coreutils package contains the basic utility programs needed by every operating system. "
+name=coreutils
+version=9.10
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/coreutils/coreutils-9.10.tar.xz"
+"https://www.linuxfromscratch.org/patches/lfs/13.0/coreutils-9.10-i18n-1.patch")
+
+build() {
+cd $name-$version
+patch -Np1 -i ../coreutils-9.10-i18n-1.patch
+autoreconf -fv
+automake -af
+FORCE_UNSAFE_CONFIGURE=1 ./configure \
+            --prefix=/usr
+make 
+make DESTDIR=$PKG install
+mv -v $PKG/usr/bin/chroot $PKG/usr/sbin
+mkdir -pv $PKG/usr/share/man/man8
+mv -v $PKG/usr/share/man/man1/chroot.1 $PKG/usr/share/man/man8/chroot.8
+
+sed -i 's/"1"/"8"/' $PKG/usr/share/man/man8/chroot.8
+}
