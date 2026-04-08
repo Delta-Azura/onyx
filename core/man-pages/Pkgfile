@@ -1,0 +1,13 @@
+description="man pages"
+name=man-pages
+version=6.17
+release=1
+packager=alexis
+url="https://www.kernel.org/doc/man-pages/"
+source=("https://www.kernel.org/pub/linux/docs/man-pages/man-pages-6.17.tar.xz")
+
+build() {
+cd $name-$version
+rm -v man3/crypt*
+make DESTDIR=$PKG -R GIT=false prefix=/usr install
+}

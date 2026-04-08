@@ -1,0 +1,19 @@
+description="The GMP package contains math libraries."
+name=gmp
+version=6.3.0
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/gmp/gmp-6.3.0.tar.xz")
+
+build() {
+cd $name-$version
+sed -i '/long long t1;/,+1s/()/(...)/' configure
+./configure --prefix=/usr    \
+            --enable-cxx     \
+            --disable-static \
+            --docdir=/usr/share/doc/gmp-6.3.0
+make 
+make html
+make DESTDIR=$PKG install
+make DESTDIR=$PKG install-html
+}

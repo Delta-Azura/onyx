@@ -1,0 +1,25 @@
+description=" The Readline package is a set of libraries that offer command-line editing and history capabilities. "
+name=readline
+version=8.3
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/readline/readline-8.3.tar.gz")
+
+build() {
+cd $name-$version
+sed -i '/MV.*old/d' Makefile.in
+sed -i '/{OLDSUFF}/c:' support/shlib-install
+sed -i 's/-Wl,-rpath,[^ ]*//' support/shobj-conf
+sed -e '270a\
+     else\
+       chars_avail = 1;'      \
+    -e '288i\   result = -1;' \
+    -i.orig input.c
+./configure --prefix=/usr    \
+            --disable-static \
+            --with-curses    \
+            --docdir=/usr/share/doc/readline-8.3
+make SHLIB_LIBS="-lncursesw"
+make DESTDIR=$PKG install
+install -v -m644 doc/*.{ps,pdf,html,dvi} $PKG/usr/share/doc/readline-8.3
+}

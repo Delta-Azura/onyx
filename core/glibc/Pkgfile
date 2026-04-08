@@ -1,0 +1,62 @@
+description="The Glibc package contains the main C library."
+name=glibc
+version=2.43
+release=1
+packager=alexis
+source=("https://ftpmirror.gnu.org/glibc/glibc-2.43.tar.xz"
+"https://www.linuxfromscratch.org/patches/lfs/13.0/glibc-fhs-1.patch")
+url="https://www.gnu.org/software/libc/"
+
+build() {
+cd $name-$version
+patch -Np1 -i ../glibc-fhs-1.patch
+mkdir -v build
+cd       build
+echo "rootsbindir=/usr/sbin" > configparms
+../configure --prefix=/usr                   \
+             --disable-werror                \
+             --disable-nscd                  \
+             libc_cv_slibdir=/usr/lib        \
+             --enable-stack-protector=strong \
+             --enable-kernel=5.4
+make
+sed '/test-installation/s@$(PERL)@echo not running@' -i ../Makefile
+make install_root=$PKG install
+sed '/RTLDLIST=/s@/usr@@g' -i /usr/bin/ldd
+#localedef -i C -f UTF-8 C.UTF-8
+
+
+
+make install_root=$PKG localedata/install-locales
+mkdir -p $PKG/etc/
+cat > $PKG/etc/nsswitch.conf << "EOF"
+# Begin /etc/nsswitch.conf
+
+passwd: files systemd
+group: files systemd
+shadow: files systemd
+
+hosts: mymachines resolve [!UNAVAIL=return] files myhostname dns
+networks: files
+
+protocols: files
+services: files
+ethers: files
+rpc: files
+
+# End /etc/nsswitch.conf
+EOF
+cat > $PKG/etc/ld.so.conf << "EOF"
+# Begin /etc/ld.so.conf
+/usr/local/lib
+/opt/lib
+
+EOF
+
+cat >> $PKG/etc/ld.so.conf << "EOF"
+# Add an include directory
+include /etc/ld.so.conf.d/*.conf
+
+EOF
+mkdir -pv $PKG/etc/ld.so.conf.d
+}

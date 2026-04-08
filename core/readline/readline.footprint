@@ -1,0 +1,53 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/readline/
+-rw-r--r--	root/root	usr/include/readline/chardefs.h
+-rw-r--r--	root/root	usr/include/readline/history.h
+-rw-r--r--	root/root	usr/include/readline/keymaps.h
+-rw-r--r--	root/root	usr/include/readline/readline.h
+-rw-r--r--	root/root	usr/include/readline/rlconf.h
+-rw-r--r--	root/root	usr/include/readline/rlstdc.h
+-rw-r--r--	root/root	usr/include/readline/rltypedefs.h
+-rw-r--r--	root/root	usr/include/readline/tilde.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libhistory.so.8.3
+lrwxrwxrwx	root/root	usr/lib/libhistory.so.8 -> libhistory.so.8.3
+lrwxrwxrwx	root/root	usr/lib/libhistory.so -> libhistory.so.8
+-rwxr-xr-x	root/root	usr/lib/libreadline.so.8.3
+lrwxrwxrwx	root/root	usr/lib/libreadline.so.8 -> libreadline.so.8.3
+lrwxrwxrwx	root/root	usr/lib/libreadline.so -> libreadline.so.8
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/history.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/readline.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/doc/
+drwxr-xr-x	root/root	usr/share/doc/readline-8.3/
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/CHANGES
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/history_3.pdf
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/history_3.ps
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/history.dvi
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/history.html
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/history.pdf
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/history.ps
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/INSTALL
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/readline_3.pdf
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/readline_3.ps
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/readline.dvi
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/readline.html
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/readline.pdf
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/readline.ps
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/README
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/rluserman.dvi
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/rluserman.html
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/rluserman.pdf
+-rw-r--r--	root/root	usr/share/doc/readline-8.3/rluserman.ps
+drwxr-xr-x	root/root	usr/share/info/
+-rw-r--r--	root/root	usr/share/info/dir.gz
+-rw-r--r--	root/root	usr/share/info/history.info.gz
+-rw-r--r--	root/root	usr/share/info/readline.info.gz
+-rw-r--r--	root/root	usr/share/info/rluserman.info.gz
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man3/
+-rw-r--r--	root/root	usr/share/man/man3/history.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/readline.3.gz

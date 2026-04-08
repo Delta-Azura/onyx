@@ -1,0 +1,13 @@
+description="Lz4 is a lossless compression algorithm, providing compression speed greater than 500 MB/s per core."
+name=lz4
+version=1.10.0
+release=1
+packager=alexis
+source=("https://github.com/lz4/lz4/releases/download/v1.10.0/lz4-1.10.0.tar.gz")
+
+
+build() {
+cd $name-$version
+make BUILD_STATIC=no PREFIX=/usr
+make DESTDIR=$PKG BUILD_STATIC=no PREFIX=/usr install
+}

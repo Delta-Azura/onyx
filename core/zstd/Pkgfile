@@ -1,0 +1,14 @@
+description="Zstandard is a real-time compression algorithm, providing high compression ratios."
+name=zstd
+version=1.5.7
+release=1
+packager=alexis
+source=("https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz")
+
+build() {
+ls
+cd $name-$version
+make prefix=/usr
+make DESTDIR=$PKG prefix=/usr install
+rm -v $PKG/usr/lib/libzstd.a
+}

@@ -1,0 +1,43 @@
+description="The Tcl package contains the Tool Command Language, a robust general-purpose scripting language."
+name=tcl
+version=8.6.17
+release=1
+packager=alexis
+source=("https://downloads.sourceforge.net/tcl/tcl8.6.17-src.tar.gz")
+
+build() {
+ls
+#cd $name-$version-src 
+cd tcl8.6.17
+SRCDIR=$(pwd)
+cd unix
+./configure --prefix=/usr           \
+            --mandir=/usr/share/man \
+            --disable-rpath
+
+make
+
+sed -e "s|$SRCDIR/unix|/usr/lib|" \
+    -e "s|$SRCDIR|/usr/include|"  \
+    -i tclConfig.sh
+
+sed -e "s|$SRCDIR/unix/pkgs/tdbc1.1.12|/usr/lib/tdbc1.1.12|" \
+    -e "s|$SRCDIR/pkgs/tdbc1.1.12/generic|/usr/include|"     \
+    -e "s|$SRCDIR/pkgs/tdbc1.1.12/library|/usr/lib/tcl8.6|"  \
+    -e "s|$SRCDIR/pkgs/tdbc1.1.12|/usr/include|"             \
+    -i pkgs/tdbc1.1.12/tdbcConfig.sh
+
+sed -e "s|$SRCDIR/unix/pkgs/itcl4.3.4|/usr/lib/itcl4.3.4|" \
+    -e "s|$SRCDIR/pkgs/itcl4.3.4/generic|/usr/include|"    \
+    -e "s|$SRCDIR/pkgs/itcl4.3.4|/usr/include|"            \
+    -i pkgs/itcl4.3.4/itclConfig.sh
+
+unset SRCDIR
+
+make DESTDIR=$PKG install 
+chmod 644 $PKG/usr/lib/libtclstub8.6.a
+chmod -v u+w $PKG/usr/lib/libtcl8.6.so
+make DESTDIR=$PKG install-private-headers
+ln -sfv tclsh8.6 $PKG/usr/bin/tclsh
+mv -v $PKG/usr/share/man/man3/{Thread,Tcl_Thread}.3
+}

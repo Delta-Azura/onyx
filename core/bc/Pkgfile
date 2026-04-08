@@ -1,0 +1,13 @@
+description=" The Bc package contains an arbitrary precision numeric processing language. "
+name=bc
+version=7.0.3
+release=1
+packager=alexis
+source=("https://github.com/gavinhoward/bc/releases/download/7.0.3/bc-7.0.3.tar.xz")
+
+build() {
+cd $name-$version
+CC='gcc -std=c99' ./configure --prefix=/usr -G -O3 -r
+make 
+make DESTDIR=$PKG install 
+}
