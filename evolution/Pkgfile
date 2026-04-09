@@ -1,0 +1,24 @@
+description=" The Evolution package contains an integrated mail, calendar and address book suite designed for the GNOME environment. "
+name=evolution
+version=3.58.3
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/evolution/3.58/evolution-3.58.3.tar.xz")
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr \
+      -D SYSCONF_INSTALL_DIR=/etc  \
+      -D ENABLE_INSTALLED_TESTS=ON \
+      -D ENABLE_PST_IMPORT=OFF     \
+      -D ENABLE_YTNEF=OFF          \
+      -D ENABLE_CONTACT_MAPS=OFF   \
+      -D ENABLE_MARKDOWN=OFF       \
+      -D ENABLE_WEATHER=ON         \
+      -G Ninja .. &&
+ninja
+DESTDIR=$PKG ninja install
+}
