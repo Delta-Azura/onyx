@@ -1,0 +1,398 @@
+#!/bin/bash
+
+#set -x
+#if [[ -f $HOME/.mybld ]]; then
+#  . $HOME/.mybld
+#else
+#  cat << EOF
+#Please create a $HOME/.mybld with at least GITDIR= var with an absolute value for your git root repo
+#EOF
+#fi
+
+#if [[ -z $GITDIR ]]; then
+#  cat << EOF
+#GITDIR= is not present in your $HOME/.mybld file, please fill it with your git root repo
+#EOF
+#fi
+
+GITDIR=/home/alexis/Onyx
+PACKAGES_FOLDER="$GITDIR"
+COLLECTIONS="
+core
+all"
+
+ARCHGIT="/archlinux"
+ARCHGITURL="https://gitlab.archlinux.org/archlinux/packaging/state.git"
+PARAMS=""
+UPDATE=0
+SUMMARY=0
+FIRST=1
+DEBUG=0
+NOTFOUND=0
+
+T_NOTFOUND=""
+PNFn=0
+PFn=0
+PODn=0
+wowoutput=()
+
+declare -A outdpkgcount
+
+########################################################################
+# FUNCTIONS
+########################################################################
+
+showhelp() {
+echo "
+Script to find outdated packages in collections
+Usage:
+ -u|--update    : clone or update arch packages to allow comparison
+
+ -s|--summary   : do not show outdated packages but just number / collection
+
+ -nf|--notfound : show not found packages (not shown by default)
+
+ -h|--help      : show this help
+
+ --debug        : show debug messages (useful for dev this script)
+"
+}
+
+debug() {
+  if [ "$DEBUG" == "1" ]; then
+    echo "debug >>> $1"
+  fi
+}
+
+## the 4 following functions are used to version comparison
+verlte() {
+    [  "$1" = "$(echo -e "$1\n$2" | sort -V | head -n1)" ]
+}
+verlt() {
+    [ "$1" = "$2" ] && return 1 || verlte $1 $2
+}
+tobe_updated() {
+  PODn=$((PODn + 1))
+
+  #echo "$(basename $i) $pkgver ($version) [$packager]"
+  #shows packager name only
+  tmpCOLLECTION=$(echo "$COLLECTION" | tr -dc '[[:alpha:]]')
+  declare -g -n ref="wowoutput$tmpCOLLECTION"
+  ref+=("$(basename $i) $pkgver ($version) [$(cut -d'<' -f1 <<< $packager | xargs)]")
+
+  ((outdpkgcount[$tmpCOLLECTION]++))
+
+}
+#up_to_date() {
+#  echo "$(basename $i) $pkgver ($version) [$packager] up to date"
+#}
+
+datediff() {
+    d1=$(date -d "$1" +%s)
+    d2=$(date -d "$2" +%s)
+    diff=$(( (d1 - d2) / 86400 ))
+    if [ $diff -lt 0 ]
+    then
+        diff=$((-$diff))
+    fi
+    echo $diff
+}
+
+clone_repo() {
+  mkdir -p "$HOME$ARCHGIT"
+  cd $HOME$ARCHGIT >&2
+  git clone $ARCHGITURL >&2
+  cd - > /dev/null 2>&1
+}
+update_repo() {
+  cd $HOME$ARCHGIT/state >&2
+  git pull -q --ff-only >&2
+  cd - > /dev/null 2>&1
+}
+
+echo "###### $(date -R) - ≧◔◡◔≦ 🄯 Onyx ######"
+echo "########################################################################"
+
+source $PACKAGES_FOLDER/scripts/archpkg.sh
+
+########################################################################
+# ARGUMENTS PARSING
+########################################################################
+
+while (( "$#" )); do
+  case "$1" in
+    -u|--update)
+      UPDATE=1
+      shift
+      ;;
+    -s|--summary)
+      SUMMARY=1
+      shift
+      ;;
+    -nf|--notfound)
+      NOTFOUND=1
+      shift
+      ;;
+    -h|--help)
+      showhelp
+      exit 0
+      ;;
+    --debug)
+      DEBUG=1
+      shift
+      ;;
+    -*|--*=)
+      echo "Error: unrecognized option $1" >&2
+      exit 1
+      ;;
+    *)
+      if [[ "$COLLECTIONS" =~ .*"$1".* ]]; then
+        if [[ $FIRST = 1 ]]; then
+          PARAMS+="$1"
+          FIRST=0
+        else
+          PARAMS+=" $1"
+        fi
+        shift
+    else
+    echo "Error: unknown collection $1"
+    exit 1
+    fi
+      ;;
+  esac
+done
+
+eval set -- "$PARAMS"
+
+if [ -z "$PARAMS" ]; then
+  PARAMS=$COLLECTIONS
+else
+  PARAMS=$(echo "$PARAMS" | tr ' ' '\n' | sort | tr '\n' ' ')
+  debug "params: $PARAMS
+"
+fi
+
+debug "update:$UPDATE summary:$SUMMARY notfound:$NOTFOUND collections:$PARAMS
+"
+
+########################################################################
+# -u|--update  =>  UPDATE STATE REPOSITORY
+########################################################################
+
+if [ "$UPDATE" == "1" ]; then
+
+  if  [ ! -d "$HOME$ARCHGIT/state" ] ; then
+    wowoutput+=("cloning state repository")
+    clone_repo $ALG
+  else
+    update_repo $ALG
+    if [ $? == 0 ]; then
+      wowoutput+=("updated state repository")
+    else
+      wowoutput+=("failed updating state repository")
+    fi
+  fi
+  wowoutput+=("")
+
+else
+
+  if  [ -d "$HOME$ARCHGIT/state/" ] ; then
+
+    # retrieve last commit date
+    cd $HOME$ARCHGIT/state/ >&2
+    gitdate=$(git log -1 --format=%cd --date=format:"%Y%m%d") >&2
+    cd - > /dev/null 2>&1
+
+    # compare it with today - 10 days
+    minusten=$(date -d 'now' +%Y%m%d)
+
+    # output a nice message to suggest an update with -u ;)
+    ecart=0
+    ecart=$(datediff $gitdate $minusten)
+
+    debug "gitdate: $gitdate  minusten:$minusten datediff: $ecart"
+
+    if [ $ecart -gt 10 ]; then
+      wowoutput+=("you might consider using -u option to get state repository updated
+")
+    fi
+
+  else
+
+    wowoutput+=("you might consider using -u option to get repositories...
+")
+
+  fi
+
+fi
+
+
+#
+# LOOP ON COLLECTIONS AND PACKAGES
+#
+
+MAX=0
+for COLLECTION in ${PARAMS[@]}
+do
+  debug "collection: $COLLECTION"
+  #count collection with more chars
+  [ ${#COLLECTION} -gt ${MAX} ] && MAX=${#COLLECTION}
+  
+  tmpCOLLECTION=$(echo "wowoutput$COLLECTION" | tr -dc '[[:alpha:]]')
+  declare -g -x -n ref="$tmpCOLLECTION"
+  ref=()
+  
+  tmpCOLLECTION=$(echo "$COLLECTION" | tr -dc '[[:alpha:]]')
+  declare -g -x -i ref2="nb$tmpCOLLECTION"
+  ref2=0
+  
+  for i in $PACKAGES_FOLDER/$COLLECTION/*
+  do
+    PKGNAME=$(basename $i)
+    NOTEXIST="no"
+
+    #PKGBUILD="/tmp/PKGBUILD"
+    #rm $PKGBUILD
+
+    parsePKGBUILD=0
+    ARCHNAME=$(getarchname $PKGNAME)
+
+    unset $PKGBUILD
+
+    if [ -n "$ARCHNAME" ]; then
+
+      PKGBUILD="$HOME$ARCHGIT/state/extra-x86_64/$ARCHNAME"
+      if  [ ! -f $PKGBUILD ] ; then
+        PKGBUILD="$HOME$ARCHGIT/state/extra-any/$ARCHNAME"
+      fi
+      if  [ ! -f $PKGBUILD ] ; then
+        PKGBUILD="$HOME$ARCHGIT/state/core-x86_64/$ARCHNAME"
+      fi
+      if  [ ! -f $PKGBUILD ] ; then
+        PKGBUILD="$HOME$ARCHGIT/state/core-any/$ARCHNAME"
+      fi
+
+      if [ ! -f $PKGBUILD ] ; then
+        #retrieve PKGBUILD
+        parsePKGBUILD=1
+        #PKGBUILD=/tmp/PKGBUILD
+        #$(curl -s -o /tmp/PKGBUILD https://gitlab.archlinux.org/archlinux/packaging/packages/$ARCHNAME/-/raw/main/PKGBUILD)
+        #if [ "$?" -ne 0 ]; then
+        
+        #try in AUR
+        $(curl -s -o /tmp/PKGBUILD https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=$ARCHNAME)
+        PKGBUILD=/tmp/PKGBUILD
+      fi
+
+    else
+      debug "package not found: $PKGNAME"
+    fi
+
+    if [ ! -f $PKGBUILD ];then
+      PNFn=$((PNFn + 1))
+      T_NOTFOUND+="$(basename $i) "
+      continue
+    fi
+
+    #continue = Package found
+    PFn=$((PFn + 1))
+    . $i/Pkgfile
+
+    if [ $parsePKGBUILD -eq 0 ]; then
+      pkgver=$(cat $PKGBUILD | cut -d' ' -f2 | sed 's/^.*://' | cut -d'-' -f1)
+    else
+      . $PKGBUILD 2>/dev/null
+    fi
+    if [ -z "$pkgver" ]; then
+      PNFn=$((PNFn + 1))
+      T_NOTFOUND+="$(basename $i) "
+      continue
+    fi
+    if [ ${pkgver%%+*} != "$version" ]; then
+
+      #keep this line for debugging
+      #debug "verlt ${version//[!0-9]/} ${pkgver//[!0-9]/} && tobe_updated"
+      #verlt ${version//[!0-9.]/} ${pkgver//[!0-9.]/} && tobe_updated || up_to_date
+      verlt ${version//[!0-9.]/} ${pkgver//[!0-9.]/} && tobe_updated
+
+    fi
+    unset pkgver version packager
+  done
+done
+
+
+########################################################################
+# -s|--summary  =>  LIST NUMBER OF PACKAGES / COLLECTIONS
+########################################################################
+
+if [ "$SUMMARY" == "1" ]; then
+
+  for COLLECTION in ${PARAMS[@]}
+  do
+    outcol=$(printf "%*s" "$MAX" "$COLLECTION")
+    tmpCOLLECTION=$(echo "$COLLECTION" | tr -dc '[[:alpha:]]')
+    val=${outdpkgcount[$tmpCOLLECTION]}
+    wowoutput+=("$outcol : $val packages
+")
+
+  done
+ 
+else
+
+########################################################################
+# no summary => all outdated packages / collection
+########################################################################
+
+  for COLLECTION in ${PARAMS[@]}
+  do
+    tmpCOLLECTION=$(echo "$COLLECTION" | tr -dc '[[:alpha:]]')
+    val=${outdpkgcount[$tmpCOLLECTION]}
+
+    wowoutput+=("
+$COLLECTION : $val packages
+")
+
+    tmpCOLLECTION=$(echo "wowoutput$COLLECTION" | tr -dc '[[:alpha:]]')
+    declare -g -n ref="$tmpCOLLECTION"
+
+    for i in "${ref[@]}"
+    do
+      wowoutput+=("    $i")
+    done
+  done
+  
+fi
+
+########################################################################
+# TOTAL line
+########################################################################
+wowoutput+=("
+TOTAL: $PODn / $PFn outdated packages")
+
+########################################################################
+# packages not found
+########################################################################
+
+[ $((PNFn)) -gt 0 ] && wowoutput+=("
+NOT FOUND : $PNFn packages
+")
+
+if [ "$NOTFOUND" == "1" ]; then
+
+  for i in ${T_NOTFOUND[@]}
+  do
+    wowoutput+=("    $i")
+  done
+  
+fi
+
+########################################################################
+# Actual OUTPUT
+########################################################################
+
+for i in "${wowoutput[@]}"
+do
+  echo "$i"
+done
+
+echo "Thank you for choosing outdated ≧◔◡◔≦ 🄯 Onyx"
