@@ -1,0 +1,23 @@
+description="Rc kernel"
+name=kernel-rc
+version=7.0
+release=1
+packager=alexis
+source=("https://git.kernel.org/torvalds/t/linux-7.0-rc7.tar.gz"
+"config")
+
+
+build() {
+cd linux-${version}-rc7
+make mrproper
+cp ../config .config
+make olddefconfig 
+make -j16
+#mkdir -p $PKG/lib/modules/${version}
+make INSTALL_MOD_PATH=$PKG modules_install
+mkdir -p $PKG/boot/
+cp -iv arch/x86/boot/bzImage $PKG/boot/vmlinuz-${version}-lfs-13.0-systemd
+cp -iv System.map $PKG/boot/System.map-$version
+cp -iv .config $PKG/boot/config-$version
+}
+

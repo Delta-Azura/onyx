@@ -1,9 +1,9 @@
 description="The OpenSSL package contains management tools and libraries relating to cryptography."
 name=openssl
-version=3.6.1
+version=3.6.2
 release=1
 packager=alexis
-source=("https://github.com/openssl/openssl/releases/download/openssl-3.6.1/openssl-3.6.1.tar.gz")
+source=("https://github.com/openssl/openssl/releases/download/openssl-${version}/openssl-${version}.tar.gz")
 
 build() {
 cd $name-$version

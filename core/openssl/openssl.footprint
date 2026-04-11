@@ -995,6 +995,7 @@ drwxr-xr-x	root/root	usr/share/doc/openssl-3.6.1/html/man3/
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/html/man3/X509_STORE_get0_param.html
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/html/man3/X509_STORE_new.html
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/html/man3/X509_STORE_set_verify_cb_func.html
+-rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/html/man3/X509V3_EXT_print.html
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/html/man3/X509V3_get_d2i.html
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/html/man3/X509v3_get_ext_by_NID.html
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/html/man3/X509V3_set_ctx.html
@@ -2033,6 +2034,7 @@ drwxr-xr-x	root/root	usr/share/doc/openssl-3.6.1/man3/
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man3/X509_STORE_get0_param.pod
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man3/X509_STORE_new.pod
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man3/X509_STORE_set_verify_cb_func.pod
+-rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man3/X509V3_EXT_print.pod
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man3/X509V3_get_d2i.pod
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man3/X509v3_get_ext_by_NID.pod
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man3/X509V3_set_ctx.pod
@@ -2945,6 +2947,7 @@ drwxr-xr-x	root/root	usr/share/doc/openssl-3.6.1/man/man3/
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man/man3/X509_STORE_get0_param.3
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man/man3/X509_STORE_new.3
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man/man3/X509_STORE_set_verify_cb_func.3
+-rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man/man3/X509V3_EXT_print.3
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man/man3/X509V3_get_d2i.3
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man/man3/X509v3_get_ext_by_NID.3
 -rw-r--r--	root/root	usr/share/doc/openssl-3.6.1/man/man3/X509V3_set_ctx.3
@@ -9385,6 +9388,8 @@ lrwxrwxrwx	root/root	usr/share/man/man3/X509v3_add_extensions.3ssl.gz -> X509v3_
 lrwxrwxrwx	root/root	usr/share/man/man3/X509v3_delete_ext.3ssl.gz -> X509v3_get_ext_by_NID.3ssl.gz
 lrwxrwxrwx	root/root	usr/share/man/man3/X509V3_EXT_d2i.3ssl.gz -> X509V3_get_d2i.3ssl.gz
 lrwxrwxrwx	root/root	usr/share/man/man3/X509V3_EXT_i2d.3ssl.gz -> X509V3_get_d2i.3ssl.gz
+-rw-r--r--	root/root	usr/share/man/man3/X509V3_EXT_print.3ssl.gz
+lrwxrwxrwx	root/root	usr/share/man/man3/X509V3_EXT_print_fp.3ssl.gz -> X509V3_EXT_print.3ssl.gz
 -rw-r--r--	root/root	usr/share/man/man3/X509V3_get_d2i.3ssl.gz
 lrwxrwxrwx	root/root	usr/share/man/man3/X509v3_get_ext.3ssl.gz -> X509v3_get_ext_by_NID.3ssl.gz
 lrwxrwxrwx	root/root	usr/share/man/man3/X509v3_get_ext_by_critical.3ssl.gz -> X509v3_get_ext_by_NID.3ssl.gz
