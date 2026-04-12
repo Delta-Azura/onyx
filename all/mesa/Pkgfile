@@ -1,9 +1,9 @@
 description=" Mesa contains several libraries and drivers for multiple APIs like OpenGL and Vulkan. "
 name=mesa
-version=25.3.5
+version=26.0.4
 release=1
 packager=alexis
-source=("https://mesa.freedesktop.org/archive/mesa-25.3.5.tar.xz"
+source=("https://mesa.freedesktop.org/archive/mesa-${version}.tar.xz"
 "https://www.linuxfromscratch.org/patches/blfs/13.0/mesa-add_xdemos-4.patch")
 
 

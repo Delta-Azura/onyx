@@ -41,16 +41,16 @@ drwxr-xr-x	alexis/alexis	usr/lib/dri/
 lrwxrwxrwx	alexis/alexis	usr/lib/dri/kms_swrast_dri.so -> libdril_dri.so
 -rwxr-xr-x	alexis/alexis	usr/lib/dri/libdril_dri.so
 lrwxrwxrwx	alexis/alexis	usr/lib/dri/radeonsi_dri.so -> libdril_dri.so
-lrwxrwxrwx	alexis/alexis	usr/lib/dri/radeonsi_drv_video.so -> ../libgallium-25.3.5.so
+lrwxrwxrwx	alexis/alexis	usr/lib/dri/radeonsi_drv_video.so -> ../libgallium-26.0.4.so
 lrwxrwxrwx	alexis/alexis	usr/lib/dri/swrast_dri.so -> libdril_dri.so
 lrwxrwxrwx	alexis/alexis	usr/lib/dri/virtio_gpu_dri.so -> libdril_dri.so
-lrwxrwxrwx	alexis/alexis	usr/lib/dri/virtio_gpu_drv_video.so -> ../libgallium-25.3.5.so
+lrwxrwxrwx	alexis/alexis	usr/lib/dri/virtio_gpu_drv_video.so -> ../libgallium-26.0.4.so
 drwxr-xr-x	alexis/alexis	usr/lib/gbm/
 -rwxr-xr-x	alexis/alexis	usr/lib/gbm/dri_gbm.so
 -rwxr-xr-x	alexis/alexis	usr/lib/libEGL.so.1.0.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libEGL.so.1 -> libEGL.so.1.0.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libEGL.so -> libEGL.so.1
--rwxr-xr-x	alexis/alexis	usr/lib/libgallium-25.3.5.so
+-rwxr-xr-x	alexis/alexis	usr/lib/libgallium-26.0.4.so
 -rwxr-xr-x	alexis/alexis	usr/lib/libgbm.so.1.0.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libgbm.so.1 -> libgbm.so.1.0.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libgbm.so -> libgbm.so.1
