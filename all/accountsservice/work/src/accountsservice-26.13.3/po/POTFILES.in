@@ -1,4 +1,0 @@
-# List of source files which contain translatable strings.
-data/org.freedesktop.accounts.policy.in
-src/daemon.c
-src/main.c
