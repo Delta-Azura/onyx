@@ -1,15 +1,15 @@
 description="The Xz package contains programs for compressing and decompressing files."
 name=xz
-version=5.8.2
+version=5.8.3
 release=1
 packager=alexis
-source=("https://github.com//tukaani-project/xz/releases/download/v5.8.2/xz-5.8.2.tar.xz")
+source=("https://github.com//tukaani-project/xz/releases/download/v${version}/xz-${version}.tar.xz")
 
 build() {
 cd $name-$version
 ./configure --prefix=/usr    \
             --disable-static \
-            --docdir=/usr/share/doc/xz-5.8.2
+            --docdir=/usr/share/doc/xz-${version}
 
 make 
 make DESTDIR=$PKG install

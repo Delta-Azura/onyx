@@ -1,0 +1,17 @@
+description="introspection for glib"
+name=glib-introspection
+version=1.86
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/gobject-introspection/1.86/gobject-introspection-1.86.0.tar.xz")
+
+build() {
+#cd gobject-introspection-1.86.0
+meson setup gobject-introspection-1.86.0 gi-build \
+            --prefix=/usr --buildtype=release     &&
+
+
+echo "nique ta mère"
+ninja -C gi-build
+DESTDIR=$PKG ninja -C gi-build install
+}

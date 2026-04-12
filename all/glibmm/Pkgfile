@@ -1,0 +1,16 @@
+description=" The GLibmm package is a set of C++ bindings for GLib. "
+name=glibmm
+version=2.66.8
+release=1
+packager=alexis
+source=("https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.8.tar.xz")
+
+build() {
+cd $name-$version
+mkdir bld &&
+cd    bld &&
+
+meson setup --prefix=/usr --buildtype=release .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

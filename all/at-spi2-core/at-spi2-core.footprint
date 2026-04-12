@@ -60,7 +60,6 @@ drwxr-xr-x	alexis/alexis	usr/include/at-spi-2.0/atspi/
 -rw-r--r--	alexis/alexis	usr/include/at-spi-2.0/atspi/atspi-editabletext.h
 -rw-r--r--	alexis/alexis	usr/include/at-spi-2.0/atspi/atspi-enum-types.h
 -rw-r--r--	alexis/alexis	usr/include/at-spi-2.0/atspi/atspi-event-listener.h
--rw-r--r--	alexis/alexis	usr/include/at-spi-2.0/atspi/atspi-gmain.h
 -rw-r--r--	alexis/alexis	usr/include/at-spi-2.0/atspi/atspi.h
 -rw-r--r--	alexis/alexis	usr/include/at-spi-2.0/atspi/atspi-hyperlink.h
 -rw-r--r--	alexis/alexis	usr/include/at-spi-2.0/atspi/atspi-hypertext.h
@@ -85,14 +84,11 @@ drwxr-xr-x	alexis/alexis	usr/lib/
 drwxr-xr-x	alexis/alexis	usr/libexec/
 -rwxr-xr-x	alexis/alexis	usr/libexec/at-spi2-registryd
 -rwxr-xr-x	alexis/alexis	usr/libexec/at-spi-bus-launcher
-drwxr-xr-x	alexis/alexis	usr/lib/girepository-1.0/
--rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/Atk-1.0.typelib
--rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/Atspi-2.0.typelib
 drwxr-xr-x	alexis/alexis	usr/lib/gnome-settings-daemon-3.0/
 drwxr-xr-x	alexis/alexis	usr/lib/gnome-settings-daemon-3.0/gtk-modules/
 -rw-r--r--	alexis/alexis	usr/lib/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop
--rwxr-xr-x	alexis/alexis	usr/lib/libatk-1.0.so.0.25812.1
-lrwxrwxrwx	alexis/alexis	usr/lib/libatk-1.0.so.0 -> libatk-1.0.so.0.25812.1
+-rwxr-xr-x	alexis/alexis	usr/lib/libatk-1.0.so.0.26009.1
+lrwxrwxrwx	alexis/alexis	usr/lib/libatk-1.0.so.0 -> libatk-1.0.so.0.26009.1
 lrwxrwxrwx	alexis/alexis	usr/lib/libatk-1.0.so -> libatk-1.0.so.0
 -rwxr-xr-x	alexis/alexis	usr/lib/libatk-bridge-2.0.so.0.0.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libatk-bridge-2.0.so.0 -> libatk-bridge-2.0.so.0.0.0
@@ -123,6 +119,3 @@ drwxr-xr-x	alexis/alexis	usr/share/dbus-1/services/
 drwxr-xr-x	alexis/alexis	usr/share/defaults/
 drwxr-xr-x	alexis/alexis	usr/share/defaults/at-spi2/
 -rw-r--r--	alexis/alexis	usr/share/defaults/at-spi2/accessibility.conf
-drwxr-xr-x	alexis/alexis	usr/share/gir-1.0/
--rw-r--r--	alexis/alexis	usr/share/gir-1.0/Atk-1.0.gir
--rw-r--r--	alexis/alexis	usr/share/gir-1.0/Atspi-2.0.gir

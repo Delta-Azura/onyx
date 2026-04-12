@@ -22,7 +22,7 @@ echo "rootsbindir=/usr/sbin" > configparms
 make
 sed '/test-installation/s@$(PERL)@echo not running@' -i ../Makefile
 make install_root=$PKG install
-sed '/RTLDLIST=/s@/usr@@g' -i /usr/bin/ldd
+sed '/RTLDLIST=/s@/usr@@g' -i $PKG/usr/bin/ldd
 #localedef -i C -f UTF-8 C.UTF-8
 
 

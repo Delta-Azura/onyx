@@ -3,8 +3,8 @@ name=accountsservice
 version=23.13.9
 release=1
 packager=alexis
-source=("https://www.freedesktop.org/software/accountsservice/accountsservice-23.13.9.tar.xz")
-
+source=("https://www.freedesktop.org/software/accountsservice/accountsservice-${version}.tar.xz")
+#source=("https://gitlab.freedesktop.org/accountsservice/accountsservice/-/archive/${version}/accountsservice-${version}.tar.gz")
 build() {
 cd $name-$version
 mv tests/dbusmock{,-tests}
