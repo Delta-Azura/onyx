@@ -131,6 +131,7 @@ drwxr-xr-x	alexis/alexis	usr/libexec/installed-tests/gjs/js/modules/overrides/
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/modules/sideEffect3.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/modules/sideEffect4.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/modules/sideEffect.js
+-rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/modules/sloppy.js
 drwxr-xr-x	alexis/alexis	usr/libexec/installed-tests/gjs/js/modules/subA/
 drwxr-xr-x	alexis/alexis	usr/libexec/installed-tests/gjs/js/modules/subA/subB/
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/modules/subA/subB/baz.js (EMPTY)
@@ -143,7 +144,6 @@ drwxr-xr-x	alexis/alexis	usr/libexec/installed-tests/gjs/js/modules/subErrorInit
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testAsync.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testAsyncMainloop.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testCairo.js
--rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testCairoModule.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testConsole.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testEncoding.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testESModules.js
@@ -170,11 +170,13 @@ drwxr-xr-x	alexis/alexis	usr/libexec/installed-tests/gjs/js/modules/subErrorInit
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testIntrospection.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testLang.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testLegacyByteArray.js
+-rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testLegacyCairo.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testLegacyClass.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testLegacyGObject.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testLegacyGtk.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testMainloop.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testNamespace.js
+-rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testOverrides.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testPackage.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testParamSpec.js
 -rw-r--r--	alexis/alexis	usr/libexec/installed-tests/gjs/js/testPrint.js
@@ -246,7 +248,6 @@ drwxr-xr-x	alexis/alexis	usr/share/installed-tests/gjs/
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/step.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testAsyncMainloop.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testAsync.test
--rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testCairoModule.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testCairo.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testCommandLineModules.sh.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testCommandLine.sh.test
@@ -277,11 +278,13 @@ drwxr-xr-x	alexis/alexis	usr/share/installed-tests/gjs/
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testIntrospection.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testLang.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testLegacyByteArray.test
+-rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testLegacyCairo.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testLegacyClass.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testLegacyGObject.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testLegacyGtk.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testMainloop.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testNamespace.test
+-rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testOverrides.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testPackage.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testParamSpec.test
 -rw-r--r--	alexis/alexis	usr/share/installed-tests/gjs/testPrint.test

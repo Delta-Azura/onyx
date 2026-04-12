@@ -34,6 +34,7 @@ drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
 -rw-r--r--	alexis/alexis	usr/lib/pkgconfig/goa-backend-1.0.pc
 drwxr-xr-x	alexis/alexis	usr/share/
 drwxr-xr-x	alexis/alexis	usr/share/applications/
+-rw-r--r--	alexis/alexis	usr/share/applications/org.gnome.goa-daemon.desktop
 -rw-r--r--	alexis/alexis	usr/share/applications/org.gnome.OnlineAccounts.OAuth2.desktop
 drwxr-xr-x	alexis/alexis	usr/share/dbus-1/
 drwxr-xr-x	alexis/alexis	usr/share/dbus-1/services/
@@ -56,6 +57,7 @@ drwxr-xr-x	alexis/alexis	usr/share/icons/hicolor/symbolic/apps/
 -rw-r--r--	alexis/alexis	usr/share/icons/hicolor/symbolic/apps/goa-account-google-symbolic.svg
 -rw-r--r--	alexis/alexis	usr/share/icons/hicolor/symbolic/apps/goa-account-owncloud-symbolic.svg
 -rw-r--r--	alexis/alexis	usr/share/icons/hicolor/symbolic/apps/goa-account-symbolic.svg
+-rw-r--r--	alexis/alexis	usr/share/icons/hicolor/symbolic/apps/org.gnome.goa-daemon-symbolic.svg
 drwxr-xr-x	alexis/alexis	usr/share/vala/
 drwxr-xr-x	alexis/alexis	usr/share/vala/vapi/
 -rw-r--r--	alexis/alexis	usr/share/vala/vapi/goa-1.0.deps

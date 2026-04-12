@@ -1,9 +1,9 @@
 description=" The GNOME Session package contains the GNOME session manager. "
 name=gnome-session
-version=49.2
+version=50.0
 release=1
 packager=alexis
-source=("https://download.gnome.org/sources/gnome-session/49/gnome-session-49.2.tar.xz")
+source=("https://download.gnome.org/sources/gnome-session/50/gnome-session-${version}.tar.xz")
 
 build() {
 cd $name-$version

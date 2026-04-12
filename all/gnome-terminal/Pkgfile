@@ -1,9 +1,9 @@
 description=" The GNOME Terminal package contains the terminal emulator for GNOME Desktop. "
 name=gnome-terminal
-version=3.58.1
+version=3.60.0
 release=1
 packager=alexis
-source=("https://gitlab.gnome.org/GNOME/gnome-terminal/-/archive/3.58.1/gnome-terminal-3.58.1.tar.gz")
+source=("https://gitlab.gnome.org/GNOME/gnome-terminal/-/archive/${version}/gnome-terminal-${version}.tar.gz")
 
 build() {
 cd $name-$version

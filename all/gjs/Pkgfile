@@ -1,9 +1,9 @@
 description=" Gjs is a set of Javascript bindings for GNOME. "
 name=gjs
-version=1.86.0
+version=1.88.0
 release=1
 packager=alexis
-source=("https://download.gnome.org/sources/gjs/1.86/gjs-1.86.0.tar.xz")
+source=("https://download.gnome.org/sources/gjs/1.88/gjs-${version}.tar.xz")
 
 build() {
 cd $name-$version

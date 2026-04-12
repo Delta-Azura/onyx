@@ -1,9 +1,9 @@
 description="The blueprint-compiler package contains a compiler for a markup language for GTK user interfaces."
 name=blueprint-compiler
-version=0.18.0
+version=0.20.4
 release=1
 packager=alexis
-source=("https://download.gnome.org/sources/blueprint-compiler/0.18/blueprint-compiler-0.18.0.tar.xz")
+source=("https://download.gnome.org/sources/blueprint-compiler/0.20/blueprint-compiler-${version}.tar.xz")
 
 build() {
 cd $name-$version

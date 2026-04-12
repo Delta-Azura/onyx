@@ -4,9 +4,9 @@ drwxr-xr-x	alexis/alexis	etc/xdg/Xwayland-session.d/
 -rwxr-xr-x	alexis/alexis	etc/xdg/Xwayland-session.d/00-xrdb
 drwxr-xr-x	alexis/alexis	usr/
 drwxr-xr-x	alexis/alexis	usr/include/
-drwxr-xr-x	alexis/alexis	usr/include/gnome-settings-daemon-49/
-drwxr-xr-x	alexis/alexis	usr/include/gnome-settings-daemon-49/gnome-settings-daemon/
--rw-r--r--	alexis/alexis	usr/include/gnome-settings-daemon-49/gnome-settings-daemon/gsd-enums.h
+drwxr-xr-x	alexis/alexis	usr/include/gnome-settings-daemon-50/
+drwxr-xr-x	alexis/alexis	usr/include/gnome-settings-daemon-50/gnome-settings-daemon/
+-rw-r--r--	alexis/alexis	usr/include/gnome-settings-daemon-50/gnome-settings-daemon/gsd-enums.h
 drwxr-xr-x	alexis/alexis	usr/lib/
 drwxr-xr-x	alexis/alexis	usr/libexec/
 -rwxr-xr-x	alexis/alexis	usr/libexec/gsd-a11y-settings
@@ -26,8 +26,8 @@ drwxr-xr-x	alexis/alexis	usr/libexec/
 -rwxr-xr-x	alexis/alexis	usr/libexec/gsd-usb-protection
 -rwxr-xr-x	alexis/alexis	usr/libexec/gsd-wwan
 -rwxr-xr-x	alexis/alexis	usr/libexec/gsd-xsettings
-drwxr-xr-x	alexis/alexis	usr/lib/gnome-settings-daemon-49/
--rwxr-xr-x	alexis/alexis	usr/lib/gnome-settings-daemon-49/libgsd.so
+drwxr-xr-x	alexis/alexis	usr/lib/gnome-settings-daemon-50/
+-rwxr-xr-x	alexis/alexis	usr/lib/gnome-settings-daemon-50/libgsd.so
 drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
 -rw-r--r--	alexis/alexis	usr/lib/pkgconfig/gnome-settings-daemon.pc
 drwxr-xr-x	alexis/alexis	usr/lib/systemd/

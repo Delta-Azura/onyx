@@ -31,6 +31,36 @@ drwxr-xr-x	alexis/alexis	usr/share/gnome-shell/
 drwxr-xr-x	alexis/alexis	usr/share/gnome-shell/search-providers/
 -rw-r--r--	alexis/alexis	usr/share/gnome-shell/search-providers/org.gnome.Epiphany.SearchProvider.ini
 drwxr-xr-x	alexis/alexis	usr/share/help/
+drwxr-xr-x	alexis/alexis	usr/share/help/bg/
+drwxr-xr-x	alexis/alexis	usr/share/help/bg/epiphany/
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/browse-local.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/browse-private.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/browse-tab.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/browse-webapps-del.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/browse-webapps.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/browse-web.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/cert.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/cookies.xml
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/data-cookies.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/data-passwords.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/data-personal-data.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/history-delete.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/history.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/index.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/introduction.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/legal.xml
+drwxr-xr-x	alexis/alexis	usr/share/help/bg/epiphany/media/
+lrwxrwxrwx	alexis/alexis	usr/share/help/bg/epiphany/media/epiphany-plain-3-36.png -> ../../../C/epiphany/media/epiphany-plain-3-36.png
+lrwxrwxrwx	alexis/alexis	usr/share/help/bg/epiphany/media/epiphany-private-3-36.png -> ../../../C/epiphany/media/epiphany-private-3-36.png
+lrwxrwxrwx	alexis/alexis	usr/share/help/bg/epiphany/media/org.gnome.Epiphany.svg -> ../../../C/epiphany/media/org.gnome.Epiphany.svg
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/pref-cookies.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/pref-css.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/pref-downloads.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/pref-font.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/pref-mouse-gestures.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/pref-passwords.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/prob-restore-closed-page.page
+-rw-r--r--	alexis/alexis	usr/share/help/bg/epiphany/proxy.page
 drwxr-xr-x	alexis/alexis	usr/share/help/C/
 drwxr-xr-x	alexis/alexis	usr/share/help/ca/
 drwxr-xr-x	alexis/alexis	usr/share/help/ca/epiphany/
@@ -451,6 +481,36 @@ lrwxrwxrwx	alexis/alexis	usr/share/help/it/epiphany/media/org.gnome.Epiphany.svg
 -rw-r--r--	alexis/alexis	usr/share/help/it/epiphany/pref-passwords.page
 -rw-r--r--	alexis/alexis	usr/share/help/it/epiphany/prob-restore-closed-page.page
 -rw-r--r--	alexis/alexis	usr/share/help/it/epiphany/proxy.page
+drwxr-xr-x	alexis/alexis	usr/share/help/kk/
+drwxr-xr-x	alexis/alexis	usr/share/help/kk/epiphany/
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/browse-local.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/browse-private.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/browse-tab.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/browse-webapps-del.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/browse-webapps.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/browse-web.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/cert.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/cookies.xml
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/data-cookies.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/data-passwords.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/data-personal-data.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/history-delete.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/history.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/index.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/introduction.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/legal.xml
+drwxr-xr-x	alexis/alexis	usr/share/help/kk/epiphany/media/
+lrwxrwxrwx	alexis/alexis	usr/share/help/kk/epiphany/media/epiphany-plain-3-36.png -> ../../../C/epiphany/media/epiphany-plain-3-36.png
+lrwxrwxrwx	alexis/alexis	usr/share/help/kk/epiphany/media/epiphany-private-3-36.png -> ../../../C/epiphany/media/epiphany-private-3-36.png
+lrwxrwxrwx	alexis/alexis	usr/share/help/kk/epiphany/media/org.gnome.Epiphany.svg -> ../../../C/epiphany/media/org.gnome.Epiphany.svg
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/pref-cookies.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/pref-css.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/pref-downloads.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/pref-font.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/pref-mouse-gestures.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/pref-passwords.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/prob-restore-closed-page.page
+-rw-r--r--	alexis/alexis	usr/share/help/kk/epiphany/proxy.page
 drwxr-xr-x	alexis/alexis	usr/share/help/ko/
 drwxr-xr-x	alexis/alexis	usr/share/help/ko/epiphany/
 -rw-r--r--	alexis/alexis	usr/share/help/ko/epiphany/browse-local.page
