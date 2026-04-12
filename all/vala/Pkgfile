@@ -1,14 +1,14 @@
 description="Vala is a new programming language that aims to bring modern programming language features to GNOME developers "
 name=vala
-version=0.56.18
-source=("https://download.gnome.org/sources/vala/0.56/vala-0.56.18.tar.xz"
-"https://www.linuxfromscratch.org/patches/blfs/13.0/vala-0.56.18-graphviz_13_fix-1.patch")
+version=0.56.19
+source=("https://download.gnome.org/sources/vala/0.56/vala-${version}.tar.xz")
+#"https://www.linuxfromscratch.org/patches/blfs/13.0/vala-0.56.18-graphviz_13_fix-1.patch")
 release=1
 packager=alexis
 
 build() {
 cd $name-$version
-patch -Np1 -i ../vala-0.56.18-graphviz_13_fix-1.patch
+#patch -Np1 -i ../vala-0.56.18-graphviz_13_fix-1.patch
 ./configure --prefix=/usr --disable-valadoc &&
 make bootstrap
 make DESTDIR=$PKG install

@@ -1,9 +1,9 @@
 description="Bubblewrap is a setuid implementation of user namespaces, or sandboxing, that provides access to a subset of kernel user namespace features."
 name=bubblewrap
-version=0.11.0
-release=2
+version=0.11.1
+release=1
 packager=alexis
-source=("https://github.com/containers/bubblewrap/releases/download/v0.11.0/bubblewrap-0.11.0.tar.xz")
+source=("https://github.com/containers/bubblewrap/releases/download/v${version}/bubblewrap-${version}.tar.xz")
 
 build() {
 cd $name-$version

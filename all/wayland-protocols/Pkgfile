@@ -1,10 +1,10 @@
 #description=" Wayland is a project to define a protocol for a compositor to talk to its clients as well as a library implementation of the protocol. "
 description=" The Wayland-Protocols package contains additional Wayland protocols that add functionality outside of protocols already in the Wayland core. "
 name=wayland-protocols
-version=1.47
+version=1.48
 release=1
 packager=alexis
-source=("https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/1.47/downloads/wayland-protocols-1.47.tar.xz")
+source=("https://gitlab.freedesktop.org/wayland/wayland-protocols/-/releases/${version}/downloads/wayland-protocols-${version}.tar.xz")
 
 build() {
 cd $name-$version

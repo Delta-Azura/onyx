@@ -1,9 +1,9 @@
 description=" The Tecla package contains a keyboard layout viewer. "
 name=tecla
-version=49.0
+version=50.0
 release=1
 packager=alexis
-source=("https://download.gnome.org/sources/tecla/49/tecla-49.0.tar.xz")
+source=("https://download.gnome.org/sources/tecla/50/tecla-${version}.tar.xz")
 
 build() {
 cd $name-$version

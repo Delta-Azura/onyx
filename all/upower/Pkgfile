@@ -1,9 +1,9 @@
 description="The UPower package provides an interface for enumerating power devices, listening to device events, and querying history and statistics."
 name=upower
-version=1.91.1
+version=1.91.2
 release=1
 packager=alexis
-source=("https://gitlab.freedesktop.org/upower/upower/-/archive/v1.91.1/upower-v1.91.1.tar.bz2")
+source=("https://gitlab.freedesktop.org/upower/upower/-/archive/v${version}/upower-v${version}.tar.bz2")
 
 build() {
 cd $name-v$version

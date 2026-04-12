@@ -1,9 +1,9 @@
 description=" The Protobuf package contains utilities and libraries for using data in Google's data interchange format. "
 name=protobuf
-version=33.5
+version=34.1
 release=1
 packager=alexis
-source=("https://github.com/protocolbuffers/protobuf/releases/download/v33.5/protobuf-33.5.tar.gz")
+source=("https://github.com/protocolbuffers/protobuf/releases/download/v${version}/protobuf-${version}.tar.gz")
 
 build() {
 cd $name-$version

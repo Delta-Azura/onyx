@@ -66,6 +66,8 @@ drwxr-xr-x	alexis/alexis	usr/share/installed-tests/upower/
 drwxr-xr-x	alexis/alexis	usr/share/polkit-1/
 drwxr-xr-x	alexis/alexis	usr/share/polkit-1/actions/
 -rw-r--r--	alexis/alexis	usr/share/polkit-1/actions/org.freedesktop.upower.policy
+drwxr-xr-x	alexis/alexis	usr/share/polkit-1/rules.d/
+-rw-r--r--	alexis/alexis	usr/share/polkit-1/rules.d/org.freedesktop.upower.rules
 drwxr-xr-x	alexis/alexis	usr/share/zsh/
 drwxr-xr-x	alexis/alexis	usr/share/zsh/site-functions/
 -rw-r--r--	alexis/alexis	usr/share/zsh/site-functions/_upower
