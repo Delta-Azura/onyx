@@ -1,6 +1,6 @@
 description="kernel"
 name=kernel
-version=6.19.11
+version=6.19.12
 release=1
 packager=alexis
 source=("https://www.kernel.org/pub/linux/kernel/v6.x/linux-$version.tar.xz"
