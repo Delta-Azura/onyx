@@ -1,9 +1,9 @@
 description=" The Evolution package contains an integrated mail, calendar and address book suite designed for the GNOME environment. "
 name=evolution
-version=3.58.3
+version=3.60.1
 release=1
 packager=alexis
-source=("https://download.gnome.org/sources/evolution/3.58/evolution-3.58.3.tar.xz")
+source=("https://download.gnome.org/sources/evolution/3.60/evolution-${version}.tar.xz")
 
 build() {
 cd $name-$version

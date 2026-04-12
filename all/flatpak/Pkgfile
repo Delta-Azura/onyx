@@ -1,9 +1,9 @@
 description="Flatpak allows you to download apps and run them in a sandbox. It downloads all of the dependencies of a given package in a sandbox and allows you to run the package as if it was not in a sandbox."
 name=flatpak
-version=1.16.3
+version=1.16.6
 release=1
 packager=alexis
-source=("https://github.com/flatpak/flatpak/releases/download/1.16.3/flatpak-1.16.3.tar.xz")
+source=("https://github.com/flatpak/flatpak/releases/download/${version}/flatpak-${version}.tar.xz")
 
 build() {
 cd $name-$version

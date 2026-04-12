@@ -1,15 +1,15 @@
 description=" The Evolution Data Server package provides a unified backend for programs that work with contacts, tasks, and calendar information."
 name=evolution-data-server
-version=3.58.3
+version=3.60.1
 release=1
 packager=alexis
-source=("https://download.gnome.org/sources/evolution-data-server/3.58/evolution-data-server-3.58.3.tar.xz"
-"https://www.linuxfromscratch.org/patches/blfs/13.0/evolution-data-server-3.58.3-security_fixes-1.patch")
+source=("https://download.gnome.org/sources/evolution-data-server/3.60/evolution-data-server-${version}.tar.xz")
+#"https://www.linuxfromscratch.org/patches/blfs/13.0/evolution-data-server-3.58.3-security_fixes-1.patch")
 
 
 build() {
 cd $name-$version
-patch -Np1 -i ../evolution-data-server-3.58.3-security_fixes-1.patch
+#patch -Np1 -i ../evolution-data-server-3.58.3-security_fixes-1.patch
 mkdir build &&
 cd    build &&
 

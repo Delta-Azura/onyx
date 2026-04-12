@@ -33,6 +33,7 @@ drwxr-xr-x	alexis/alexis	usr/include/shumate-1.0/shumate/
 -rw-r--r--	alexis/alexis	usr/include/shumate-1.0/shumate/shumate-vector-renderer.h
 -rw-r--r--	alexis/alexis	usr/include/shumate-1.0/shumate/shumate-vector-sprite.h
 -rw-r--r--	alexis/alexis	usr/include/shumate-1.0/shumate/shumate-vector-sprite-sheet.h
+-rw-r--r--	alexis/alexis	usr/include/shumate-1.0/shumate/shumate-vector-value.h
 -rw-r--r--	alexis/alexis	usr/include/shumate-1.0/shumate/shumate-version.h
 -rw-r--r--	alexis/alexis	usr/include/shumate-1.0/shumate/shumate-viewport.h
 drwxr-xr-x	alexis/alexis	usr/lib/

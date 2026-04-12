@@ -36,8 +36,8 @@ drwxr-xr-x	alexis/alexis	usr/libexec/
 -rwxr-xr-x	alexis/alexis	usr/libexec/revokefs-fuse
 drwxr-xr-x	alexis/alexis	usr/lib/girepository-1.0/
 -rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/Flatpak-1.0.typelib
--rwxr-xr-x	alexis/alexis	usr/lib/libflatpak.so.0.11603.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libflatpak.so.0 -> libflatpak.so.0.11603.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libflatpak.so.0.11606.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libflatpak.so.0 -> libflatpak.so.0.11606.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libflatpak.so -> libflatpak.so.0
 drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
 -rw-r--r--	alexis/alexis	usr/lib/pkgconfig/flatpak.pc

@@ -1,9 +1,9 @@
 description=" The htop package provides a TUI [1] system monitor and has became well-known for its ease-of-use and comprehensive features. "
 name=htop
-version=3.4.1
+version=3.5.0
 release=1
 packager=alexis
-source=("https://github.com/htop-dev/htop/releases/download/3.4.1/htop-3.4.1.tar.xz")
+source=("https://github.com/htop-dev/htop/releases/download/${version}/htop-${version}.tar.xz")
 
 build() {
 cd $name-$version
