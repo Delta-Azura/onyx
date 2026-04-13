@@ -1,9 +1,9 @@
 description="Pango is a library for laying out and rendering text, with an emphasis on internationalization."
 name=pango
-version=1.57.0
+version=1.57.1
 release=1
 packager=alexis
-source=("https://download.gnome.org/sources/pango/1.57/pango-1.57.0.tar.xz")
+source=("https://download.gnome.org/sources/pango/1.57/pango-${version}.tar.xz")
 
 
 build() {

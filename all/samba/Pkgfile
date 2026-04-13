@@ -1,9 +1,9 @@
 description="The Samba package provides file and print services to SMB/CIFS clients and Windows networking to Linux clients"
 name=samba
-version=4.23.5
+version=4.24.0
 release=1
 packager=alexis
-source=("https://download.samba.org/pub/samba/stable/samba-4.23.5.tar.gz")
+source=("https://download.samba.org/pub/samba/stable/samba-${version}.tar.gz")
 
 build() {
 cd $name-$version

@@ -1,9 +1,9 @@
 description="gstreamer is a streaming media framework that enables applications to share a common set of plugins for tasks"
 name=gstreamer
-version=1.28.1
+version=1.28.2
 release=1
 packager=alexis
-source=("https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.28.1.tar.xz")
+source=("https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-${version}.tar.xz")
 
 build() {
 cd $name-$version

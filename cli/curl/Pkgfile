@@ -1,9 +1,9 @@
 description="The cURL package contains a utility and a library used for transferring files with URL syntax to any of the following protocols"
 name=curl
-version=8.18.0
+version=8.19.0
 release=2
 packager=alexis
-source=("curl-8.18.0.tar.xz")
+source=(https://curl.se/download/curl-${version}.tar.xz)
 
 build() {
 cd $name-$version
@@ -21,5 +21,5 @@ find docs \( -name Makefile\* -o  \
              -name \*.3       -o  \
              -name CMakeLists.txt \) -delete &&
 mkdir -pv $PKG/usr/share/doc/curl-$version
-cp -v -R docs -T $PKG/usr/share/doc/curl-8.18.0
+cp -v -R docs -T $PKG/usr/share/doc/curl-${version}
 }

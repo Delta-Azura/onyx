@@ -1,6 +1,6 @@
 description=" The GNOME Control Center package contains the GNOME settings manager. "
 name=gnome-control-center
-version=50.0
+version=50.1
 release=1
 packager=alexis
 source=("https://download.gnome.org/sources/gnome-control-center/50/gnome-control-center-${version}.tar.xz")

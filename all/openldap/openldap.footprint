@@ -27,10 +27,10 @@ drwxr-xr-x	alexis/alexis	usr/include/
 -rw-r--r--	alexis/alexis	usr/include/openldap.h
 -rw-r--r--	alexis/alexis	usr/include/slapi-plugin.h
 drwxr-xr-x	alexis/alexis	usr/lib/
--rwxr-xr-x	alexis/alexis	usr/lib/liblber.so.2.0.200
+-rw-r--r--	alexis/alexis	usr/lib/liblber.so.2.0.200
 lrwxrwxrwx	alexis/alexis	usr/lib/liblber.so.2 -> liblber.so.2.0.200
 lrwxrwxrwx	alexis/alexis	usr/lib/liblber.so -> liblber.so.2.0.200
--rwxr-xr-x	alexis/alexis	usr/lib/libldap.so.2.0.200
+-rw-r--r--	alexis/alexis	usr/lib/libldap.so.2.0.200
 lrwxrwxrwx	alexis/alexis	usr/lib/libldap.so.2 -> libldap.so.2.0.200
 lrwxrwxrwx	alexis/alexis	usr/lib/libldap.so -> libldap.so.2.0.200
 drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
