@@ -35,6 +35,15 @@ meson setup ..                 \
 
 ninja
 DESTDIR=$PKG ninja install
+cat > $PKG/etc/pam.d/system-session << "EOF"
+# Begin Systemd addition
+
+session  required    pam_loginuid.so
+session  optional    pam_systemd.so
+
+# End Systemd addition
+EOF
+
 cat > $PKG/etc/pam.d/systemd-user << "EOF"
 # Begin /etc/pam.d/systemd-user
 
@@ -52,7 +61,5 @@ password required    pam_deny.so
 
 # End /etc/pam.d/systemd-user
 EOF
-
-
-rm -fv /usr/lib/systemd/system/systemd-update-utmp-runlevel.service
+#rm -fv /usr/lib/systemd/system/systemd-update-utmp-runlevel.service
 }
