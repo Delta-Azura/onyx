@@ -19,7 +19,9 @@ GITDIR=/home/alexis/Onyx
 PACKAGES_FOLDER="$GITDIR"
 COLLECTIONS="
 core
-all"
+all
+gui
+cli"
 
 ARCHGIT="/archlinux"
 ARCHGITURL="https://gitlab.archlinux.org/archlinux/packaging/state.git"

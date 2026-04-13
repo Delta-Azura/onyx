@@ -458,16 +458,17 @@ drwxr-xr-x	alexis/alexis	usr/lib/gtk-3.0/3.0.0/immodules/
 -rwxr-xr-x	alexis/alexis	usr/lib/gtk-3.0/3.0.0/immodules/im-wayland.so
 -rwxr-xr-x	alexis/alexis	usr/lib/gtk-3.0/3.0.0/immodules/im-xim.so
 drwxr-xr-x	alexis/alexis	usr/lib/gtk-3.0/3.0.0/printbackends/
+-rwxr-xr-x	alexis/alexis	usr/lib/gtk-3.0/3.0.0/printbackends/libprintbackend-cups.so
 -rwxr-xr-x	alexis/alexis	usr/lib/gtk-3.0/3.0.0/printbackends/libprintbackend-file.so
 -rwxr-xr-x	alexis/alexis	usr/lib/gtk-3.0/3.0.0/printbackends/libprintbackend-lpr.so
 -rwxr-xr-x	alexis/alexis	usr/lib/libgailutil-3.so.0.0.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libgailutil-3.so.0 -> libgailutil-3.so.0.0.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libgailutil-3.so -> libgailutil-3.so.0
--rwxr-xr-x	alexis/alexis	usr/lib/libgdk-3.so.0.2419.32
-lrwxrwxrwx	alexis/alexis	usr/lib/libgdk-3.so.0 -> libgdk-3.so.0.2419.32
+-rwxr-xr-x	alexis/alexis	usr/lib/libgdk-3.so.0.2420.32
+lrwxrwxrwx	alexis/alexis	usr/lib/libgdk-3.so.0 -> libgdk-3.so.0.2420.32
 lrwxrwxrwx	alexis/alexis	usr/lib/libgdk-3.so -> libgdk-3.so.0
--rwxr-xr-x	alexis/alexis	usr/lib/libgtk-3.so.0.2419.32
-lrwxrwxrwx	alexis/alexis	usr/lib/libgtk-3.so.0 -> libgtk-3.so.0.2419.32
+-rwxr-xr-x	alexis/alexis	usr/lib/libgtk-3.so.0.2420.32
+lrwxrwxrwx	alexis/alexis	usr/lib/libgtk-3.so.0 -> libgtk-3.so.0.2420.32
 lrwxrwxrwx	alexis/alexis	usr/lib/libgtk-3.so -> libgtk-3.so.0
 drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
 -rw-r--r--	alexis/alexis	usr/lib/pkgconfig/gail-3.0.pc

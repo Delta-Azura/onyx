@@ -2981,7 +2981,7 @@ CONFIG_I2C_I801=y
 #
 # I2C system bus drivers (mostly embedded / system-on-chip)
 #
-# CONFIG_I2C_DESIGNWARE_CORE is not set
+CONFIG_I2C_DESIGNWARE_CORE=m
 # CONFIG_I2C_OCORES is not set
 # CONFIG_I2C_PCA_PLATFORM is not set
 # CONFIG_I2C_SIMTEC is not set
@@ -4116,8 +4116,8 @@ CONFIG_HID_TOPSEED=y
 # end of HID-BPF support
 
 CONFIG_I2C_HID=y
-# CONFIG_I2C_HID_ACPI is not set
-# CONFIG_I2C_HID_OF is not set
+CONFIG_I2C_HID_ACPI=m
+CONFIG_I2C_HID_OF=m
 
 #
 # Intel ISH HID support
@@ -5875,3 +5875,7 @@ CONFIG_ARCH_USE_MEMTEST=y
 #
 # end of Rust hacking
 # end of Kernel hacking
+CONFIG_I2C_DESIGNWARE_PLATFORM=y
+CONFIG_HID_MULTITOUCH=y
+CONFIG_SECURITY_LANDLOCK=y
+CONFIG_SECURITY_LANDLOCK=y

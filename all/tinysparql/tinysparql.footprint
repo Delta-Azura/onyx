@@ -30,10 +30,10 @@ drwxr-xr-x	alexis/alexis	usr/libexec/
 drwxr-xr-x	alexis/alexis	usr/lib/girepository-1.0/
 -rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/Tracker-3.0.typelib
 -rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/Tsparql-3.0.typelib
--rwxr-xr-x	alexis/alexis	usr/lib/libtinysparql-3.0.so.0.1001.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libtinysparql-3.0.so.0 -> libtinysparql-3.0.so.0.1001.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libtinysparql-3.0.so.0.1100.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libtinysparql-3.0.so.0 -> libtinysparql-3.0.so.0.1100.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libtinysparql-3.0.so -> libtinysparql-3.0.so.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libtracker-sparql-3.0.so.0.1001.0 -> libtinysparql-3.0.so.0.1001.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libtracker-sparql-3.0.so.0.1100.0 -> libtinysparql-3.0.so.0.1100.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libtracker-sparql-3.0.so.0 -> libtinysparql-3.0.so.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libtracker-sparql-3.0.so -> libtinysparql-3.0.so
 drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
@@ -91,6 +91,8 @@ drwxr-xr-x	alexis/alexis	usr/share/doc/Tsparql-3.0/
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/ctor.SparqlConnection.bus_new_finish.html
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/ctor.SparqlConnection.bus_new.html
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/ctor.SparqlConnection.new_finish.html
+-rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/ctor.SparqlConnection.new_from_rdf_finish.html
+-rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/ctor.SparqlConnection.new_from_rdf.html
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/ctor.SparqlConnection.new.html
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/ctor.SparqlConnection.remote_new.html
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/dc-ontology.html
@@ -297,6 +299,7 @@ drwxr-xr-x	alexis/alexis	usr/share/doc/Tsparql-3.0/
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/type_func.Resource.deserialize.html
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/type_func.SparqlConnection.bus_new_async.html
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/type_func.SparqlConnection.new_async.html
+-rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/type_func.SparqlConnection.new_from_rdf_async.html
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/type_func.SparqlError.quark.html
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/urlmap.js
 -rw-r--r--	alexis/alexis	usr/share/doc/Tsparql-3.0/xsd-ontology.html

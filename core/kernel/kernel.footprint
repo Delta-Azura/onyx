@@ -42,6 +42,14 @@ drwxr-xr-x	root/root	lib/modules/7.0.0/kernel/drivers/gpu/drm/radeon/
 -rw-r--r--	root/root	lib/modules/7.0.0/kernel/drivers/gpu/drm/radeon/radeon.ko
 drwxr-xr-x	root/root	lib/modules/7.0.0/kernel/drivers/gpu/drm/scheduler/
 -rw-r--r--	root/root	lib/modules/7.0.0/kernel/drivers/gpu/drm/scheduler/gpu-sched.ko
+drwxr-xr-x	root/root	lib/modules/7.0.0/kernel/drivers/hid/
+drwxr-xr-x	root/root	lib/modules/7.0.0/kernel/drivers/hid/i2c-hid/
+-rw-r--r--	root/root	lib/modules/7.0.0/kernel/drivers/hid/i2c-hid/i2c-hid-acpi.ko
+-rw-r--r--	root/root	lib/modules/7.0.0/kernel/drivers/hid/i2c-hid/i2c-hid.ko
+-rw-r--r--	root/root	lib/modules/7.0.0/kernel/drivers/hid/i2c-hid/i2c-hid-of.ko
+drwxr-xr-x	root/root	lib/modules/7.0.0/kernel/drivers/i2c/
+drwxr-xr-x	root/root	lib/modules/7.0.0/kernel/drivers/i2c/busses/
+-rw-r--r--	root/root	lib/modules/7.0.0/kernel/drivers/i2c/busses/i2c-designware-core.ko
 drwxr-xr-x	root/root	lib/modules/7.0.0/kernel/drivers/mfd/
 -rw-r--r--	root/root	lib/modules/7.0.0/kernel/drivers/mfd/mfd-core.ko
 drwxr-xr-x	root/root	lib/modules/7.0.0/kernel/drivers/net/

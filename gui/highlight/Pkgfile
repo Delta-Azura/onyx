@@ -1,0 +1,13 @@
+description=" Highlight is a utility that converts source code to formatted text with syntax highlighting. "
+name=highlight 
+version=4.19
+release=1
+packager=alexis
+source=("http://www.andre-simon.de/zip/highlight-${version}.tar.bz2")
+
+build() {
+cd $name-$version
+sed -i '/GZIP/s/^/#/' makefile
+make
+make DESTDIR=$PKG doc_dir=/usr/share/doc/highlight-${version}/ install
+}

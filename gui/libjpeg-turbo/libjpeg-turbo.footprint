@@ -1,0 +1,53 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/bin/
+-rwxr-xr-x	alexis/alexis	usr/bin/cjpeg
+-rwxr-xr-x	alexis/alexis	usr/bin/djpeg
+-rwxr-xr-x	alexis/alexis	usr/bin/jpegtran
+-rwxr-xr-x	alexis/alexis	usr/bin/rdjpgcom
+-rwxr-xr-x	alexis/alexis	usr/bin/tjbench
+-rwxr-xr-x	alexis/alexis	usr/bin/wrjpgcom
+drwxr-xr-x	alexis/alexis	usr/include/
+-rw-r--r--	alexis/alexis	usr/include/jconfig.h
+-rw-r--r--	alexis/alexis	usr/include/jerror.h
+-rw-r--r--	alexis/alexis	usr/include/jmorecfg.h
+-rw-r--r--	alexis/alexis	usr/include/jpeglib.h
+-rw-r--r--	alexis/alexis	usr/include/turbojpeg.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/
+drwxr-xr-x	alexis/alexis	usr/lib/cmake/libjpeg-turbo/
+-rw-r--r--	alexis/alexis	usr/lib/cmake/libjpeg-turbo/libjpeg-turboConfig.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/libjpeg-turbo/libjpeg-turboConfigVersion.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/libjpeg-turbo/libjpeg-turboTargets.cmake
+-rw-r--r--	alexis/alexis	usr/lib/cmake/libjpeg-turbo/libjpeg-turboTargets-release.cmake
+-rwxr-xr-x	alexis/alexis	usr/lib/libjpeg.so.62.4.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libjpeg.so.62 -> libjpeg.so.62.4.0
+-rwxr-xr-x	alexis/alexis	usr/lib/libjpeg.so.8.3.2
+lrwxrwxrwx	alexis/alexis	usr/lib/libjpeg.so.8 -> libjpeg.so.8.3.2
+lrwxrwxrwx	alexis/alexis	usr/lib/libjpeg.so -> libjpeg.so.8
+-rwxr-xr-x	alexis/alexis	usr/lib/libturbojpeg.so.0.4.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libturbojpeg.so.0 -> libturbojpeg.so.0.4.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libturbojpeg.so -> libturbojpeg.so.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libjpeg.pc
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libturbojpeg.pc
+drwxr-xr-x	alexis/alexis	usr/share/
+drwxr-xr-x	alexis/alexis	usr/share/doc/
+drwxr-xr-x	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/
+-rw-r--r--	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/example.c
+-rw-r--r--	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/libjpeg.txt
+-rw-r--r--	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/LICENSE.md
+-rw-r--r--	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/README.ijg
+-rw-r--r--	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/README.md
+-rw-r--r--	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/structure.txt
+-rw-r--r--	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/tjcomp.c
+-rw-r--r--	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/tjdecomp.c
+-rw-r--r--	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/tjtran.c
+-rw-r--r--	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/usage.txt
+-rw-r--r--	alexis/alexis	usr/share/doc/libjpeg-turbo-3.1.4.1/wizard.txt
+drwxr-xr-x	alexis/alexis	usr/share/man/
+drwxr-xr-x	alexis/alexis	usr/share/man/man1/
+-rw-r--r--	alexis/alexis	usr/share/man/man1/cjpeg.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/djpeg.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/jpegtran.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/rdjpgcom.1.gz
+-rw-r--r--	alexis/alexis	usr/share/man/man1/wrjpgcom.1.gz

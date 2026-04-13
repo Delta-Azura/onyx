@@ -1,0 +1,18 @@
+description=" The cargo-c package creates a cargo subcommand to build and install C-ABI compatible dynamic and static libraries. "
+name=cargo-c
+version=0.10.21
+release=1
+packager=alexis
+source=("https://github.com/lu-zero/cargo-c/archive/v${version}/cargo-c-${version}.tar.gz")
+
+build() {
+cd $name-$version
+curl -fLO https://github.com/lu-zero/cargo-c/releases/download/v${version}/Cargo.lock
+export LIBSSH2_SYS_USE_PKG_CONFIG=1 
+export LIBSQLITE3_SYS_USE_PKG_CONFIG=1 
+
+cargo build --release
+mkdir -p $PKG/usr/bin
+install -vm755 target/release/cargo-{capi,cbuild,cinstall,ctest} $PKG/usr/bin/
+unset LIB{SSH2,SQLITE3}_SYS_USE_PKG_CONFIG
+}
