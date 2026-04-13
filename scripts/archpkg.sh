@@ -23,6 +23,8 @@ getarchname() {
       	archpackage=epiphany;;
       hatchling)
       	archpackage=python-hatchling;;
+      gst-plugins-base)
+      	archpackage=gst-plugins-base;;
       parse-yapp|xml-parser)
       	archpackage="perl-${package}";;
       twm|util-macros)

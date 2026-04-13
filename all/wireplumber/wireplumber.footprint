@@ -48,8 +48,9 @@ drwxr-xr-x	alexis/alexis	usr/include/wireplumber-0.5/wp/
 -rw-r--r--	alexis/alexis	usr/include/wireplumber-0.5/wp/wp.h
 -rw-r--r--	alexis/alexis	usr/include/wireplumber-0.5/wp/wpversion.h
 drwxr-xr-x	alexis/alexis	usr/lib/
--rwxr-xr-x	alexis/alexis	usr/lib/libwireplumber-0.5.so.0.513.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libwireplumber-0.5.so.0 -> libwireplumber-0.5.so.0.513.0
+-rw-r--r--	alexis/alexis	usr/lib/liblua.a
+-rwxr-xr-x	alexis/alexis	usr/lib/libwireplumber-0.5.so.0.514.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libwireplumber-0.5.so.0 -> libwireplumber-0.5.so.0.514.0
 lrwxrwxrwx	alexis/alexis	usr/lib/libwireplumber-0.5.so -> libwireplumber-0.5.so.0
 drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
 -rw-r--r--	alexis/alexis	usr/lib/pkgconfig/wireplumber-0.5.pc
@@ -145,6 +146,7 @@ drwxr-xr-x	alexis/alexis	usr/share/wireplumber/scripts/linking/
 -rw-r--r--	alexis/alexis	usr/share/wireplumber/scripts/linking/prepare-link.lua
 -rw-r--r--	alexis/alexis	usr/share/wireplumber/scripts/linking/rescan.lua
 -rw-r--r--	alexis/alexis	usr/share/wireplumber/scripts/linking/rescan-media-role-links.lua
+-rw-r--r--	alexis/alexis	usr/share/wireplumber/scripts/linking/rescan-on-linkable.lua
 -rw-r--r--	alexis/alexis	usr/share/wireplumber/scripts/metadata.lua
 drwxr-xr-x	alexis/alexis	usr/share/wireplumber/scripts/monitors/
 -rw-r--r--	alexis/alexis	usr/share/wireplumber/scripts/monitors/alsa.lua
