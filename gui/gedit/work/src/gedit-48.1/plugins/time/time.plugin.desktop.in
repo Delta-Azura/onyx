@@ -1,8 +1,0 @@
-[Plugin]
-Module=time
-IAge=3
-Name=Insert Date/Time
-Description=Inserts current date and time at the cursor position.
-Authors=Paolo Maggi <paolo.maggi@polito.it>;Lee Mallabone <gnome@fonicmonkey.net>
-Copyright=Copyright © 2002-2005 Paolo Maggi
-Website=https://gedit-technology.github.io/apps/gedit/
