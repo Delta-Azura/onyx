@@ -1,0 +1,17 @@
+description="The GWeather locations database contains a list of locations used by GNOME
+components through the GWeather library."
+name=gweather-locations
+version=2026.2
+release=1
+packager=alexis
+source=("https://gitlab.gnome.org/GNOME/gweather-locations/-/archive/2026.2/gweather-locations-2026.2.tar.gz")
+
+build() {
+cd $name-$version
+sed -i "s|'Locations\.xml',|meson.current_source_dir() / 'Locations.xml',|" data/meson.build
+mkdir build
+cd build
+meson setup --prefix=/usr ..
+ninja 
+DESTDIR=$PKG ninja install
+}

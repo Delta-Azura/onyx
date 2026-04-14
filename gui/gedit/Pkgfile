@@ -1,9 +1,9 @@
 description="The Gedit package contains a lightweight UTF-8 text editor for the GNOME Desktop."
 name=gedit
-version=50.0
+version=48.1
 release=1
 packager=alexis
-source=("https://download.gnome.org/sources/gedit/50/gedit-${version}.tar.xz")
+source=("https://download.gnome.org/sources/gedit/48/gedit-${version}.tar.xz")
 
 build() {
 mkdir build 

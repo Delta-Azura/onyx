@@ -1,0 +1,46 @@
+gedit_help_sources = [
+  'gedit-brief-intro.page',
+  'gedit-change-color-scheme.page',
+  'gedit-close-file.page',
+  'gedit-create-new-file.page',
+  'gedit-edit-as-root.page',
+  'gedit-files-basic.page',
+  'gedit-full-screen.page',
+  'gedit-general-intro.page',
+  'gedit-open-file.page',
+  'gedit-open-files-from-sidepane.page',
+  'gedit-open-on-server.page',
+  'gedit-open-recent.page',
+  'gedit-open-several-files-at-once.page',
+  'gedit-plugin-guide.page',
+  'gedit-plugins-change-case.page',
+  'gedit-plugins-doc-stats.page',
+  'gedit-plugins-file-browser.page',
+  'gedit-plugins-insert-date-time.page',
+  'gedit-plugins-install.page',
+  'gedit-plugins-modelines.page',
+  'gedit-plugins-sort.page',
+  'gedit-plugins-text-size.page',
+  'gedit-printing.page',
+  'gedit-save-file.page',
+  'gedit-search.page',
+  'gedit-search-and-replace.page',
+  'gedit-spellcheck.page',
+  'gedit-syntax-highlighting.page',
+  'gedit-tab-groups.page',
+  'gedit-tabs.page',
+  'gedit-undo-redo.page',
+  'index.page',
+]
+
+gedit_help_media = [
+  'figures/gedit-icon-24x24.png',
+  'figures/gedit3-screenshot.png',
+]
+
+gnome.yelp(
+  meson.project_name(),
+  sources: gedit_help_sources,
+  media: gedit_help_media,
+  symlink_media: true,
+)

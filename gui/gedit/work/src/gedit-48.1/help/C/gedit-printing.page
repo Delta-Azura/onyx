@@ -1,0 +1,61 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="gedit-printing">
+
+  <info>
+    <link type="guide" xref="index#gedit-printing-guide"/>
+    <desc>Print the files that you create with gedit.</desc>
+  </info>
+
+  <title>Printing documents</title>
+
+  <p>
+    <app>gedit</app> allows you to print both to a file and to paper.
+  </p>
+
+  <note style="important"><p>
+    Please also consult the
+    <link href="help:gnome-help/printing">printing help for GNOME</link>
+    for more general information.
+  </p></note>
+
+  <section id="print-dialog">
+    <title>Print Dialog</title>
+    <p>
+      To open the <gui>Print</gui> dialog, either:
+    </p>
+    <list>
+      <item><p>
+        Click on <guiseq><gui style="menu">Menu Button</gui>
+        <gui style="menuitem">Print icon</gui></guiseq>.
+      </p></item>
+      <item><p>
+        Or press <keyseq><key>Ctrl</key><key>P</key></keyseq>.
+      </p></item>
+    </list>
+  </section>
+
+  <section id="print-preview">
+    <title>Print Preview</title>
+    <p>
+      Prior to printing your document, you can preview how the printed document
+      will look by using <gui>Print Preview</gui>. To preview the document:
+    </p>
+    <p>
+      From the <gui>Print</gui> dialog, click on the
+      <gui style="button">Preview</gui> button.
+    </p>
+  </section>
+
+  <section id="print-text-editor-settings-tab">
+    <title>Text Editor Settings Tab</title>
+    <p>
+      Inside the <gui>Print</gui> dialog, there is the <gui>Text Editor</gui>
+      tab to configure how the text is printed.
+    </p>
+    <p>
+      From there, you can choose whether to print line numbers, configure text
+      wrapping, configure the fonts, whether there are page headers, and more.
+    </p>
+  </section>
+</page>

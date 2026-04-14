@@ -1,0 +1,16 @@
+description=" The XKeyboardConfig package contains the keyboard configuration database for the X Window System. "
+name=xkeyboardconfig
+version=2.47
+release=1
+packager=alexis
+source=("https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-${version}.tar.xz")
+
+build() {
+cd xkeyboard-config-${version}
+mkdir build &&
+cd    build &&
+
+meson setup --prefix=$XORG_PREFIX --buildtype=release .. &&
+ninja
+DESTDIR=$PKG ninja install
+}

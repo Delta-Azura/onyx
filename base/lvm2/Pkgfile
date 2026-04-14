@@ -1,0 +1,18 @@
+description="The LVM2 package is a set of tools that manage logical partitions."
+name=lvm2
+version=2.03.39
+release=1
+packager=alexis
+source=("https://sourceware.org/ftp/lvm2/LVM2.${version}.tgz")
+
+build() {
+#cd LVM2-$version
+cd LVM2.${version}
+PATH+=:/usr/sbin                \
+./configure --prefix=/usr       \
+            --enable-cmdlib     \
+            --enable-pkgconfig  \
+            --enable-udev_sync  &&
+make
+make DESTDIR=$PKG install
+}

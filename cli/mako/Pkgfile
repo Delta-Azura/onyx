@@ -1,0 +1,20 @@
+description=" Mako is a Python module that implements hyperfast and lightweight templating for the Python platform. "
+name=mako
+version=1.3.10
+release=1
+packager=alexis
+source=("https://files.pythonhosted.org/packages/source/M/Mako/mako-${version}.tar.gz")
+
+
+build() {
+cd $name-$version
+pip3 wheel -w dist \
+    --no-build-isolation \
+    --no-deps --no-cache-dir $PWD
+  pip3 install \
+    --find-links dist --ignore-installed \
+    --no-cache-dir    \
+    --no-user         \
+    --root=$PKG       \
+    Mako
+}

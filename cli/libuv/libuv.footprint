@@ -1,0 +1,15 @@
+drwxr-xr-x	alexis/alexis	usr/
+drwxr-xr-x	alexis/alexis	usr/include/
+drwxr-xr-x	alexis/alexis	usr/include/uv/
+-rw-r--r--	alexis/alexis	usr/include/uv/errno.h
+-rw-r--r--	alexis/alexis	usr/include/uv.h
+-rw-r--r--	alexis/alexis	usr/include/uv/linux.h
+-rw-r--r--	alexis/alexis	usr/include/uv/threadpool.h
+-rw-r--r--	alexis/alexis	usr/include/uv/unix.h
+-rw-r--r--	alexis/alexis	usr/include/uv/version.h
+drwxr-xr-x	alexis/alexis	usr/lib/
+-rwxr-xr-x	alexis/alexis	usr/lib/libuv.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libuv.so.1 -> libuv.so.1.0.0
+lrwxrwxrwx	alexis/alexis	usr/lib/libuv.so -> libuv.so.1.0.0
+drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
+-rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libuv.pc

@@ -1,0 +1,14 @@
+description="The LAME package contains an MP3 encoder and optionally, an MP3 frame analyzer."
+name=lame
+version=3.100
+release=1
+packager=alexis
+source=("https://downloads.sourceforge.net/lame/lame-${version}.tar.gz")
+
+build() {
+cd $name-$version
+sed -i -e 's/^\(\s*hardcode_libdir_flag_spec\s*=\).*/\1/' configure
+./configure --prefix=/usr --enable-mp3rtp --disable-static &&
+make
+make DESTDIR=$PKG pkghtmldir=/usr/share/doc/lame-${version} install
+}

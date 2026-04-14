@@ -1,0 +1,64 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      type="topic"
+      id="gedit-change-color-scheme">
+
+  <info>
+    <link type="guide" xref="index#configure-gedit"/>
+    <desc>Change the text and background colors in gedit.</desc>
+  </info>
+
+  <title>Change the color scheme</title>
+
+  <p>
+    <app>gedit</app> includes several different color schemes, allowing you to
+    change the appearance of the main text area.
+  </p>
+
+  <steps>
+    <title>To change the color scheme:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui><gui>Font &amp;
+      Colors</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Choose your desired color scheme.</p>
+    </item>
+  </steps>
+
+  <p>The new color scheme will be applied immediately.</p>
+
+  <section>
+    <title>For light and dark theme variants</title>
+    <p>
+      There are actually two color scheme settings: one color scheme to choose
+      when a light theme is applied to the whole application, and one color
+      scheme to choose when a dark theme is applied. The <gui>Preferences</gui>
+      dialog allows you to configure both.
+    </p>
+  </section>
+
+  <section>
+    <title>About unsupported color schemes</title>
+    <p>
+      Some color schemes may be unsupported for the theme variant used (light or
+      dark). When that is the case, the color scheme cannot be selected and is
+      marked explicitly as unsupported.
+    </p>
+    <p>
+      This happens when a color scheme inherits some colors from the theme, and
+      it is assumed that the theme is either light or dark. If it were possible
+      to apply such a color scheme when the wrong theme is used, it would appear
+      that the color scheme has bugs and some of the text would be unreadable.
+    </p>
+  </section>
+
+  <section>
+    <title>Use a custom color scheme</title>
+    <p>
+      You can also use color schemes that have been created by others, or create
+      and use your own color schemes. See the
+      <link href="https://gedit-technology.github.io/developer-docs/extra/libgedit-gtksourceview/style-schemes.html">libgedit-gtksourceview documentation</link>.
+    </p>
+  </section>
+</page>

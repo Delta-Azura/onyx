@@ -1,0 +1,18 @@
+description=" The libuv package is a multi-platform support library with a focus on asynchronous I/O. "
+name=libuv
+version=1.52.1
+release=1
+packager=alexis
+source=("https://dist.libuv.org/dist/v${version}/libuv-v${version}.tar.gz")
+
+
+build() {
+ls
+#cd $name-$version
+cd libuv-v${version}
+sh autogen.sh
+./configure --prefix=/usr --disable-static
+make 
+make DESTDIR=$PKG install
+#install -Dm644 docs/build/man/libuv.1 $PKG/usr/share/man/man1
+}

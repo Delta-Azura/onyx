@@ -1,12 +1,12 @@
 description=" The SVT-AV1 package contains an AV1 encoder. "
 name=svt-av1
-version=4.0.1
+version=4.1.0
 release=1
 packager=alexis
-source=("https://gitlab.com/AOMediaCodec/SVT-AV1/-/archive/v4.0.1/SVT-AV1-v4.0.1.tar.gz")
+source=("https://gitlab.com/AOMediaCodec/SVT-AV1/-/archive/v${version}/SVT-AV1-v${version}.tar.gz")
 
 build() {
-cd SVT-AV1-v4.0.1
+cd SVT-AV1-v${version}
 mkdir build &&
 cd    build &&
 
