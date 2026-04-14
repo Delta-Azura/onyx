@@ -11,7 +11,7 @@ Some packages may need a systemd service, if they are not provided, please refer
 
 
 # ROADMAP
-The spirit of Onyx and the roadmap are clear: allow anyone to install the distro's core collection in a chroot and do everything themselves with tools already provided through documentation, using my recipes, then use my wrapper to fetch those recipes, update, and compile everything; or alternatively, start from an already-built LFS and continue the journey on their own.
+The spirit of Onyx and the roadmap are clear: allow anyone to install the distro's core collection in a chroot and do everything themselves with tools already provided through documentation, using my recipes, then use my wrapper to fetch those recipes, update, and compile everything; or alternatively start from an already-built LFS and continue the journey on their own.
 
 The goal is to be as flexible as possible and let everyone have their own distro based on Onyx, whether they forge their own path, follow mine completely, or make minor or major modifications along the way.
 

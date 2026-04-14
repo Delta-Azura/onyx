@@ -1,9 +1,0 @@
-<svg>
-  <filter id="f">
-    <feComponentTransfer>
-      <feFuncR type="table" tableValues="@"/>
-    </feComponentTransfer>
-  </filter>
-
-  <text filter="url(#f)">0</text>
-</svg>
