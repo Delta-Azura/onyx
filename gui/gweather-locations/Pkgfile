@@ -4,7 +4,7 @@ name=gweather-locations
 version=2026.2
 release=1
 packager=alexis
-source=("https://gitlab.gnome.org/GNOME/gweather-locations/-/archive/2026.2/gweather-locations-2026.2.tar.gz")
+source=("https://gitlab.gnome.org/GNOME/gweather-locations/-/archive/${version}/gweather-locations-${version}.tar.gz")
 
 build() {
 cd $name-$version
