@@ -1,0 +1,23 @@
+description="Tool for simulating superuser privileges"
+url="https://tracker.debian.org/pkg/fakeroot"
+
+packager="Great-OS Team"
+maintainer="Dania"
+
+name=fakeroot
+version=1.37.2
+
+source=(https://deb.debian.org/debian/pool/main/f/$name/${name}_${version}.orig.tar.gz)
+
+
+build () {
+    cd $name-$version
+ 
+    ./configure --prefix=/usr \
+                --libdir=/usr/lib/libfakeroot \
+                --disable-static \
+                --with-ipc=sysv
+
+    make
+    make DESTDIR=$PKG install
+}
