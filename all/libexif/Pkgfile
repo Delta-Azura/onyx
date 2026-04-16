@@ -1,15 +1,15 @@
 description="The libexif package contains a library for parsing, editing, and saving EXIF data."
 name=libexif
-version=0.6.25
+version=0.6.26
 release=1
 packager=alexis
-source=("https://github.com/libexif/libexif/releases/download/v0.6.25/libexif-0.6.25.tar.bz2")
+source=("https://github.com/libexif/libexif/releases/download/v${version}/libexif-${version}.tar.bz2")
 
 build() {
 cd $name-$version 
 ./configure --prefix=/usr    \
             --disable-static \
-            --with-doc-dir=/usr/share/doc/libexif-0.6.25 &&
+            --with-doc-dir=/usr/share/doc/libexif-${version} &&
 make
 make DESTDIR=$PKG install
 }

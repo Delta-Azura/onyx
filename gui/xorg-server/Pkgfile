@@ -1,9 +1,9 @@
 description=" The Xorg Server is the core of the X Window system. "
 name=xorg-server
-version=21.1.21
+version=21.1.22
 release=1
 packager=alexis
-source=("https://www.x.org/pub/individual/xserver/xorg-server-21.1.21.tar.xz")
+source=("https://www.x.org/pub/individual/xserver/xorg-server-21.1.22.tar.xz")
 
 build() {
 cd $name-$version

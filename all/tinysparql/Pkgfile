@@ -1,6 +1,6 @@
 description=" Tinysparql is a low-footprint RDF triple store with a SPARQL 1.1 interface. "
 name=tinysparql
-version=3.11.0
+version=3.11.1
 release=1
 packager=alexis
 source=("https://download.gnome.org/sources/tinysparql/3.11/tinysparql-${version}.tar.xz")

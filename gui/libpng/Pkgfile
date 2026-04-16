@@ -1,6 +1,6 @@
 description="The libpng package contains libraries used by other programs for reading and writing PNG files."
 name=libpng
-version=1.6.57
+version=1.6.58
 release=1
 packager=alexis
 
@@ -14,6 +14,6 @@ zcat ../libpng-${version}-apng.patch.gz | patch -p1
 ./configure --prefix=/usr --disable-static 
 make
 make DESTDIR=$PKG install
-mkdir -pv $PKG/usr/share/doc/libpng-1.6.55
-cp -v README libpng-manual.txt $PKG/usr/share/doc/libpng-1.6.55
+mkdir -pv $PKG/usr/share/doc/libpng-${version}
+cp -v README libpng-manual.txt $PKG/usr/share/doc/libpng-${version}
 }

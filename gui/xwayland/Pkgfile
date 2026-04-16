@@ -1,9 +1,9 @@
 description="The Xwayland package is an Xorg server running on top of the wayland server."
 name=xwayland
-version=24.1.9
+version=24.1.10
 release=1
 packager=alexis
-source=("https://www.x.org/pub/individual/xserver/xwayland-24.1.9.tar.xz")
+source=("https://www.x.org/pub/individual/xserver/xwayland-${version}.tar.xz")
 
 build() {
 cd $name-$version
