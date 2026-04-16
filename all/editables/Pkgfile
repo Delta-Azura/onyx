@@ -1,9 +1,9 @@
 description=" Editables is python library for creating “editable wheels.” "
 name=editables
-version=0.5
+version=0.6
 release=1
 packager=alexis
-source=("https://files.pythonhosted.org/packages/source/e/editables/editables-0.5.tar.gz")
+source=("https://files.pythonhosted.org/packages/source/e/editables/editables-0.6.tar.gz")
 
 
 build() {
@@ -12,7 +12,7 @@ cd $name-$version
 pip3 wheel -w dist \
     --no-build-isolation \
     --no-deps $PWD
-  pip3 install --no-index \
+  pip3 install --ignore-installed --no-index \
     --find-links dist \
     --no-cache-dir    \
     --no-user         \

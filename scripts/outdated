@@ -21,6 +21,7 @@ COLLECTIONS="
 core
 all
 gui
+gnome
 cli"
 
 ARCHGIT="/archlinux"
