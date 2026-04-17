@@ -1,6 +1,6 @@
 description="The libgcrypt package contains a general purpose crypto library based on the code used in GnuPG."
 name=libgcrypt
-version=1.12.1
+version=1.12.2
 release=1
 packager=alexis
 source=("https://www.gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-${version}.tar.bz2")

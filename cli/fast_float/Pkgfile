@@ -1,6 +1,6 @@
 description=" Fast_float provides a set of C++ header files for efficient string to float operations. "
 name=fast_float
-version=8.2.4
+version=8.2.5
 release=1
 packager=alexis
 source=("https://github.com/fastfloat/fast_float/archive/v${version}/fast_float-${version}.tar.gz")
