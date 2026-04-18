@@ -23,6 +23,14 @@ In the core collection, updates between years will only happen for security issu
 
 For bugs, I'll probably create a Telegram group once people start using Onyx, so support will be accessible there, though it will of course be strongly recommended to read the LFS/BLFS documentation and check what's happening over at Arch, as I already do for certain packages.
 
+
+# How to install 
+Contact me to get the core packages you will need to install with the pkgutils after settings up cards.
+Then install the packages contained in the core collections i sent you, therefore, edit some essentials files like the fstab and compile your own kernel. 
+Therefore, you are ready to use the system. Install azura from the base collections, the functions install and build are already working, every Pkgfile should build correctly.
+
+
+
 # Scripts
 Both of the scripts aren't from me, they come from the GREAT-OS project, i just modified the name and the archpackage script in order for it to suits my needs.
 Thanks guys. 
