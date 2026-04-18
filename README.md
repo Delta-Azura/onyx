@@ -28,6 +28,9 @@ For bugs, I'll probably create a Telegram group once people start using Onyx, so
 Contact me to get the core packages you will need to install with the pkgutils after settings up cards.
 Then install the packages contained in the core collections i sent you, therefore, edit some essentials files like the fstab and compile your own kernel. 
 Therefore, you are ready to use the system. Install azura from the base collections, the functions install and build are already working, every Pkgfile should build correctly.
+I'm still working on the update function of azura, it should be available soon.
+I recommend you to use the grub used by the system you used to setup Onyx because even if the uefi packages are present, I haven't tried them yet.
+Please refer to the BLFS documentation to set it up. 
 
 
 
