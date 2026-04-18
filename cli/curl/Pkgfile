@@ -4,6 +4,7 @@ version=8.19.0
 release=2
 packager=alexis
 source=(https://curl.se/download/curl-${version}.tar.xz)
+runtimedepends=(tamère)
 
 build() {
 cd $name-$version
