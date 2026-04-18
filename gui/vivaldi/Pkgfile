@@ -5,6 +5,8 @@ release=1
 packager=alexis
 source=("https://downloads.vivaldi.com/stable/vivaldi-stable_${version}-1_amd64.deb")
 
+# Need to fix the icons
+
 build() {
 tar -xf data.tar.xz 
 mkdir -p $PKG/opt
