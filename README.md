@@ -27,7 +27,7 @@ For bugs, I'll probably create a Telegram group once people start using Onyx, so
 # How to install 
 After setting up the chroot following the lfs book, execute the setup.sh script. 
 Then, execute these commands : 
-''
+''' bash
 exec /usr/bin/bash --login
 touch /var/log/{btmp,lastlog,faillog,wtmp}
 chgrp -v utmp /var/log/lastlog
