@@ -1,0 +1,14 @@
+description="A pkgutils wrapper"
+name=azura
+version=none
+release=1
+packager=alexis
+
+
+build() {
+git clone https://github.com/Delta-Azura/azura
+cd azura/src
+mkdir -p $PKG/usr/bin
+cp azura $PKG/usr/bin
+chmod u+x $PKG/usr/bin/azura
+}
