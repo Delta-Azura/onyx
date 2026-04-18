@@ -1,9 +1,9 @@
 description=" The Common Unix Printing System (CUPS) is a print spooler and associated utilities. It is based on th and provides printing services to most PostScript and raster printers. "
 name=cups
-version=2.4.16
+version=2.4.17
 release=1
 packager=alexis
-source=("https://github.com/OpenPrinting/cups/releases/download/v2.4.16/cups-2.4.16-source.tar.gz")
+source=("https://github.com/OpenPrinting/cups/releases/download/v${version}/cups-${version}-source.tar.gz")
 
 build() {
 ls
@@ -16,10 +16,10 @@ sed -i '/& ipp->prev)/s/prev/& \&\& ipp->prev->next == *attr/' cups/ipp.c
 ./configure --libdir=/usr/lib            \
             --with-rundir=/run/cups      \
             --with-system-groups=lpadmin \
-            --with-docdir=/usr/share/cups/doc-2.4.16 &&
+            --with-docdir=/usr/share/cups/doc-${version} &&
 make
 make DESTDIR=$PKG install &&
 mkdir -pv $PKG/usr/share/doc/
-ln -svnf ../cups/doc-2.4.16 $PKG/usr/share/doc/cups-2.4.16
+ln -svnf ../cups/doc-2.4.16 $PKG/usr/share/doc/cups-${version}
 echo "ServerName /run/cups/cups.sock" > $PKG/etc/cups/client.conf
 }
