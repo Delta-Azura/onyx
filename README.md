@@ -25,6 +25,16 @@ For bugs, I'll probably create a Telegram group once people start using Onyx, so
 
 
 # How to install 
+After setting up the chroot following the lfs book, execute the setup.sh script. 
+Then, execute these commands : 
+''
+exec /usr/bin/bash --login
+touch /var/log/{btmp,lastlog,faillog,wtmp}
+chgrp -v utmp /var/log/lastlog
+chmod -v 664  /var/log/lastlog
+chmod -v 600  /var/log/btmp
+''
+ 
 Contact me to get the core packages you will need to install with the pkgutils after settings up cards.
 Then install the packages contained in the core collections i sent you, therefore, edit some essentials files like the fstab and compile your own kernel. 
 Therefore, you are ready to use the system. Install azura from the base collections, the functions install and build are already working, every Pkgfile should build correctly.
