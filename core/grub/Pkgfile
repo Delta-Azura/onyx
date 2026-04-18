@@ -1,0 +1,27 @@
+description="bootloader"
+name=grub
+version=2.14
+release=1
+packager=alexis
+source=(https://ftpmirror.gnu.org/grub/grub-2.14.tar.xz
+https://unifoundry.com/pub/unifont/unifont-17.0.03/font-builds/unifont-17.0.03.pcf.gz)
+
+build() {
+mkdir -pv $PKG/usr/share/fonts/unifont
+ls
+zcat unifont-17.0.03.pcf > $PKG/usr/share/fonts/unifont/unifont.pcf
+unset {C,CPP,CXX,LD}FLAGS
+cd $name-$version
+./configure --prefix=/usr        \
+            --sysconfdir=/etc    \
+            --disable-efiemu     \
+            --with-platform=efi  \
+            --target=x86_64      \
+            --disable-werror     &&
+make
+make DESTDIR=$PKG install
+#mv -v $PKG/etc/bash_completion.d/grub $PKG/usr/share/bash-completion/completions
+install -vm755 grub-mkfont $PKG/usr/bin/ &&
+install -vm644 ascii.h widthspec.h *.pf2 $PKG/usr/share/grub/
+install -vm755 grub-mount $PKG/usr/bin/
+}
