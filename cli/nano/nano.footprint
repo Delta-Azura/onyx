@@ -4,13 +4,13 @@ drwxr-xr-x	root/root	usr/bin/
 lrwxrwxrwx	root/root	usr/bin/rnano -> nano
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/doc/
-drwxr-xr-x	root/root	usr/share/doc/nano-8.7.1/
--rw-r--r--	root/root	usr/share/doc/nano-8.7.1/faq.html
--rw-r--r--	root/root	usr/share/doc/nano-8.7.1/nano.1.html
--rw-r--r--	root/root	usr/share/doc/nano-8.7.1/nano.html
--rw-r--r--	root/root	usr/share/doc/nano-8.7.1/nanorc.5.html
--rw-r--r--	root/root	usr/share/doc/nano-8.7.1/rnano.1.html
--rw-r--r--	root/root	usr/share/doc/nano-8.7.1/sample.nanorc
+drwxr-xr-x	root/root	usr/share/doc/nano-9.0/
+-rw-r--r--	root/root	usr/share/doc/nano-9.0/faq.html
+-rw-r--r--	root/root	usr/share/doc/nano-9.0/nano.1.html
+-rw-r--r--	root/root	usr/share/doc/nano-9.0/nano.html
+-rw-r--r--	root/root	usr/share/doc/nano-9.0/nanorc.5.html
+-rw-r--r--	root/root	usr/share/doc/nano-9.0/rnano.1.html
+-rw-r--r--	root/root	usr/share/doc/nano-9.0/sample.nanorc
 drwxr-xr-x	root/root	usr/share/info/
 -rw-r--r--	root/root	usr/share/info/dir.gz
 -rw-r--r--	root/root	usr/share/info/nano.info.gz
@@ -29,7 +29,6 @@ drwxr-xr-x	root/root	usr/share/nano/
 -rw-r--r--	root/root	usr/share/nano/c.nanorc
 -rw-r--r--	root/root	usr/share/nano/css.nanorc
 -rw-r--r--	root/root	usr/share/nano/default.nanorc
--rw-r--r--	root/root	usr/share/nano/elisp.nanorc
 -rw-r--r--	root/root	usr/share/nano/email.nanorc
 drwxr-xr-x	root/root	usr/share/nano/extra/
 -rw-r--r--	root/root	usr/share/nano/extra/ada.nanorc

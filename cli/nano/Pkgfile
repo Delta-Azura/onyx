@@ -1,9 +1,9 @@
 description=" The Nano package contains a small, simple text editor which aims to replace Pico, the default editor in the Pine package. "
 name=nano
-version=8.7.1
+version=9.0
 release=1
 packager=alexis
-source=(https://www.nano-editor.org/dist/v8/nano-${version}.tar.xz)
+source=(https://www.nano-editor.org/dist/v9/nano-${version}.tar.xz)
 
 build() {
 cd $name-$version

@@ -1,6 +1,6 @@
 description=" lxml provides Python bindings for libxslt-1.1.45 and libxml2-2.15.1. "
 name=lxml
-version=6.0.4
+version=6.1.0
 release=1
 packager=alexis
 source=("https://files.pythonhosted.org/packages/source/l/lxml/lxml-${version}.tar.gz")
