@@ -10,5 +10,5 @@ git clone https://github.com/Delta-Azura/azura
 cd azura/src
 mkdir -p $PKG/usr/bin
 cp azura $PKG/usr/bin
-chmod u+x $PKG/usr/bin/azura
+chmod o+x $PKG/usr/bin/azura
 }
