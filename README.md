@@ -23,26 +23,21 @@ In the core collection, updates between years will only happen for security issu
 
 For bugs, I'll probably create a Telegram group once people start using Onyx, so support will be accessible there, though it will of course be strongly recommended to read the LFS/BLFS documentation and check what's happening over at Arch, as I already do for certain packages.
 
+A switch to the pkgutils from crux might be possible, I haven't taken a decision for now but it shouldn't change anything for you since we do not use cards. 
 
 # How to install 
-After setting up the chroot following the lfs book, execute the setup.sh script. 
-Then, execute these commands : 
-``` bash
-exec /usr/bin/bash --login
-touch /var/log/{btmp,lastlog,faillog,wtmp}
-chgrp -v utmp /var/log/lastlog
-chmod -v 664  /var/log/lastlog
-chmod -v 600  /var/log/btmp
-```
- 
-Contact me to get the core packages you will need to install with the pkgutils after settings up cards.
-Then install the packages contained in the core collections i sent you, therefore, edit some essentials files like the fstab and compile your own kernel. 
-Therefore, you are ready to use the system. Install azura from the base collections, the functions install and build are already working, every Pkgfile should build correctly.
-I'm still working on the update function of azura, it should be available soon.
-I recommend you to use the grub used by the system you used to setup Onyx because even if the uefi packages are present, I haven't tried them yet.
+First of all, build an LFS following the 13.0 book. 
+After that, make sure that all the dependencies needed for pkgadd/pkgmkd/cards are installed, or compile them if you need. 
+You will need to download the core archive and use pkgadd to install them as packages, do not hesitate to execute pkgadd -f to force the removal of old files. 
+Therefore, execute the Pkgfile of cards to be sure it's installed the right way, you will be able next to build and install azura that will help you manage your packages. 
+Do not forget to exclude the packages : kernel and kernel-src on the /etc/azura.conf or specify the path to your kernel configure there for azura not to replace your configuration with mine.
+Do not forget to go get the firmware your hardware needs for wifi, bluetooth and your gpu. 
+Now, every packages are installable using azura build and azura install. You might probably encouter some dependencie problems on your way since the Pkgfile aren't written properly for now, even if i'm working on re-write.  
+I'm still working on the upgrade function of azura, it should be working but the dependencies aren't managed for the same reasons i mentionned earlier.
+It's recommended to use the grub from the system you used to setup Onyx because even if the uefi packages and the grub are present I haven't tried them yet and the post-install isn't available.
 Please refer to the BLFS documentation to set it up. 
 
-
+The core packages are available here : 
 
 # Scripts
 Both of the scripts aren't from me, they come from the GREAT-OS project, i just modified the name and the archpackage script in order for it to suits my needs.
