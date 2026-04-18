@@ -1,0 +1,16 @@
+description="A powerful web browser"
+name=vivaldi
+version=7.9.3970.55
+release=1
+packager=alexis
+source=("https://downloads.vivaldi.com/stable/vivaldi-stable_${version}-1_amd64.deb")
+
+build() {
+tar -xf data.tar.xz 
+mkdir -p $PKG/opt
+mkdir -p $PKG/usr
+mkdir -p $PKG/etc
+cp -r etc/* $PKG/etc/
+cp -r opt/* $PKG/opt/
+cp -r usr/* $PKG/usr/
+}
