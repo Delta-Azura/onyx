@@ -1,0 +1,15 @@
+description="Gnome terminal emulator"
+name=gnome-console
+version=50.0
+release=1
+packager=alexis
+source=(https://gitlab.gnome.org/GNOME/console/-/archive/${version}/console-${version}.tar.bz2)
+
+build() {
+cd console-$version
+mkdir build
+cd build
+meson setup .. --prefix=/usr
+ninja 
+DESTDIR=$PKG ninja install
+}
