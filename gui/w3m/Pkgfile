@@ -1,0 +1,20 @@
+description="Text-based Web browser as well as pager"
+name=w3m
+version=0.5.6
+release=1
+packager=alexis
+source=(https://git.sr.ht/~rkta/w3m/archive/v${version}.tar.gz)
+
+build() {
+cd $name-v${version}
+./configure \
+--prefix=/usr \
+--libexecdir=/usr/lib \
+--enable-image=x11,fb \
+--with-imagelib=imlib2 \
+--with-termlib=ncurses \
+--disable-w3mmailer
+
+make
+make DESTDIR="${PKG}" install
+}
