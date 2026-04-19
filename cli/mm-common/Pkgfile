@@ -1,0 +1,17 @@
+description="Common build files of the C++ bindings"
+name=mm-common
+version=1.0.7
+release=1
+packager=alexis
+source=(https://gitlab.gnome.org/GNOME/mm-common/-/archive/1.0.7/mm-common-1.0.7.tar.gz)
+
+
+build() {
+cd $name-$version
+mkdir build
+meson setup --prefix=/usr build -Duse-network=true 
+#cd .. && ninja 
+#DESTDIR=$PKG ninja install
+meson compile -C build
+meson install -C build --destdir "$PKG"
+}

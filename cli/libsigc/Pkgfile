@@ -1,0 +1,17 @@
+description="The libsigc++ package implements a typesafe callback system for standard C++."
+name=libsigc
+version=3.8.0
+release=1
+packager=alexis
+#source=(https://download.gnome.org/sources/libsigc++/3.8/libsigc++-${version}.tar.xz)
+source=(https://github.com/libsigcplusplus/libsigcplusplus/releases/download/${version}/libsigc++-${version}.tar.xz)
+build() {
+cd libsigc++-${version}
+#sed -i "s/'system',//" meson.build
+mkdir bld &&
+cd    bld &&
+
+meson setup --prefix=/usr --buildtype=release .. &&
+ninja
+DESTDIR=$PKG ninja install
+}
