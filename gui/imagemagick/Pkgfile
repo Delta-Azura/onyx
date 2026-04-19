@@ -1,0 +1,20 @@
+description="ImageMagick is a collection of tools and libraries to read, write, and manipulate an image in various image formats."
+name=imagemagick
+_name=ImageMagick
+version=7.1.2
+release=19
+#source=("https://www.imagemagick.org/archive/releases/ImageMagick-${version}-${release}.tar.xz")
+source=("https://www.imagemagick.org/archive/releases/ImageMagick-${version}-${release}.tar.xz")
+
+build() {
+cd ${_name}-${version}-${release}
+#cd $name-$version
+./configure --prefix=/usr     \
+            --sysconfdir=/etc \
+            --enable-hdri     \
+            --with-modules    \
+            --with-perl       \
+            --disable-static  &&
+make
+make DESTDIR=$PKG DOCUMENTATION_PATH=/usr/share/doc/imagemagick-7.1.2 install
+}
