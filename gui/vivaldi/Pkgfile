@@ -1,18 +1,63 @@
+### DO NOT BUILD
+
 description="A powerful web browser"
 name=vivaldi
 version=7.9.3970.55
 release=1
 packager=alexis
-source=("https://downloads.vivaldi.com/stable/vivaldi-stable_${version}-1_amd64.deb")
+source=()
 
 # Need to fix the icons
 
 build() {
-tar -xf data.tar.xz 
-mkdir -p $PKG/opt
-mkdir -p $PKG/usr
-mkdir -p $PKG/etc
-cp -r etc/* $PKG/etc/
-cp -r opt/* $PKG/opt/
-cp -r usr/* $PKG/usr/
+ls
+bsdtar -xf vivaldi-stable_${version}-1_amd64.deb
+cp --parents -a {opt,usr/bin,usr/share} "$PKG"
+
+    # suid sandbox
+    chmod 4755 "$PKG/opt/$name/vivaldi-sandbox"
+
+    install -dm755 "$PKG/usr/bin"
+
+    # make /usr/bin/vivaldi-stable available
+    binf="$PKG/usr/bin/vivaldi-stable"
+    if [[ ! -e "$binf" ]] && [[ ! -f "$binf" ]] && [[ ! -L "$binf" ]]; then
+        ln -s /opt/vivaldi/vivaldi "$binf"
+    fi
+    # make /usr/bin/vivaldi available
+    binf="$PKG/usr/bin/vivaldi"
+    if [[ ! -e "$binf" ]] && [[ ! -f "$binf" ]] && [[ ! -L "$binf" ]]; then
+        ln -s /opt/vivaldi/vivaldi "$binf"
+    fi
+
+    # Vivaldi has different design for each size of icons. Avoid using them.
+    # hicolor xdg fallback
+    install -Dm644 "$PKG/opt/$name/resources/vivaldi/resources/welcomepage-vivaldi.svg" \
+        "$PKG/usr/share/icons/hicolor/scalable/${name}.svg"
+    install -Dm644 "$PKG/opt/$name/product_logo_256.png" \
+        "$PKG/usr/share/icons/hicolor/256x256/apps/$name.png"
+    for _res in 128 64 48 32 22; do
+        install -d "$PKG/usr/share/icons/hicolor/${_res}x${_res}/apps"
+        magick "$PKG/opt/$name/product_logo_256.png" \
+            -resize ${_res}x${_res} \
+            "$PKG/usr/share/icons/hicolor/${_res}x${_res}/apps/$name.png"
+        chmod 0644 \
+            "$PKG/usr/share/icons/hicolor/${_res}x${_res}/apps/$name.png"
+    done
+    install -d "$PKG/usr/share/pixmaps"
+    install -Dm644 "$PKG/opt/$name/product_logo_256.png" \
+        "$PKG/usr/share/pixmaps/${name}.png"
+
+    rm -f "$PKG/opt/$name/product_logo_"*.png
+
+    # license
+    install -dm755 "$PKG/usr/share/licenses/$name"
+    w3m -dump "$PKG/opt/$name/LICENSE.html" \
+        | head -n 5 \
+        > "$PKG/usr/share/licenses/$name/license.txt"
+
+    # https://archlinux.org/todo/legacy-path-for-metainfo-files/
+    #install -Dm644 "usr/share/appdata/$pkgname.appdata.xml" -t \
+    #    "$pkgdir/usr/share/metainfo/"
+    #rm -rv "$pkgdir/usr/share/appdata"
 }

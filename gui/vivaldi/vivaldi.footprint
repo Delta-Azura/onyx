@@ -1436,7 +1436,7 @@ drwxr-xr-x	root/root	opt/vivaldi/resources/vivaldi/user_files/
 -rw-r--r--	root/root	opt/vivaldi/vivaldi_100_percent.pak
 -rw-r--r--	root/root	opt/vivaldi/vivaldi_200_percent.pak
 -rwxr-xr-x	root/root	opt/vivaldi/vivaldi-bin
--rwxr-xr-x	root/root	opt/vivaldi/vivaldi-sandbox
+-rwsr-xr-x	root/root	opt/vivaldi/vivaldi-sandbox
 -rw-r--r--	root/root	opt/vivaldi/vk_swiftshader_icd.json
 -rwxr-xr-x	root/root	opt/vivaldi/xdg-settings
 drwxr-xr-x	root/root	usr/
