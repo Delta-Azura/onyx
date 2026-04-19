@@ -1,0 +1,14 @@
+description="C++ bindings for GLib"
+name=glibmm-268
+version=2.88.0
+release=1
+packager=alexis
+source=(https://gitlab.gnome.org/GNOME/glibmm/-/archive/glibmm-2-86/glibmm-glibmm-2-86.tar.gz)
+
+build() {
+cd glibmm-glibmm-2-86
+mkdir my_build
+meson setup --prefix=/usr -Dmaintainer-mode=true -D build-documentation=false my_build
+ninja -C my_build 
+DESTDIR=$PKG ninja install -C my_build
+}

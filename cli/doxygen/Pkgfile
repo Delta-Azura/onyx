@@ -1,0 +1,26 @@
+description="The Doxygen package contains a documentation system for C++, C, Java, Objective-C, Corba IDL and to some extent PHP, C# and D."
+name=doxygen
+version=1.16.1
+release=1
+packager=alexis
+source=("https://doxygen.nl/files/doxygen-1.16.1.src.tar.gz")
+
+build() {
+cd $name-$version
+grep -rl '^#!.*python$' | xargs sed -i '1s/python/&3/'
+mkdir -v build &&
+cd       build &&
+
+cmake -G "Unix Makefiles"          \
+      -D CMAKE_BUILD_TYPE=Release  \
+      -D CMAKE_INSTALL_PREFIX=/usr \
+      -D build_wizard=OFF           \
+      -W no-dev .. &&
+make
+cmake  -D build_doc=ON \
+       -D DOC_INSTALL_DIR=share/doc/doxygen-1.16.1 \
+       .. &&
+make docs
+make DESTDIR=$PKG install
+install -vm644 ../doc/*.1 $PKG/usr/share/man/man1
+}

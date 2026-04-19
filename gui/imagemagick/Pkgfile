@@ -16,5 +16,5 @@ cd ${_name}-${version}-${release}
             --with-perl       \
             --disable-static  &&
 make
-make DESTDIR=$PKG DOCUMENTATION_PATH=/usr/share/doc/imagemagick-7.1.2 install
+make DESTDIR=$PKG DOCUMENTATION_PATH=/usr/share/doc/imagemagick-${version} install
 }
