@@ -39,11 +39,6 @@ cp --parents -a {opt,usr/bin,usr/share} "$PKG"
         "$PKG/usr/share/icons/hicolor/256x256/apps/$name.png"
     for _res in 128 64 48 32 22; do
         install -d "$PKG/usr/share/icons/hicolor/${_res}x${_res}/apps"
-        magick "$PKG/opt/$name/product_logo_256.png" \
-            -resize ${_res}x${_res} \
-            "$PKG/usr/share/icons/hicolor/${_res}x${_res}/apps/$name.png"
-        chmod 0644 \
-            "$PKG/usr/share/icons/hicolor/${_res}x${_res}/apps/$name.png"
     done
     install -d "$PKG/usr/share/pixmaps"
     install -Dm644 "$PKG/opt/$name/product_logo_256.png" \
