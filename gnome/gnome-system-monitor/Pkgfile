@@ -4,13 +4,17 @@ name=gnome-system-monitor
 version=50.0
 release=1
 packager=alexis
-source=(https://download.gnome.org/sources/gnome-system-monitor/50/gnome-system-monitor-${version}.tar.xz)
-
+#source=(https://download.gnome.org/sources/gnome-system-monitor/50/gnome-system-monitor-${version}.tar.xz)
+source=(https://gitlab.gnome.org/GNOME/gnome-system-monitor/-/archive/50.0/gnome-system-monitor-50.0.tar.gz)
 
 build() {
 cd $name-$version
 find . -name meson.build | xargs sed -i -e '/catch2/d' &&
-sed -i '145,155d' src/meson.build
+sed -i '141,155d' src/meson.build
+#find . -name meson.build | xargs sed -i -e '/catch2/d' &&
+#sed -i '145,155d' src/meson.build
+
+
 mkdir build &&
 cd    build &&
 

@@ -1,85 +1,85 @@
-drwxr-xr-x	alexis/alexis	usr/
-drwxr-xr-x	alexis/alexis	usr/bin/
--rwxr-xr-x	alexis/alexis	usr/bin/glxgears
--rwxr-xr-x	alexis/alexis	usr/bin/glxinfo
-drwxr-xr-x	alexis/alexis	usr/include/
-drwxr-xr-x	alexis/alexis	usr/include/EGL/
--rw-r--r--	alexis/alexis	usr/include/EGL/eglext_angle.h
--rw-r--r--	alexis/alexis	usr/include/EGL/eglext.h
--rw-r--r--	alexis/alexis	usr/include/EGL/egl.h
--rw-r--r--	alexis/alexis	usr/include/EGL/eglmesaext.h
--rw-r--r--	alexis/alexis	usr/include/EGL/eglplatform.h
--rw-r--r--	alexis/alexis	usr/include/gbm_backend_abi.h
--rw-r--r--	alexis/alexis	usr/include/gbm.h
-drwxr-xr-x	alexis/alexis	usr/include/GL/
-drwxr-xr-x	alexis/alexis	usr/include/GLES/
-drwxr-xr-x	alexis/alexis	usr/include/GLES2/
--rw-r--r--	alexis/alexis	usr/include/GLES2/gl2ext.h
--rw-r--r--	alexis/alexis	usr/include/GLES2/gl2.h
--rw-r--r--	alexis/alexis	usr/include/GLES2/gl2platform.h
-drwxr-xr-x	alexis/alexis	usr/include/GLES3/
--rw-r--r--	alexis/alexis	usr/include/GLES3/gl31.h
--rw-r--r--	alexis/alexis	usr/include/GLES3/gl32.h
--rw-r--r--	alexis/alexis	usr/include/GLES3/gl3ext.h
--rw-r--r--	alexis/alexis	usr/include/GLES3/gl3.h
--rw-r--r--	alexis/alexis	usr/include/GLES3/gl3platform.h
--rw-r--r--	alexis/alexis	usr/include/GLES/egl.h
--rw-r--r--	alexis/alexis	usr/include/GLES/glext.h
--rw-r--r--	alexis/alexis	usr/include/GLES/gl.h
--rw-r--r--	alexis/alexis	usr/include/GLES/glplatform.h
--rw-r--r--	alexis/alexis	usr/include/GL/glcorearb.h
--rw-r--r--	alexis/alexis	usr/include/GL/glext.h
--rw-r--r--	alexis/alexis	usr/include/GL/gl.h
--rw-r--r--	alexis/alexis	usr/include/GL/glxext.h
--rw-r--r--	alexis/alexis	usr/include/GL/glx.h
-drwxr-xr-x	alexis/alexis	usr/include/GL/internal/
--rw-r--r--	alexis/alexis	usr/include/GL/internal/dri_interface.h
-drwxr-xr-x	alexis/alexis	usr/include/KHR/
--rw-r--r--	alexis/alexis	usr/include/KHR/khrplatform.h
-drwxr-xr-x	alexis/alexis	usr/lib/
-drwxr-xr-x	alexis/alexis	usr/lib/dri/
-lrwxrwxrwx	alexis/alexis	usr/lib/dri/kms_swrast_dri.so -> libdril_dri.so
--rwxr-xr-x	alexis/alexis	usr/lib/dri/libdril_dri.so
-lrwxrwxrwx	alexis/alexis	usr/lib/dri/radeonsi_dri.so -> libdril_dri.so
-lrwxrwxrwx	alexis/alexis	usr/lib/dri/radeonsi_drv_video.so -> ../libgallium-26.0.4.so
-lrwxrwxrwx	alexis/alexis	usr/lib/dri/swrast_dri.so -> libdril_dri.so
-lrwxrwxrwx	alexis/alexis	usr/lib/dri/virtio_gpu_dri.so -> libdril_dri.so
-lrwxrwxrwx	alexis/alexis	usr/lib/dri/virtio_gpu_drv_video.so -> ../libgallium-26.0.4.so
-drwxr-xr-x	alexis/alexis	usr/lib/gbm/
--rwxr-xr-x	alexis/alexis	usr/lib/gbm/dri_gbm.so
--rwxr-xr-x	alexis/alexis	usr/lib/libEGL.so.1.0.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libEGL.so.1 -> libEGL.so.1.0.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libEGL.so -> libEGL.so.1
--rwxr-xr-x	alexis/alexis	usr/lib/libgallium-26.0.4.so
--rwxr-xr-x	alexis/alexis	usr/lib/libgbm.so.1.0.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libgbm.so.1 -> libgbm.so.1.0.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libgbm.so -> libgbm.so.1
--rwxr-xr-x	alexis/alexis	usr/lib/libGLESv1_CM.so.1.1.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libGLESv1_CM.so.1 -> libGLESv1_CM.so.1.1.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libGLESv1_CM.so -> libGLESv1_CM.so.1
--rwxr-xr-x	alexis/alexis	usr/lib/libGLESv2.so.2.0.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libGLESv2.so.2 -> libGLESv2.so.2.0.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libGLESv2.so -> libGLESv2.so.2
--rwxr-xr-x	alexis/alexis	usr/lib/libGL.so.1.2.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libGL.so.1 -> libGL.so.1.2.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libGL.so -> libGL.so.1
--rwxr-xr-x	alexis/alexis	usr/lib/libvulkan_radeon.so
-drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
--rw-r--r--	alexis/alexis	usr/lib/pkgconfig/dri.pc
--rw-r--r--	alexis/alexis	usr/lib/pkgconfig/egl.pc
--rw-r--r--	alexis/alexis	usr/lib/pkgconfig/gbm.pc
--rw-r--r--	alexis/alexis	usr/lib/pkgconfig/glesv1_cm.pc
--rw-r--r--	alexis/alexis	usr/lib/pkgconfig/glesv2.pc
--rw-r--r--	alexis/alexis	usr/lib/pkgconfig/gl.pc
--rw-r--r--	alexis/alexis	usr/lib/pkgconfig/glx.pc
-drwxr-xr-x	alexis/alexis	usr/share/
-drwxr-xr-x	alexis/alexis	usr/share/drirc.d/
--rw-r--r--	alexis/alexis	usr/share/drirc.d/00-mesa-defaults.conf
--rw-r--r--	alexis/alexis	usr/share/drirc.d/00-radv-defaults.conf
-drwxr-xr-x	alexis/alexis	usr/share/man/
-drwxr-xr-x	alexis/alexis	usr/share/man/man1/
--rw-r--r--	alexis/alexis	usr/share/man/man1/glxgears.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/glxinfo.1.gz
-drwxr-xr-x	alexis/alexis	usr/share/vulkan/
-drwxr-xr-x	alexis/alexis	usr/share/vulkan/icd.d/
--rw-r--r--	alexis/alexis	usr/share/vulkan/icd.d/radeon_icd.x86_64.json
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/glxgears
+-rwxr-xr-x	root/root	usr/bin/glxinfo
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/EGL/
+-rw-r--r--	root/root	usr/include/EGL/eglext_angle.h
+-rw-r--r--	root/root	usr/include/EGL/eglext.h
+-rw-r--r--	root/root	usr/include/EGL/egl.h
+-rw-r--r--	root/root	usr/include/EGL/eglmesaext.h
+-rw-r--r--	root/root	usr/include/EGL/eglplatform.h
+-rw-r--r--	root/root	usr/include/gbm_backend_abi.h
+-rw-r--r--	root/root	usr/include/gbm.h
+drwxr-xr-x	root/root	usr/include/GL/
+drwxr-xr-x	root/root	usr/include/GLES/
+drwxr-xr-x	root/root	usr/include/GLES2/
+-rw-r--r--	root/root	usr/include/GLES2/gl2ext.h
+-rw-r--r--	root/root	usr/include/GLES2/gl2.h
+-rw-r--r--	root/root	usr/include/GLES2/gl2platform.h
+drwxr-xr-x	root/root	usr/include/GLES3/
+-rw-r--r--	root/root	usr/include/GLES3/gl31.h
+-rw-r--r--	root/root	usr/include/GLES3/gl32.h
+-rw-r--r--	root/root	usr/include/GLES3/gl3ext.h
+-rw-r--r--	root/root	usr/include/GLES3/gl3.h
+-rw-r--r--	root/root	usr/include/GLES3/gl3platform.h
+-rw-r--r--	root/root	usr/include/GLES/egl.h
+-rw-r--r--	root/root	usr/include/GLES/glext.h
+-rw-r--r--	root/root	usr/include/GLES/gl.h
+-rw-r--r--	root/root	usr/include/GLES/glplatform.h
+-rw-r--r--	root/root	usr/include/GL/glcorearb.h
+-rw-r--r--	root/root	usr/include/GL/glext.h
+-rw-r--r--	root/root	usr/include/GL/gl.h
+-rw-r--r--	root/root	usr/include/GL/glxext.h
+-rw-r--r--	root/root	usr/include/GL/glx.h
+drwxr-xr-x	root/root	usr/include/GL/internal/
+-rw-r--r--	root/root	usr/include/GL/internal/dri_interface.h
+drwxr-xr-x	root/root	usr/include/KHR/
+-rw-r--r--	root/root	usr/include/KHR/khrplatform.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/dri/
+lrwxrwxrwx	root/root	usr/lib/dri/kms_swrast_dri.so -> libdril_dri.so
+-rwxr-xr-x	root/root	usr/lib/dri/libdril_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/radeonsi_dri.so -> libdril_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/radeonsi_drv_video.so -> ../libgallium-26.0.5.so
+lrwxrwxrwx	root/root	usr/lib/dri/swrast_dri.so -> libdril_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/virtio_gpu_dri.so -> libdril_dri.so
+lrwxrwxrwx	root/root	usr/lib/dri/virtio_gpu_drv_video.so -> ../libgallium-26.0.5.so
+drwxr-xr-x	root/root	usr/lib/gbm/
+-rwxr-xr-x	root/root	usr/lib/gbm/dri_gbm.so
+-rwxr-xr-x	root/root	usr/lib/libEGL.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libEGL.so.1 -> libEGL.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libEGL.so -> libEGL.so.1
+-rwxr-xr-x	root/root	usr/lib/libgallium-26.0.5.so
+-rwxr-xr-x	root/root	usr/lib/libgbm.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libgbm.so.1 -> libgbm.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libgbm.so -> libgbm.so.1
+-rwxr-xr-x	root/root	usr/lib/libGLESv1_CM.so.1.1.0
+lrwxrwxrwx	root/root	usr/lib/libGLESv1_CM.so.1 -> libGLESv1_CM.so.1.1.0
+lrwxrwxrwx	root/root	usr/lib/libGLESv1_CM.so -> libGLESv1_CM.so.1
+-rwxr-xr-x	root/root	usr/lib/libGLESv2.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libGLESv2.so.2 -> libGLESv2.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libGLESv2.so -> libGLESv2.so.2
+-rwxr-xr-x	root/root	usr/lib/libGL.so.1.2.0
+lrwxrwxrwx	root/root	usr/lib/libGL.so.1 -> libGL.so.1.2.0
+lrwxrwxrwx	root/root	usr/lib/libGL.so -> libGL.so.1
+-rwxr-xr-x	root/root	usr/lib/libvulkan_radeon.so
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/dri.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/egl.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gbm.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/glesv1_cm.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/glesv2.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gl.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/glx.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/drirc.d/
+-rw-r--r--	root/root	usr/share/drirc.d/00-mesa-defaults.conf
+-rw-r--r--	root/root	usr/share/drirc.d/00-radv-defaults.conf
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/glxgears.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/glxinfo.1.gz
+drwxr-xr-x	root/root	usr/share/vulkan/
+drwxr-xr-x	root/root	usr/share/vulkan/icd.d/
+-rw-r--r--	root/root	usr/share/vulkan/icd.d/radeon_icd.x86_64.json

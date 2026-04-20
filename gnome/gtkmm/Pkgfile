@@ -7,9 +7,8 @@ packager=alexis
 source=(https://gitlab.gnome.org/GNOME/gtkmm/-/archive/${version}/gtkmm-${version}.zip)
 build() {
 cd $name-$version
-mkdir my_build &&
-cd    my_build &&
-meson setup --prefix=/usr my_build --buildtype=release .. &&
-ninja
-DESTDIR=$PKG ninja install
+mkdir my_build
+meson setup --prefix=/usr my_build --buildtype=release -Dmaintainer-mode=true -Dbuild-documentation=false
+ninja -C my_build
+DESTDIR=$PKG ninja install -C my_build
 }

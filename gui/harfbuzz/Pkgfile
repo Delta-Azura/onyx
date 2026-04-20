@@ -1,6 +1,6 @@
 description=" The HarfBuzz package contains an OpenType text shaping engine. "
 name=harfbuzz
-version=14.1.0
+version=14.2.0
 release=2
 packager=alexis
 source=("https://github.com/harfbuzz/harfbuzz/releases/download/${version}/harfbuzz-${version}.tar.xz")

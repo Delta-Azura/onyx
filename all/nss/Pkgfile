@@ -1,9 +1,9 @@
 description="The Network Security Services (NSS) package is a set of libraries designed to support cross-platform development of security-enabled client and server applications."
 name=nss
-version=3.122
+version=3.123
 release=1
 packager=alexis
-source=("https://archive.mozilla.org/pub/security/nss/releases/NSS_3_122_RTM/src/nss-3.122.tar.gz"
+source=("https://archive.mozilla.org/pub/security/nss/releases/NSS_3_123_RTM/src/nss-${version}.tar.gz"
 "https://www.linuxfromscratch.org/patches/blfs/13.0/nss-standalone-1.patch")
 
 build() {
