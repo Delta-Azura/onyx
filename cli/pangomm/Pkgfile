@@ -1,0 +1,16 @@
+description="C++ bindings for Pango"
+name=pangomm
+version=2.56.1
+release=1
+packager=alexis
+source=(https://gitlab.gnome.org/GNOME/pangomm/-/archive/2.56.1/pangomm-${version}.tar.gz)
+
+
+build() { 
+ls
+cd $name-$version
+mkdir my_build
+meson setup --prefix=/usr my_build -Dmaintainer-mode=true -Dbuild-documentation=false .
+ninja -C my_build
+DESTDIR=$PKG ninja install -C my_build
+}

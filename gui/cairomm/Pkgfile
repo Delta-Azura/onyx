@@ -1,0 +1,15 @@
+description="C++ bindings for Cairo"
+version=1.18.0
+name=cairomm
+release=1
+packager=alexis
+source=(https://gitlab.freedesktop.org/cairo/cairomm/-/archive/1.18.0/cairomm-1.18.0.tar.gz)
+
+
+build() { 
+cd $name-$version
+mkdir my_build
+meson setup --prefix=/usr my_build .
+ninja -C my_build
+DESTDIR=$PKG ninja install -C my_build
+}
