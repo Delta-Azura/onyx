@@ -35,14 +35,14 @@ meson setup ..                 \
 
 ninja
 DESTDIR=$PKG ninja install
-cat > $PKG/etc/pam.d/system-session << "EOF"
+#cat > $PKG/etc/pam.d/system-session << "EOF"
 # Begin Systemd addition
 
-session  required    pam_loginuid.so
-session  optional    pam_systemd.so
+#session  required    pam_loginuid.so
+#session  optional    pam_systemd.so
 
-# End Systemd addition
-EOF
+## End Systemd addition
+#EOF
 
 cat > $PKG/etc/pam.d/systemd-user << "EOF"
 # Begin /etc/pam.d/systemd-user

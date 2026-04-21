@@ -1,4 +1,5 @@
 drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/default/
 -rw-r--r--	root/root	etc/login.defs
 -rw-r--r--	root/root	etc/login.defs.orig
 drwxr-xr-x	root/root	etc/pam.d/
@@ -38,9 +39,9 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/shadow/
 -rw-r--r--	root/root	usr/include/shadow/subid.h
 drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libsubid.so.5.0.0
-lrwxrwxrwx	root/root	usr/lib/libsubid.so.5 -> libsubid.so.5.0.0
 lrwxrwxrwx	root/root	usr/lib/libsubid.so -> libsubid.so.5.0.0
+lrwxrwxrwx	root/root	usr/lib/libsubid.so.5 -> libsubid.so.5.0.0
+-rwxr-xr-x	root/root	usr/lib/libsubid.so.5.0.0
 drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/chgpasswd
 -rwxr-xr-x	root/root	usr/sbin/chpasswd
