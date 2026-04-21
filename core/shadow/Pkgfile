@@ -167,6 +167,6 @@ done
 if [ -f $PKG/etc/login.access ]; then mv -v $PKG/etc/login.access{,.NOUSE}; fi
 if [ -f $PKG/etc/limits ]; then mv -v $PKG/etc/limits{,.NOUSE}; fi
 mkdir -p $PKG/etc/default
-useradd -D --gid 999
-sed -i '/MAIL/s/yes/no/' $PKG/etc/default/useradd
+#useradd -D --gid 999
+#sed -i '/MAIL/s/yes/no/' $PKG/etc/default/useradd
 }
