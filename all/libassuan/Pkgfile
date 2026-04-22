@@ -15,7 +15,7 @@ make -C doc html                                                       &&
 makeinfo --html --no-split -o doc/assuan_nochunks.html doc/assuan.texi &&
 makeinfo --plaintext       -o doc/assuan.txt           doc/assuan.texi
 #make -C doc pdf ps
-make install &&
+make DESTDIR=$PKG install &&
 
 install -v -dm755   $PKG/usr/share/doc/libassuan-3.0.2/html &&
 install -v -m644 doc/assuan.html/* \
