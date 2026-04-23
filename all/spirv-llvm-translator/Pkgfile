@@ -1,0 +1,22 @@
+description="The SPIRV-LLVM-Translator package contains a library and utility for converting between LLVM IR and SPIR-V code."
+name=spirv-llvm-translator
+version=22.1.1
+release=1
+packager=alexis
+source=(https://github.com/KhronosGroup/SPIRV-LLVM-Translator/archive/v${version}/SPIRV-LLVM-Translator-${version}.tar.gz)
+
+build() {
+ls
+cd SPIRV-LLVM-Translator-$version
+mkdir build &&
+cd    build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=/usr                   \
+      -D CMAKE_BUILD_TYPE=Release                    \
+      -D BUILD_SHARED_LIBS=ON                        \
+      -D CMAKE_SKIP_INSTALL_RPATH=ON                 \
+      -D LLVM_EXTERNAL_SPIRV_HEADERS_SOURCE_DIR=/usr \
+      -G Ninja ..                                    &&
+ninja
+DESTDIR=$PKG ninja install
+}
