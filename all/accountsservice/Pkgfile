@@ -1,6 +1,6 @@
 description=" The AccountsService package provides a set of D-Bus interfaces for querying and manipulating user account information and an implementation of those interfaces based on the usermod(8), useradd(8), and userdel(8) commands. "
 name=accountsservice
-version=26.13.9
+version=23.13.9
 release=1
 packager=alexis
 #source=("https://www.freedesktop.org/software/accountsservice/accountsservice-${version}.tar.xz")
@@ -25,4 +25,10 @@ sed -i '1i#include <stdio.h>'                                      \
     ../subprojects/mocklibc-1.0/src/netgroup.h
 ninja 
 DESTDIR=$PKG ninja install
+mkdir -p $PKG/etc/polkit-1/rules.d/
+cat > $PKG/etc/polkit-1/rules.d/40-adm.rules << "EOF"
+polkit.addAdminRule(function(action, subject) {
+   return ["unix-group:adm"];
+   });
+EOF
 }
