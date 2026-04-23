@@ -1,0 +1,22 @@
+description="The intel-media-driver package provides a VA API driver for Intel GPUs that are provided with Broadwell CPUs and higher as well as the Intel Arc family of GPUs, like the B-Series."
+name=intel-media-driver
+version=25.3.4
+release=1
+packager=alexis
+source=(https://github.com/lfs-book/intel-media-driver/archive/v25.3.4/intel-media-driver-25.3.4.tar.gz)
+
+build() {
+cd $name-$version
+mkdir build &&
+cd    build &&
+
+cmake -D CMAKE_INSTALL_PREFIX=$XORG_PREFIX \
+      -D CMAKE_POLICY_VERSION_MINIMUM=3.5  \
+      -D INSTALL_DRIVER_SYSCONF=OFF        \
+      -D BUILD_TYPE=Release                \
+      -D MEDIA_BUILD_FATAL_WARNINGS=OFF    \
+      -G Ninja                             \
+      -W no-dev ..                         &&
+ninja
+DESTDIR=$PKG ninja install
+}
