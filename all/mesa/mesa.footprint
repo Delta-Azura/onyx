@@ -38,6 +38,7 @@ drwxr-xr-x	root/root	usr/include/KHR/
 -rw-r--r--	root/root	usr/include/KHR/khrplatform.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/dri/
+lrwxrwxrwx	root/root	usr/lib/dri/i915_dri.so -> libdril_dri.so
 lrwxrwxrwx	root/root	usr/lib/dri/kms_swrast_dri.so -> libdril_dri.so
 -rwxr-xr-x	root/root	usr/lib/dri/libdril_dri.so
 lrwxrwxrwx	root/root	usr/lib/dri/radeonsi_dri.so -> libdril_dri.so
@@ -63,6 +64,8 @@ lrwxrwxrwx	root/root	usr/lib/libGLESv2.so -> libGLESv2.so.2
 -rwxr-xr-x	root/root	usr/lib/libGL.so.1.2.0
 lrwxrwxrwx	root/root	usr/lib/libGL.so.1 -> libGL.so.1.2.0
 lrwxrwxrwx	root/root	usr/lib/libGL.so -> libGL.so.1
+-rwxr-xr-x	root/root	usr/lib/libvulkan_intel_hasvk.so
+-rwxr-xr-x	root/root	usr/lib/libvulkan_intel.so
 -rwxr-xr-x	root/root	usr/lib/libvulkan_radeon.so
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/dri.pc
@@ -82,4 +85,6 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/glxinfo.1.gz
 drwxr-xr-x	root/root	usr/share/vulkan/
 drwxr-xr-x	root/root	usr/share/vulkan/icd.d/
+-rw-r--r--	root/root	usr/share/vulkan/icd.d/intel_hasvk_icd.x86_64.json
+-rw-r--r--	root/root	usr/share/vulkan/icd.d/intel_icd.x86_64.json
 -rw-r--r--	root/root	usr/share/vulkan/icd.d/radeon_icd.x86_64.json
