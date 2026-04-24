@@ -16,11 +16,21 @@ meson setup --prefix=/usr          \
             .. &&
 ninja
 DESTDIR=$PKG ninja install
-chown -v root:messagebus $PKG/usr/libexec/dbus-daemon-launch-helper &&
-chmod -v      4750       $PKG/usr/libexec/dbus-daemon-launch-helper
+#chown -v root:messagebus $PKG/usr/libexec/dbus-daemon-launch-helper &&
+#chmod -v      4750       $PKG/usr/libexec/dbus-daemon-launch-helper
 if [ -e $PKG/usr/share/doc/dbus ]; then
   rm -rf $PKG/usr/share/doc/dbus-1.16.2    &&
   mv -v  $PKG/usr/share/doc/dbus{,-1.16.2}
 fi
+cat > $PKG/etc/dbus-1/session-local.conf << "EOF"
+<!DOCTYPE busconfig PUBLIC
+ "-//freedesktop//DTD D-BUS Bus Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/dbus/1.0/busconfig.dtd">
+<busconfig>
 
+  <!-- Search for .service files in /usr/local -->
+  <servicedir>/usr/local/share/dbus-1/services</servicedir>
+
+</busconfig>
+EOF
 }
