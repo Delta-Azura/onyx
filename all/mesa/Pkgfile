@@ -21,7 +21,7 @@ meson setup ..                 \
       -D valgrind=disabled     \
       -D video-codecs=all      \
       -D libunwind=disabled   \
-	-D gallium-drivers=radeonsi,llvmpipe,virgl,i915 &&
+	-D gallium-drivers=radeonsi,llvmpipe,virgl,i915,crocus,iris &&
 
 ninja -j16
 DESTDIR=$PKG ninja install
