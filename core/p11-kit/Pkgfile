@@ -1,4 +1,4 @@
-description="The p11-kit package provides a way to load and enumerate PKCS #11 (a Cryptographic Token Interface Standard) modules."
+description="The p11-kit package provides a way to load and enumerate PKCS 11 a Cryptographic Token Interface Standard modules."
 name=p11-kit
 version=0.26.2
 release=1
@@ -16,6 +16,7 @@ cat >> trust/trust-extract-compat << "EOF"
 # Update trust stores
 /usr/sbin/make-ca -r
 EOF
+
 mkdir p11-build &&
 cd    p11-build &&
 
