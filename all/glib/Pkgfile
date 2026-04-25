@@ -31,7 +31,6 @@ meson setup gobject-introspection-1.86.0 gi-build \
 unset SETUPTOOLS_USE_DISTUTILS
 export LDFLAGS="-Wl,-dynamic-linker,/lib64/ld-linux-x86-64.so.2"
 ninja -C gi-build
-ninja -C gi-build install
 DESTDIR=$PKG ninja -C gi-build install
 #ldconfig
 meson configure -D introspection=enabled -D glib_debug=disabled &&

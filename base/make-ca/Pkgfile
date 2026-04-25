@@ -1,0 +1,25 @@
+description="Utility to deliver and manage a complete PKI configuration"
+url="https://github.com/djlucas/make-ca/"
+
+contributors="Spiky,tnut"
+
+name=make-ca
+version=1.16.1
+release=2
+
+source=(https://hg-edge.mozilla.org/projects/nss/raw-file/tip/lib/ckfw/builtins/certdata.txt
+        https://github.com/lfs-book/$name/archive/v$version/$name-$version.tar.gz)
+
+build() {
+install -vdm755 $PKG/etc/ssl
+install -m644 certdata.txt $PKG/etc/ssl/certdata.txt
+
+cd $name-$version
+make DESTDIR=$PKG SBINDIR=/usr/bin install
+
+# Generate all the certificates a first time
+$PKG/usr/bin/make-ca -r -D $PKG
+
+# And refresh it .. don't ask me
+# $PKG/usr/bin/make-ca -g -D $PKG
+}
