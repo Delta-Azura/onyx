@@ -1,0 +1,5 @@
+su gdm -s /bin/bash                                                \
+       -c "dbus-run-session                                        \
+             gsettings set org.gnome.settings-daemon.plugins.power \
+                           sleep-inactive-ac-type                  \
+                           nothing"

@@ -1,0 +1,16 @@
+description="LZO is a data compression library which is suitable for data decompression and compression in real-time."
+name=lzo
+version=2.10
+release=1
+packager=alexis
+source=(https://www.oberhumer.com/opensource/lzo/download/lzo-${version}.tar.gz)
+
+build() {
+cd $name-$version
+./configure --prefix=/usr    \
+            --enable-shared  \
+            --disable-static \
+            --docdir=/usr/share/doc/lzo-2.10 &&
+make
+make DESTDIR=$PKG install
+}
