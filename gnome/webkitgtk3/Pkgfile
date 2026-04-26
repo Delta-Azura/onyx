@@ -1,9 +1,9 @@
 description=" The WebKitGTK package is a port of the portable web rendering engine WebKit to the GTK-3 and GTK-4 platforms. "
 name=webkitgtk3
-version=2.50.5
+version=2.50.6
 release=1
 packager=alexis
-source=("https://webkitgtk.org/releases/webkitgtk-2.50.5.tar.xz")
+source=("https://webkitgtk.org/releases/webkitgtk-${version}.tar.xz")
 
 
 
@@ -31,6 +31,6 @@ cmake -D CMAKE_BUILD_TYPE=Release     \
       -D USE_SYSPROF_CAPTURE=NO       \
       -D ENABLE_SPEECH_SYNTHESIS=OFF  \
       -W no-dev -G Ninja ..           &&
-ninja -j4
+ninja -j6
 DESTDIR=$PKG ninja install
 }
