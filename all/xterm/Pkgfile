@@ -1,9 +1,9 @@
 description=" xterm is a terminal emulator for the X Window System. "
 name=xterm
-version=407
+version=409
 release=1
 packager=alexis
-source=("https://invisible-mirror.net/archives/xterm/xterm-407.tgz")
+source=("https://invisible-mirror.net/archives/xterm/xterm-${version}.tgz")
 
 build() {
 cd $name-$version

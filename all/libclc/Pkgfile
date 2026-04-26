@@ -1,12 +1,14 @@
 description="The libclc package contains an implementation of the library requirements of the OpenCL C programming language, as specified by the OpenCL 1.1 Specification. "
 name=libclc
-version=21.1.8
+version=22.1.4
 release=1
 packager=alexis
-source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-${version}/libclc-${version}.src.tar.xz)
+#source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-${version}/libclc-${version}.src.tar.xz)
+#source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-${version}/)
+source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-${version}/llvm-project-${version}.src.tar.xz)
 
 build() {
-cd $name-${version}.src
+cd llvm-project-${version}.src/libclc
 mkdir build &&
 cd    build &&
 

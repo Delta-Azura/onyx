@@ -1,0 +1,5 @@
+useradd -c "Print Service User" -d /var/spool/cups -g lp -s /bin/false -u 9 lp
+groupadd -g 19 lpadmin
+#usermod -a -G lpadmin $USER
+echo "Don't forget to add your user to the lpadmin and lp groups"
+echo "usermod -a -G lpadmin,lp username" 

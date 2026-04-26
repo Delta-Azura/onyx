@@ -1,9 +1,9 @@
 description="Git is a free and open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
 name=git
-version=2.53.0
+version=2.54.0
 release=1
 packager=alexis
-source=("https://www.kernel.org/pub/software/scm/git/git-2.53.0.tar.xz")
+source=("https://www.kernel.org/pub/software/scm/git/git-${version}.tar.xz")
 
 build() {
 cd $name-$version
@@ -14,28 +14,28 @@ cd $name-$version
 make
 make DESTDIR=$PKG perllibdir=/usr/lib/perl5/5.42/site_perl install
 cd ..
-wget https://www.kernel.org/pub/software/scm/git/git-manpages-2.53.0.tar.xz
+wget https://www.kernel.org/pub/software/scm/git/git-manpages-${version}.tar.xz
 mkdir -pv $PKG/usr/share/man
-tar -xf git-manpages-2.53.0.tar.xz \
+tar -xf git-manpages-${version}.tar.xz \
     -C $PKG/usr/share/man --no-same-owner --no-overwrite-dir
-wget https://www.kernel.org/pub/software/scm/git/git-htmldocs-2.53.0.tar.xz
-mkdir -vp   $PKG/usr/share/doc/git-2.53.0
-tar   -xf   git-htmldocs-2.53.0.tar.xz \
-      -C    $PKG/usr/share/doc/git-2.53.0 --no-same-owner --no-overwrite-dir
-find        $PKG/usr/share/doc/git-2.53.0 -type d -exec chmod 755 {} \; &&
-find        $PKG/usr/share/doc/git-2.53.0 -type f -exec chmod 644 {} \;
-mkdir -vp $PKG/usr/share/doc/git-2.53.0/man-pages/{html,text}         &&
-mv        $PKG/usr/share/doc/git-2.53.0/{git*.adoc,man-pages/text}     &&
-mv        $PKG/usr/share/doc/git-2.53.0/{git*.,index.,man-pages/}html &&
+wget https://www.kernel.org/pub/software/scm/git/git-htmldocs-${version}.tar.xz
+mkdir -vp   $PKG/usr/share/doc/git-${version}
+tar   -xf   git-htmldocs-${version}.tar.xz \
+      -C    $PKG/usr/share/doc/git-${version} --no-same-owner --no-overwrite-dir
+find        $PKG/usr/share/doc/git-${version} -type d -exec chmod 755 {} \; &&
+find        $PKG/usr/share/doc/git-${version} -type f -exec chmod 644 {} \;
+mkdir -vp $PKG/usr/share/doc/git-${version}/man-pages/{html,text}         &&
+mv        $PKG/usr/share/doc/git-${version}/{git*.adoc,man-pages/text}     &&
+mv        $PKG/usr/share/doc/git-${version}/{git*.,index.,man-pages/}html &&
 
-mkdir -vp $PKG/usr/share/doc/git-2.53.0/technical/{html,text}         &&
-mv        $PKG/usr/share/doc/git-2.53.0/technical/{*.adoc,text}        &&
-mv        $PKG/usr/share/doc/git-2.53.0/technical/{*.,}html           &&
+mkdir -vp $PKG/usr/share/doc/git-${version}/technical/{html,text}         &&
+mv        $PKG/usr/share/doc/git-${version}/technical/{*.adoc,text}        &&
+mv        $PKG/usr/share/doc/git-${version}/technical/{*.,}html           &&
 
-mkdir -vp $PKG/usr/share/doc/git-2.53.0/howto/{html,text}             &&
-mv        $PKG/usr/share/doc/git-2.53.0/howto/{*.adoc,text}            &&
-mv        $PKG/usr/share/doc/git-2.53.0/howto/{*.,}html               &&
+mkdir -vp $PKG/usr/share/doc/git-${version}/howto/{html,text}             &&
+mv        $PKG/usr/share/doc/git-${version}/howto/{*.adoc,text}            &&
+mv        $PKG/usr/share/doc/git-${version}/howto/{*.,}html               &&
 
-sed -i '/^<a href=/s|howto/|&html/|' $PKG/usr/share/doc/git-2.53.0/howto-index.html &&
-sed -i '/^\* link:/s|howto/|&html/|' $PKG/usr/share/doc/git-2.53.0/howto-index.adoc
+sed -i '/^<a href=/s|howto/|&html/|' $PKG/usr/share/doc/git-${version}/howto-index.html &&
+sed -i '/^\* link:/s|howto/|&html/|' $PKG/usr/share/doc/git-${version}/howto-index.adoc
 }
