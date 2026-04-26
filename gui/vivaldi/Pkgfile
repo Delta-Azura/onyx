@@ -2,8 +2,8 @@
 
 description="A powerful web browser"
 name=vivaldi
-version=7.9.3970.55
-_rpm=7.9.3970.55-1
+version=7.9.3970.59
+_rpm=7.9.3970.59-1
 release=1
 packager=alexis
 source=(https://downloads.vivaldi.com/stable/vivaldi-stable-${_rpm}.x86_64.rpm)
