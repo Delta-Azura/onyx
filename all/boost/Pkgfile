@@ -1,12 +1,12 @@
 description="Boost provides a set of free peer-reviewed portable C++ source libraries."
 name=boost
-version=1.90.0
+version=1.91.0
 release=1
 packager=alexis
-source=("https://github.com/boostorg/boost/releases/download/boost-1.90.0/boost-1.90.0-b2-nodocs.tar.xz")
+source=("https://github.com/boostorg/boost/releases/download/boost-${version}-1/boost-${version}-1-b2-nodocs.tar.xz")
 
 build() {
-cd $name-$version
+cd $name-${version}-1
 ./bootstrap.sh --prefix=$PKG/usr --with-python=python3 &&
 ./b2 stage -j$(nproc) threading=multi link=shared
 ./b2 install threading=multi link=shared

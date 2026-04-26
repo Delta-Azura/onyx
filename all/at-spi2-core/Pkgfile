@@ -1,6 +1,6 @@
 description=" The At-Spi2 Core package contains a comprehensive accessibility framework for the Assistive Technologies available on the GNOME platform."
 name=at-spi2-core
-version=2.60.1
+version=2.60.2
 release=1
 packager=alexis 
 source=(https://gitlab.gnome.org/GNOME/at-spi2-core/-/archive/${version}/at-spi2-core-${version}.tar.gz)

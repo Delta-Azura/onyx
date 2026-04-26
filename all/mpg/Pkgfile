@@ -1,13 +1,13 @@
 description=" The mpg123 package contains a console-based MP3 player. It claims to be the fastest MP3 decoder for Unix. "
 name=mpg
-version=1.33.4
+version=1.33.5
 release=1
 packager=alexis
-source=("https://downloads.sourceforge.net/mpg123/mpg123-1.33.4.tar.bz2")
+source=("https://downloads.sourceforge.net/mpg123/mpg123-${version}.tar.bz2")
 
 build() {
 ls
-cd mpg123-1.33.4
+cd mpg123-${version}
 ./configure --prefix=/usr &&
 make
 make DESTDIR=$PKG install
