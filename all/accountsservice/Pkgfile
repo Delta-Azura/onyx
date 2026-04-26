@@ -7,7 +7,7 @@ packager=alexis
 source=("https://gitlab.freedesktop.org/accountsservice/accountsservice/-/archive/${version}/accountsservice-${version}.tar.gz")
 build() {
 cd $name-$version
-#mv tests/dbusmock{,-tests}
+mv tests/dbusmock{,-tests}
 sed -e '/accounts_service\.py/s/dbusmock/dbusmock-tests/' \
     -e 's/assertEquals/assertEqual/'                      \
     -i tests/test-libaccountsservice.py
