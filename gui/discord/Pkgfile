@@ -7,7 +7,7 @@ packager="alexis"
 contributors="Tnut Rems,Sundev79,Skythrew,Spiky"
 
 name=discord
-version=0.0.134
+version=0.0.135
 
 #run=(gtk3 libnotify glibc alsa-lib nspr nss pulseaudio
 #     noto-fonts-emoji hicolor-icon-theme
