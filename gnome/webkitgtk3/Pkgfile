@@ -31,6 +31,6 @@ cmake -D CMAKE_BUILD_TYPE=Release     \
       -D USE_SYSPROF_CAPTURE=NO       \
       -D ENABLE_SPEECH_SYNTHESIS=OFF  \
       -W no-dev -G Ninja ..           &&
-ninja -j6
+ninja -j4
 DESTDIR=$PKG ninja install
 }
