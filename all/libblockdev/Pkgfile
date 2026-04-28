@@ -1,9 +1,9 @@
 description="libblockdev is a C library supporting GObject Introspection for manipulation of block devices."
 name=libblockdev
-version=3.4.0
+version=3.5.0
 release=1
 packager=alexis
-source=("https://github.com/storaged-project/libblockdev/releases/download/3.4.0/libblockdev-3.4.0.tar.gz")
+source=("https://github.com/storaged-project/libblockdev/releases/download/${version}/libblockdev-${version}.tar.gz")
 
 
 build() {
