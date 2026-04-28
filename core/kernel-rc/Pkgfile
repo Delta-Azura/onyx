@@ -1,14 +1,14 @@
 description="Rc kernel"
 name=kernel-rc
-version=7.0
+version=7.1
 release=1
 packager=alexis
-source=("https://git.kernel.org/torvalds/t/linux-7.0-rc7.tar.gz"
+source=("https://git.kernel.org/torvalds/t/linux-7.1-rc1.tar.gz"
 "config")
 
 
 build() {
-cd linux-${version}-rc7
+cd linux-${version}-rc1
 make mrproper
 cp ../config .config
 make olddefconfig 
