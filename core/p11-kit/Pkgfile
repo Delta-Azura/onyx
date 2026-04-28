@@ -25,7 +25,7 @@ meson setup ..            \
       --buildtype=release \
       -D trust_paths=/etc/pki/anchors &&
 ninja
-DESTDIR=$PKG ninja install &&
+DESTDIR=$PKG ninja install
 #ln -sfv /usr/libexec/p11-kit/trust-extract-compat \
 #        $PKG/usr/bin/update-ca-certificates
 }

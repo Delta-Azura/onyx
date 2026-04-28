@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd /home/alexis
+rm -r ~/my_packages
+mkdir my_packages
+find ~/Onyx -name "*cards*" ! -name "*kernel-rc*" | xargs cp -t my_packages/
+cp /usr/bin/pkgadd my_packages/
+tar -czf archive.tar.gz my_packages/
