@@ -1,5 +1,4 @@
-su gdm -s /bin/bash                                                \
-       -c "dbus-run-session                                        \
-             gsettings set org.gnome.settings-daemon.plugins.power \
-                           sleep-inactive-ac-type                  \
-                           nothing"
+groupadd -g 21 gdm &&
+useradd -c "GDM Daemon Owner" -d /var/lib/gdm -u 21 \
+        -g gdm -s /bin/false gdm &&
+passwd -ql gdm
