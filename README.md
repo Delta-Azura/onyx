@@ -26,18 +26,7 @@ For bugs, I'll probably create a Telegram group once people start using Onyx, so
 A switch to the pkgutils from crux might be possible, I haven't taken a decision for now but it shouldn't change anything for you since we do not use cards. 
 
 # How to install 
-First of all, build an LFS following the 13.0 book. 
-After that, make sure that all the dependencies needed for pkgadd/pkgmkd/cards are installed, or compile them if you need. 
-You will need to download the core archive and use pkgadd to install them as packages, do not hesitate to execute pkgadd -f to force the removal of old files. 
-Therefore, execute the Pkgfile of cards to be sure it's installed the right way, you will be able next to build and install azura that will help you manage your packages. 
-Do not forget to exclude the packages : kernel and kernel-src on the /etc/azura.conf or specify the path to your kernel configure there for azura not to replace your configuration with mine.
-Do not forget to go get the firmware your hardware needs for wifi, bluetooth and your gpu. 
-Now, every packages are installable using azura build and azura install. You might probably encouter some dependencie problems on your way since the Pkgfile aren't written properly for now, even if i'm working on re-write.  
-I'm still working on the upgrade function of azura, it should be working but the dependencies aren't managed for the same reasons i mentionned earlier.
-It's recommended to use the grub from the system you used to setup Onyx because even if the uefi packages and the grub are present I haven't tried them yet and the post-install isn't available.
-Please refer to the BLFS documentation to set it up. 
-
-The core packages are available here : 
+Please refer to the azura documentation available on my github page.
 
 # Scripts
 Both of the scripts aren't from me, they come from the GREAT-OS project, i just modified the name and the archpackage script in order for it to suits my needs.
