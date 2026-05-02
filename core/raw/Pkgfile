@@ -1,0 +1,13 @@
+description="A simple package manager built in rust"
+name=raw
+version=0.2.0
+release=1
+packager=alexis
+source="https://github.com/Delta-Azura/raw/archive/refs/tags/v${version}.tar.gz"
+
+build() {
+cd $name-$version
+cargo build --release
+mkdir -p $PKG/usr/bin/
+cp target/release/raw $PKG/usr/bin
+}
