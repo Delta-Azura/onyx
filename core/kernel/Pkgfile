@@ -1,6 +1,6 @@
 description="kernel"
 name=kernel
-version=7.0.2
+version=7.0.3
 release=1
 packager=alexis
 source=("https://www.kernel.org/pub/linux/kernel/v7.x/linux-$version.tar.xz"
