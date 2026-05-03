@@ -1,9 +1,10 @@
 description="A simple package manager built in rust"
 name=raw
-version=0.2.0
+version=0.2.2
 release=1
 packager=alexis
-source="https://github.com/Delta-Azura/raw/archive/refs/tags/v${version}.tar.gz"
+#source="https://github.com/Delta-Azura/raw/archive/refs/tags/v${version}.tar.gz"
+source="https://github.com/Delta-Azura/raw/archive/refs/tags/V${version}.tar.gz"
 
 build() {
 cd $name-$version
