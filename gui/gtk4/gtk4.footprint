@@ -1,582 +1,934 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/gtk4-broadwayd
--rwxr-xr-x	root/root	usr/bin/gtk4-builder-tool
--rwxr-xr-x	root/root	usr/bin/gtk4-demo
--rwxr-xr-x	root/root	usr/bin/gtk4-demo-application
--rwxr-xr-x	root/root	usr/bin/gtk4-encode-symbolic-svg
--rwxr-xr-x	root/root	usr/bin/gtk4-icon-editor
--rwxr-xr-x	root/root	usr/bin/gtk4-image-tool
--rwxr-xr-x	root/root	usr/bin/gtk4-launch
--rwxr-xr-x	root/root	usr/bin/gtk4-node-editor
--rwxr-xr-x	root/root	usr/bin/gtk4-path-tool
--rwxr-xr-x	root/root	usr/bin/gtk4-print-editor
--rwxr-xr-x	root/root	usr/bin/gtk4-query-settings
--rwxr-xr-x	root/root	usr/bin/gtk4-rendernode-tool
--rwxr-xr-x	root/root	usr/bin/gtk4-update-icon-cache
--rwxr-xr-x	root/root	usr/bin/gtk4-widget-factory
-drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/gtk-4.0/
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gdk/
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gdk/broadway/
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/broadway/gdkbroadwaycursor.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/broadway/gdkbroadwaydisplay.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/broadway/gdkbroadway.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/broadway/gdkbroadwaymonitor.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/broadway/gdkbroadwaysurface.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gdk/deprecated/
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkapplaunchcontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkcairocontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkcairo.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkcicpparams.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkclipboard.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkcolorstate.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkconfig.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkcontentformats.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkcontentprovider.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkcontentproviderimpl.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkcontentserializer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkcursor.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdevice.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdevicepad.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdevicetool.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdisplay.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdisplaymanager.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdmabufformats.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdmabuftexturebuilder.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdmabuftexture.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdrag.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdragsurface.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdragsurfacesize.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdrawcontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkdrop.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkenums.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkenumtypes.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkevents.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkframeclock.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkframetimings.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkglcontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkgltexturebuilder.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkgltexture.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdk.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkkeys.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkkeysyms.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkmemorytexturebuilder.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkmemorytexture.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkmonitor.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkpaintable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkpango.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkpopup.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkpopuplayout.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkrectangle.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkrgba.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkseat.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdksnapshot.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdksurface.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdktexturedownloader.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdktexture.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdktoplevel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdktoplevellayout.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdktoplevelsize.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdktypes.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/gdkvulkancontext.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gdk/version/
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/version/gdkversionmacros.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/version/gdk-visibility.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gdk/wayland/
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/wayland/gdkwaylanddevice.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/wayland/gdkwaylanddisplay.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/wayland/gdkwaylandglcontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/wayland/gdkwayland.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/wayland/gdkwaylandmonitor.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/wayland/gdkwaylandpopup.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/wayland/gdkwaylandseat.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/wayland/gdkwaylandsurface.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/wayland/gdkwaylandtoplevel.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gdk/x11/
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11applaunchcontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11device.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11devicemanager.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11devicemanager-xi2.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11device-xi2.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11display.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11dnd.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11glcontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11monitor.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11property.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11screen.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11selection.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11surface.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx11utils.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx-autocleanups.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gdk/x11/gdkx.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gsk/
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gsk/broadway/
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/broadway/gskbroadwayrenderer.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gsk/gl/
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gl/gskglrenderer.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gsk/gpu/
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gpu/gskglrenderer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gpu/gskvulkanrenderer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskblendnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskblurnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskbordernode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskcaironode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskcairorenderer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskclipnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskcolormatrixnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskcolornode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskcomponenttransfer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskcomponenttransfernode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskcompositenode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskconicgradientnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskcontainernode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskcopynode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskcrossfadenode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskdebugnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskenums.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskenumtypes.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskfillnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskglshader.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskglshadernode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gsk.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskinsetshadownode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskisolationnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gsklineargradientnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskmasknode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskopacitynode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskoutsetshadownode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskpastenode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskpathbuilder.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskpath.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskpathmeasure.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskpathpoint.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskradialgradientnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskrenderer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskrendernode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskrenderreplay.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskrepeatnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskroundedclipnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskroundedrect.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskshadownode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskstroke.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gskstrokenode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gsksubsurfacenode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gsktextnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gsktexturenode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gsktexturescalenode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gsktransform.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gsktransformnode.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gsk/gsktypes.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gtk/
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gtk/a11y/
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/a11y/gtkatspi.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/a11y/gtkatspisocket.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gtk/css/
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/css/gtkcssenums.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/css/gtkcssenumtypes.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/css/gtkcsserror.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/css/gtkcss.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/css/gtkcsslocation.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/css/gtkcsssection.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gtk/deprecated/
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkappchooserbutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkappchooserdialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkappchooser.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkappchooserwidget.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkassistant.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellareabox.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellareacontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellarea.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcelleditable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcelllayout.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellrendereraccel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellrenderercombo.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellrenderer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellrendererpixbuf.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellrendererprogress.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellrendererspin.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellrendererspinner.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellrenderertext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellrenderertoggle.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcellview.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcolorbutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcolorchooserdialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcolorchooser.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcolorchooserwidget.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcombobox.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkcomboboxtext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkdialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkentrycompletion.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkfilechooserdialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkfilechooser.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkfilechoosernative.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkfilechooserwidget.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkfontbutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkfontchooserdialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkfontchooser.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkfontchooserwidget.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkiconview.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkinfobar.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkliststore.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtklockbutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkmessagedialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkrender.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkshortcutlabel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkshortcutsgroup.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkshortcutssection.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkshortcutsshortcut.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkshortcutswindow.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkshow.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkstatusbar.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkstylecontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtktreednd.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtktreemodelfilter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtktreemodelsort.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtktreeselection.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtktreesortable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtktreestore.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtktreeviewcolumn.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtktreeview.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/deprecated/gtkvolumebutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkaboutdialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkaccelgroup.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkaccessible.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkaccessiblehypertext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkaccessiblerange.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkaccessibletext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkactionable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkactionbar.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkadjustment.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkalertdialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkapplication.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkapplicationwindow.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkaspectframe.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkatcontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkbinlayout.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkbitset.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkbookmarklist.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkboolfilter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkborder.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkbox.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkboxlayout.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkbuildable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkbuilder.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkbuilderlistitemfactory.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkbuilderscope.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkbutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcalendar.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcenterbox.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcenterlayout.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcheckbutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcolordialogbutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcolordialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcolorutils.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcolumnviewcell.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcolumnviewcolumn.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcolumnview.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcolumnviewrow.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcolumnviewsorter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkconfig.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkconstraintguide.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkconstraint.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkconstraintlayout.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcssprovider.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcustomfilter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcustomlayout.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkcustomsorter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkdebug.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkdialogerror.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkdirectorylist.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkdragicon.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkdragsource.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkdrawingarea.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkdropcontrollermotion.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkdropdown.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkdroptargetasync.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkdroptarget.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkeditable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkeditablelabel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkemojichooser.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkentrybuffer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkentry.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkenums.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkeventcontrollerfocus.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkeventcontroller.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkeventcontrollerkey.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkeventcontrollerlegacy.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkeventcontrollermotion.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkeventcontrollerscroll.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkexpander.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkexpression.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkfiledialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkfilefilter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkfilelauncher.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkfilter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkfixed.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkfixedlayout.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkflattenlistmodel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkflowbox.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkfontdialogbutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkfontdialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkframe.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgestureclick.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgesturedrag.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgesture.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgesturelongpress.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgesturepan.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgesturerotate.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgesturesingle.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgesturestylus.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgestureswipe.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgesturezoom.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkglarea.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgraphicsoffload.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgrid.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgridlayout.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkgridview.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtk.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkheaderbar.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkiconpaintable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkicontheme.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkimage.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkimcontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkimcontextsimple.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkimmodule.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkimmulticontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkinscription.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtklabel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtklayoutchild.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtklayoutmanager.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtklevelbar.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtklinkbutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtklistbase.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtklistbox.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtklistheader.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtklistitemfactory.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtklistitem.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtklistview.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkmain.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkmaplistmodel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkmediacontrols.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkmediafile.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkmediastream.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkmenubutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkmountoperation.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkmultifilter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkmultiselection.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkmultisorter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtknativedialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtknative.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtknoselection.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtknotebook.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtknumericsorter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkorientable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkoverlay.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkoverlaylayout.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkpadcontroller.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkpaned.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkpasswordentrybuffer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkpasswordentry.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkpicture.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkpopoverbin.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkpopover.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkpopovermenubar.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkpopovermenu.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkprintdialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkprogressbar.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkrange.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkrecentmanager.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkrevealer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkroot.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkscalebutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkscale.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkscrollable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkscrollbar.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkscrolledwindow.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkscrollinfo.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksearchbar.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksearchentry.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksectionmodel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkselectionfiltermodel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkselectionmodel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkseparator.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksettings.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkshortcutaction.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkshortcut.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkshortcutmanager.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksignallistitemfactory.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksingleselection.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksizegroup.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksizerequest.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkslicelistmodel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksnapshot.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksorter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksortlistmodel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkspinbutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkspinner.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkstack.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkstacksidebar.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkstackswitcher.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkstringfilter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkstringlist.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkstringsorter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkstyleprovider.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksvg.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkswitch.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtksymbolicpaintable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktestatcontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktestutils.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktextbuffer.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktextchild.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktextiter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktextmark.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktexttag.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktexttagtable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktextview.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktogglebutton.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktooltip.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktreeexpander.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktreelistmodel.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktreelistrowsorter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktypebuiltins.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtktypes.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkurilauncher.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkversion.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkvideo.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkviewport.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkwidget.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkwidgetpaintable.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkwindowcontrols.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkwindowgroup.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkwindow.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/gtkwindowhandle.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/gtk/print/
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/print/gtkpagesetup.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/print/gtkpapersize.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/print/gtkprintcontext.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/print/gtkprintoperation.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/print/gtkprintoperationpreview.h
--rw-r--r--	root/root	usr/include/gtk-4.0/gtk/print/gtkprintsettings.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/unix-print/
-drwxr-xr-x	root/root	usr/include/gtk-4.0/unix-print/gtk/
--rw-r--r--	root/root	usr/include/gtk-4.0/unix-print/gtk/gtkunixprint.h
-drwxr-xr-x	root/root	usr/include/gtk-4.0/unix-print/gtk/print/
--rw-r--r--	root/root	usr/include/gtk-4.0/unix-print/gtk/print/gtkpagesetupunixdialog.h
--rw-r--r--	root/root	usr/include/gtk-4.0/unix-print/gtk/print/gtkprinter.h
--rw-r--r--	root/root	usr/include/gtk-4.0/unix-print/gtk/print/gtkprintjob.h
--rw-r--r--	root/root	usr/include/gtk-4.0/unix-print/gtk/print/gtkprintunixdialog.h
-drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/girepository-1.0/
--rw-r--r--	root/root	usr/lib/girepository-1.0/Gdk-4.0.typelib
--rw-r--r--	root/root	usr/lib/girepository-1.0/GdkWayland-4.0.typelib
--rw-r--r--	root/root	usr/lib/girepository-1.0/GdkX11-4.0.typelib
--rw-r--r--	root/root	usr/lib/girepository-1.0/Gsk-4.0.typelib
--rw-r--r--	root/root	usr/lib/girepository-1.0/Gtk-4.0.typelib
--rwxr-xr-x	root/root	usr/lib/libgtk-4.so.1.2200.3
-lrwxrwxrwx	root/root	usr/lib/libgtk-4.so.1 -> libgtk-4.so.1.2200.3
-lrwxrwxrwx	root/root	usr/lib/libgtk-4.so -> libgtk-4.so.1
-drwxr-xr-x	root/root	usr/lib/pkgconfig/
--rw-r--r--	root/root	usr/lib/pkgconfig/gtk4-atspi.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/gtk4-broadway.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/gtk4.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/gtk4-unix-print.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/gtk4-wayland.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/gtk4-x11.pc
-drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/applications/
--rw-r--r--	root/root	usr/share/applications/org.gtk.Demo4.desktop
--rw-r--r--	root/root	usr/share/applications/org.gtk.gtk4.NodeEditor.desktop
--rw-r--r--	root/root	usr/share/applications/org.gtk.PrintEditor4.desktop
--rw-r--r--	root/root	usr/share/applications/org.gtk.Shaper.desktop
--rw-r--r--	root/root	usr/share/applications/org.gtk.WidgetFactory4.desktop
-drwxr-xr-x	root/root	usr/share/bash-completion/
-drwxr-xr-x	root/root	usr/share/bash-completion/completions/
--rw-r--r--	root/root	usr/share/bash-completion/completions/gtk4-builder-tool
--rw-r--r--	root/root	usr/share/bash-completion/completions/gtk4-demo
--rw-r--r--	root/root	usr/share/bash-completion/completions/gtk4-image-tool
--rw-r--r--	root/root	usr/share/bash-completion/completions/gtk4-node-editor
--rw-r--r--	root/root	usr/share/bash-completion/completions/gtk4-path-tool
--rw-r--r--	root/root	usr/share/bash-completion/completions/gtk4-print-editor
--rw-r--r--	root/root	usr/share/bash-completion/completions/gtk4-rendernode-tool
--rw-r--r--	root/root	usr/share/bash-completion/completions/gtk4-widget-factory
-drwxr-xr-x	root/root	usr/share/gettext/
-drwxr-xr-x	root/root	usr/share/gettext/its/
--rw-r--r--	root/root	usr/share/gettext/its/gtk4builder.its
--rw-r--r--	root/root	usr/share/gettext/its/gtk4builder.loc
-drwxr-xr-x	root/root	usr/share/gir-1.0/
--rw-r--r--	root/root	usr/share/gir-1.0/Gdk-4.0.gir
--rw-r--r--	root/root	usr/share/gir-1.0/GdkWayland-4.0.gir
--rw-r--r--	root/root	usr/share/gir-1.0/GdkX11-4.0.gir
--rw-r--r--	root/root	usr/share/gir-1.0/Gsk-4.0.gir
--rw-r--r--	root/root	usr/share/gir-1.0/Gtk-4.0.gir
-drwxr-xr-x	root/root	usr/share/glib-2.0/
-drwxr-xr-x	root/root	usr/share/glib-2.0/schemas/
--rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.gtk.Demo4.gschema.xml
--rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.gtk.gtk4.Inspector.gschema.xml
--rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.gtk.gtk4.Settings.ColorChooser.gschema.xml
--rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.gtk.gtk4.Settings.Debug.gschema.xml
--rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.gtk.gtk4.Settings.EmojiChooser.gschema.xml
--rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.gtk.gtk4.Settings.FileChooser.gschema.xml
-drwxr-xr-x	root/root	usr/share/gtk-4.0/
-drwxr-xr-x	root/root	usr/share/gtk-4.0/emoji/
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/bn.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/da.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/de.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/es.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/et.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/fi.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/fr.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/hi.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/hu.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/it.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/ja.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/ko.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/lt.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/ms.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/nb.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/nl.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/pl.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/pt.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/ru.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/sv.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/th.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/uk.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/emoji/zh.gresource
--rw-r--r--	root/root	usr/share/gtk-4.0/gtk4builder.rng
-drwxr-xr-x	root/root	usr/share/gtk-4.0/valgrind/
--rw-r--r--	root/root	usr/share/gtk-4.0/valgrind/gtk.supp
-drwxr-xr-x	root/root	usr/share/icons/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/org.gtk.Demo4.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/org.gtk.gtk4.NodeEditor.Devel.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/org.gtk.gtk4.NodeEditor.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/org.gtk.PrintEditor4.Devel.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/org.gtk.PrintEditor4.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/org.gtk.Shaper.Devel.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/org.gtk.Shaper.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/scalable/apps/org.gtk.WidgetFactory4.svg
-drwxr-xr-x	root/root	usr/share/icons/hicolor/symbolic/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/symbolic/apps/
--rw-r--r--	root/root	usr/share/icons/hicolor/symbolic/apps/org.gtk.Demo4-symbolic.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/symbolic/apps/org.gtk.gtk4.NodeEditor-symbolic.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/symbolic/apps/org.gtk.PrintEditor4-symbolic.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/symbolic/apps/org.gtk.Shaper-symbolic.svg
--rw-r--r--	root/root	usr/share/icons/hicolor/symbolic/apps/org.gtk.WidgetFactory4-symbolic.svg
-drwxr-xr-x	root/root	usr/share/metainfo/
--rw-r--r--	root/root	usr/share/metainfo/org.gtk.Demo4.appdata.xml
--rw-r--r--	root/root	usr/share/metainfo/org.gtk.gtk4.NodeEditor.appdata.xml
--rw-r--r--	root/root	usr/share/metainfo/org.gtk.PrintEditor4.appdata.xml
--rw-r--r--	root/root	usr/share/metainfo/org.gtk.WidgetFactory4.appdata.xml
-drwxr-xr-x	root/root	usr/share/mime/
-drwxr-xr-x	root/root	usr/share/mime/packages/
--rw-r--r--	root/root	usr/share/mime/packages/gtk-mime.xml
+usr
+usr/bin
+usr/bin/gtk4-launch
+usr/bin/gtk4-builder-tool
+usr/bin/gtk4-image-tool
+usr/bin/gtk4-encode-symbolic-svg
+usr/bin/gtk4-print-editor
+usr/bin/gtk4-demo
+usr/bin/gtk4-demo-application
+usr/bin/gtk4-widget-factory
+usr/bin/gtk4-path-tool
+usr/bin/gtk4-query-settings
+usr/bin/gtk4-node-editor
+usr/bin/gtk4-icon-editor
+usr/bin/gtk4-rendernode-tool
+usr/bin/gtk4-update-icon-cache
+usr/bin/gtk4-broadwayd
+usr/lib
+usr/lib/girepository-1.0
+usr/lib/girepository-1.0/GdkWayland-4.0.typelib
+usr/lib/girepository-1.0/Gdk-4.0.typelib
+usr/lib/girepository-1.0/Gtk-4.0.typelib
+usr/lib/girepository-1.0/Gsk-4.0.typelib
+usr/lib/girepository-1.0/GdkX11-4.0.typelib
+usr/lib/libgtk-4.so.1
+usr/lib/libgtk-4.so.1.2200.4
+usr/lib/libgtk-4.so
+usr/lib/pkgconfig
+usr/lib/pkgconfig/gtk4-wayland.pc
+usr/lib/pkgconfig/gtk4-broadway.pc
+usr/lib/pkgconfig/gtk4-atspi.pc
+usr/lib/pkgconfig/gtk4.pc
+usr/lib/pkgconfig/gtk4-unix-print.pc
+usr/lib/pkgconfig/gtk4-x11.pc
+usr/include
+usr/include/gtk-4.0
+usr/include/gtk-4.0/gsk
+usr/include/gtk-4.0/gsk/gskcompositenode.h
+usr/include/gtk-4.0/gsk/gskopacitynode.h
+usr/include/gtk-4.0/gsk/gskstroke.h
+usr/include/gtk-4.0/gsk/gskenumtypes.h
+usr/include/gtk-4.0/gsk/gskblurnode.h
+usr/include/gtk-4.0/gsk/gskisolationnode.h
+usr/include/gtk-4.0/gsk/gskcolormatrixnode.h
+usr/include/gtk-4.0/gsk/gsktransform.h
+usr/include/gtk-4.0/gsk/gskcontainernode.h
+usr/include/gtk-4.0/gsk/gskstrokenode.h
+usr/include/gtk-4.0/gsk/gskcomponenttransfer.h
+usr/include/gtk-4.0/gsk/gskdebugnode.h
+usr/include/gtk-4.0/gsk/gskcomponenttransfernode.h
+usr/include/gtk-4.0/gsk/gskconicgradientnode.h
+usr/include/gtk-4.0/gsk/gsktypes.h
+usr/include/gtk-4.0/gsk/gskglshadernode.h
+usr/include/gtk-4.0/gsk/gskrendernode.h
+usr/include/gtk-4.0/gsk/gskoutsetshadownode.h
+usr/include/gtk-4.0/gsk/broadway
+usr/include/gtk-4.0/gsk/broadway/gskbroadwayrenderer.h
+usr/include/gtk-4.0/gsk/gskpathpoint.h
+usr/include/gtk-4.0/gsk/gskpastenode.h
+usr/include/gtk-4.0/gsk/gsklineargradientnode.h
+usr/include/gtk-4.0/gsk/gskinsetshadownode.h
+usr/include/gtk-4.0/gsk/gskmasknode.h
+usr/include/gtk-4.0/gsk/gskrenderreplay.h
+usr/include/gtk-4.0/gsk/gskcopynode.h
+usr/include/gtk-4.0/gsk/gskcairorenderer.h
+usr/include/gtk-4.0/gsk/gskpath.h
+usr/include/gtk-4.0/gsk/gskrepeatnode.h
+usr/include/gtk-4.0/gsk/gskpathbuilder.h
+usr/include/gtk-4.0/gsk/gpu
+usr/include/gtk-4.0/gsk/gpu/gskglrenderer.h
+usr/include/gtk-4.0/gsk/gpu/gskvulkanrenderer.h
+usr/include/gtk-4.0/gsk/gskshadownode.h
+usr/include/gtk-4.0/gsk/gskblendnode.h
+usr/include/gtk-4.0/gsk/gl
+usr/include/gtk-4.0/gsk/gl/gskglrenderer.h
+usr/include/gtk-4.0/gsk/gskpathmeasure.h
+usr/include/gtk-4.0/gsk/gskbordernode.h
+usr/include/gtk-4.0/gsk/gsktexturescalenode.h
+usr/include/gtk-4.0/gsk/gskroundedclipnode.h
+usr/include/gtk-4.0/gsk/gskclipnode.h
+usr/include/gtk-4.0/gsk/gsk.h
+usr/include/gtk-4.0/gsk/gskfillnode.h
+usr/include/gtk-4.0/gsk/gskenums.h
+usr/include/gtk-4.0/gsk/gskcrossfadenode.h
+usr/include/gtk-4.0/gsk/gskroundedrect.h
+usr/include/gtk-4.0/gsk/gsksubsurfacenode.h
+usr/include/gtk-4.0/gsk/gskcolornode.h
+usr/include/gtk-4.0/gsk/gskcaironode.h
+usr/include/gtk-4.0/gsk/gskrenderer.h
+usr/include/gtk-4.0/gsk/gsktexturenode.h
+usr/include/gtk-4.0/gsk/gskradialgradientnode.h
+usr/include/gtk-4.0/gsk/gsktransformnode.h
+usr/include/gtk-4.0/gsk/gskglshader.h
+usr/include/gtk-4.0/gsk/gsktextnode.h
+usr/include/gtk-4.0/gdk
+usr/include/gtk-4.0/gdk/gdkdmabufformats.h
+usr/include/gtk-4.0/gdk/gdktoplevel.h
+usr/include/gtk-4.0/gdk/gdkkeysyms.h
+usr/include/gtk-4.0/gdk/gdkdrop.h
+usr/include/gtk-4.0/gdk/gdksurface.h
+usr/include/gtk-4.0/gdk/gdkcontentprovider.h
+usr/include/gtk-4.0/gdk/gdkevents.h
+usr/include/gtk-4.0/gdk/gdkenumtypes.h
+usr/include/gtk-4.0/gdk/gdkpopup.h
+usr/include/gtk-4.0/gdk/gdkcontentformats.h
+usr/include/gtk-4.0/gdk/gdkframetimings.h
+usr/include/gtk-4.0/gdk/gdktexture.h
+usr/include/gtk-4.0/gdk/gdkdrag.h
+usr/include/gtk-4.0/gdk/gdkmemorytexturebuilder.h
+usr/include/gtk-4.0/gdk/gdkgltexture.h
+usr/include/gtk-4.0/gdk/gdkcursor.h
+usr/include/gtk-4.0/gdk/gdkdevicetool.h
+usr/include/gtk-4.0/gdk/deprecated
+usr/include/gtk-4.0/gdk/deprecated/gdkpixbuf.h
+usr/include/gtk-4.0/gdk/gdkdmabuftexturebuilder.h
+usr/include/gtk-4.0/gdk/x11
+usr/include/gtk-4.0/gdk/x11/gdkx11glcontext.h
+usr/include/gtk-4.0/gdk/x11/gdkx11surface.h
+usr/include/gtk-4.0/gdk/x11/gdkx11utils.h
+usr/include/gtk-4.0/gdk/x11/gdkx11device-xi2.h
+usr/include/gtk-4.0/gdk/x11/gdkx11applaunchcontext.h
+usr/include/gtk-4.0/gdk/x11/gdkx11monitor.h
+usr/include/gtk-4.0/gdk/x11/gdkx11dnd.h
+usr/include/gtk-4.0/gdk/x11/gdkx11screen.h
+usr/include/gtk-4.0/gdk/x11/gdkx-autocleanups.h
+usr/include/gtk-4.0/gdk/x11/gdkx11display.h
+usr/include/gtk-4.0/gdk/x11/gdkx.h
+usr/include/gtk-4.0/gdk/x11/gdkx11property.h
+usr/include/gtk-4.0/gdk/x11/gdkx11selection.h
+usr/include/gtk-4.0/gdk/x11/gdkx11device.h
+usr/include/gtk-4.0/gdk/x11/gdkx11devicemanager-xi2.h
+usr/include/gtk-4.0/gdk/x11/gdkx11devicemanager.h
+usr/include/gtk-4.0/gdk/gdkdisplaymanager.h
+usr/include/gtk-4.0/gdk/gdkdevice.h
+usr/include/gtk-4.0/gdk/broadway
+usr/include/gtk-4.0/gdk/broadway/gdkbroadwaycursor.h
+usr/include/gtk-4.0/gdk/broadway/gdkbroadway.h
+usr/include/gtk-4.0/gdk/broadway/gdkbroadwaymonitor.h
+usr/include/gtk-4.0/gdk/broadway/gdkbroadwaydisplay.h
+usr/include/gtk-4.0/gdk/broadway/gdkbroadwaysurface.h
+usr/include/gtk-4.0/gdk/gdkvulkancontext.h
+usr/include/gtk-4.0/gdk/gdkrectangle.h
+usr/include/gtk-4.0/gdk/gdkcairocontext.h
+usr/include/gtk-4.0/gdk/gdkpaintable.h
+usr/include/gtk-4.0/gdk/gdkapplaunchcontext.h
+usr/include/gtk-4.0/gdk/wayland
+usr/include/gtk-4.0/gdk/wayland/gdkwaylandpopup.h
+usr/include/gtk-4.0/gdk/wayland/gdkwaylandseat.h
+usr/include/gtk-4.0/gdk/wayland/gdkwaylandsurface.h
+usr/include/gtk-4.0/gdk/wayland/gdkwaylandglcontext.h
+usr/include/gtk-4.0/gdk/wayland/gdkwaylandtoplevel.h
+usr/include/gtk-4.0/gdk/wayland/gdkwayland.h
+usr/include/gtk-4.0/gdk/wayland/gdkwaylanddevice.h
+usr/include/gtk-4.0/gdk/wayland/gdkwaylandmonitor.h
+usr/include/gtk-4.0/gdk/wayland/gdkwaylanddisplay.h
+usr/include/gtk-4.0/gdk/gdkclipboard.h
+usr/include/gtk-4.0/gdk/gdkseat.h
+usr/include/gtk-4.0/gdk/gdktoplevellayout.h
+usr/include/gtk-4.0/gdk/gdktexturedownloader.h
+usr/include/gtk-4.0/gdk/gdktoplevelsize.h
+usr/include/gtk-4.0/gdk/gdkdragsurfacesize.h
+usr/include/gtk-4.0/gdk/gdkcontentserializer.h
+usr/include/gtk-4.0/gdk/gdkdisplay.h
+usr/include/gtk-4.0/gdk/gdkcairo.h
+usr/include/gtk-4.0/gdk/gdkcolorstate.h
+usr/include/gtk-4.0/gdk/gdkcicpparams.h
+usr/include/gtk-4.0/gdk/gdkpango.h
+usr/include/gtk-4.0/gdk/gdkpopuplayout.h
+usr/include/gtk-4.0/gdk/gdkglcontext.h
+usr/include/gtk-4.0/gdk/gdktypes.h
+usr/include/gtk-4.0/gdk/gdkdrawcontext.h
+usr/include/gtk-4.0/gdk/gdkenums.h
+usr/include/gtk-4.0/gdk/gdkmemorytexture.h
+usr/include/gtk-4.0/gdk/gdksnapshot.h
+usr/include/gtk-4.0/gdk/gdkdmabuftexture.h
+usr/include/gtk-4.0/gdk/gdkdevicepad.h
+usr/include/gtk-4.0/gdk/gdkdragsurface.h
+usr/include/gtk-4.0/gdk/version
+usr/include/gtk-4.0/gdk/version/gdk-visibility.h
+usr/include/gtk-4.0/gdk/version/gdkversionmacros.h
+usr/include/gtk-4.0/gdk/gdkcontentdeserializer.h
+usr/include/gtk-4.0/gdk/gdkrgba.h
+usr/include/gtk-4.0/gdk/gdkcontentproviderimpl.h
+usr/include/gtk-4.0/gdk/gdkmonitor.h
+usr/include/gtk-4.0/gdk/gdkconfig.h
+usr/include/gtk-4.0/gdk/gdk.h
+usr/include/gtk-4.0/gdk/gdkframeclock.h
+usr/include/gtk-4.0/gdk/gdkkeys.h
+usr/include/gtk-4.0/gdk/gdkgltexturebuilder.h
+usr/include/gtk-4.0/gtk
+usr/include/gtk-4.0/gtk/gtkfilefilter.h
+usr/include/gtk-4.0/gtk/gtkconstraintlayout.h
+usr/include/gtk-4.0/gtk/gtkmediastream.h
+usr/include/gtk-4.0/gtk/gtkdrawingarea.h
+usr/include/gtk-4.0/gtk/gtkstack.h
+usr/include/gtk-4.0/gtk/a11y
+usr/include/gtk-4.0/gtk/a11y/gtkatspi.h
+usr/include/gtk-4.0/gtk/a11y/gtkatspisocket.h
+usr/include/gtk-4.0/gtk/gtkfixed.h
+usr/include/gtk-4.0/gtk/gtkselectionmodel.h
+usr/include/gtk-4.0/gtk/gtkeventcontrollermotion.h
+usr/include/gtk-4.0/gtk/gtkcustomlayout.h
+usr/include/gtk-4.0/gtk/gtkshortcuttrigger.h
+usr/include/gtk-4.0/gtk/gtkdialogerror.h
+usr/include/gtk-4.0/gtk/gtkroot.h
+usr/include/gtk-4.0/gtk/gtknativedialog.h
+usr/include/gtk-4.0/gtk/gtkoverlaylayout.h
+usr/include/gtk-4.0/gtk/gtkwidget.h
+usr/include/gtk-4.0/gtk/gtkmediacontrols.h
+usr/include/gtk-4.0/gtk/gtkbox.h
+usr/include/gtk-4.0/gtk/gtktestutils.h
+usr/include/gtk-4.0/gtk/gtkrevealer.h
+usr/include/gtk-4.0/gtk/gtklayoutchild.h
+usr/include/gtk-4.0/gtk/gtkpaned.h
+usr/include/gtk-4.0/gtk/gtkstacksidebar.h
+usr/include/gtk-4.0/gtk/gtkfilterlistmodel.h
+usr/include/gtk-4.0/gtk/gtkshortcutaction.h
+usr/include/gtk-4.0/gtk/gtkscrolledwindow.h
+usr/include/gtk-4.0/gtk/gtkbuildable.h
+usr/include/gtk-4.0/gtk/gtkcustomfilter.h
+usr/include/gtk-4.0/gtk/css
+usr/include/gtk-4.0/gtk/css/gtkcssenumtypes.h
+usr/include/gtk-4.0/gtk/css/gtkcsssection.h
+usr/include/gtk-4.0/gtk/css/gtkcssenums.h
+usr/include/gtk-4.0/gtk/css/gtkcsslocation.h
+usr/include/gtk-4.0/gtk/css/gtkcsserror.h
+usr/include/gtk-4.0/gtk/css/gtkcss.h
+usr/include/gtk-4.0/gtk/gtklistbox.h
+usr/include/gtk-4.0/gtk/gtksvg.h
+usr/include/gtk-4.0/gtk/gtkscrollable.h
+usr/include/gtk-4.0/gtk/gtkstackswitcher.h
+usr/include/gtk-4.0/gtk/gtkglarea.h
+usr/include/gtk-4.0/gtk/gtkboolfilter.h
+usr/include/gtk-4.0/gtk/gtkpicture.h
+usr/include/gtk-4.0/gtk/gtknumericsorter.h
+usr/include/gtk-4.0/gtk/gtkconstraint.h
+usr/include/gtk-4.0/gtk/gtklistview.h
+usr/include/gtk-4.0/gtk/gtktextview.h
+usr/include/gtk-4.0/gtk/gtktextbuffer.h
+usr/include/gtk-4.0/gtk/gtkexpression.h
+usr/include/gtk-4.0/gtk/gtkcolumnview.h
+usr/include/gtk-4.0/gtk/gtkentry.h
+usr/include/gtk-4.0/gtk/gtkspinner.h
+usr/include/gtk-4.0/gtk/gtkgesturelongpress.h
+usr/include/gtk-4.0/gtk/gtkfilelauncher.h
+usr/include/gtk-4.0/gtk/gtkprintdialog.h
+usr/include/gtk-4.0/gtk/gtkimage.h
+usr/include/gtk-4.0/gtk/gtkimcontext.h
+usr/include/gtk-4.0/gtk/gtkeditablelabel.h
+usr/include/gtk-4.0/gtk/gtkcenterbox.h
+usr/include/gtk-4.0/gtk/gtkpadcontroller.h
+usr/include/gtk-4.0/gtk/gtkadjustment.h
+usr/include/gtk-4.0/gtk/gtktreeexpander.h
+usr/include/gtk-4.0/gtk/gtkrecentmanager.h
+usr/include/gtk-4.0/gtk/gtktextiter.h
+usr/include/gtk-4.0/gtk/gtkorientable.h
+usr/include/gtk-4.0/gtk/gtksorter.h
+usr/include/gtk-4.0/gtk/gtkurilauncher.h
+usr/include/gtk-4.0/gtk/gtkviewport.h
+usr/include/gtk-4.0/gtk/gtktextchild.h
+usr/include/gtk-4.0/gtk/gtkselectionfiltermodel.h
+usr/include/gtk-4.0/gtk/gtkdirectorylist.h
+usr/include/gtk-4.0/gtk/gtkcolumnviewcolumn.h
+usr/include/gtk-4.0/gtk/gtkmain.h
+usr/include/gtk-4.0/gtk/print
+usr/include/gtk-4.0/gtk/print/gtkprintoperationpreview.h
+usr/include/gtk-4.0/gtk/print/gtkprintcontext.h
+usr/include/gtk-4.0/gtk/print/gtkpapersize.h
+usr/include/gtk-4.0/gtk/print/gtkprintsettings.h
+usr/include/gtk-4.0/gtk/print/gtkprintoperation.h
+usr/include/gtk-4.0/gtk/print/gtkpagesetup.h
+usr/include/gtk-4.0/gtk/gtkcolumnviewrow.h
+usr/include/gtk-4.0/gtk/gtkshortcutmanager.h
+usr/include/gtk-4.0/gtk/gtkstringfilter.h
+usr/include/gtk-4.0/gtk/gtklabel.h
+usr/include/gtk-4.0/gtk/gtkconfig.h
+usr/include/gtk-4.0/gtk/deprecated
+usr/include/gtk-4.0/gtk/deprecated/gtkappchooser.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellview.h
+usr/include/gtk-4.0/gtk/deprecated/gtkdialog.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcelllayout.h
+usr/include/gtk-4.0/gtk/deprecated/gtkstatusbar.h
+usr/include/gtk-4.0/gtk/deprecated/gtktreeselection.h
+usr/include/gtk-4.0/gtk/deprecated/gtkshortcutswindow.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcolorchooserwidget.h
+usr/include/gtk-4.0/gtk/deprecated/gtkmessagedialog.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellareacontext.h
+usr/include/gtk-4.0/gtk/deprecated/gtktreemodelfilter.h
+usr/include/gtk-4.0/gtk/deprecated/gtkappchooserwidget.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellrendererprogress.h
+usr/include/gtk-4.0/gtk/deprecated/gtkfontchooserwidget.h
+usr/include/gtk-4.0/gtk/deprecated/gtkappchooserbutton.h
+usr/include/gtk-4.0/gtk/deprecated/gtkassistant.h
+usr/include/gtk-4.0/gtk/deprecated/gtkentrycompletion.h
+usr/include/gtk-4.0/gtk/deprecated/gtkfilechooserdialog.h
+usr/include/gtk-4.0/gtk/deprecated/gtktreeview.h
+usr/include/gtk-4.0/gtk/deprecated/gtkfontbutton.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellrendererspinner.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellrenderertext.h
+usr/include/gtk-4.0/gtk/deprecated/gtktreemodel.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcolorbutton.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellareabox.h
+usr/include/gtk-4.0/gtk/deprecated/gtkvolumebutton.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellrendererspin.h
+usr/include/gtk-4.0/gtk/deprecated/gtktreednd.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellrenderer.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcolorchooser.h
+usr/include/gtk-4.0/gtk/deprecated/gtkfilechooserwidget.h
+usr/include/gtk-4.0/gtk/deprecated/gtkshortcutsgroup.h
+usr/include/gtk-4.0/gtk/deprecated/gtkstylecontext.h
+usr/include/gtk-4.0/gtk/deprecated/gtkshortcutssection.h
+usr/include/gtk-4.0/gtk/deprecated/gtkinfobar.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellrenderertoggle.h
+usr/include/gtk-4.0/gtk/deprecated/gtkliststore.h
+usr/include/gtk-4.0/gtk/deprecated/gtkshortcutsshortcut.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcomboboxtext.h
+usr/include/gtk-4.0/gtk/deprecated/gtkappchooserdialog.h
+usr/include/gtk-4.0/gtk/deprecated/gtktreemodelsort.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellarea.h
+usr/include/gtk-4.0/gtk/deprecated/gtkshow.h
+usr/include/gtk-4.0/gtk/deprecated/gtkfilechoosernative.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellrenderercombo.h
+usr/include/gtk-4.0/gtk/deprecated/gtkiconview.h
+usr/include/gtk-4.0/gtk/deprecated/gtktreestore.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcombobox.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcolorchooserdialog.h
+usr/include/gtk-4.0/gtk/deprecated/gtkfontchooser.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellrendereraccel.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcellrendererpixbuf.h
+usr/include/gtk-4.0/gtk/deprecated/gtkfontchooserdialog.h
+usr/include/gtk-4.0/gtk/deprecated/gtkfilechooser.h
+usr/include/gtk-4.0/gtk/deprecated/gtkrender.h
+usr/include/gtk-4.0/gtk/deprecated/gtktreesortable.h
+usr/include/gtk-4.0/gtk/deprecated/gtkcelleditable.h
+usr/include/gtk-4.0/gtk/deprecated/gtktreeviewcolumn.h
+usr/include/gtk-4.0/gtk/deprecated/gtkshortcutlabel.h
+usr/include/gtk-4.0/gtk/deprecated/gtklockbutton.h
+usr/include/gtk-4.0/gtk/gtkbuilder.h
+usr/include/gtk-4.0/gtk/gtkgestureswipe.h
+usr/include/gtk-4.0/gtk/gtkdragsource.h
+usr/include/gtk-4.0/gtk/gtkflattenlistmodel.h
+usr/include/gtk-4.0/gtk/gtkaboutdialog.h
+usr/include/gtk-4.0/gtk/gtksearchentry.h
+usr/include/gtk-4.0/gtk/gtkgesturedrag.h
+usr/include/gtk-4.0/gtk/gtkimcontextsimple.h
+usr/include/gtk-4.0/gtk/gtktypes.h
+usr/include/gtk-4.0/gtk/gtkvideo.h
+usr/include/gtk-4.0/gtk/gtkmultifilter.h
+usr/include/gtk-4.0/gtk/gtkaspectframe.h
+usr/include/gtk-4.0/gtk/gtkborder.h
+usr/include/gtk-4.0/gtk/gtkconstraintguide.h
+usr/include/gtk-4.0/gtk/gtkgridlayout.h
+usr/include/gtk-4.0/gtk/gtkactionable.h
+usr/include/gtk-4.0/gtk/gtkfontdialogbutton.h
+usr/include/gtk-4.0/gtk/gtkboxlayout.h
+usr/include/gtk-4.0/gtk/gtkicontheme.h
+usr/include/gtk-4.0/gtk/gtkstringsorter.h
+usr/include/gtk-4.0/gtk/gtkiconpaintable.h
+usr/include/gtk-4.0/gtk/gtkatcontext.h
+usr/include/gtk-4.0/gtk/gtkdroptarget.h
+usr/include/gtk-4.0/gtk/gtkeventcontroller.h
+usr/include/gtk-4.0/gtk/gtkcolordialogbutton.h
+usr/include/gtk-4.0/gtk/gtksortlistmodel.h
+usr/include/gtk-4.0/gtk/gtkdroptargetasync.h
+usr/include/gtk-4.0/gtk/gtkgrid.h
+usr/include/gtk-4.0/gtk/gtksettings.h
+usr/include/gtk-4.0/gtk/gtknative.h
+usr/include/gtk-4.0/gtk/gtklistheader.h
+usr/include/gtk-4.0/gtk/gtkseparator.h
+usr/include/gtk-4.0/gtk/gtkfixedlayout.h
+usr/include/gtk-4.0/gtk/gtkgesturestylus.h
+usr/include/gtk-4.0/gtk/gtktreelistmodel.h
+usr/include/gtk-4.0/gtk/gtkmultiselection.h
+usr/include/gtk-4.0/gtk/gtkbutton.h
+usr/include/gtk-4.0/gtk/gtkgesturesingle.h
+usr/include/gtk-4.0/gtk/gtksingleselection.h
+usr/include/gtk-4.0/gtk/gtkalertdialog.h
+usr/include/gtk-4.0/gtk/gtk.h
+usr/include/gtk-4.0/gtk/gtkdebug.h
+usr/include/gtk-4.0/gtk/gtkprogressbar.h
+usr/include/gtk-4.0/gtk/gtkemojichooser.h
+usr/include/gtk-4.0/gtk/gtkrange.h
+usr/include/gtk-4.0/gtk/gtkframe.h
+usr/include/gtk-4.0/gtk/gtktexttag.h
+usr/include/gtk-4.0/gtk/gtkcssprovider.h
+usr/include/gtk-4.0/gtk/gtkpopoverbin.h
+usr/include/gtk-4.0/gtk/gtkcenterlayout.h
+usr/include/gtk-4.0/gtk/gtkcolordialog.h
+usr/include/gtk-4.0/gtk/gtksizegroup.h
+usr/include/gtk-4.0/gtk/gtkslicelistmodel.h
+usr/include/gtk-4.0/gtk/gtkpasswordentrybuffer.h
+usr/include/gtk-4.0/gtk/gtkcalendar.h
+usr/include/gtk-4.0/gtk/gtkcolorutils.h
+usr/include/gtk-4.0/gtk/gtkaccessible.h
+usr/include/gtk-4.0/gtk/gtklinkbutton.h
+usr/include/gtk-4.0/gtk/gtkoverlay.h
+usr/include/gtk-4.0/gtk/gtkentrybuffer.h
+usr/include/gtk-4.0/gtk/gtkbinlayout.h
+usr/include/gtk-4.0/gtk/gtkapplication.h
+usr/include/gtk-4.0/gtk/gtkwindowcontrols.h
+usr/include/gtk-4.0/gtk/gtkversion.h
+usr/include/gtk-4.0/gtk/gtkcustomsorter.h
+usr/include/gtk-4.0/gtk/gtkpasswordentry.h
+usr/include/gtk-4.0/gtk/gtksymbolicpaintable.h
+usr/include/gtk-4.0/gtk/gtkdropcontrollermotion.h
+usr/include/gtk-4.0/gtk/gtkinscription.h
+usr/include/gtk-4.0/gtk/gtkcheckbutton.h
+usr/include/gtk-4.0/gtk/gtkswitch.h
+usr/include/gtk-4.0/gtk/gtkmountoperation.h
+usr/include/gtk-4.0/gtk/gtkgestureclick.h
+usr/include/gtk-4.0/gtk/gtkscrollbar.h
+usr/include/gtk-4.0/gtk/gtkeventcontrollerlegacy.h
+usr/include/gtk-4.0/gtk/gtkimmulticontext.h
+usr/include/gtk-4.0/gtk/gtkactionbar.h
+usr/include/gtk-4.0/gtk/gtkgridview.h
+usr/include/gtk-4.0/gtk/gtkaccessiblehypertext.h
+usr/include/gtk-4.0/gtk/gtkwindow.h
+usr/include/gtk-4.0/gtk/gtkfiledialog.h
+usr/include/gtk-4.0/gtk/gtklayoutmanager.h
+usr/include/gtk-4.0/gtk/gtksnapshot.h
+usr/include/gtk-4.0/gtk/gtkaccelgroup.h
+usr/include/gtk-4.0/gtk/gtkshortcut.h
+usr/include/gtk-4.0/gtk/gtklistitem.h
+usr/include/gtk-4.0/gtk/gtksignallistitemfactory.h
+usr/include/gtk-4.0/gtk/gtklistitemfactory.h
+usr/include/gtk-4.0/gtk/gtksizerequest.h
+usr/include/gtk-4.0/gtk/gtktext.h
+usr/include/gtk-4.0/gtk/gtkpopovermenu.h
+usr/include/gtk-4.0/gtk/gtkspinbutton.h
+usr/include/gtk-4.0/gtk/gtkbuilderlistitemfactory.h
+usr/include/gtk-4.0/gtk/gtkshortcutcontroller.h
+usr/include/gtk-4.0/gtk/gtkstringlist.h
+usr/include/gtk-4.0/gtk/gtkgesturerotate.h
+usr/include/gtk-4.0/gtk/gtkwindowhandle.h
+usr/include/gtk-4.0/gtk/gtktreelistrowsorter.h
+usr/include/gtk-4.0/gtk/gtkexpander.h
+usr/include/gtk-4.0/gtk/gtkmenubutton.h
+usr/include/gtk-4.0/gtk/gtkimmodule.h
+usr/include/gtk-4.0/gtk/gtkpopover.h
+usr/include/gtk-4.0/gtk/gtkeditable.h
+usr/include/gtk-4.0/gtk/gtkfilter.h
+usr/include/gtk-4.0/gtk/gtkgraphicsoffload.h
+usr/include/gtk-4.0/gtk/gtkflowbox.h
+usr/include/gtk-4.0/gtk/gtkgesturepan.h
+usr/include/gtk-4.0/gtk/gtktypebuiltins.h
+usr/include/gtk-4.0/gtk/gtksectionmodel.h
+usr/include/gtk-4.0/gtk/gtkfontdialog.h
+usr/include/gtk-4.0/gtk/gtktexttagtable.h
+usr/include/gtk-4.0/gtk/gtktextmark.h
+usr/include/gtk-4.0/gtk/gtklevelbar.h
+usr/include/gtk-4.0/gtk/gtksearchbar.h
+usr/include/gtk-4.0/gtk/gtkeventcontrollerfocus.h
+usr/include/gtk-4.0/gtk/gtkgesturezoom.h
+usr/include/gtk-4.0/gtk/gtkenums.h
+usr/include/gtk-4.0/gtk/gtkcolumnviewcell.h
+usr/include/gtk-4.0/gtk/gtkaccessiblerange.h
+usr/include/gtk-4.0/gtk/gtkmaplistmodel.h
+usr/include/gtk-4.0/gtk/gtkmediafile.h
+usr/include/gtk-4.0/gtk/gtkstyleprovider.h
+usr/include/gtk-4.0/gtk/gtkheaderbar.h
+usr/include/gtk-4.0/gtk/gtkwidgetpaintable.h
+usr/include/gtk-4.0/gtk/gtkdropdown.h
+usr/include/gtk-4.0/gtk/gtknotebook.h
+usr/include/gtk-4.0/gtk/gtkbuilderscope.h
+usr/include/gtk-4.0/gtk/gtkmultisorter.h
+usr/include/gtk-4.0/gtk/gtkscale.h
+usr/include/gtk-4.0/gtk/gtkapplicationwindow.h
+usr/include/gtk-4.0/gtk/gtktogglebutton.h
+usr/include/gtk-4.0/gtk/gtklistbase.h
+usr/include/gtk-4.0/gtk/gtkeventcontrollerkey.h
+usr/include/gtk-4.0/gtk/gtkgesture.h
+usr/include/gtk-4.0/gtk/gtkwindowgroup.h
+usr/include/gtk-4.0/gtk/gtkcolumnviewsorter.h
+usr/include/gtk-4.0/gtk/gtkpopovermenubar.h
+usr/include/gtk-4.0/gtk/gtktooltip.h
+usr/include/gtk-4.0/gtk/gtknoselection.h
+usr/include/gtk-4.0/gtk/gtkbookmarklist.h
+usr/include/gtk-4.0/gtk/gtkeventcontrollerscroll.h
+usr/include/gtk-4.0/gtk/gtkdragicon.h
+usr/include/gtk-4.0/gtk/gtktestatcontext.h
+usr/include/gtk-4.0/gtk/gtkaccessibletext.h
+usr/include/gtk-4.0/gtk/gtkscrollinfo.h
+usr/include/gtk-4.0/gtk/gtkbitset.h
+usr/include/gtk-4.0/gtk/gtkscalebutton.h
+usr/include/gtk-4.0/unix-print
+usr/include/gtk-4.0/unix-print/gtk
+usr/include/gtk-4.0/unix-print/gtk/print
+usr/include/gtk-4.0/unix-print/gtk/print/gtkprinter.h
+usr/include/gtk-4.0/unix-print/gtk/print/gtkprintjob.h
+usr/include/gtk-4.0/unix-print/gtk/print/gtkprintunixdialog.h
+usr/include/gtk-4.0/unix-print/gtk/print/gtkpagesetupunixdialog.h
+usr/include/gtk-4.0/unix-print/gtk/gtkunixprint.h
+usr/share
+usr/share/bash-completion
+usr/share/bash-completion/completions
+usr/share/bash-completion/completions/gtk4-builder-tool
+usr/share/bash-completion/completions/gtk4-image-tool
+usr/share/bash-completion/completions/gtk4-print-editor
+usr/share/bash-completion/completions/gtk4-demo
+usr/share/bash-completion/completions/gtk4-widget-factory
+usr/share/bash-completion/completions/gtk4-path-tool
+usr/share/bash-completion/completions/gtk4-node-editor
+usr/share/bash-completion/completions/gtk4-rendernode-tool
+usr/share/icons
+usr/share/icons/hicolor
+usr/share/icons/hicolor/symbolic
+usr/share/icons/hicolor/symbolic/apps
+usr/share/icons/hicolor/symbolic/apps/org.gtk.PrintEditor4-symbolic.svg
+usr/share/icons/hicolor/symbolic/apps/org.gtk.Demo4-symbolic.svg
+usr/share/icons/hicolor/symbolic/apps/org.gtk.gtk4.NodeEditor-symbolic.svg
+usr/share/icons/hicolor/symbolic/apps/org.gtk.WidgetFactory4-symbolic.svg
+usr/share/icons/hicolor/symbolic/apps/org.gtk.Shaper-symbolic.svg
+usr/share/icons/hicolor/scalable
+usr/share/icons/hicolor/scalable/apps
+usr/share/icons/hicolor/scalable/apps/org.gtk.Demo4.svg
+usr/share/icons/hicolor/scalable/apps/org.gtk.Shaper.svg
+usr/share/icons/hicolor/scalable/apps/org.gtk.WidgetFactory4.svg
+usr/share/icons/hicolor/scalable/apps/org.gtk.PrintEditor4.svg
+usr/share/icons/hicolor/scalable/apps/org.gtk.Shaper.Devel.svg
+usr/share/icons/hicolor/scalable/apps/org.gtk.gtk4.NodeEditor.svg
+usr/share/icons/hicolor/scalable/apps/org.gtk.gtk4.NodeEditor.Devel.svg
+usr/share/icons/hicolor/scalable/apps/org.gtk.PrintEditor4.Devel.svg
+usr/share/applications
+usr/share/applications/org.gtk.PrintEditor4.desktop
+usr/share/applications/org.gtk.gtk4.NodeEditor.desktop
+usr/share/applications/org.gtk.Demo4.desktop
+usr/share/applications/org.gtk.Shaper.desktop
+usr/share/applications/org.gtk.WidgetFactory4.desktop
+usr/share/locale
+usr/share/locale/dz
+usr/share/locale/dz/LC_MESSAGES
+usr/share/locale/dz/LC_MESSAGES/gtk40.mo
+usr/share/locale/ang
+usr/share/locale/ang/LC_MESSAGES
+usr/share/locale/ang/LC_MESSAGES/gtk40.mo
+usr/share/locale/en_GB
+usr/share/locale/en_GB/LC_MESSAGES
+usr/share/locale/en_GB/LC_MESSAGES/gtk40.mo
+usr/share/locale/sr@latin
+usr/share/locale/sr@latin/LC_MESSAGES
+usr/share/locale/sr@latin/LC_MESSAGES/gtk40.mo
+usr/share/locale/fur
+usr/share/locale/fur/LC_MESSAGES
+usr/share/locale/fur/LC_MESSAGES/gtk40.mo
+usr/share/locale/ro
+usr/share/locale/ro/LC_MESSAGES
+usr/share/locale/ro/LC_MESSAGES/gtk40.mo
+usr/share/locale/xh
+usr/share/locale/xh/LC_MESSAGES
+usr/share/locale/xh/LC_MESSAGES/gtk40.mo
+usr/share/locale/it
+usr/share/locale/it/LC_MESSAGES
+usr/share/locale/it/LC_MESSAGES/gtk40.mo
+usr/share/locale/bs
+usr/share/locale/bs/LC_MESSAGES
+usr/share/locale/bs/LC_MESSAGES/gtk40.mo
+usr/share/locale/nb
+usr/share/locale/nb/LC_MESSAGES
+usr/share/locale/nb/LC_MESSAGES/gtk40.mo
+usr/share/locale/is
+usr/share/locale/is/LC_MESSAGES
+usr/share/locale/is/LC_MESSAGES/gtk40.mo
+usr/share/locale/sq
+usr/share/locale/sq/LC_MESSAGES
+usr/share/locale/sq/LC_MESSAGES/gtk40.mo
+usr/share/locale/sl
+usr/share/locale/sl/LC_MESSAGES
+usr/share/locale/sl/LC_MESSAGES/gtk40.mo
+usr/share/locale/mi
+usr/share/locale/mi/LC_MESSAGES
+usr/share/locale/mi/LC_MESSAGES/gtk40.mo
+usr/share/locale/uk
+usr/share/locale/uk/LC_MESSAGES
+usr/share/locale/uk/LC_MESSAGES/gtk40.mo
+usr/share/locale/km
+usr/share/locale/km/LC_MESSAGES
+usr/share/locale/km/LC_MESSAGES/gtk40.mo
+usr/share/locale/nn
+usr/share/locale/nn/LC_MESSAGES
+usr/share/locale/nn/LC_MESSAGES/gtk40.mo
+usr/share/locale/ka
+usr/share/locale/ka/LC_MESSAGES
+usr/share/locale/ka/LC_MESSAGES/gtk40.mo
+usr/share/locale/nso
+usr/share/locale/nso/LC_MESSAGES
+usr/share/locale/nso/LC_MESSAGES/gtk40.mo
+usr/share/locale/lt
+usr/share/locale/lt/LC_MESSAGES
+usr/share/locale/lt/LC_MESSAGES/gtk40.mo
+usr/share/locale/lv
+usr/share/locale/lv/LC_MESSAGES
+usr/share/locale/lv/LC_MESSAGES/gtk40.mo
+usr/share/locale/tg
+usr/share/locale/tg/LC_MESSAGES
+usr/share/locale/tg/LC_MESSAGES/gtk40.mo
+usr/share/locale/az_IR
+usr/share/locale/az_IR/LC_MESSAGES
+usr/share/locale/az_IR/LC_MESSAGES/gtk40.mo
+usr/share/locale/yi
+usr/share/locale/yi/LC_MESSAGES
+usr/share/locale/yi/LC_MESSAGES/gtk40.mo
+usr/share/locale/te
+usr/share/locale/te/LC_MESSAGES
+usr/share/locale/te/LC_MESSAGES/gtk40.mo
+usr/share/locale/mai
+usr/share/locale/mai/LC_MESSAGES
+usr/share/locale/mai/LC_MESSAGES/gtk40.mo
+usr/share/locale/ps
+usr/share/locale/ps/LC_MESSAGES
+usr/share/locale/ps/LC_MESSAGES/gtk40.mo
+usr/share/locale/be@latin
+usr/share/locale/be@latin/LC_MESSAGES
+usr/share/locale/be@latin/LC_MESSAGES/gtk40.mo
+usr/share/locale/sv
+usr/share/locale/sv/LC_MESSAGES
+usr/share/locale/sv/LC_MESSAGES/gtk40.mo
+usr/share/locale/af
+usr/share/locale/af/LC_MESSAGES
+usr/share/locale/af/LC_MESSAGES/gtk40.mo
+usr/share/locale/ca@valencia
+usr/share/locale/ca@valencia/LC_MESSAGES
+usr/share/locale/ca@valencia/LC_MESSAGES/gtk40.mo
+usr/share/locale/cs
+usr/share/locale/cs/LC_MESSAGES
+usr/share/locale/cs/LC_MESSAGES/gtk40.mo
+usr/share/locale/gd
+usr/share/locale/gd/LC_MESSAGES
+usr/share/locale/gd/LC_MESSAGES/gtk40.mo
+usr/share/locale/nl
+usr/share/locale/nl/LC_MESSAGES
+usr/share/locale/nl/LC_MESSAGES/gtk40.mo
+usr/share/locale/sr@ije
+usr/share/locale/sr@ije/LC_MESSAGES
+usr/share/locale/sr@ije/LC_MESSAGES/gtk40.mo
+usr/share/locale/et
+usr/share/locale/et/LC_MESSAGES
+usr/share/locale/et/LC_MESSAGES/gtk40.mo
+usr/share/locale/mn
+usr/share/locale/mn/LC_MESSAGES
+usr/share/locale/mn/LC_MESSAGES/gtk40.mo
+usr/share/locale/en
+usr/share/locale/en/LC_MESSAGES
+usr/share/locale/en/LC_MESSAGES/gtk40.mo
+usr/share/locale/hy
+usr/share/locale/hy/LC_MESSAGES
+usr/share/locale/hy/LC_MESSAGES/gtk40.mo
+usr/share/locale/kab
+usr/share/locale/kab/LC_MESSAGES
+usr/share/locale/kab/LC_MESSAGES/gtk40.mo
+usr/share/locale/ky
+usr/share/locale/ky/LC_MESSAGES
+usr/share/locale/ky/LC_MESSAGES/gtk40.mo
+usr/share/locale/an
+usr/share/locale/an/LC_MESSAGES
+usr/share/locale/an/LC_MESSAGES/gtk40.mo
+usr/share/locale/zh_CN
+usr/share/locale/zh_CN/LC_MESSAGES
+usr/share/locale/zh_CN/LC_MESSAGES/gtk40.mo
+usr/share/locale/as
+usr/share/locale/as/LC_MESSAGES
+usr/share/locale/as/LC_MESSAGES/gtk40.mo
+usr/share/locale/es
+usr/share/locale/es/LC_MESSAGES
+usr/share/locale/es/LC_MESSAGES/gtk40.mo
+usr/share/locale/br
+usr/share/locale/br/LC_MESSAGES
+usr/share/locale/br/LC_MESSAGES/gtk40.mo
+usr/share/locale/en@shaw
+usr/share/locale/en@shaw/LC_MESSAGES
+usr/share/locale/en@shaw/LC_MESSAGES/gtk40.mo
+usr/share/locale/ta
+usr/share/locale/ta/LC_MESSAGES
+usr/share/locale/ta/LC_MESSAGES/gtk40.mo
+usr/share/locale/ru
+usr/share/locale/ru/LC_MESSAGES
+usr/share/locale/ru/LC_MESSAGES/gtk40.mo
+usr/share/locale/bn_IN
+usr/share/locale/bn_IN/LC_MESSAGES
+usr/share/locale/bn_IN/LC_MESSAGES/gtk40.mo
+usr/share/locale/cy
+usr/share/locale/cy/LC_MESSAGES
+usr/share/locale/cy/LC_MESSAGES/gtk40.mo
+usr/share/locale/si
+usr/share/locale/si/LC_MESSAGES
+usr/share/locale/si/LC_MESSAGES/gtk40.mo
+usr/share/locale/crh
+usr/share/locale/crh/LC_MESSAGES
+usr/share/locale/crh/LC_MESSAGES/gtk40.mo
+usr/share/locale/tr
+usr/share/locale/tr/LC_MESSAGES
+usr/share/locale/tr/LC_MESSAGES/gtk40.mo
+usr/share/locale/be
+usr/share/locale/be/LC_MESSAGES
+usr/share/locale/be/LC_MESSAGES/gtk40.mo
+usr/share/locale/ug
+usr/share/locale/ug/LC_MESSAGES
+usr/share/locale/ug/LC_MESSAGES/gtk40.mo
+usr/share/locale/kn
+usr/share/locale/kn/LC_MESSAGES
+usr/share/locale/kn/LC_MESSAGES/gtk40.mo
+usr/share/locale/pt
+usr/share/locale/pt/LC_MESSAGES
+usr/share/locale/pt/LC_MESSAGES/gtk40.mo
+usr/share/locale/mr
+usr/share/locale/mr/LC_MESSAGES
+usr/share/locale/mr/LC_MESSAGES/gtk40.mo
+usr/share/locale/eo
+usr/share/locale/eo/LC_MESSAGES
+usr/share/locale/eo/LC_MESSAGES/gtk40.mo
+usr/share/locale/ne
+usr/share/locale/ne/LC_MESSAGES
+usr/share/locale/ne/LC_MESSAGES/gtk40.mo
+usr/share/locale/rw
+usr/share/locale/rw/LC_MESSAGES
+usr/share/locale/rw/LC_MESSAGES/gtk40.mo
+usr/share/locale/ml
+usr/share/locale/ml/LC_MESSAGES
+usr/share/locale/ml/LC_MESSAGES/gtk40.mo
+usr/share/locale/en_CA
+usr/share/locale/en_CA/LC_MESSAGES
+usr/share/locale/en_CA/LC_MESSAGES/gtk40.mo
+usr/share/locale/sk
+usr/share/locale/sk/LC_MESSAGES
+usr/share/locale/sk/LC_MESSAGES/gtk40.mo
+usr/share/locale/or
+usr/share/locale/or/LC_MESSAGES
+usr/share/locale/or/LC_MESSAGES/gtk40.mo
+usr/share/locale/eu
+usr/share/locale/eu/LC_MESSAGES
+usr/share/locale/eu/LC_MESSAGES/gtk40.mo
+usr/share/locale/sr
+usr/share/locale/sr/LC_MESSAGES
+usr/share/locale/sr/LC_MESSAGES/gtk40.mo
+usr/share/locale/fa
+usr/share/locale/fa/LC_MESSAGES
+usr/share/locale/fa/LC_MESSAGES/gtk40.mo
+usr/share/locale/th
+usr/share/locale/th/LC_MESSAGES
+usr/share/locale/th/LC_MESSAGES/gtk40.mo
+usr/share/locale/nds
+usr/share/locale/nds/LC_MESSAGES
+usr/share/locale/nds/LC_MESSAGES/gtk40.mo
+usr/share/locale/gl
+usr/share/locale/gl/LC_MESSAGES
+usr/share/locale/gl/LC_MESSAGES/gtk40.mo
+usr/share/locale/uz
+usr/share/locale/uz/LC_MESSAGES
+usr/share/locale/uz/LC_MESSAGES/gtk40.mo
+usr/share/locale/ia
+usr/share/locale/ia/LC_MESSAGES
+usr/share/locale/ia/LC_MESSAGES/gtk40.mo
+usr/share/locale/oc
+usr/share/locale/oc/LC_MESSAGES
+usr/share/locale/oc/LC_MESSAGES/gtk40.mo
+usr/share/locale/uz@cyrillic
+usr/share/locale/uz@cyrillic/LC_MESSAGES
+usr/share/locale/uz@cyrillic/LC_MESSAGES/gtk40.mo
+usr/share/locale/bg
+usr/share/locale/bg/LC_MESSAGES
+usr/share/locale/bg/LC_MESSAGES/gtk40.mo
+usr/share/locale/ar
+usr/share/locale/ar/LC_MESSAGES
+usr/share/locale/ar/LC_MESSAGES/gtk40.mo
+usr/share/locale/fr
+usr/share/locale/fr/LC_MESSAGES
+usr/share/locale/fr/LC_MESSAGES/gtk40.mo
+usr/share/locale/ie
+usr/share/locale/ie/LC_MESSAGES
+usr/share/locale/ie/LC_MESSAGES/gtk40.mo
+usr/share/locale/pl
+usr/share/locale/pl/LC_MESSAGES
+usr/share/locale/pl/LC_MESSAGES/gtk40.mo
+usr/share/locale/mjw
+usr/share/locale/mjw/LC_MESSAGES
+usr/share/locale/mjw/LC_MESSAGES/gtk40.mo
+usr/share/locale/bn
+usr/share/locale/bn/LC_MESSAGES
+usr/share/locale/bn/LC_MESSAGES/gtk40.mo
+usr/share/locale/li
+usr/share/locale/li/LC_MESSAGES
+usr/share/locale/li/LC_MESSAGES/gtk40.mo
+usr/share/locale/vi
+usr/share/locale/vi/LC_MESSAGES
+usr/share/locale/vi/LC_MESSAGES/gtk40.mo
+usr/share/locale/ast
+usr/share/locale/ast/LC_MESSAGES
+usr/share/locale/ast/LC_MESSAGES/gtk40.mo
+usr/share/locale/hi
+usr/share/locale/hi/LC_MESSAGES
+usr/share/locale/hi/LC_MESSAGES/gtk40.mo
+usr/share/locale/az
+usr/share/locale/az/LC_MESSAGES
+usr/share/locale/az/LC_MESSAGES/gtk40.mo
+usr/share/locale/de
+usr/share/locale/de/LC_MESSAGES
+usr/share/locale/de/LC_MESSAGES/gtk40.mo
+usr/share/locale/tt
+usr/share/locale/tt/LC_MESSAGES
+usr/share/locale/tt/LC_MESSAGES/gtk40.mo
+usr/share/locale/ab
+usr/share/locale/ab/LC_MESSAGES
+usr/share/locale/ab/LC_MESSAGES/gtk40.mo
+usr/share/locale/ja
+usr/share/locale/ja/LC_MESSAGES
+usr/share/locale/ja/LC_MESSAGES/gtk40.mo
+usr/share/locale/mk
+usr/share/locale/mk/LC_MESSAGES
+usr/share/locale/mk/LC_MESSAGES/gtk40.mo
+usr/share/locale/fi
+usr/share/locale/fi/LC_MESSAGES
+usr/share/locale/fi/LC_MESSAGES/gtk40.mo
+usr/share/locale/ku
+usr/share/locale/ku/LC_MESSAGES
+usr/share/locale/ku/LC_MESSAGES/gtk40.mo
+usr/share/locale/da
+usr/share/locale/da/LC_MESSAGES
+usr/share/locale/da/LC_MESSAGES/gtk40.mo
+usr/share/locale/ca
+usr/share/locale/ca/LC_MESSAGES
+usr/share/locale/ca/LC_MESSAGES/gtk40.mo
+usr/share/locale/my
+usr/share/locale/my/LC_MESSAGES
+usr/share/locale/my/LC_MESSAGES/gtk40.mo
+usr/share/locale/am
+usr/share/locale/am/LC_MESSAGES
+usr/share/locale/am/LC_MESSAGES/gtk40.mo
+usr/share/locale/hu
+usr/share/locale/hu/LC_MESSAGES
+usr/share/locale/hu/LC_MESSAGES/gtk40.mo
+usr/share/locale/kk
+usr/share/locale/kk/LC_MESSAGES
+usr/share/locale/kk/LC_MESSAGES/gtk40.mo
+usr/share/locale/el
+usr/share/locale/el/LC_MESSAGES
+usr/share/locale/el/LC_MESSAGES/gtk40.mo
+usr/share/locale/he
+usr/share/locale/he/LC_MESSAGES
+usr/share/locale/he/LC_MESSAGES/gtk40.mo
+usr/share/locale/zh_TW
+usr/share/locale/zh_TW/LC_MESSAGES
+usr/share/locale/zh_TW/LC_MESSAGES/gtk40.mo
+usr/share/locale/io
+usr/share/locale/io/LC_MESSAGES
+usr/share/locale/io/LC_MESSAGES/gtk40.mo
+usr/share/locale/pt_BR
+usr/share/locale/pt_BR/LC_MESSAGES
+usr/share/locale/pt_BR/LC_MESSAGES/gtk40.mo
+usr/share/locale/pa
+usr/share/locale/pa/LC_MESSAGES
+usr/share/locale/pa/LC_MESSAGES/gtk40.mo
+usr/share/locale/ur
+usr/share/locale/ur/LC_MESSAGES
+usr/share/locale/ur/LC_MESSAGES/gtk40.mo
+usr/share/locale/hr
+usr/share/locale/hr/LC_MESSAGES
+usr/share/locale/hr/LC_MESSAGES/gtk40.mo
+usr/share/locale/id
+usr/share/locale/id/LC_MESSAGES
+usr/share/locale/id/LC_MESSAGES/gtk40.mo
+usr/share/locale/lg
+usr/share/locale/lg/LC_MESSAGES
+usr/share/locale/lg/LC_MESSAGES/gtk40.mo
+usr/share/locale/wa
+usr/share/locale/wa/LC_MESSAGES
+usr/share/locale/wa/LC_MESSAGES/gtk40.mo
+usr/share/locale/ga
+usr/share/locale/ga/LC_MESSAGES
+usr/share/locale/ga/LC_MESSAGES/gtk40.mo
+usr/share/locale/ms
+usr/share/locale/ms/LC_MESSAGES
+usr/share/locale/ms/LC_MESSAGES/gtk40.mo
+usr/share/locale/zh_HK
+usr/share/locale/zh_HK/LC_MESSAGES
+usr/share/locale/zh_HK/LC_MESSAGES/gtk40.mo
+usr/share/locale/gu
+usr/share/locale/gu/LC_MESSAGES
+usr/share/locale/gu/LC_MESSAGES/gtk40.mo
+usr/share/locale/ko
+usr/share/locale/ko/LC_MESSAGES
+usr/share/locale/ko/LC_MESSAGES/gtk40.mo
+usr/share/metainfo
+usr/share/metainfo/org.gtk.PrintEditor4.appdata.xml
+usr/share/metainfo/org.gtk.WidgetFactory4.appdata.xml
+usr/share/metainfo/org.gtk.gtk4.NodeEditor.appdata.xml
+usr/share/metainfo/org.gtk.Demo4.appdata.xml
+usr/share/gir-1.0
+usr/share/gir-1.0/Gdk-4.0.gir
+usr/share/gir-1.0/Gsk-4.0.gir
+usr/share/gir-1.0/Gtk-4.0.gir
+usr/share/gir-1.0/GdkX11-4.0.gir
+usr/share/gir-1.0/GdkWayland-4.0.gir
+usr/share/glib-2.0
+usr/share/glib-2.0/schemas
+usr/share/glib-2.0/schemas/org.gtk.gtk4.Settings.Debug.gschema.xml
+usr/share/glib-2.0/schemas/org.gtk.gtk4.Settings.ColorChooser.gschema.xml
+usr/share/glib-2.0/schemas/org.gtk.gtk4.Inspector.gschema.xml
+usr/share/glib-2.0/schemas/org.gtk.gtk4.Settings.FileChooser.gschema.xml
+usr/share/glib-2.0/schemas/org.gtk.Demo4.gschema.xml
+usr/share/glib-2.0/schemas/org.gtk.gtk4.Settings.EmojiChooser.gschema.xml
+usr/share/gettext
+usr/share/gettext/its
+usr/share/gettext/its/gtk4builder.loc
+usr/share/gettext/its/gtk4builder.its
+usr/share/mime
+usr/share/mime/packages
+usr/share/mime/packages/gtk-mime.xml
+usr/share/gtk-4.0
+usr/share/gtk-4.0/gtk4builder.rng
+usr/share/gtk-4.0/valgrind
+usr/share/gtk-4.0/valgrind/gtk.supp
+usr/share/gtk-4.0/emoji
+usr/share/gtk-4.0/emoji/th.gresource
+usr/share/gtk-4.0/emoji/bn.gresource
+usr/share/gtk-4.0/emoji/et.gresource
+usr/share/gtk-4.0/emoji/pl.gresource
+usr/share/gtk-4.0/emoji/ja.gresource
+usr/share/gtk-4.0/emoji/sv.gresource
+usr/share/gtk-4.0/emoji/uk.gresource
+usr/share/gtk-4.0/emoji/zh.gresource
+usr/share/gtk-4.0/emoji/nb.gresource
+usr/share/gtk-4.0/emoji/da.gresource
+usr/share/gtk-4.0/emoji/ru.gresource
+usr/share/gtk-4.0/emoji/nl.gresource
+usr/share/gtk-4.0/emoji/fr.gresource
+usr/share/gtk-4.0/emoji/es.gresource
+usr/share/gtk-4.0/emoji/hi.gresource
+usr/share/gtk-4.0/emoji/fi.gresource
+usr/share/gtk-4.0/emoji/de.gresource
+usr/share/gtk-4.0/emoji/ms.gresource
+usr/share/gtk-4.0/emoji/pt.gresource
+usr/share/gtk-4.0/emoji/hu.gresource
+usr/share/gtk-4.0/emoji/ko.gresource
+usr/share/gtk-4.0/emoji/it.gresource
+usr/share/gtk-4.0/emoji/lt.gresource

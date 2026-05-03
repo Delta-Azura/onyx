@@ -1,6 +1,6 @@
 description=" The cargo-c package creates a cargo subcommand to build and install C-ABI compatible dynamic and static libraries. "
 name=cargo-c
-version=0.10.21
+version=0.10.22
 release=1
 packager=alexis
 source=("https://github.com/lu-zero/cargo-c/archive/v${version}/cargo-c-${version}.tar.gz")

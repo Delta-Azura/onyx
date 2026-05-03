@@ -1,64 +1,64 @@
-drwxr-xr-x	alexis/alexis	etc/
-drwxr-xr-x	alexis/alexis	etc/geoclue/
-drwxr-xr-x	alexis/alexis	etc/geoclue/conf.d/
--rw-r--r--	alexis/alexis	etc/geoclue/geoclue.conf
-drwxr-xr-x	alexis/alexis	etc/xdg/
-drwxr-xr-x	alexis/alexis	etc/xdg/autostart/
--rw-r--r--	alexis/alexis	etc/xdg/autostart/geoclue-demo-agent.desktop
-drwxr-xr-x	alexis/alexis	usr/
-drwxr-xr-x	alexis/alexis	usr/include/
-drwxr-xr-x	alexis/alexis	usr/include/libgeoclue-2.0/
--rw-r--r--	alexis/alexis	usr/include/libgeoclue-2.0/gclue-client.h
--rw-r--r--	alexis/alexis	usr/include/libgeoclue-2.0/gclue-enums.h
--rw-r--r--	alexis/alexis	usr/include/libgeoclue-2.0/gclue-enum-types.h
--rw-r--r--	alexis/alexis	usr/include/libgeoclue-2.0/gclue-helpers.h
--rw-r--r--	alexis/alexis	usr/include/libgeoclue-2.0/gclue-location.h
--rw-r--r--	alexis/alexis	usr/include/libgeoclue-2.0/gclue-manager.h
--rw-r--r--	alexis/alexis	usr/include/libgeoclue-2.0/gclue-simple.h
--rw-r--r--	alexis/alexis	usr/include/libgeoclue-2.0/geoclue.h
-drwxr-xr-x	alexis/alexis	usr/lib/
-drwxr-xr-x	alexis/alexis	usr/libexec/
--rwxr-xr-x	alexis/alexis	usr/libexec/geoclue
-drwxr-xr-x	alexis/alexis	usr/libexec/geoclue-2.0/
-drwxr-xr-x	alexis/alexis	usr/libexec/geoclue-2.0/demos/
--rwxr-xr-x	alexis/alexis	usr/libexec/geoclue-2.0/demos/agent
--rwxr-xr-x	alexis/alexis	usr/libexec/geoclue-2.0/demos/where-am-i
-drwxr-xr-x	alexis/alexis	usr/lib/girepository-1.0/
--rw-r--r--	alexis/alexis	usr/lib/girepository-1.0/Geoclue-2.0.typelib
--rwxr-xr-x	alexis/alexis	usr/lib/libgeoclue-2.so.0.0.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libgeoclue-2.so.0 -> libgeoclue-2.so.0.0.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libgeoclue-2.so -> libgeoclue-2.so.0
-drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
--rw-r--r--	alexis/alexis	usr/lib/pkgconfig/geoclue-2.0.pc
--rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libgeoclue-2.0.pc
-drwxr-xr-x	alexis/alexis	usr/lib/systemd/
-drwxr-xr-x	alexis/alexis	usr/lib/systemd/system/
--rw-r--r--	alexis/alexis	usr/lib/systemd/system/geoclue.service
-drwxr-xr-x	alexis/alexis	usr/share/
-drwxr-xr-x	alexis/alexis	usr/share/applications/
--rw-r--r--	alexis/alexis	usr/share/applications/geoclue-demo-agent.desktop
--rw-r--r--	alexis/alexis	usr/share/applications/geoclue-where-am-i.desktop
-drwxr-xr-x	alexis/alexis	usr/share/dbus-1/
-drwxr-xr-x	alexis/alexis	usr/share/dbus-1/interfaces/
--rw-r--r--	alexis/alexis	usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Agent.xml
--rw-r--r--	alexis/alexis	usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Client.xml
--rw-r--r--	alexis/alexis	usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Location.xml
--rw-r--r--	alexis/alexis	usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Manager.xml
--rw-r--r--	alexis/alexis	usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.xml
-drwxr-xr-x	alexis/alexis	usr/share/dbus-1/system.d/
--rw-r--r--	alexis/alexis	usr/share/dbus-1/system.d/org.freedesktop.GeoClue2.Agent.conf
--rw-r--r--	alexis/alexis	usr/share/dbus-1/system.d/org.freedesktop.GeoClue2.conf
-drwxr-xr-x	alexis/alexis	usr/share/dbus-1/system-services/
--rw-r--r--	alexis/alexis	usr/share/dbus-1/system-services/org.freedesktop.GeoClue2.service
-drwxr-xr-x	alexis/alexis	usr/share/gir-1.0/
--rw-r--r--	alexis/alexis	usr/share/gir-1.0/Geoclue-2.0.gir
-drwxr-xr-x	alexis/alexis	usr/share/man/
-drwxr-xr-x	alexis/alexis	usr/share/man/man5/
--rw-r--r--	alexis/alexis	usr/share/man/man5/geoclue.5.gz
-drwxr-xr-x	alexis/alexis	usr/share/polkit-1/
-drwxr-xr-x	alexis/alexis	usr/share/polkit-1/rules.d/
--rw-r--r--	alexis/alexis	usr/share/polkit-1/rules.d/org.freedesktop.GeoClue2.rules
-drwxr-xr-x	alexis/alexis	usr/share/vala/
-drwxr-xr-x	alexis/alexis	usr/share/vala/vapi/
--rw-r--r--	alexis/alexis	usr/share/vala/vapi/libgeoclue-2.0.deps
--rw-r--r--	alexis/alexis	usr/share/vala/vapi/libgeoclue-2.0.vapi
+usr
+usr/libexec
+usr/libexec/geoclue
+usr/libexec/geoclue-2.0
+usr/libexec/geoclue-2.0/demos
+usr/libexec/geoclue-2.0/demos/agent
+usr/libexec/geoclue-2.0/demos/where-am-i
+usr/lib
+usr/lib/girepository-1.0
+usr/lib/girepository-1.0/Geoclue-2.0.typelib
+usr/lib/libgeoclue-2.so.0
+usr/lib/libgeoclue-2.so
+usr/lib/libgeoclue-2.so.0.0.0
+usr/lib/pkgconfig
+usr/lib/pkgconfig/libgeoclue-2.0.pc
+usr/lib/pkgconfig/geoclue-2.0.pc
+usr/lib/systemd
+usr/lib/systemd/system
+usr/lib/systemd/system/geoclue.service
+usr/include
+usr/include/libgeoclue-2.0
+usr/include/libgeoclue-2.0/geoclue.h
+usr/include/libgeoclue-2.0/gclue-location.h
+usr/include/libgeoclue-2.0/gclue-enums.h
+usr/include/libgeoclue-2.0/gclue-simple.h
+usr/include/libgeoclue-2.0/gclue-enum-types.h
+usr/include/libgeoclue-2.0/gclue-helpers.h
+usr/include/libgeoclue-2.0/gclue-client.h
+usr/include/libgeoclue-2.0/gclue-manager.h
+usr/share
+usr/share/applications
+usr/share/applications/geoclue-demo-agent.desktop
+usr/share/applications/geoclue-where-am-i.desktop
+usr/share/dbus-1
+usr/share/dbus-1/system-services
+usr/share/dbus-1/system-services/org.freedesktop.GeoClue2.service
+usr/share/dbus-1/interfaces
+usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Agent.xml
+usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Manager.xml
+usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.xml
+usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Location.xml
+usr/share/dbus-1/interfaces/org.freedesktop.GeoClue2.Client.xml
+usr/share/dbus-1/system.d
+usr/share/dbus-1/system.d/org.freedesktop.GeoClue2.Agent.conf
+usr/share/dbus-1/system.d/org.freedesktop.GeoClue2.conf
+usr/share/man
+usr/share/man/man5
+usr/share/man/man5/geoclue.5
+usr/share/gir-1.0
+usr/share/gir-1.0/Geoclue-2.0.gir
+usr/share/polkit-1
+usr/share/polkit-1/rules.d
+usr/share/polkit-1/rules.d/org.freedesktop.GeoClue2.rules
+usr/share/vala
+usr/share/vala/vapi
+usr/share/vala/vapi/libgeoclue-2.0.deps
+usr/share/vala/vapi/libgeoclue-2.0.vapi
+etc
+etc/geoclue
+etc/geoclue/conf.d
+etc/geoclue/geoclue.conf
+etc/xdg
+etc/xdg/autostart
+etc/xdg/autostart/geoclue-demo-agent.desktop

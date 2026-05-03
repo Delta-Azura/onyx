@@ -1,6 +1,6 @@
 description="The SPIRV-LLVM-Translator package contains a library and utility for converting between LLVM IR and SPIR-V code."
 name=spirv-llvm-translator
-version=22.1.1
+version=22.1.2
 release=1
 packager=alexis
 source=(https://github.com/KhronosGroup/SPIRV-LLVM-Translator/archive/v${version}/SPIRV-LLVM-Translator-${version}.tar.gz)

@@ -1,6 +1,6 @@
 description="The cURL package contains a utility and a library used for transferring files with URL syntax to any of the following protocols"
 name=curl
-version=8.19.0
+version=8.20.0
 release=2
 packager=alexis
 source=(https://curl.se/download/curl-${version}.tar.xz)

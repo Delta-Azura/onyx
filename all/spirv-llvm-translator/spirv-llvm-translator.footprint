@@ -1,13 +1,13 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/llvm-spirv
-drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/LLVMSPIRVLib/
--rw-r--r--	root/root	usr/include/LLVMSPIRVLib/LLVMSPIRVExtensions.inc
--rw-r--r--	root/root	usr/include/LLVMSPIRVLib/LLVMSPIRVLib.h
--rw-r--r--	root/root	usr/include/LLVMSPIRVLib/LLVMSPIRVOpts.h
-drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libLLVMSPIRVLib.so.22.1
-lrwxrwxrwx	root/root	usr/lib/libLLVMSPIRVLib.so -> libLLVMSPIRVLib.so.22.1
-drwxr-xr-x	root/root	usr/lib/pkgconfig/
--rw-r--r--	root/root	usr/lib/pkgconfig/LLVMSPIRVLib.pc
+usr
+usr/bin
+usr/bin/llvm-spirv
+usr/lib
+usr/lib/libLLVMSPIRVLib.so
+usr/lib/libLLVMSPIRVLib.so.22.1
+usr/lib/pkgconfig
+usr/lib/pkgconfig/LLVMSPIRVLib.pc
+usr/include
+usr/include/LLVMSPIRVLib
+usr/include/LLVMSPIRVLib/LLVMSPIRVLib.h
+usr/include/LLVMSPIRVLib/LLVMSPIRVOpts.h
+usr/include/LLVMSPIRVLib/LLVMSPIRVExtensions.inc
