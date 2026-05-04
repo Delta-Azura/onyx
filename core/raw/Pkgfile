@@ -1,6 +1,6 @@
 description="A simple package manager built in rust"
 name=raw
-version=0.2.2
+version=0.2.3
 release=1
 packager=alexis
 #source="https://github.com/Delta-Azura/raw/archive/refs/tags/v${version}.tar.gz"
