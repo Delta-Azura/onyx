@@ -1,10 +1,10 @@
-drwxr-xr-x	alexis/alexis	usr/
-drwxr-xr-x	alexis/alexis	usr/share/
-drwxr-xr-x	alexis/alexis	usr/share/hwdata/
--rw-r--r--	alexis/alexis	usr/share/hwdata/iab.txt
--rw-r--r--	alexis/alexis	usr/share/hwdata/oui.txt
--rw-r--r--	alexis/alexis	usr/share/hwdata/pci.ids
--rw-r--r--	alexis/alexis	usr/share/hwdata/pnp.ids
--rw-r--r--	alexis/alexis	usr/share/hwdata/usb.ids
-drwxr-xr-x	alexis/alexis	usr/share/pkgconfig/
--rw-r--r--	alexis/alexis	usr/share/pkgconfig/hwdata.pc
+usr
+usr/share
+usr/share/pkgconfig
+usr/share/pkgconfig/hwdata.pc
+usr/share/hwdata
+usr/share/hwdata/oui.txt
+usr/share/hwdata/pnp.ids
+usr/share/hwdata/iab.txt
+usr/share/hwdata/usb.ids
+usr/share/hwdata/pci.ids

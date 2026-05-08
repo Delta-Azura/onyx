@@ -1,36 +1,101 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/gpg-error
--rwxr-xr-x	root/root	usr/bin/gpgrt-config
--rwxr-xr-x	root/root	usr/bin/yat2m
-drwxr-xr-x	root/root	usr/include/
--rw-r--r--	root/root	usr/include/gpg-error.h
--rw-r--r--	root/root	usr/include/gpgrt.h
-drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libgpg-error.so.0.42.0
-lrwxrwxrwx	root/root	usr/lib/libgpg-error.so.0 -> libgpg-error.so.0.42.0
-lrwxrwxrwx	root/root	usr/lib/libgpg-error.so -> libgpg-error.so.0.42.0
-drwxr-xr-x	root/root	usr/lib/pkgconfig/
--rw-r--r--	root/root	usr/lib/pkgconfig/gpg-error.pc
-drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/aclocal/
--rw-r--r--	root/root	usr/share/aclocal/gpg-error.m4
--rw-r--r--	root/root	usr/share/aclocal/gpgrt.m4
-drwxr-xr-x	root/root	usr/share/common-lisp/
-drwxr-xr-x	root/root	usr/share/common-lisp/source/
-drwxr-xr-x	root/root	usr/share/common-lisp/source/gpg-error/
--rw-r--r--	root/root	usr/share/common-lisp/source/gpg-error/gpg-error.asd
--rw-r--r--	root/root	usr/share/common-lisp/source/gpg-error/gpg-error-codes.lisp
--rw-r--r--	root/root	usr/share/common-lisp/source/gpg-error/gpg-error.lisp
--rw-r--r--	root/root	usr/share/common-lisp/source/gpg-error/gpg-error-package.lisp
-drwxr-xr-x	root/root	usr/share/doc/
-drwxr-xr-x	root/root	usr/share/doc/libgpg-error-1.60/
--rw-r--r--	root/root	usr/share/doc/libgpg-error-1.60/README
-drwxr-xr-x	root/root	usr/share/info/
--rw-r--r--	root/root	usr/share/info/dir.gz
--rw-r--r--	root/root	usr/share/info/gpgrt.info.gz
-drwxr-xr-x	root/root	usr/share/libgpg-error/
--rw-r--r--	root/root	usr/share/libgpg-error/errorref.txt
-drwxr-xr-x	root/root	usr/share/man/
-drwxr-xr-x	root/root	usr/share/man/man1/
--rw-r--r--	root/root	usr/share/man/man1/gpgrt-config.1.gz
+usr
+usr/bin
+usr/bin/gpgrt-config
+usr/bin/gpg-error
+usr/bin/yat2m
+usr/lib
+usr/lib/libgpg-error.la
+usr/lib/libgpg-error.so.0.42.1
+usr/lib/libgpg-error.so.0
+usr/lib/libgpg-error.so
+usr/lib/pkgconfig
+usr/lib/pkgconfig/gpg-error.pc
+usr/include
+usr/include/gpgrt.h
+usr/include/gpg-error.h
+usr/share
+usr/share/locale
+usr/share/locale/ro
+usr/share/locale/ro/LC_MESSAGES
+usr/share/locale/ro/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/it
+usr/share/locale/it/LC_MESSAGES
+usr/share/locale/it/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/uk
+usr/share/locale/uk/LC_MESSAGES
+usr/share/locale/uk/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/sv
+usr/share/locale/sv/LC_MESSAGES
+usr/share/locale/sv/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/cs
+usr/share/locale/cs/LC_MESSAGES
+usr/share/locale/cs/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/nl
+usr/share/locale/nl/LC_MESSAGES
+usr/share/locale/nl/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/zh_CN
+usr/share/locale/zh_CN/LC_MESSAGES
+usr/share/locale/zh_CN/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/es
+usr/share/locale/es/LC_MESSAGES
+usr/share/locale/es/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/ru
+usr/share/locale/ru/LC_MESSAGES
+usr/share/locale/ru/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/tr
+usr/share/locale/tr/LC_MESSAGES
+usr/share/locale/tr/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/pt
+usr/share/locale/pt/LC_MESSAGES
+usr/share/locale/pt/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/eo
+usr/share/locale/eo/LC_MESSAGES
+usr/share/locale/eo/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/sr
+usr/share/locale/sr/LC_MESSAGES
+usr/share/locale/sr/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/fr
+usr/share/locale/fr/LC_MESSAGES
+usr/share/locale/fr/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/pl
+usr/share/locale/pl/LC_MESSAGES
+usr/share/locale/pl/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/vi
+usr/share/locale/vi/LC_MESSAGES
+usr/share/locale/vi/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/de
+usr/share/locale/de/LC_MESSAGES
+usr/share/locale/de/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/ja
+usr/share/locale/ja/LC_MESSAGES
+usr/share/locale/ja/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/da
+usr/share/locale/da/LC_MESSAGES
+usr/share/locale/da/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/hu
+usr/share/locale/hu/LC_MESSAGES
+usr/share/locale/hu/LC_MESSAGES/libgpg-error.mo
+usr/share/locale/zh_TW
+usr/share/locale/zh_TW/LC_MESSAGES
+usr/share/locale/zh_TW/LC_MESSAGES/libgpg-error.mo
+usr/share/man
+usr/share/man/man1
+usr/share/man/man1/gpgrt-config.1
+usr/share/aclocal
+usr/share/aclocal/gpg-error.m4
+usr/share/aclocal/gpgrt.m4
+usr/share/common-lisp
+usr/share/common-lisp/source
+usr/share/common-lisp/source/gpg-error
+usr/share/common-lisp/source/gpg-error/gpg-error.asd
+usr/share/common-lisp/source/gpg-error/gpg-error-codes.lisp
+usr/share/common-lisp/source/gpg-error/gpg-error.lisp
+usr/share/common-lisp/source/gpg-error/gpg-error-package.lisp
+usr/share/doc
+usr/share/doc/libgpg-error-1.61
+usr/share/doc/libgpg-error-1.61/README
+usr/share/info
+usr/share/info/dir
+usr/share/info/gpgrt.info
+usr/share/libgpg-error
+usr/share/libgpg-error/errorref.txt

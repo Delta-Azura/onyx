@@ -1,9 +1,9 @@
 description="Libdrm provides a userspace library for accessing the direct rendering manager (DRM) on operating systems that support the ioctl interface. "
 name=libdrm
-version=2.4.131
+version=2.4.133
 release=1
 packager=alexis
-source=("https://dri.freedesktop.org/libdrm/libdrm-2.4.131.tar.xz")
+source=("https://dri.freedesktop.org/libdrm/libdrm-${version}.tar.xz")
 
 
 build() {

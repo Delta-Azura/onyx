@@ -1,6 +1,6 @@
 description=" The libgpg-error package contains a library that defines common error values for all GnuPG components. "
 name=libgpg-error
-version=1.60
+version=1.61
 release=1
 packager=alexis
 source=("https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-${version}.tar.bz2")
