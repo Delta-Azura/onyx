@@ -2,7 +2,7 @@ usr
 usr/bin
 usr/bin/llvm-spirv
 usr/lib
-usr/lib/libLLVMSPIRVLib.so
+usr/lib/libLLVMSPIRVLib.so -> libLLVMSPIRVLib.so.22.1
 usr/lib/libLLVMSPIRVLib.so.22.1
 usr/lib/pkgconfig
 usr/lib/pkgconfig/LLVMSPIRVLib.pc

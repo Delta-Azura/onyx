@@ -1,59 +1,59 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/spirv-as
--rwxr-xr-x	root/root	usr/bin/spirv-cfg
--rwxr-xr-x	root/root	usr/bin/spirv-diff
--rwxr-xr-x	root/root	usr/bin/spirv-dis
--rwxr-xr-x	root/root	usr/bin/spirv-lesspipe.sh
--rwxr-xr-x	root/root	usr/bin/spirv-link
--rwxr-xr-x	root/root	usr/bin/spirv-lint
--rwxr-xr-x	root/root	usr/bin/spirv-objdump
--rwxr-xr-x	root/root	usr/bin/spirv-opt
--rwxr-xr-x	root/root	usr/bin/spirv-reduce
--rwxr-xr-x	root/root	usr/bin/spirv-val
-drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/spirv-tools/
--rw-r--r--	root/root	usr/include/spirv-tools/libspirv.h
--rw-r--r--	root/root	usr/include/spirv-tools/libspirv.hpp
--rw-r--r--	root/root	usr/include/spirv-tools/linker.hpp
--rw-r--r--	root/root	usr/include/spirv-tools/optimizer.hpp
-drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/cmake/
-drwxr-xr-x	root/root	usr/lib/cmake/SPIRV-Tools/
-drwxr-xr-x	root/root	usr/lib/cmake/SPIRV-Tools-diff/
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-diff/SPIRV-Tools-diffConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-diff/SPIRV-Tools-diffTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-diff/SPIRV-Tools-diffTargets-release.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/SPIRV-Tools-link/
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-link/SPIRV-Tools-linkConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-link/SPIRV-Tools-linkTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-link/SPIRV-Tools-linkTargets-release.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/SPIRV-Tools-lint/
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-lint/SPIRV-Tools-lintConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-lint/SPIRV-Tools-lintTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-lint/SPIRV-Tools-lintTargets-release.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/SPIRV-Tools-opt/
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-opt/SPIRV-Tools-optConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-opt/SPIRV-Tools-optTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-opt/SPIRV-Tools-optTargets-release.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/SPIRV-Tools-reduce/
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-reduce/SPIRV-Tools-reduceConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-reduce/SPIRV-Tools-reduceTarget.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-reduce/SPIRV-Tools-reduceTarget-release.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools/SPIRV-ToolsConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools/SPIRV-ToolsTarget.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools/SPIRV-ToolsTarget-release.cmake
-drwxr-xr-x	root/root	usr/lib/cmake/SPIRV-Tools-tools/
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-tools/SPIRV-Tools-toolsConfig.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-tools/SPIRV-Tools-toolsTargets.cmake
--rw-r--r--	root/root	usr/lib/cmake/SPIRV-Tools-tools/SPIRV-Tools-toolsTargets-release.cmake
--rwxr-xr-x	root/root	usr/lib/libSPIRV-Tools-diff.so
--rwxr-xr-x	root/root	usr/lib/libSPIRV-Tools-link.so
--rwxr-xr-x	root/root	usr/lib/libSPIRV-Tools-lint.so
--rwxr-xr-x	root/root	usr/lib/libSPIRV-Tools-opt.so
--rwxr-xr-x	root/root	usr/lib/libSPIRV-Tools-reduce.so
--rwxr-xr-x	root/root	usr/lib/libSPIRV-Tools-shared.so
--rwxr-xr-x	root/root	usr/lib/libSPIRV-Tools.so
-drwxr-xr-x	root/root	usr/lib/pkgconfig/
--rw-r--r--	root/root	usr/lib/pkgconfig/SPIRV-Tools.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/SPIRV-Tools-shared.pc
+usr
+usr/bin
+usr/bin/spirv-val
+usr/bin/spirv-lint
+usr/bin/spirv-objdump
+usr/bin/spirv-reduce
+usr/bin/spirv-cfg
+usr/bin/spirv-lesspipe.sh
+usr/bin/spirv-dis
+usr/bin/spirv-diff
+usr/bin/spirv-as
+usr/bin/spirv-link
+usr/bin/spirv-opt
+usr/lib
+usr/lib/libSPIRV-Tools-opt.so
+usr/lib/cmake
+usr/lib/cmake/SPIRV-Tools-lint
+usr/lib/cmake/SPIRV-Tools-lint/SPIRV-Tools-lintTargets.cmake
+usr/lib/cmake/SPIRV-Tools-lint/SPIRV-Tools-lintConfig.cmake
+usr/lib/cmake/SPIRV-Tools-lint/SPIRV-Tools-lintTargets-release.cmake
+usr/lib/cmake/SPIRV-Tools-tools
+usr/lib/cmake/SPIRV-Tools-tools/SPIRV-Tools-toolsTargets-release.cmake
+usr/lib/cmake/SPIRV-Tools-tools/SPIRV-Tools-toolsTargets.cmake
+usr/lib/cmake/SPIRV-Tools-tools/SPIRV-Tools-toolsConfig.cmake
+usr/lib/cmake/SPIRV-Tools-reduce
+usr/lib/cmake/SPIRV-Tools-reduce/SPIRV-Tools-reduceTarget-release.cmake
+usr/lib/cmake/SPIRV-Tools-reduce/SPIRV-Tools-reduceTarget.cmake
+usr/lib/cmake/SPIRV-Tools-reduce/SPIRV-Tools-reduceConfig.cmake
+usr/lib/cmake/SPIRV-Tools-link
+usr/lib/cmake/SPIRV-Tools-link/SPIRV-Tools-linkConfig.cmake
+usr/lib/cmake/SPIRV-Tools-link/SPIRV-Tools-linkTargets-release.cmake
+usr/lib/cmake/SPIRV-Tools-link/SPIRV-Tools-linkTargets.cmake
+usr/lib/cmake/SPIRV-Tools-diff
+usr/lib/cmake/SPIRV-Tools-diff/SPIRV-Tools-diffConfig.cmake
+usr/lib/cmake/SPIRV-Tools-diff/SPIRV-Tools-diffTargets.cmake
+usr/lib/cmake/SPIRV-Tools-diff/SPIRV-Tools-diffTargets-release.cmake
+usr/lib/cmake/SPIRV-Tools-opt
+usr/lib/cmake/SPIRV-Tools-opt/SPIRV-Tools-optTargets-release.cmake
+usr/lib/cmake/SPIRV-Tools-opt/SPIRV-Tools-optTargets.cmake
+usr/lib/cmake/SPIRV-Tools-opt/SPIRV-Tools-optConfig.cmake
+usr/lib/cmake/SPIRV-Tools
+usr/lib/cmake/SPIRV-Tools/SPIRV-ToolsTarget-release.cmake
+usr/lib/cmake/SPIRV-Tools/SPIRV-ToolsConfig.cmake
+usr/lib/cmake/SPIRV-Tools/SPIRV-ToolsTarget.cmake
+usr/lib/libSPIRV-Tools.so
+usr/lib/libSPIRV-Tools-lint.so
+usr/lib/libSPIRV-Tools-diff.so
+usr/lib/libSPIRV-Tools-link.so
+usr/lib/libSPIRV-Tools-reduce.so
+usr/lib/pkgconfig
+usr/lib/pkgconfig/SPIRV-Tools-shared.pc
+usr/lib/pkgconfig/SPIRV-Tools.pc
+usr/lib/libSPIRV-Tools-shared.so
+usr/include
+usr/include/spirv-tools
+usr/include/spirv-tools/optimizer.hpp
+usr/include/spirv-tools/linker.hpp
+usr/include/spirv-tools/libspirv.hpp
+usr/include/spirv-tools/libspirv.h

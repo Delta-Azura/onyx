@@ -1,6 +1,6 @@
 usr
 usr/bin
-usr/bin/rnano
+usr/bin/rnano -> nano
 usr/bin/nano
 usr/share
 usr/share/locale

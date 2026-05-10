@@ -1,6 +1,6 @@
 description="The LLVM package contains a collection of modular and reusable compiler and toolchain technologies."
 name=llvm
-version=22.1.4
+version=22.1.5
 release=1
 packager=alexis
 #source=("https://github.com/llvm/llvm-project/releases/download/llvmorg-${version}/llvm-${version}.src.tar.xz")
@@ -46,6 +46,6 @@ cmake -D CMAKE_INSTALL_PREFIX=/usr           \
       -D CLANG_DEFAULT_PIE_ON_LINUX=ON       \
       -D CLANG_CONFIG_FILE_SYSTEM_DIR=/etc/clang \
       -W no-dev -G Ninja ..                  &&
-ninja -j6
+ninja -j4
 DESTDIR=$PKG ninja install
 }

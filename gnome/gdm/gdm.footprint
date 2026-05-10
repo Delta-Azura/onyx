@@ -9,13 +9,13 @@ usr/libexec/gdm-session-worker
 usr/bin
 usr/bin/gdm-config
 usr/lib
-usr/lib/libgdm.so
+usr/lib/libgdm.so -> libgdm.so.1
 usr/lib/girepository-1.0
 usr/lib/girepository-1.0/Gdm-1.0.typelib
 usr/lib/security
 usr/lib/security/pam_gdm.so
 usr/lib/libgdm.so.1.0.0
-usr/lib/libgdm.so.1
+usr/lib/libgdm.so.1 -> libgdm.so.1.0.0
 usr/lib/pkgconfig
 usr/lib/pkgconfig/gdm.pc
 usr/lib/pkgconfig/gdm-pam-extensions.pc

@@ -4,33 +4,33 @@ usr/bin/glxinfo
 usr/bin/glxgears
 usr/lib
 usr/lib/libGL.so.1.2.0
-usr/lib/libGL.so
-usr/lib/libGLESv2.so
-usr/lib/libEGL.so.1
+usr/lib/libGL.so -> libGL.so.1
+usr/lib/libGLESv2.so -> libGLESv2.so.2
+usr/lib/libEGL.so.1 -> libEGL.so.1.0.0
 usr/lib/libvulkan_intel_hasvk.so
-usr/lib/libgbm.so
+usr/lib/libgbm.so -> libgbm.so.1
 usr/lib/libgallium-26.0.6.so
 usr/lib/gbm
 usr/lib/gbm/dri_gbm.so
-usr/lib/libEGL.so
+usr/lib/libEGL.so -> libEGL.so.1
 usr/lib/libEGL.so.1.0.0
 usr/lib/libgbm.so.1.0.0
 usr/lib/libGLESv2.so.2.0.0
-usr/lib/libGLESv2.so.2
-usr/lib/libGL.so.1
+usr/lib/libGLESv2.so.2 -> libGLESv2.so.2.0.0
+usr/lib/libGL.so.1 -> libGL.so.1.2.0
 usr/lib/dri
-usr/lib/dri/iris_dri.so
-usr/lib/dri/i915_dri.so
-usr/lib/dri/virtio_gpu_drv_video.so
-usr/lib/dri/radeonsi_drv_video.so
-usr/lib/dri/kms_swrast_dri.so
+usr/lib/dri/iris_dri.so -> libdril_dri.so
+usr/lib/dri/i915_dri.so -> libdril_dri.so
+usr/lib/dri/virtio_gpu_drv_video.so -> ../libgallium-26.0.6.so
+usr/lib/dri/radeonsi_drv_video.so -> ../libgallium-26.0.6.so
+usr/lib/dri/kms_swrast_dri.so -> libdril_dri.so
 usr/lib/dri/libdril_dri.so
-usr/lib/dri/crocus_dri.so
-usr/lib/dri/radeonsi_dri.so
-usr/lib/dri/swrast_dri.so
-usr/lib/dri/virtio_gpu_dri.so
-usr/lib/libgbm.so.1
-usr/lib/libGLESv1_CM.so.1
+usr/lib/dri/crocus_dri.so -> libdril_dri.so
+usr/lib/dri/radeonsi_dri.so -> libdril_dri.so
+usr/lib/dri/swrast_dri.so -> libdril_dri.so
+usr/lib/dri/virtio_gpu_dri.so -> libdril_dri.so
+usr/lib/libgbm.so.1 -> libgbm.so.1.0.0
+usr/lib/libGLESv1_CM.so.1 -> libGLESv1_CM.so.1.1.0
 usr/lib/pkgconfig
 usr/lib/pkgconfig/glx.pc
 usr/lib/pkgconfig/egl.pc
@@ -39,7 +39,7 @@ usr/lib/pkgconfig/dri.pc
 usr/lib/pkgconfig/gbm.pc
 usr/lib/pkgconfig/gl.pc
 usr/lib/pkgconfig/glesv1_cm.pc
-usr/lib/libGLESv1_CM.so
+usr/lib/libGLESv1_CM.so -> libGLESv1_CM.so.1
 usr/lib/libvulkan_intel.so
 usr/lib/libvulkan_radeon.so
 usr/lib/libGLESv1_CM.so.1.1.0
