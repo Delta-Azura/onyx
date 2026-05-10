@@ -3,3 +3,4 @@ usr/bin
 usr/bin/raw
 etc
 etc/raw.conf
+etc/raw.d
