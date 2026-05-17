@@ -136,6 +136,7 @@ cosmic/cosmic/cosmic-icon-theme/Pkgfile
 cosmic/cosmic/cosmic-notifications/Pkgfile
 cosmic/cosmic/cosmic-idle/Pkgfile
 cosmic/cosmic/cosmic-osd/Pkgfile
+cosmic/cosmic/greetd/Pkgfile
 cosmic/cosmic/cosmic-panel/Pkgfile
 cosmic/cosmic/cosmic-workspaces/Pkgfile
 cosmic/cosmic/cosmic-files/Pkgfile
