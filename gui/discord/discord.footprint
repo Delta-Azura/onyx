@@ -1,11 +1,11 @@
 usr
 usr/bin
-usr/bin/discord
+usr/bin/discord -> /opt/discord/discord
 usr/share
 usr/share/applications
-usr/share/applications/discord.desktop
+usr/share/applications/discord.desktop -> /opt/discord/discord.desktop
 usr/share/pixmaps
-usr/share/pixmaps/discord.png
+usr/share/pixmaps/discord.png -> /opt/discord/discord.png
 opt
 opt/discord
 opt/discord/discord.png

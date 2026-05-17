@@ -1,0 +1,37 @@
+makedepends=(systemd)
+
+description="A minimal seat management daemon, and a universal seat management library"
+url="https://sr.ht/~kennylevinsen/seatd/"
+
+packager="Great-OS Team"
+maintainer="Great-OS Team"
+
+name=seatd
+version=0.9.3
+release=2
+
+source=("https://github.com/kennylevinsen/seatd/archive/refs/tags/$version.tar.gz"
+        sysuser.conf)
+
+build() {
+  mkdir build && cd build
+
+  meson --prefix=/usr            \
+        --libdir=/usr/lib        \
+        --buildtype=plain        \
+        -Dexamples=disabled      \
+        -Dlibseat-logind=systemd \
+        -Dserver=enabled         \
+        ../seatd-$version
+
+  ninja
+  DESTDIR=$PKG ninja install
+
+  install -Dm644 $SRC/$name-$version/LICENSE -t $PKG/usr/share/licenses/$name/
+
+  # Allow users in the "seat" group to access seatd, and provide a service
+  # that will be necessary for e.g. wlroots-based seat management
+  install -Dm644 $SRC/$name-$version/contrib/systemd/seatd.service \
+          -t $PKG/usr/lib/systemd/system/
+  install -Dm644 $SRC/sysuser.conf $PKG/usr/lib/sysusers.d/seatd.conf
+}

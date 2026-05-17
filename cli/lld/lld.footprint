@@ -1,0 +1,45 @@
+usr
+usr/bin
+usr/bin/ld64.lld
+usr/bin/ld.lld
+usr/bin/lld
+usr/bin/lld-link
+usr/bin/wasm-ld
+usr/lib
+usr/lib/liblldMachO.so.22.1
+usr/lib/liblldELF.so -> liblldELF.so.22.1
+usr/lib/liblldMinGW.so -> liblldMinGW.so.22.1
+usr/lib/liblldMachO.so -> liblldMachO.so.22.1
+usr/lib/liblldCommon.so.22.1
+usr/lib/liblldELF.so.22.1
+usr/lib/liblldCOFF.so -> liblldCOFF.so.22.1
+usr/lib/cmake
+usr/lib/cmake/lld
+usr/lib/cmake/lld/LLDConfigVersion.cmake
+usr/lib/cmake/lld/LLDConfig.cmake
+usr/lib/cmake/lld/LLDTargets-release.cmake
+usr/lib/cmake/lld/LLDTargets.cmake
+usr/lib/liblldWasm.so.22.1
+usr/lib/liblldCOFF.so.22.1
+usr/lib/liblldMinGW.so.22.1
+usr/lib/liblldCommon.so -> liblldCommon.so.22.1
+usr/lib/liblldWasm.so -> liblldWasm.so.22.1
+usr/include
+usr/include/lld
+usr/include/lld/Common
+usr/include/lld/Common/Strings.h
+usr/include/lld/Common/Utils.h
+usr/include/lld/Common/TargetOptionsCommandFlags.h
+usr/include/lld/Common/Version.h
+usr/include/lld/Common/Memory.h
+usr/include/lld/Common/ErrorHandler.h
+usr/include/lld/Common/Driver.h
+usr/include/lld/Common/LLVM.h
+usr/include/lld/Common/BPSectionOrdererBase.inc
+usr/include/lld/Common/Timer.h
+usr/include/lld/Common/DWARF.h
+usr/include/lld/Common/CommonLinkerContext.h
+usr/include/lld/Common/Filesystem.h
+usr/include/lld/Common/Reproduce.h
+usr/include/lld/Common/Args.h
+usr/include/lld/Common/Arrays.h

@@ -7,7 +7,7 @@ packager="tnut <tnut@nutyx.org>"
 contributors="Rems,Sundev79,Skythrew,Spiky,Alexis"
 
 name=discord
-version=1.0.137
+version=1.0.138
 
 run=(gtk3 libnotify xorg-libxscrnsaver
      glibc alsa-lib nspr nss pulseaudio

@@ -1,8 +1,10 @@
 description="htop but better"
 name=btop
 version=1.4.7
+makedepends=("htop")
 release=1
 packager=alexis
 source=("https://github.com/aristocratos/btop/archive/refs/tags/v${version}.tar.gz")
 
 
+build=build-default
