@@ -1,0 +1,30 @@
+makedepends=(glib)
+
+description="mpris media player controller and lib for spotify, vlc, audacious, bmp, xmms2, and others."
+url="https://github.com/altdesktop/playerctl"
+
+packager="Grat-OS Team"
+maintainer="Grat-OS Team"
+
+name=playerctl
+version=2.4.1
+release=2
+
+PKGMK_KEEP_SOURCES="no"
+
+source=($url/archive/v$version.tar.gz)
+
+build() {
+
+mkdir build
+cd    build
+
+meson setup --prefix=/usr            \
+      --libdir=/usr/lib              \
+      -Dbash-completions=true        \
+      -Dzsh-completions=true -Dgtk-doc=false         \
+      ../$name-$version
+
+    ninja
+    DESTDIR=$PKG ninja install
+}

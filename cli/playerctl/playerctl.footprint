@@ -1,0 +1,35 @@
+usr
+usr/bin
+usr/bin/playerctld
+usr/bin/playerctl
+usr/lib
+usr/lib/girepository-1.0
+usr/lib/girepository-1.0/Playerctl-2.0.typelib
+usr/lib/libplayerctl.so -> libplayerctl.so.2
+usr/lib/libplayerctl.so.2.4.1
+usr/lib/libplayerctl.so.2 -> libplayerctl.so.2.4.1
+usr/lib/pkgconfig
+usr/lib/pkgconfig/playerctl.pc
+usr/include
+usr/include/playerctl
+usr/include/playerctl/playerctl-player.h
+usr/include/playerctl/playerctl.h
+usr/include/playerctl/playerctl-enum-types.h
+usr/include/playerctl/playerctl-player-manager.h
+usr/include/playerctl/playerctl-player-name.h
+usr/include/playerctl/playerctl-version.h
+usr/share
+usr/share/bash-completion
+usr/share/bash-completion/completions
+usr/share/bash-completion/completions/playerctl.bash
+usr/share/dbus-1
+usr/share/dbus-1/services
+usr/share/dbus-1/services/org.mpris.MediaPlayer2.playerctld.service
+usr/share/man
+usr/share/man/man1
+usr/share/man/man1/playerctl.1
+usr/share/gir-1.0
+usr/share/gir-1.0/Playerctl-2.0.gir
+usr/share/zsh
+usr/share/zsh/site-functions
+usr/share/zsh/site-functions/_playerctl
