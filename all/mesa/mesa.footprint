@@ -9,7 +9,6 @@ usr/lib/libGLESv2.so -> libGLESv2.so.2
 usr/lib/libEGL.so.1 -> libEGL.so.1.0.0
 usr/lib/libvulkan_intel_hasvk.so
 usr/lib/libgbm.so -> libgbm.so.1
-usr/lib/libgallium-26.0.6.so
 usr/lib/gbm
 usr/lib/gbm/dri_gbm.so
 usr/lib/libEGL.so -> libEGL.so.1
@@ -18,11 +17,12 @@ usr/lib/libgbm.so.1.0.0
 usr/lib/libGLESv2.so.2.0.0
 usr/lib/libGLESv2.so.2 -> libGLESv2.so.2.0.0
 usr/lib/libGL.so.1 -> libGL.so.1.2.0
+usr/lib/libgallium-26.1.1.so
 usr/lib/dri
 usr/lib/dri/iris_dri.so -> libdril_dri.so
 usr/lib/dri/i915_dri.so -> libdril_dri.so
-usr/lib/dri/virtio_gpu_drv_video.so -> ../libgallium-26.0.6.so
-usr/lib/dri/radeonsi_drv_video.so -> ../libgallium-26.0.6.so
+usr/lib/dri/virtio_gpu_drv_video.so -> ../libgallium-26.1.1.so
+usr/lib/dri/radeonsi_drv_video.so -> ../libgallium-26.1.1.so
 usr/lib/dri/kms_swrast_dri.so -> libdril_dri.so
 usr/lib/dri/libdril_dri.so
 usr/lib/dri/crocus_dri.so -> libdril_dri.so

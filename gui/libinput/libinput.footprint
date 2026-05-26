@@ -1,121 +1,124 @@
-drwxr-xr-x	alexis/alexis	etc/
-drwxr-xr-x	alexis/alexis	etc/libinput/
-drwxr-xr-x	alexis/alexis	usr/
-drwxr-xr-x	alexis/alexis	usr/bin/
--rwxr-xr-x	alexis/alexis	usr/bin/libinput
-drwxr-xr-x	alexis/alexis	usr/include/
--rw-r--r--	alexis/alexis	usr/include/libinput.h
-drwxr-xr-x	alexis/alexis	usr/lib/
-drwxr-xr-x	alexis/alexis	usr/libexec/
-drwxr-xr-x	alexis/alexis	usr/libexec/libinput/
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-analyze
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-analyze-buttons
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-analyze-per-slot-delta
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-analyze-recording
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-analyze-touch-down-state
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-debug-events
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-debug-tablet
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-debug-tablet-pad
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-list-devices
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-list-kernel-devices
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-measure
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-measure-fuzz
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-measure-touchpad-pressure
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-measure-touchpad-size
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-measure-touchpad-tap
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-measure-touch-size
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-quirks
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-record
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-replay
--rwxr-xr-x	alexis/alexis	usr/libexec/libinput/libinput-test
--rwxr-xr-x	alexis/alexis	usr/lib/libinput.so.10.13.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libinput.so.10 -> libinput.so.10.13.0
-lrwxrwxrwx	alexis/alexis	usr/lib/libinput.so -> libinput.so.10
-drwxr-xr-x	alexis/alexis	usr/lib/pkgconfig/
--rw-r--r--	alexis/alexis	usr/lib/pkgconfig/libinput.pc
-drwxr-xr-x	alexis/alexis	usr/lib/udev/
--rwxr-xr-x	alexis/alexis	usr/lib/udev/libinput-device-group
--rwxr-xr-x	alexis/alexis	usr/lib/udev/libinput-fuzz-extract
--rwxr-xr-x	alexis/alexis	usr/lib/udev/libinput-fuzz-to-zero
-drwxr-xr-x	alexis/alexis	usr/lib/udev/rules.d/
--rw-r--r--	alexis/alexis	usr/lib/udev/rules.d/80-libinput-device-groups.rules
--rw-r--r--	alexis/alexis	usr/lib/udev/rules.d/90-libinput-fuzz-override.rules
-drwxr-xr-x	alexis/alexis	usr/share/
-drwxr-xr-x	alexis/alexis	usr/share/libinput/
--rw-r--r--	alexis/alexis	usr/share/libinput/10-generic-keyboard.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/10-generic-mouse.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/10-generic-trackball.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-a4tech.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-aiptek.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-alps.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-contour.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-cypress.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-elantech.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-glorious.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-goodix.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-hantick.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-huion.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-ite.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-kensington.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-logitech.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-madcatz.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-microsoft.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-nulea.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-oracle.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-pixart.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-qemu.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-razer.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-synaptics.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-trust.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-vmware.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/30-vendor-wacom.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-acer.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-apple.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-asus.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-cyborg.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-dell.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-framework.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-gigabyte.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-google.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-gpd.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-graviton.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-honor.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-hp.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-huawei.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-icl.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-lenovo.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-lg.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-minisforum.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-pine64.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-sony.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-starlabs.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-system76.quirks
--rw-r--r--	alexis/alexis	usr/share/libinput/50-system-toshiba.quirks
-drwxr-xr-x	alexis/alexis	usr/share/man/
-drwxr-xr-x	alexis/alexis	usr/share/man/man1/
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-analyze.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-analyze-buttons.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-analyze-per-slot-delta.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-analyze-recording.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-analyze-touch-down-state.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-debug-events.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-debug-tablet.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-debug-tablet-pad.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-list-devices.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-list-kernel-devices.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-measure.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-measure-fuzz.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-measure-touchpad-pressure.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-measure-touchpad-size.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-measure-touchpad-tap.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-measure-touch-size.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-quirks.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-quirks-list.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-quirks-validate.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-record.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-replay.1.gz
--rw-r--r--	alexis/alexis	usr/share/man/man1/libinput-test.1.gz
-drwxr-xr-x	alexis/alexis	usr/share/zsh/
-drwxr-xr-x	alexis/alexis	usr/share/zsh/site-functions/
--rw-r--r--	alexis/alexis	usr/share/zsh/site-functions/_libinput
+usr
+usr/libexec
+usr/libexec/libinput
+usr/libexec/libinput/libinput-debug-events
+usr/libexec/libinput/libinput-measure-fuzz
+usr/libexec/libinput/libinput-list-devices
+usr/libexec/libinput/libinput-analyze-buttons
+usr/libexec/libinput/libinput-measure-touch-size
+usr/libexec/libinput/libinput-analyze-recording
+usr/libexec/libinput/libinput-analyze
+usr/libexec/libinput/libinput-record
+usr/libexec/libinput/libinput-debug-tablet-pad
+usr/libexec/libinput/libinput-measure-touchpad-size
+usr/libexec/libinput/libinput-quirks
+usr/libexec/libinput/libinput-test
+usr/libexec/libinput/libinput-debug-tablet
+usr/libexec/libinput/libinput-measure
+usr/libexec/libinput/libinput-replay
+usr/libexec/libinput/libinput-analyze-per-slot-delta
+usr/libexec/libinput/libinput-list-kernel-devices
+usr/libexec/libinput/libinput-measure-touchpad-tap
+usr/libexec/libinput/libinput-measure-touchpad-pressure
+usr/libexec/libinput/libinput-analyze-touch-down-state
+usr/bin
+usr/bin/libinput
+usr/lib
+usr/lib/libinput.so.10 -> libinput.so.10.13.0
+usr/lib/libinput.so -> libinput.so.10
+usr/lib/udev
+usr/lib/udev/libinput-fuzz-extract
+usr/lib/udev/libinput-device-group
+usr/lib/udev/rules.d
+usr/lib/udev/rules.d/80-libinput-device-groups.rules
+usr/lib/udev/rules.d/90-libinput-fuzz-override.rules
+usr/lib/udev/libinput-fuzz-to-zero
+usr/lib/pkgconfig
+usr/lib/pkgconfig/libinput.pc
+usr/lib/libinput.so.10.13.0
+usr/include
+usr/include/libinput.h
+usr/share
+usr/share/man
+usr/share/man/man1
+usr/share/man/man1/libinput-measure-touchpad-tap.1
+usr/share/man/man1/libinput-analyze-per-slot-delta.1
+usr/share/man/man1/libinput-test.1
+usr/share/man/man1/libinput-measure-touchpad-pressure.1
+usr/share/man/man1/libinput.1
+usr/share/man/man1/libinput-debug-tablet.1
+usr/share/man/man1/libinput-measure.1
+usr/share/man/man1/libinput-record.1
+usr/share/man/man1/libinput-measure-fuzz.1
+usr/share/man/man1/libinput-list-kernel-devices.1
+usr/share/man/man1/libinput-debug-events.1
+usr/share/man/man1/libinput-quirks.1
+usr/share/man/man1/libinput-debug-tablet-pad.1
+usr/share/man/man1/libinput-quirks-validate.1
+usr/share/man/man1/libinput-measure-touch-size.1
+usr/share/man/man1/libinput-list-devices.1
+usr/share/man/man1/libinput-analyze-recording.1
+usr/share/man/man1/libinput-analyze-touch-down-state.1
+usr/share/man/man1/libinput-measure-touchpad-size.1
+usr/share/man/man1/libinput-quirks-list.1
+usr/share/man/man1/libinput-replay.1
+usr/share/man/man1/libinput-analyze.1
+usr/share/man/man1/libinput-analyze-buttons.1
+usr/share/libinput
+usr/share/libinput/30-vendor-pixart.quirks
+usr/share/libinput/50-system-icl.quirks
+usr/share/libinput/30-vendor-wacom.quirks
+usr/share/libinput/30-vendor-madcatz.quirks
+usr/share/libinput/30-vendor-aiptek.quirks
+usr/share/libinput/30-vendor-huion.quirks
+usr/share/libinput/50-system-honor.quirks
+usr/share/libinput/50-system-huawei.quirks
+usr/share/libinput/50-system-dell.quirks
+usr/share/libinput/30-vendor-glorious.quirks
+usr/share/libinput/30-vendor-contour.quirks
+usr/share/libinput/30-vendor-a4tech.quirks
+usr/share/libinput/50-system-acer.quirks
+usr/share/libinput/10-generic-trackball.quirks
+usr/share/libinput/10-generic-mouse.quirks
+usr/share/libinput/50-system-graviton.quirks
+usr/share/libinput/50-system-cyborg.quirks
+usr/share/libinput/30-vendor-hantick.quirks
+usr/share/libinput/30-vendor-vmware.quirks
+usr/share/libinput/50-system-pine64.quirks
+usr/share/libinput/50-system-lenovo.quirks
+usr/share/libinput/50-system-minisforum.quirks
+usr/share/libinput/50-system-google.quirks
+usr/share/libinput/50-system-sony.quirks
+usr/share/libinput/50-system-wareus.quirks
+usr/share/libinput/50-system-toshiba.quirks
+usr/share/libinput/50-system-lg.quirks
+usr/share/libinput/30-vendor-nulea.quirks
+usr/share/libinput/50-system-hp.quirks
+usr/share/libinput/30-vendor-razer.quirks
+usr/share/libinput/50-system-system76.quirks
+usr/share/libinput/30-vendor-oracle.quirks
+usr/share/libinput/30-vendor-microsoft.quirks
+usr/share/libinput/50-system-positivo.quirks
+usr/share/libinput/30-vendor-alps.quirks
+usr/share/libinput/30-vendor-kensington.quirks
+usr/share/libinput/30-vendor-goodix.quirks
+usr/share/libinput/50-system-gpd.quirks
+usr/share/libinput/30-vendor-clevetura.quirks
+usr/share/libinput/30-vendor-qemu.quirks
+usr/share/libinput/50-system-apple.quirks
+usr/share/libinput/50-system-asus.quirks
+usr/share/libinput/30-vendor-trust.quirks
+usr/share/libinput/50-system-gigabyte.quirks
+usr/share/libinput/50-system-framework.quirks
+usr/share/libinput/30-vendor-ite.quirks
+usr/share/libinput/30-vendor-elantech.quirks
+usr/share/libinput/30-vendor-synaptics.quirks
+usr/share/libinput/10-generic-keyboard.quirks
+usr/share/libinput/50-system-starlabs.quirks
+usr/share/libinput/30-vendor-logitech.quirks
+usr/share/libinput/30-vendor-cypress.quirks
+usr/share/zsh
+usr/share/zsh/site-functions
+usr/share/zsh/site-functions/_libinput
+etc
+etc/libinput

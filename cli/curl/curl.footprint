@@ -4,12 +4,12 @@ usr/bin/curl
 usr/bin/curl-config
 usr/bin/wcurl
 usr/lib
-usr/lib/libcurl.so.4
+usr/lib/libcurl.so.4 -> libcurl.so.4.8.0
 usr/lib/libcurl.so.4.8.0
 usr/lib/libcurl.la
 usr/lib/pkgconfig
 usr/lib/pkgconfig/libcurl.pc
-usr/lib/libcurl.so
+usr/lib/libcurl.so -> libcurl.so.4.8.0
 usr/include
 usr/include/curl
 usr/include/curl/curlver.h

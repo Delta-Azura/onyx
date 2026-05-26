@@ -1,15 +1,12 @@
 description=" The libheif package is an HEIF and AVIF file format decoder and encoder. "
 name=libheif
-version=1.21.2
+version=1.22.2
 release=1
 packager=alexis
-source=("https://github.com/strukturag/libheif/releases/download/v1.21.2/libheif-1.21.2.tar.gz"
-"https://www.linuxfromscratch.org/patches/blfs/13.0/libheif-1.21.2-svt_av1_build_fix-1.patch")
-
+source=("https://github.com/strukturag/libheif/releases/download/v${version}/libheif-${version}.tar.gz")
 
 build() {
 cd $name-$version
-patch -Np1 -i ../libheif-1.21.2-svt_av1_build_fix-1.patch
 mkdir build &&
 cd    build &&
 

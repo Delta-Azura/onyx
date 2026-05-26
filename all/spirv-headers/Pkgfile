@@ -1,14 +1,14 @@
 description="The SPIRV-Headers package contains headers that allow for applications to use the SPIR-V language and instruction set with Vulkan. "
 name=spirv-headers
-version=1.4.341.0
+version=1.4.350.0
 release=1
 packager=alexis
-source=("https://github.com/KhronosGroup/SPIRV-Headers/archive/vulkan-sdk-1.4.341.0/SPIRV-Headers-vulkan-sdk-1.4.341.0.tar.gz")
+source=("https://github.com/KhronosGroup/SPIRV-Headers/archive/vulkan-sdk-1.4.350.0/SPIRV-Headers-vulkan-sdk-${version}.tar.gz")
 
 build() {
 ls
 #cd SPIRV-Headers-vulkan-sdk
-cd SPIRV-Headers-vulkan-sdk-1.4.341.0
+cd SPIRV-Headers-vulkan-sdk-${version}
 mkdir build &&
 cd    build &&
 

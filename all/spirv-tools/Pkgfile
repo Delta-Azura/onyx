@@ -1,13 +1,13 @@
 description=" The SPIRV-Tools package contains libraries and utilities for processing SPIR-V modules. "
 name=spirv-tools
-source=("https://github.com/KhronosGroup/SPIRV-Tools/archive/vulkan-sdk-1.4.341.0/SPIRV-Tools-vulkan-sdk-1.4.341.0.tar.gz")
-version=1.4.341.0
+source=("https://github.com/KhronosGroup/SPIRV-Tools/archive/vulkan-sdk-1.4.350.0/SPIRV-Tools-vulkan-sdk-1.4.350.0.tar.gz")
+version=1.4.350.0
 release=1
 packager=alexis
 
 build() {
 #cd $name-$version
-cd SPIRV-Tools-vulkan-sdk-1.4.341.0
+cd SPIRV-Tools-vulkan-sdk-${version}
 mkdir build &&
 cd    build &&
 

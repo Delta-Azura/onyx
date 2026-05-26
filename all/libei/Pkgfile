@@ -1,9 +1,9 @@
 description=" The libei package contains a set of libraries for handling emulated inputs. It is primarily aimed at the Wayland stack. "
 name=libei
-version=1.5.0
+version=1.6.0
 release=1
 packager=alexis
-source=("https://gitlab.freedesktop.org/libinput/libei/-/archive/1.5.0/libei-1.5.0.tar.bz2")
+source=("https://gitlab.freedesktop.org/libinput/libei/-/archive/${version}/libei-${version}.tar.bz2")
 
 build() {
 cd $name-$version

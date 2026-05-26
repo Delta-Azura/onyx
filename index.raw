@@ -184,6 +184,7 @@ cli/rustc/Pkgfile
 cli/lxml/Pkgfile
 cli/sdl2-compat/Pkgfile
 cli/nghttp2/Pkgfile
+cli/playerctl/Pkgfile
 cli/libcdio/Pkgfile
 cli/exiv2/Pkgfile
 cli/libidn/Pkgfile

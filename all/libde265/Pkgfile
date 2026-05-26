@@ -1,6 +1,6 @@
 description=" The libde265 package contains an open source H.265 video codec implementation. "
 name=libde265
-version=1.0.18
+version=1.0.19
 release=1
 packager=alexis
 source=("https://github.com/strukturag/libde265/releases/download/v${version}/libde265-${version}.tar.gz")

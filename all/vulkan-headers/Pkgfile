@@ -1,12 +1,12 @@
 description=" The Vulkan-Headers package contains a set of header files necessary to build and link applications against the Vulkan API. "
 name=vulkan-headers
-version=1.4.341.0
+version=1.4.350.0
 release=1
 packager=alexis
-source=("https://github.com/KhronosGroup/Vulkan-Headers/archive/vulkan-sdk-1.4.341.0/Vulkan-Headers-vulkan-sdk-1.4.341.0.tar.gz")
+source=("https://github.com/KhronosGroup/Vulkan-Headers/archive/vulkan-sdk-1.4.350.0/Vulkan-Headers-vulkan-sdk-1.4.350.0.tar.gz")
 
 build() {
-cd Vulkan-Headers-vulkan-sdk-1.4.341.0
+cd Vulkan-Headers-vulkan-sdk-1.4.350.0
 mkdir build &&
 cd    build &&
 

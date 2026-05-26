@@ -22,7 +22,8 @@ core
 all
 gui
 gnome
-cli"
+cli
+cosmic"
 
 ARCHGIT="/archlinux"
 ARCHGITURL="https://gitlab.archlinux.org/archlinux/packaging/state.git"
